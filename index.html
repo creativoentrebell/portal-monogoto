@@ -34,12 +34,16 @@
   .logo{display:flex;align-items:center;gap:10px;flex:1;min-width:150px}
   .logo img{height:30px;display:block}
   .logo .wordmark{font-family:var(--display);font-size:1.6rem;color:var(--taupe);letter-spacing:.5px;line-height:1}
-  .mode-chip{font-family:var(--display);font-size:.72rem;letter-spacing:.8px;text-transform:uppercase;
-    background:var(--taupe);color:#fff;border:none;border-radius:999px;padding:9px 16px;cursor:pointer;transition:opacity .15s}
-  .mode-chip:hover{opacity:.85}
+  .mode-toggle{display:flex;border:1px solid var(--borde);border-radius:999px;overflow:hidden;flex-shrink:0}
+  .mode-btn{font-family:var(--body);font-weight:600;font-size:.7rem;letter-spacing:1.2px;text-transform:uppercase;
+    background:none;border:none;color:var(--beige);padding:10px 16px;cursor:pointer;display:flex;align-items:center;gap:5px;
+    white-space:nowrap;transition:background .2s,color .2s}
+  .mode-btn svg{width:11px;height:11px;flex-shrink:0}
+  .mode-btn:hover{color:var(--taupe)}
+  .mode-btn.active{background:var(--taupe);color:#fff}
   .search-wrap{flex:2;min-width:220px;position:relative}
   .search-wrap input{width:100%;border:1px solid var(--borde);border-radius:999px;padding:10px 42px 10px 18px;
-    font-family:var(--body);font-weight:300;font-size:.95rem;background:#fff;color:var(--tinta);outline:none;transition:border-color .15s}
+    font-family:var(--body);font-weight:300;font-size:1rem;background:#fff;color:var(--tinta);outline:none;transition:border-color .15s}
   .search-wrap input:focus{border-color:var(--beige)}
   .search-wrap input::placeholder{color:#c9c2b8}
   .search-wrap svg{position:absolute;right:15px;top:50%;transform:translateY(-50%);width:17px;height:17px;stroke:var(--beige)}
@@ -49,27 +53,27 @@
     padding:10px 20px 12px;border-bottom:1px solid var(--borde)}
   .cats-inner{max-width:1180px;margin:0 auto;display:flex;gap:8px;overflow-x:auto;scrollbar-width:none}
   .cats-inner::-webkit-scrollbar{display:none}
-  .cat-btn{font-family:var(--display);font-size:.76rem;letter-spacing:.4px;white-space:nowrap;
+  .cat-btn{font-family:var(--body);font-weight:600;font-size:.82rem;letter-spacing:.4px;white-space:nowrap;
     background:#fff;color:var(--taupe);border:1px solid var(--borde);border-radius:999px;
-    padding:8px 16px;cursor:pointer;transition:all .15s}
+    padding:9px 18px;cursor:pointer;transition:all .15s}
   .cat-btn:hover{border-color:var(--beige)}
   .cat-btn.active{background:var(--taupe);color:#fff;border-color:var(--taupe)}
 
   .subs{max-width:1180px;margin:0 auto;display:flex;gap:7px;overflow-x:auto;padding:8px 0 0;scrollbar-width:none}
   .subs::-webkit-scrollbar{display:none}
-  .sub-btn{font-family:var(--body);font-weight:600;font-size:.73rem;white-space:nowrap;
-    background:#fff;color:var(--beige);border:none;border-radius:999px;padding:6px 12px;cursor:pointer;transition:color .15s}
+  .sub-btn{font-family:var(--body);font-weight:600;font-size:.8rem;white-space:nowrap;
+    background:#fff;color:var(--beige);border:none;border-radius:999px;padding:7px 14px;cursor:pointer;transition:color .15s}
   .sub-btn:hover{color:var(--taupe)}
   .sub-btn.active{background:var(--crema-claro);color:var(--tinta)}
 
   /* ============ Zona de productos ============ */
   main{background:#fff;min-height:70vh;padding:30px 20px 70px}
   .main-inner{max-width:1180px;margin:0 auto}
-  .section-title{font-family:var(--body);font-weight:600;font-size:1.4rem;letter-spacing:.2px;color:var(--tinta);margin-bottom:4px}
-  .section-count{font-size:.85rem;color:var(--beige);margin-bottom:22px}
+  .section-title{font-family:var(--body);font-weight:600;font-size:1.6rem;letter-spacing:.2px;color:var(--tinta);margin-bottom:4px}
+  .section-count{font-size:.9rem;color:var(--beige);margin-bottom:22px}
 
-  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(168px,1fr));gap:16px}
-  @media(min-width:700px){.grid{grid-template-columns:repeat(auto-fill,minmax(205px,1fr));gap:22px}}
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(185px,1fr));gap:16px}
+  @media(min-width:700px){.grid{grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:24px}}
 
   .card{background:#fff;border:1px solid var(--borde);border-radius:var(--radius);overflow:hidden;
     display:flex;flex-direction:column;transition:transform .18s, box-shadow .18s, border-color .18s;position:relative}
@@ -78,14 +82,14 @@
   .thumb{aspect-ratio:1/1;background:#fff;display:flex;align-items:center;justify-content:center;overflow:hidden;border-bottom:1px solid var(--borde)}
   .thumb img{width:100%;height:100%;object-fit:contain}
   .thumb .noimg{font-family:var(--display);font-size:2.6rem;color:var(--crema)}
-  .badge{position:absolute;top:10px;left:10px;font-family:var(--display);font-size:.58rem;letter-spacing:.8px;
-    padding:5px 10px;border-radius:999px;text-transform:uppercase}
+  .badge{position:absolute;top:10px;left:10px;font-family:var(--body);font-weight:600;font-size:.66rem;letter-spacing:1px;
+    padding:6px 11px;border-radius:999px;text-transform:uppercase}
   .badge.promo{background:var(--taupe);color:#fff}
   .badge.out{background:var(--tinta);color:#fff}
-  .card-body{padding:12px 14px 15px;display:flex;flex-direction:column;gap:5px;flex:1}
-  .card-name{font-size:.85rem;font-weight:600;line-height:1.3;color:var(--tinta)}
-  .card-ref{font-size:.67rem;color:#c9c2b8;letter-spacing:.4px}
-  .card-price{margin-top:auto;font-family:var(--body);font-weight:600;font-size:1.02rem;color:var(--taupe)}
+  .card-body{padding:14px 16px 17px;display:flex;flex-direction:column;gap:5px;flex:1}
+  .card-name{font-size:.97rem;font-weight:600;line-height:1.3;color:var(--tinta)}
+  .card-ref{font-size:.74rem;color:#c9c2b8;letter-spacing:.4px}
+  .card-price{margin-top:auto;font-family:var(--body);font-weight:600;font-size:1.15rem;color:var(--taupe)}
   .swatches{display:flex;gap:5px;margin-top:4px}
   .swatches img{width:26px;height:26px;border-radius:8px;border:1px solid var(--borde);cursor:pointer;object-fit:cover;background:#fff}
 
@@ -97,17 +101,12 @@
   .modal{background:#fff;border-radius:26px;padding:30px 26px;max-width:340px;width:100%;text-align:center;box-shadow:0 20px 50px rgba(111,92,72,.15)}
   .modal h2{font-family:var(--body);font-weight:600;font-size:1.2rem;margin-bottom:6px}
   .modal p{font-size:.85rem;margin-bottom:18px;color:var(--beige)}
-  .mode-options{display:flex;flex-direction:column;gap:10px;margin-bottom:6px}
-  .mode-opt{font-family:var(--display);font-size:.84rem;letter-spacing:.5px;background:#fff;color:var(--tinta);
-    border:1px solid var(--borde);border-radius:16px;padding:13px;cursor:pointer;transition:all .15s}
-  .mode-opt:hover{border-color:var(--beige);background:var(--crema-claro)}
-  .mode-opt.current{border-color:var(--taupe);background:var(--crema-claro)}
   .pin-input{width:100%;border:1px solid var(--borde);border-radius:14px;padding:12px;text-align:center;
     font-size:1.3rem;letter-spacing:8px;font-family:var(--body);font-weight:600;background:#fff;color:var(--tinta);outline:none;margin-bottom:10px}
   .pin-input:focus{border-color:var(--beige)}
   .pin-error{font-size:.78rem;color:#a05a4a;min-height:16px;margin-bottom:6px}
   .btn-row{display:flex;gap:8px}
-  .btn{flex:1;font-family:var(--display);font-size:.8rem;border:none;border-radius:14px;padding:12px;cursor:pointer}
+  .btn{flex:1;font-family:var(--body);font-weight:600;letter-spacing:.5px;font-size:.85rem;border:none;border-radius:14px;padding:12px;cursor:pointer}
   .btn.primary{background:var(--taupe);color:#fff}
   .btn.ghost{background:transparent;color:var(--beige)}
 
@@ -125,7 +124,11 @@
       <img src="img/logo.png" alt="monogoto" onerror="this.remove();document.getElementById('wm').style.display='block'">
       <span class="wordmark" id="wm" style="display:none">monogoto</span>
     </div>
-    <button class="mode-chip" id="modeChip" aria-label="Cambiar modo de precios">Catálogo</button>
+    <div class="mode-toggle" role="group" aria-label="Modo de precios">
+      <button class="mode-btn" data-mode="catalogo">Catálogo</button>
+      <button class="mode-btn" data-mode="detal"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0110 0v4"/></svg> Detal</button>
+      <button class="mode-btn" data-mode="mayorista"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0110 0v4"/></svg> Mayorista</button>
+    </div>
   </div>
   <div class="head-inner" style="margin-top:10px">
     <div class="search-wrap">
@@ -157,23 +160,13 @@
 <!-- Modal de modos / PIN -->
 <div class="overlay" id="overlay" role="dialog" aria-modal="true">
   <div class="modal">
-    <div id="stepModes">
-      <h2>Modo de precios</h2>
-      <p>Elige cómo quieres ver el catálogo.</p>
-      <div class="mode-options">
-        <button class="mode-opt" data-mode="catalogo">Catálogo (sin precios)</button>
-        <button class="mode-opt" data-mode="detal">Precios detal</button>
-        <button class="mode-opt" data-mode="mayorista">Precios mayorista</button>
-      </div>
-      <div class="btn-row"><button class="btn ghost" id="closeModal">Cerrar</button></div>
-    </div>
-    <div id="stepPin" style="display:none">
+    <div id="stepPin">
       <h2 id="pinTitle">Ingresa el PIN</h2>
       <p id="pinSub"></p>
       <input class="pin-input" id="pin" inputmode="numeric" maxlength="6" autocomplete="off">
       <div class="pin-error" id="pinError"></div>
       <div class="btn-row">
-        <button class="btn ghost" id="pinBack">Volver</button>
+        <button class="btn ghost" id="pinBack">Cancelar</button>
         <button class="btn primary" id="pinOk">Entrar</button>
       </div>
     </div>
@@ -280,33 +273,24 @@ function render(){
 
 /* ---------- modos y PIN ---------- */
 function actualizarChip(){
-  $('modeChip').textContent = modo === 'catalogo' ? 'Catálogo' : modo === 'detal' ? 'Detal' : 'Mayorista';
+  document.querySelectorAll('.mode-btn').forEach(b =>
+    b.classList.toggle('active', b.dataset.mode === modo));
 }
 let modoPendiente = null;
 
-$('modeChip').onclick = () => { abrirModal(); };
-function abrirModal(){
-  $('overlay').classList.add('open');
-  $('stepModes').style.display = 'block';
-  $('stepPin').style.display = 'none';
-  document.querySelectorAll('.mode-opt').forEach(b =>
-    b.classList.toggle('current', b.dataset.mode === modo));
-}
-$('closeModal').onclick = () => $('overlay').classList.remove('open');
-$('overlay').onclick = e => { if(e.target === $('overlay')) $('overlay').classList.remove('open'); };
-
-document.querySelectorAll('.mode-opt').forEach(b => b.onclick = () => {
-  const m = b.dataset.mode;
+document.querySelectorAll('.mode-btn').forEach(b => b.onclick = () => setMode(b.dataset.mode));
+function setMode(m){
+  if(m === modo) return;
   if(m === 'catalogo'){ aplicarModo('catalogo'); return; }
   modoPendiente = m;
-  $('stepModes').style.display = 'none';
-  $('stepPin').style.display = 'block';
   $('pinTitle').textContent = m === 'detal' ? 'PIN precios detal' : 'PIN precios mayorista';
   $('pinSub').textContent = 'Ingresa el PIN de acceso.';
   $('pin').value = ''; $('pinError').textContent = '';
+  $('overlay').classList.add('open');
   setTimeout(()=>$('pin').focus(), 50);
-});
-$('pinBack').onclick = () => { $('stepPin').style.display='none'; $('stepModes').style.display='block'; };
+}
+$('overlay').onclick = e => { if(e.target === $('overlay')) $('overlay').classList.remove('open'); };
+$('pinBack').onclick = () => $('overlay').classList.remove('open');
 $('pinOk').onclick = validarPin;
 $('pin').addEventListener('keydown', e => { if(e.key === 'Enter') validarPin(); });
 
