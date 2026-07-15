@@ -5,11 +5,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Monogoto — Catálogo de Belleza</title>
 <meta name="description" content="Catálogo digital Monogoto: capilar, makeup, skincare y cuidado personal.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
 <style>
-  /* ============ Fuentes de marca ============ */
-  @font-face{font-family:'TRT Mathos';src:url('fonts/TRTMathos-Light.woff2') format('woff2');font-weight:300;font-style:normal;font-display:swap}
-  @font-face{font-family:'TRT Mathos';src:url('fonts/TRTMathos-SemiBold.woff2') format('woff2');font-weight:600;font-style:normal;font-display:swap}
-  @font-face{font-family:'Sprout Pop';src:url('fonts/SproutPop-Regular.woff2') format('woff2');font-weight:400;font-style:normal;font-display:swap}
 
   :root{
     --taupe:#b19b84;      /* beige oscuro — acento principal */
@@ -20,8 +19,8 @@
     --tinta:#6f5c48;      /* marrón para texto */
     --borde:#eeeae4;      /* línea sutil */
     --radius:22px;
-    --body:'TRT Mathos','Poppins',system-ui,sans-serif;
-    --display:'Sprout Pop','Baloo 2','Nunito',sans-serif;
+    --body:'Instrument Sans',system-ui,sans-serif;
+    --display:'Instrument Sans',system-ui,sans-serif;
   }
   *{margin:0;padding:0;box-sizing:border-box}
   html{scroll-behavior:smooth}
@@ -33,7 +32,7 @@
   .head-inner{max-width:1180px;margin:0 auto;display:flex;align-items:center;gap:14px;flex-wrap:wrap}
   .logo{display:flex;align-items:center;gap:10px;flex:1;min-width:150px}
   .logo img{height:30px;display:block}
-  .logo .wordmark{font-family:var(--display);font-size:1.6rem;color:var(--taupe);letter-spacing:.5px;line-height:1}
+  .logo .wordmark{font-family:var(--display);font-weight:600;font-size:1.5rem;color:var(--taupe);letter-spacing:.5px;line-height:1}
   .mode-toggle{display:flex;border:1px solid var(--borde);border-radius:999px;overflow:hidden;flex-shrink:0}
   .mode-btn{font-family:var(--body);font-weight:600;font-size:.7rem;letter-spacing:1.2px;text-transform:uppercase;
     background:none;border:none;color:var(--beige);padding:10px 16px;cursor:pointer;display:flex;align-items:center;gap:5px;
@@ -81,7 +80,7 @@
   .card.agotado .thumb{filter:grayscale(1);opacity:.5}
   .thumb{aspect-ratio:1/1;background:#fff;display:flex;align-items:center;justify-content:center;overflow:hidden;border-bottom:1px solid var(--borde)}
   .thumb img{width:100%;height:100%;object-fit:contain}
-  .thumb .noimg{font-family:var(--display);font-size:2.6rem;color:var(--crema)}
+  .thumb .noimg{font-family:var(--display);font-weight:600;font-size:2.6rem;color:var(--crema)}
   .badge{position:absolute;top:10px;left:10px;font-family:var(--body);font-weight:600;font-size:.66rem;letter-spacing:1px;
     padding:6px 11px;border-radius:999px;text-transform:uppercase}
   .badge.promo{background:var(--taupe);color:#fff}
@@ -139,7 +138,7 @@
     aspect-ratio:1/1;padding:18px}
   @media(min-width:640px){.pimg{border-bottom:none;border-right:1px solid var(--borde)}}
   .pimg img{max-width:100%;max-height:100%;object-fit:contain}
-  .pimg .noimg{font-family:var(--display);font-size:5rem;color:var(--crema)}
+  .pimg .noimg{font-family:var(--display);font-weight:600;font-size:5rem;color:var(--crema)}
   .pinfo{padding:26px 24px 28px;display:flex;flex-direction:column;gap:10px}
   .pbadges{display:flex;gap:6px}
   .pbadges .badge{position:static}
@@ -154,7 +153,7 @@
   .card{cursor:pointer}
 
   footer{background:#fff;border-top:1px solid var(--borde);text-align:center;padding:26px 20px 42px;font-size:.78rem;color:#c9c2b8}
-  footer .fmark{font-family:var(--display);color:var(--taupe);font-size:1rem;display:block;margin-bottom:6px}
+  footer .fmark{font-family:var(--display);font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--taupe);font-size:.95rem;display:block;margin-bottom:6px}
 
   @media(prefers-reduced-motion:reduce){*{transition:none!important}}
 </style>
