@@ -31,7 +31,7 @@
     padding:16px 20px 10px;border-bottom:1px solid var(--borde)}
   .head-inner{max-width:1180px;margin:0 auto;display:flex;align-items:center;gap:14px;flex-wrap:wrap}
   .logo{display:flex;align-items:center;gap:10px;flex:1;min-width:150px}
-  .logo img{height:30px;display:block}
+  .logo img{height:38px;display:block}
   .logo .wordmark{font-family:var(--display);font-weight:600;font-size:1.5rem;color:var(--taupe);letter-spacing:.5px;line-height:1}
   .mode-toggle{display:flex;border:1px solid var(--borde);border-radius:999px;overflow:hidden;flex-shrink:0}
   .mode-btn{font-family:var(--body);font-weight:600;font-size:.7rem;letter-spacing:1.2px;text-transform:uppercase;
@@ -68,8 +68,8 @@
   /* ============ Zona de productos ============ */
   main{background:#fff;min-height:70vh;padding:30px 20px 70px}
   .main-inner{max-width:1180px;margin:0 auto}
-  .section-title{font-family:var(--body);font-weight:600;font-size:1.6rem;letter-spacing:.2px;color:var(--tinta);margin-bottom:4px}
-  .section-count{font-size:.9rem;color:var(--beige);margin-bottom:22px}
+  .section-title{font-family:var(--body);font-weight:600;font-size:1.6rem;letter-spacing:.2px;color:var(--tinta);margin-bottom:2px}
+  .section-count{font-size:.9rem;color:var(--beige)}
 
   .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(185px,1fr));gap:16px}
   @media(min-width:700px){.grid{grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:24px}}
@@ -96,7 +96,9 @@
 
 
   /* ============ Barra de herramientas ============ */
-  .toolbar{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-bottom:22px}
+  .section-head{display:flex;align-items:center;gap:22px;flex-wrap:wrap;margin-bottom:22px}
+  .section-titles{flex-shrink:0}
+  .toolbar{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
   .sort-select{font-family:var(--body);font-weight:600;font-size:.8rem;letter-spacing:.3px;color:var(--taupe);
     background:#fff;border:1px solid var(--borde);border-radius:999px;padding:9px 14px;cursor:pointer;outline:none;
     appearance:none;-webkit-appearance:none;
@@ -121,15 +123,6 @@
   .pmarca{font-size:.75rem;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--taupe)}
 
   .marca-select{max-width:220px;text-overflow:ellipsis}
-  .letter-bar{display:flex;gap:4px;overflow-x:auto;padding:2px 0 14px;scrollbar-width:none}
-  .letter-bar::-webkit-scrollbar{display:none}
-  .letter-btn{min-width:30px;height:30px;display:flex;align-items:center;justify-content:center;
-    font-family:var(--body);font-weight:600;font-size:.74rem;color:var(--beige);
-    background:#fff;border:1px solid var(--borde);border-radius:50%;cursor:pointer;flex-shrink:0;transition:all .15s}
-  .letter-btn.todas{border-radius:999px;min-width:auto;padding:0 13px}
-  .letter-btn:hover:not(:disabled){border-color:var(--beige);color:var(--taupe)}
-  .letter-btn.active{background:var(--taupe);color:#fff;border-color:var(--taupe)}
-  .letter-btn:disabled{opacity:.3;cursor:default}
 
   .badge.new{background:var(--arena);color:var(--tinta)}
   .badges-wrap{position:absolute;top:10px;left:10px;display:flex;gap:5px;z-index:1}
@@ -211,9 +204,12 @@
 
 <main>
   <div class="main-inner">
-    <h1 class="section-title" id="title">Todos los productos</h1>
-    <div class="section-count" id="count"></div>
-    <div class="toolbar">
+    <div class="section-head">
+      <div class="section-titles">
+        <h1 class="section-title" id="title">Todos los productos</h1>
+        <div class="section-count" id="count"></div>
+      </div>
+      <div class="toolbar">
       <select class="sort-select marca-select" id="marcaSel" aria-label="Filtrar por marca"></select>
       <select class="sort-select" id="sortSel" aria-label="Ordenar productos">
         <option value="defecto">Ordenar por defecto</option>
@@ -231,8 +227,8 @@
         </div>
         Mostrar agotados
       </label>
+      </div>
     </div>
-    <div class="letter-bar" id="letterBar"></div>
     <div class="grid" id="grid"></div>
     <div class="empty" id="empty" style="display:none">No encontramos productos con ese filtro.</div>
   </div>
@@ -289,7 +285,7 @@ let productos = [], mayorista = null;
 let modo = localStorage.getItem('mg_modo') || 'catalogo';
 let cat = 'Todos', sub = 'Todas', q = '';
 let orden = 'defecto', soloNuevos = false, verAgotados = true;
-let marcaSel = 'todas', letra = 'todas';
+let marcaSel = 'todas';
 
 const $ = id => document.getElementById(id);
 const fmt = n => '$' + Number(n).toLocaleString('es-CO');
@@ -320,11 +316,6 @@ function precioOrden(p){
   const v = modo === 'mayorista' ? (mayorista ? mayorista[p.referencia] : undefined) : p.precio;
   return (v === undefined || v === 'pendiente') ? null : v;
 }
-function inicialDe(p){
-  const c = (p.nombre || '').trim().charAt(0).toUpperCase();
-  if(/[0-9]/.test(c)) return '0-9';
-  return c.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
-}
 function baseFiltrada(){
   let list = productos;
   if(modo === 'mayorista' && mayorista) list = list.filter(p => mayorista[p.referencia] !== undefined);
@@ -337,7 +328,6 @@ function baseFiltrada(){
 function visibles(){
   let list = baseFiltrada();
   if(marcaSel !== 'todas') list = list.filter(p => (p.marca || 'Otras') === marcaSel);
-  if(letra !== 'todas') list = list.filter(p => inicialDe(p) === letra);
   if(q){
     const t = q.toLowerCase();
     list = list.filter(p => p.nombre.toLowerCase().includes(t) || String(p.referencia).toLowerCase().includes(t) || (p.marca||'').toLowerCase().includes(t));
@@ -365,7 +355,7 @@ function visibles(){
 function pintarCats(){
   $('catBar').innerHTML = CATEGORIAS.map(c =>
     `<button class="cat-btn ${c===cat?'active':''}" data-c="${c}">${c}</button>`).join('');
-  $('catBar').querySelectorAll('button').forEach(b => b.onclick = () => { cat = b.dataset.c; sub='Todas'; marcaSel='todas'; letra='todas'; pintarCats(); render(); });
+  $('catBar').querySelectorAll('button').forEach(b => b.onclick = () => { cat = b.dataset.c; sub='Todas'; marcaSel='todas'; pintarCats(); render(); });
   // subcategorías de la categoría activa
   let subs = [];
   if(cat !== 'Todos'){
@@ -373,7 +363,7 @@ function pintarCats(){
   }
   $('subBar').innerHTML = subs.length ? ['Todas',...subs].map(s =>
     `<button class="sub-btn ${s===sub?'active':''}" data-s="${s}">${s}</button>`).join('') : '';
-  $('subBar').querySelectorAll('button').forEach(b => b.onclick = () => { sub = b.dataset.s; marcaSel='todas'; letra='todas'; pintarCats(); render(); });
+  $('subBar').querySelectorAll('button').forEach(b => b.onclick = () => { sub = b.dataset.s; marcaSel='todas'; pintarCats(); render(); });
 }
 
 function precioHTML(p){
@@ -386,7 +376,6 @@ function precioHTML(p){
   return `<div class="card-price">${fmt(valor)}</div>`;
 }
 
-const LETRAS = ['0-9', ...'ABCDEFGHIJKLMNOPQRSTUVWXYZ'];
 function pintarMarcas(){
   const base = baseFiltrada();
   const conteo = {};
@@ -397,19 +386,8 @@ function pintarMarcas(){
   $('marcaSel').innerHTML = `<option value="todas">Todas las marcas (${base.length})</option>` +
     marcas.map(m => `<option value="${m}" ${m===marcaSel?'selected':''}>${m} (${conteo[m]})</option>`).join('');
 }
-function pintarLetras(){
-  let base = baseFiltrada();
-  if(marcaSel !== 'todas') base = base.filter(p => (p.marca || 'Otras') === marcaSel);
-  const disponibles = new Set(base.map(inicialDe));
-  if(letra !== 'todas' && !disponibles.has(letra)) letra = 'todas';
-  $('letterBar').innerHTML =
-    `<button class="letter-btn todas ${letra==='todas'?'active':''}" data-l="todas">Todas</button>` +
-    LETRAS.map(l => `<button class="letter-btn ${l===letra?'active':''}" data-l="${l}" ${disponibles.has(l)?'':'disabled'}>${l}</button>`).join('');
-  $('letterBar').querySelectorAll('button').forEach(b =>
-    b.onclick = () => { if(b.disabled) return; letra = b.dataset.l; render(); });
-}
 function render(){
-  pintarMarcas(); pintarLetras();
+  pintarMarcas();
   const list = visibles();
   $('title').textContent = cat === 'Todos' ? 'Todos los productos' : cat;
   $('count').textContent = list.length + (list.length === 1 ? ' producto' : ' productos') +
