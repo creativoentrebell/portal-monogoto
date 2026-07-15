@@ -107,6 +107,19 @@
     background:#fff;color:var(--taupe);border:1px solid var(--borde);border-radius:999px;padding:9px 16px;cursor:pointer;transition:all .15s}
   .chip-toggle:hover{border-color:var(--beige)}
   .chip-toggle.on{background:var(--taupe);color:#fff;border-color:var(--taupe)}
+  .toggle-agotados{display:flex;align-items:center;gap:8px;cursor:pointer;font-size:.8rem;font-weight:600;
+    letter-spacing:.3px;color:var(--beige);user-select:none;transition:color .15s}
+  .toggle-agotados:hover{color:var(--taupe)}
+  .toggle-switch{position:relative;width:34px;height:19px;flex-shrink:0}
+  .toggle-switch input{opacity:0;width:0;height:0;position:absolute}
+  .toggle-track{position:absolute;inset:0;background:var(--borde);border-radius:10px;transition:background .2s}
+  .toggle-switch input:checked + .toggle-track{background:var(--taupe)}
+  .toggle-thumb{position:absolute;left:2px;top:2px;width:15px;height:15px;background:#fff;border-radius:50%;
+    box-shadow:0 1px 3px rgba(0,0,0,.15);transition:transform .2s;pointer-events:none}
+  .toggle-switch input:checked ~ .toggle-thumb{transform:translateX(15px)}
+  .card-marca{font-size:.68rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--taupe)}
+  .pmarca{font-size:.75rem;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--taupe)}
+
   .badge.new{background:var(--arena);color:var(--tinta)}
   .badges-wrap{position:absolute;top:10px;left:10px;display:flex;gap:5px;z-index:1}
   .badges-wrap .badge{position:static}
@@ -195,9 +208,17 @@
         <option value="precio-asc" class="opt-precio">Precio: menor a mayor</option>
         <option value="precio-desc" class="opt-precio">Precio: mayor a menor</option>
         <option value="nombre">Nombre A→Z</option>
+        <option value="marca">Marca A→Z</option>
       </select>
       <button class="chip-toggle" id="btnNuevos">Solo nuevos</button>
-      <button class="chip-toggle" id="btnAgotados">Ocultar agotados</button>
+      <label class="toggle-agotados">
+        <div class="toggle-switch">
+          <input type="checkbox" id="toggleAgotados" checked>
+          <div class="toggle-track"></div>
+          <div class="toggle-thumb"></div>
+        </div>
+        Mostrar agotados
+      </label>
     </div>
     <div class="grid" id="grid"></div>
     <div class="empty" id="empty" style="display:none">No encontramos productos con ese filtro.</div>
@@ -234,6 +255,7 @@
       <div class="pimg" id="pImg"></div>
       <div class="pinfo">
         <div class="pbadges" id="pBadges"></div>
+        <div class="pmarca" id="pMarca"></div>
         <div class="pname" id="pName"></div>
         <div class="pref" id="pRef"></div>
         <div class="pcat" id="pCat"></div>
@@ -293,11 +315,13 @@ function visibles(){
   if(!verAgotados) list = list.filter(p => !p.agotado);
   if(q){
     const t = q.toLowerCase();
-    list = list.filter(p => p.nombre.toLowerCase().includes(t) || String(p.referencia).toLowerCase().includes(t));
+    list = list.filter(p => p.nombre.toLowerCase().includes(t) || String(p.referencia).toLowerCase().includes(t) || (p.marca||'').toLowerCase().includes(t));
   }
   if(orden !== 'defecto'){
     list = [...list];
     if(orden === 'nombre') list.sort((a,b) => a.nombre.localeCompare(b.nombre, 'es'));
+    else if(orden === 'marca') list.sort((a,b) =>
+      (a.marca||'Otras').localeCompare(b.marca||'Otras', 'es') || a.nombre.localeCompare(b.nombre, 'es'));
     else {
       const dir = orden === 'precio-asc' ? 1 : -1;
       list.sort((a,b) => {
@@ -358,6 +382,7 @@ function render(){
       ${badges}
       <div class="thumb">${img}</div>
       <div class="card-body">
+        ${p.marca && p.marca !== 'Otras' ? `<div class="card-marca">${p.marca}</div>` : ''}
         <div class="card-name">${p.nombre}</div>
         <div class="card-ref">REF ${p.referencia}</div>
         ${sw}
@@ -388,6 +413,7 @@ function abrirProducto(id){
   if(p.nuevo) pbs.push('<span class="badge new">Nuevo</span>');
   if(p.promocion) pbs.push('<span class="badge promo">Promoción</span>');
   $('pBadges').innerHTML = pbs.join('');
+  $('pMarca').textContent = (p.marca && p.marca !== 'Otras') ? p.marca : '';
   $('pName').textContent = p.nombre;
   $('pRef').textContent = 'REF ' + p.referencia;
   $('pCat').textContent = p.categoria + ' · ' + p.subcategoria;
@@ -455,12 +481,7 @@ $('btnNuevos').onclick = () => {
   $('btnNuevos').classList.toggle('on', soloNuevos);
   render();
 };
-$('btnAgotados').onclick = () => {
-  verAgotados = !verAgotados;
-  $('btnAgotados').classList.toggle('on', !verAgotados);
-  $('btnAgotados').textContent = verAgotados ? 'Ocultar agotados' : 'Mostrar agotados';
-  render();
-};
+$('toggleAgotados').onchange = e => { verAgotados = e.target.checked; render(); };
 function actualizarOrdenPorModo(){
   const ocultar = modo === 'catalogo';
   document.querySelectorAll('.opt-precio').forEach(o => o.hidden = ocultar);
