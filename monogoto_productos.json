@@ -51,7 +51,7 @@
       "precio": 27500,
       "categoria": "Línea Capilar",
       "subcategoria": "Aceites y serums capilares",
-      "imagen": null,
+      "imagen": "img/capilar/BELL2008.jpg",
       "agotado": false,
       "marca": "Lehit"
     },
@@ -62,7 +62,7 @@
       "precio": 30000,
       "categoria": "Línea Capilar",
       "subcategoria": "Acondicionadores",
-      "imagen": null,
+      "imagen": "img/capilar/ANYELUZ7.jpg",
       "agotado": false,
       "marca": "Anyeluz"
     },
@@ -84,9 +84,12 @@
       "precio": 18000,
       "categoria": "Línea Capilar",
       "subcategoria": "Acondicionadores",
-      "imagen": null,
+      "imagen": "img/capilar/AC07.jpg",
       "agotado": false,
-      "marca": "Elvive"
+      "marca": "Elvive",
+      "colores": [
+        "img/capilar/AC07(1).jpg"
+      ]
     },
     {
       "id": "p0009",
@@ -106,7 +109,7 @@
       "precio": 38000,
       "categoria": "Línea Capilar",
       "subcategoria": "Acondicionadores",
-      "imagen": null,
+      "imagen": "img/capilar/14.jpg",
       "agotado": false,
       "marca": "Kaba"
     },
@@ -117,7 +120,7 @@
       "precio": 39000,
       "categoria": "Línea Capilar",
       "subcategoria": "Acondicionadores",
-      "imagen": null,
+      "imagen": "img/capilar/RECETA4.jpg",
       "agotado": false,
       "marca": "La Receta"
     },
@@ -128,7 +131,7 @@
       "precio": 32900,
       "categoria": "Línea Capilar",
       "subcategoria": "Acondicionadores",
-      "imagen": null,
+      "imagen": "img/capilar/30.webp",
       "agotado": false,
       "marca": "Milagros"
     },
@@ -139,9 +142,12 @@
       "precio": 20900,
       "categoria": "Línea Capilar",
       "subcategoria": "Acondicionadores",
-      "imagen": null,
+      "imagen": "img/capilar/AC1998.jpg",
       "agotado": false,
-      "marca": "Nutribela"
+      "marca": "Nutribela",
+      "colores": [
+        "img/capilar/AC1998(1).jpg"
+      ]
     },
     {
       "id": "p0014",
@@ -150,7 +156,7 @@
       "precio": 15000,
       "categoria": "Línea Capilar",
       "subcategoria": "Mascarillas y tratamientos",
-      "imagen": null,
+      "imagen": "img/capilar/14441.webp",
       "agotado": false,
       "marca": "Milagros"
     },
@@ -161,7 +167,7 @@
       "precio": 21000,
       "categoria": "Línea Capilar",
       "subcategoria": "Mascarillas y tratamientos",
-      "imagen": null,
+      "imagen": "img/capilar/PF017776.jpg",
       "agotado": false,
       "marca": "Alfaparf"
     },
@@ -194,7 +200,7 @@
       "precio": 76000,
       "categoria": "Línea Capilar",
       "subcategoria": "Acondicionadores",
-      "imagen": null,
+      "imagen": "img/capilar/PF020612.jpg",
       "agotado": false,
       "marca": "Alfaparf"
     },
@@ -205,7 +211,7 @@
       "precio": 92000,
       "categoria": "Línea Capilar",
       "subcategoria": "Shampoos",
-      "imagen": null,
+      "imagen": "img/capilar/PF019466.jpg",
       "agotado": false,
       "marca": "Alfaparf"
     },
@@ -271,7 +277,7 @@
       "precio": 44000,
       "categoria": "Línea Capilar",
       "subcategoria": "Mascarillas y tratamientos",
-      "imagen": null,
+      "imagen": "img/capilar/15-1.jpg",
       "agotado": false,
       "marca": "Kaba"
     },
@@ -282,7 +288,7 @@
       "precio": 32900,
       "categoria": "Línea Capilar",
       "subcategoria": "Mascarillas y tratamientos",
-      "imagen": null,
+      "imagen": "img/capilar/18.jpg",
       "agotado": false,
       "marca": "Milagros"
     },
@@ -293,7 +299,7 @@
       "precio": 35000,
       "categoria": "Línea Capilar",
       "subcategoria": "Mascarillas y tratamientos",
-      "imagen": null,
+      "imagen": "img/capilar/POCION5.jpg",
       "agotado": false,
       "marca": "La Poción"
     },
@@ -304,7 +310,7 @@
       "precio": 41000,
       "categoria": "Línea Capilar",
       "subcategoria": "Aceites y serums capilares",
-      "imagen": null,
+      "imagen": "img/capilar/11-2.jpg",
       "agotado": false,
       "marca": "La Poción"
     },
@@ -337,7 +343,7 @@
       "precio": 36000,
       "categoria": "Línea Capilar",
       "subcategoria": "Acondicionadores",
-      "imagen": null,
+      "imagen": "img/capilar/CLICKHAIR28.jpg",
       "agotado": false,
       "marca": "Click Hair"
     },
@@ -348,7 +354,7 @@
       "precio": 30000,
       "categoria": "Línea Capilar",
       "subcategoria": "Mascarillas y tratamientos",
-      "imagen": null,
+      "imagen": "img/capilar/PKP0022.jpg",
       "agotado": false,
       "marca": "Prokpil"
     },
@@ -370,7 +376,7 @@
       "precio": 50000,
       "categoria": "Línea Capilar",
       "subcategoria": "Mascarillas y tratamientos",
-      "imagen": null,
+      "imagen": "img/capilar/ANYELUZ4.jpg",
       "agotado": false,
       "marca": "Anyeluz"
     },
@@ -381,7 +387,7 @@
       "precio": 34000,
       "categoria": "Línea Capilar",
       "subcategoria": "Mascarillas y tratamientos",
-      "imagen": null,
+      "imagen": "img/capilar/LAPOCION2.jpg",
       "agotado": false,
       "marca": "La Poción"
     },
@@ -392,9 +398,12 @@
       "precio": 17000,
       "categoria": "Línea Capilar",
       "subcategoria": "Mascarillas y tratamientos",
-      "imagen": null,
+      "imagen": "img/capilar/CREMA997.jpg",
       "agotado": false,
-      "marca": "Otras"
+      "marca": "Otras",
+      "colores": [
+        "img/capilar/CREMA997(1).jpg"
+      ]
     },
     {
       "id": "p0037",
@@ -403,7 +412,7 @@
       "precio": 34000,
       "categoria": "Línea Capilar",
       "subcategoria": "Mascarillas y tratamientos",
-      "imagen": null,
+      "imagen": "img/capilar/6.jpg",
       "agotado": false,
       "marca": "La Poción"
     },
@@ -425,7 +434,7 @@
       "precio": 26000,
       "categoria": "Línea Capilar",
       "subcategoria": "Mascarillas y tratamientos",
-      "imagen": null,
+      "imagen": "img/capilar/KABA1.jpg",
       "agotado": false,
       "marca": "Kaba"
     },
@@ -436,7 +445,7 @@
       "precio": 29900,
       "categoria": "Línea Capilar",
       "subcategoria": "Cremas para peinar y estilizado",
-      "imagen": null,
+      "imagen": "img/capilar/22.jpg",
       "agotado": false,
       "marca": "Milagros"
     },
@@ -469,9 +478,13 @@
       "precio": 15500,
       "categoria": "Línea Capilar",
       "subcategoria": "Shampoos",
-      "imagen": null,
+      "imagen": "img/capilar/SHAM01.jpg",
       "agotado": false,
-      "marca": "Dove"
+      "marca": "Dove",
+      "colores": [
+        "img/capilar/SHAM01(1).jpg",
+        "img/capilar/SHAM01(2).jpg"
+      ]
     },
     {
       "id": "p0044",
@@ -513,7 +526,7 @@
       "precio": 50000,
       "categoria": "Línea Capilar",
       "subcategoria": "Mascarillas y tratamientos",
-      "imagen": null,
+      "imagen": "img/capilar/12-1.jpg",
       "agotado": false,
       "marca": "La Poción"
     },
@@ -524,7 +537,7 @@
       "precio": 43900,
       "categoria": "Línea Capilar",
       "subcategoria": "Aceites y serums capilares",
-      "imagen": null,
+      "imagen": "img/capilar/LORE-05.jpg",
       "agotado": false,
       "marca": "Elvive"
     },
@@ -546,7 +559,7 @@
       "precio": 39000,
       "categoria": "Línea Capilar",
       "subcategoria": "Mascarillas y tratamientos",
-      "imagen": null,
+      "imagen": "img/capilar/CLICKHAIR10.jpg",
       "agotado": false,
       "marca": "Click Hair"
     },
@@ -557,7 +570,7 @@
       "precio": 37000,
       "categoria": "Línea Capilar",
       "subcategoria": "Mascarillas y tratamientos",
-      "imagen": null,
+      "imagen": "img/capilar/KABA6.jpg",
       "agotado": false,
       "marca": "Kaba"
     },
@@ -590,7 +603,7 @@
       "precio": 27000,
       "categoria": "Línea Capilar",
       "subcategoria": "Cremas para peinar y estilizado",
-      "imagen": null,
+      "imagen": "img/capilar/PKP0074.jpg",
       "agotado": false,
       "marca": "Prokpil"
     },
@@ -601,7 +614,7 @@
       "precio": 41000,
       "categoria": "Línea Capilar",
       "subcategoria": "Cremas para peinar y estilizado",
-      "imagen": null,
+      "imagen": "img/capilar/TONGOLE10.jpg",
       "agotado": false,
       "marca": "La Poción"
     },
@@ -623,7 +636,7 @@
       "precio": 26000,
       "categoria": "Línea Capilar",
       "subcategoria": "Cremas para peinar y estilizado",
-      "imagen": null,
+      "imagen": "img/capilar/10035-1.jpg",
       "agotado": false,
       "marca": "Ponto"
     },
@@ -634,7 +647,7 @@
       "precio": 26000,
       "categoria": "Línea Capilar",
       "subcategoria": "Cremas para peinar y estilizado",
-      "imagen": null,
+      "imagen": "img/capilar/10032-3.jpg",
       "agotado": false,
       "marca": "Ponto"
     },
@@ -722,7 +735,7 @@
       "precio": 40000,
       "categoria": "Línea Capilar",
       "subcategoria": "Mascarillas y tratamientos",
-      "imagen": null,
+      "imagen": "img/capilar/KALOS-01.jpg",
       "agotado": false,
       "marca": "Kalos"
     },
@@ -755,7 +768,7 @@
       "precio": 208000,
       "categoria": "Línea Capilar",
       "subcategoria": "Mascarillas y tratamientos",
-      "imagen": null,
+      "imagen": "img/capilar/PF023346.jpg",
       "agotado": false,
       "marca": "Alfaparf"
     },
@@ -799,7 +812,7 @@
       "precio": 15000,
       "categoria": "Línea Capilar",
       "subcategoria": "Mascarillas y tratamientos",
-      "imagen": null,
+      "imagen": "img/capilar/PKP0059.jpg",
       "agotado": false,
       "marca": "Prokpil"
     },
@@ -942,7 +955,7 @@
       "precio": 37000,
       "categoria": "Línea Capilar",
       "subcategoria": "Mascarillas y tratamientos",
-      "imagen": null,
+      "imagen": "img/capilar/PKP0114.jpg",
       "agotado": false,
       "marca": "Prokpil"
     },
@@ -964,7 +977,7 @@
       "precio": 37000,
       "categoria": "Línea Capilar",
       "subcategoria": "Mascarillas y tratamientos",
-      "imagen": null,
+      "imagen": "img/capilar/POCION1.jpg",
       "agotado": false,
       "marca": "La Poción"
     },
@@ -997,7 +1010,7 @@
       "precio": 33000,
       "categoria": "Línea Capilar",
       "subcategoria": "Mascarillas y tratamientos",
-      "imagen": null,
+      "imagen": "img/capilar/HECHIZO.jpg",
       "agotado": false,
       "marca": "Brujería"
     },
@@ -1008,7 +1021,7 @@
       "precio": 34500,
       "categoria": "Línea Capilar",
       "subcategoria": "Mascarillas y tratamientos",
-      "imagen": null,
+      "imagen": "img/capilar/88523.jpg",
       "agotado": false,
       "marca": "Crecepel"
     },
@@ -1030,7 +1043,7 @@
       "precio": 49900,
       "categoria": "Línea Capilar",
       "subcategoria": "Mascarillas y tratamientos",
-      "imagen": null,
+      "imagen": "img/capilar/MILAGROS3.jpg",
       "agotado": false,
       "marca": "Milagros"
     },
@@ -1041,7 +1054,7 @@
       "precio": 49000,
       "categoria": "Línea Capilar",
       "subcategoria": "Mascarillas y tratamientos",
-      "imagen": null,
+      "imagen": "img/capilar/MASANYAFR.jpg",
       "agotado": false,
       "marca": "Anyeluz"
     },
@@ -1052,7 +1065,7 @@
       "precio": 37000,
       "categoria": "Línea Capilar",
       "subcategoria": "Mascarillas y tratamientos",
-      "imagen": null,
+      "imagen": "img/capilar/10-1.jpg",
       "agotado": false,
       "marca": "La Poción"
     },
@@ -1140,7 +1153,7 @@
       "precio": 30000,
       "categoria": "Línea Capilar",
       "subcategoria": "Mascarillas y tratamientos",
-      "imagen": null,
+      "imagen": "img/capilar/PKP00007.jpg",
       "agotado": false,
       "marca": "Prokpil"
     },
@@ -1151,7 +1164,7 @@
       "precio": 20900,
       "categoria": "Línea Capilar",
       "subcategoria": "Shampoos",
-      "imagen": null,
+      "imagen": "img/capilar/SHAMP1659.jpg",
       "agotado": false,
       "marca": "Nutribela"
     },
@@ -1217,7 +1230,7 @@
       "precio": 34000,
       "categoria": "Línea Capilar",
       "subcategoria": "Perfumes capilares",
-      "imagen": null,
+      "imagen": "img/capilar/9.jpg",
       "agotado": false,
       "marca": "La Poción"
     },
@@ -1272,7 +1285,7 @@
       "precio": 34000,
       "categoria": "Línea Capilar",
       "subcategoria": "Shampoos",
-      "imagen": null,
+      "imagen": "img/capilar/POCION11.jpg",
       "agotado": false,
       "marca": "La Poción"
     },
@@ -1283,7 +1296,7 @@
       "precio": 17000,
       "categoria": "Línea Capilar",
       "subcategoria": "Mascarillas y tratamientos",
-      "imagen": null,
+      "imagen": "img/capilar/10249-1.jpg",
       "agotado": false,
       "marca": "Ponto"
     },
@@ -1294,7 +1307,7 @@
       "precio": 25000,
       "categoria": "Línea Capilar",
       "subcategoria": "Cremas para peinar y estilizado",
-      "imagen": null,
+      "imagen": "img/capilar/10489.jpg",
       "agotado": false,
       "marca": "Ponto"
     },
@@ -1316,7 +1329,7 @@
       "precio": 32000,
       "categoria": "Línea Capilar",
       "subcategoria": "Mascarillas y tratamientos",
-      "imagen": null,
+      "imagen": "img/capilar/10008.jpg",
       "agotado": false,
       "marca": "Ponto"
     },
@@ -1371,7 +1384,7 @@
       "precio": 43000,
       "categoria": "Línea Capilar",
       "subcategoria": "Cremas para peinar y estilizado",
-      "imagen": null,
+      "imagen": "img/capilar/10062.jpg",
       "agotado": false,
       "marca": "Ponto"
     },
@@ -1426,9 +1439,13 @@
       "precio": 40000,
       "categoria": "Línea Capilar",
       "subcategoria": "Mascarillas y tratamientos",
-      "imagen": null,
+      "imagen": "img/capilar/10822.jpg",
       "agotado": false,
-      "marca": "Ponto"
+      "marca": "Ponto",
+      "colores": [
+        "img/capilar/10822(1).jpg",
+        "img/capilar/10822(2).jpg"
+      ]
     },
     {
       "id": "p0131",
@@ -1437,7 +1454,7 @@
       "precio": 39000,
       "categoria": "Línea Capilar",
       "subcategoria": "Mascarillas y tratamientos",
-      "imagen": null,
+      "imagen": "img/capilar/10096.jpg",
       "agotado": false,
       "marca": "Ponto"
     },
@@ -1448,7 +1465,7 @@
       "precio": 32000,
       "categoria": "Línea Capilar",
       "subcategoria": "Shampoos",
-      "imagen": null,
+      "imagen": "img/capilar/10045.jpg",
       "agotado": false,
       "marca": "Ponto"
     },
@@ -1470,7 +1487,7 @@
       "precio": 6400,
       "categoria": "Línea Capilar",
       "subcategoria": "Mascarillas y tratamientos",
-      "imagen": null,
+      "imagen": "img/capilar/10852.jpg",
       "agotado": false,
       "marca": "Ponto"
     },
@@ -1481,7 +1498,7 @@
       "precio": 54000,
       "categoria": "Línea Capilar",
       "subcategoria": "Mascarillas y tratamientos",
-      "imagen": null,
+      "imagen": "img/capilar/22(1).jpg",
       "agotado": false,
       "marca": "Milagros"
     },
@@ -1492,7 +1509,7 @@
       "precio": 54000,
       "categoria": "Línea Capilar",
       "subcategoria": "Mascarillas y tratamientos",
-      "imagen": null,
+      "imagen": "img/capilar/22(2).jpg",
       "agotado": false,
       "marca": "Milagros"
     },
@@ -1503,7 +1520,7 @@
       "precio": 63000,
       "categoria": "Línea Capilar",
       "subcategoria": "Mascarillas y tratamientos",
-      "imagen": null,
+      "imagen": "img/capilar/POCION7.jpg",
       "agotado": false,
       "marca": "La Poción"
     },
@@ -1514,7 +1531,7 @@
       "precio": 31000,
       "categoria": "Línea Capilar",
       "subcategoria": "Acondicionadores",
-      "imagen": null,
+      "imagen": "img/capilar/PKP0039.jpg",
       "agotado": false,
       "marca": "Prokpil"
     },
@@ -1536,7 +1553,7 @@
       "precio": 20000,
       "categoria": "Línea Capilar",
       "subcategoria": "Cremas para peinar y estilizado",
-      "imagen": null,
+      "imagen": "img/capilar/RITUAL7.jpg",
       "agotado": false,
       "marca": "Ritual Botánico"
     },
@@ -1558,7 +1575,7 @@
       "precio": 76000,
       "categoria": "Línea Capilar",
       "subcategoria": "Shampoos",
-      "imagen": null,
+      "imagen": "img/capilar/PF020602.jpg",
       "agotado": false,
       "marca": "Alfaparf"
     },
@@ -1580,7 +1597,7 @@
       "precio": 76000,
       "categoria": "Línea Capilar",
       "subcategoria": "Shampoos",
-      "imagen": null,
+      "imagen": "img/capilar/PF020610.jpg",
       "agotado": false,
       "marca": "Alfaparf"
     },
@@ -1591,7 +1608,7 @@
       "precio": 89000,
       "categoria": "Línea Capilar",
       "subcategoria": "Mascarillas y tratamientos",
-      "imagen": null,
+      "imagen": "img/capilar/PF020619.jpg",
       "agotado": false,
       "marca": "Alfaparf"
     },
@@ -1613,7 +1630,7 @@
       "precio": 89000,
       "categoria": "Línea Capilar",
       "subcategoria": "Acondicionadores",
-      "imagen": null,
+      "imagen": "img/capilar/PF025627.jpg",
       "agotado": false,
       "marca": "Alfaparf"
     },
@@ -1635,7 +1652,7 @@
       "precio": 83000,
       "categoria": "Línea Capilar",
       "subcategoria": "Shampoos",
-      "imagen": null,
+      "imagen": "img/capilar/PF016445.jpg",
       "agotado": false,
       "marca": "Alfaparf"
     },
@@ -1679,7 +1696,7 @@
       "precio": 89000,
       "categoria": "Línea Capilar",
       "subcategoria": "Mascarillas y tratamientos",
-      "imagen": null,
+      "imagen": "img/capilar/PF025135.jpg",
       "agotado": false,
       "marca": "Alfaparf"
     },
@@ -1690,7 +1707,7 @@
       "precio": 89000,
       "categoria": "Línea Capilar",
       "subcategoria": "Mascarillas y tratamientos",
-      "imagen": null,
+      "imagen": "img/capilar/PF027572.jpg",
       "agotado": false,
       "marca": "Alfaparf"
     },
@@ -1701,7 +1718,7 @@
       "precio": 83000,
       "categoria": "Línea Capilar",
       "subcategoria": "Shampoos",
-      "imagen": null,
+      "imagen": "img/capilar/PF027564.jpg",
       "agotado": false,
       "marca": "Alfaparf"
     },
@@ -1712,7 +1729,7 @@
       "precio": 76000,
       "categoria": "Línea Capilar",
       "subcategoria": "Acondicionadores",
-      "imagen": null,
+      "imagen": "img/capilar/PF020604.jpg",
       "agotado": false,
       "marca": "Alfaparf"
     },
@@ -1723,7 +1740,7 @@
       "precio": 89000,
       "categoria": "Línea Capilar",
       "subcategoria": "Mascarillas y tratamientos",
-      "imagen": null,
+      "imagen": "img/capilar/PF020608.jpg",
       "agotado": false,
       "marca": "Alfaparf"
     },
@@ -1778,7 +1795,7 @@
       "precio": 27000,
       "categoria": "Línea Capilar",
       "subcategoria": "Shampoos",
-      "imagen": null,
+      "imagen": "img/capilar/PKP0072.jpg",
       "agotado": false,
       "marca": "Prokpil"
     },
@@ -1789,9 +1806,12 @@
       "precio": 35000,
       "categoria": "Línea Capilar",
       "subcategoria": "Shampoos",
-      "imagen": null,
+      "imagen": "img/capilar/ANYELUZ5.jpg",
       "agotado": false,
-      "marca": "Anyeluz"
+      "marca": "Anyeluz",
+      "colores": [
+        "img/capilar/ANYELUZ5(1).jpg"
+      ]
     },
     {
       "id": "p0164",
@@ -1833,7 +1853,7 @@
       "precio": 34500,
       "categoria": "Línea Capilar",
       "subcategoria": "Shampoos",
-      "imagen": null,
+      "imagen": "img/capilar/88530.jpg",
       "agotado": false,
       "marca": "Crecepel"
     },
@@ -1844,7 +1864,7 @@
       "precio": 42000,
       "categoria": "Línea Capilar",
       "subcategoria": "Shampoos",
-      "imagen": null,
+      "imagen": "img/capilar/POCION9.jpg",
       "agotado": false,
       "marca": "La Poción"
     },
@@ -1855,9 +1875,12 @@
       "precio": 18000,
       "categoria": "Línea Capilar",
       "subcategoria": "Shampoos",
-      "imagen": null,
+      "imagen": "img/capilar/SHAMP57.jpg",
       "agotado": false,
-      "marca": "Elvive"
+      "marca": "Elvive",
+      "colores": [
+        "img/capilar/SHAMP57(1).jpg"
+      ]
     },
     {
       "id": "p0170",
@@ -1899,7 +1922,7 @@
       "precio": 34000,
       "categoria": "Línea Capilar",
       "subcategoria": "Shampoos",
-      "imagen": null,
+      "imagen": "img/capilar/2.jpg",
       "agotado": false,
       "marca": "La Poción"
     },
@@ -1910,7 +1933,7 @@
       "precio": 49000,
       "categoria": "Línea Capilar",
       "subcategoria": "Shampoos",
-      "imagen": null,
+      "imagen": "img/capilar/RECETA2.jpg",
       "agotado": false,
       "marca": "La Receta"
     },
@@ -1921,7 +1944,7 @@
       "precio": 36000,
       "categoria": "Línea Capilar",
       "subcategoria": "Shampoos",
-      "imagen": null,
+      "imagen": "img/capilar/CLICKHAIR18.jpg",
       "agotado": false,
       "marca": "Click Hair"
     },
@@ -1943,7 +1966,7 @@
       "precio": 32900,
       "categoria": "Línea Capilar",
       "subcategoria": "Shampoos",
-      "imagen": null,
+      "imagen": "img/capilar/29.webp",
       "agotado": false,
       "marca": "Milagros"
     },
@@ -1954,7 +1977,7 @@
       "precio": 32900,
       "categoria": "Línea Capilar",
       "subcategoria": "Shampoos",
-      "imagen": null,
+      "imagen": "img/capilar/35.jpg",
       "agotado": false,
       "marca": "Milagros"
     },
@@ -1965,7 +1988,7 @@
       "precio": 31000,
       "categoria": "Línea Capilar",
       "subcategoria": "Shampoos",
-      "imagen": null,
+      "imagen": "img/capilar/MILAGROS9.jpg",
       "agotado": false,
       "marca": "Milagros"
     },
@@ -1976,9 +1999,12 @@
       "precio": 31000,
       "categoria": "Línea Capilar",
       "subcategoria": "Shampoos",
-      "imagen": null,
+      "imagen": "img/capilar/PKP0036.jpg",
       "agotado": false,
-      "marca": "Prokpil"
+      "marca": "Prokpil",
+      "colores": [
+        "img/capilar/PKP0036(1).jpg"
+      ]
     },
     {
       "id": "p0181",
@@ -1987,7 +2013,7 @@
       "precio": 32000,
       "categoria": "Línea Capilar",
       "subcategoria": "Shampoos",
-      "imagen": null,
+      "imagen": "img/capilar/RITUAL1.jpg",
       "agotado": false,
       "marca": "Ritual Botánico"
     },
@@ -1998,7 +2024,7 @@
       "precio": 30000,
       "categoria": "Línea Capilar",
       "subcategoria": "Shampoos",
-      "imagen": null,
+      "imagen": "img/capilar/RITUAL3.jpg",
       "agotado": false,
       "marca": "Ritual Botánico"
     },
@@ -2009,7 +2035,7 @@
       "precio": 32000,
       "categoria": "Línea Capilar",
       "subcategoria": "Shampoos",
-      "imagen": null,
+      "imagen": "img/capilar/RITUAL2.jpg",
       "agotado": false,
       "marca": "Ritual Botánico"
     },
@@ -2020,7 +2046,7 @@
       "precio": 34000,
       "categoria": "Línea Capilar",
       "subcategoria": "Shampoos",
-      "imagen": null,
+      "imagen": "img/capilar/4.jpg",
       "agotado": false,
       "marca": "La Poción"
     },
@@ -2031,7 +2057,7 @@
       "precio": 37000,
       "categoria": "Línea Capilar",
       "subcategoria": "Shampoos",
-      "imagen": null,
+      "imagen": "img/capilar/OLE9.jpg",
       "agotado": false,
       "marca": "Olé"
     },
@@ -2053,9 +2079,18 @@
       "precio": 26000,
       "categoria": "Línea Capilar",
       "subcategoria": "Mascarillas y tratamientos",
-      "imagen": null,
+      "imagen": "img/capilar/10619.jpg",
       "agotado": false,
-      "marca": "Skala"
+      "marca": "Skala",
+      "colores": [
+        "img/capilar/10619(1).jpg",
+        "img/capilar/10619(2).jpg",
+        "img/capilar/10619(3).jpg",
+        "img/capilar/10619(4).jpg",
+        "img/capilar/10619(5).jpg",
+        "img/capilar/10619(6).jpg",
+        "img/capilar/10619(7).jpg"
+      ]
     },
     {
       "id": "p0188",
@@ -2097,7 +2132,7 @@
       "precio": 37000,
       "categoria": "Línea Capilar",
       "subcategoria": "Mascarillas y tratamientos",
-      "imagen": null,
+      "imagen": "img/capilar/ANYELUZ3.jpg",
       "agotado": false,
       "marca": "Anyeluz"
     },
@@ -2130,7 +2165,7 @@
       "precio": 34000,
       "categoria": "Línea Capilar",
       "subcategoria": "Mascarillas y tratamientos",
-      "imagen": null,
+      "imagen": "img/capilar/CLICKHAIR14.jpg",
       "agotado": false,
       "marca": "Click Hair"
     },
@@ -2141,7 +2176,7 @@
       "precio": 44000,
       "categoria": "Línea Capilar",
       "subcategoria": "Mascarillas y tratamientos",
-      "imagen": null,
+      "imagen": "img/capilar/17.jpg",
       "agotado": false,
       "marca": "Kaba"
     },
@@ -2152,7 +2187,7 @@
       "precio": 59000,
       "categoria": "Línea Capilar",
       "subcategoria": "Mascarillas y tratamientos",
-      "imagen": null,
+      "imagen": "img/capilar/KABA4.jpg",
       "agotado": false,
       "marca": "Kaba"
     },
@@ -2196,7 +2231,7 @@
       "precio": 28000,
       "categoria": "Línea Capilar",
       "subcategoria": "Mascarillas y tratamientos",
-      "imagen": null,
+      "imagen": "img/capilar/PKP0056.jpg",
       "agotado": false,
       "marca": "Prokpil"
     },
@@ -2218,7 +2253,7 @@
       "precio": 34000,
       "categoria": "Línea Capilar",
       "subcategoria": "Mascarillas y tratamientos",
-      "imagen": null,
+      "imagen": "img/capilar/3.jpg",
       "agotado": false,
       "marca": "La Poción"
     },
@@ -2229,7 +2264,7 @@
       "precio": 29000,
       "categoria": "Línea Capilar",
       "subcategoria": "Mascarillas y tratamientos",
-      "imagen": null,
+      "imagen": "img/capilar/PKP0043.jpg",
       "agotado": false,
       "marca": "Prokpil"
     },
@@ -2240,7 +2275,7 @@
       "precio": 32900,
       "categoria": "Línea Capilar",
       "subcategoria": "Mascarillas y tratamientos",
-      "imagen": null,
+      "imagen": "img/capilar/19.jpg",
       "agotado": false,
       "marca": "Milagros"
     },
@@ -2251,7 +2286,7 @@
       "precio": 32900,
       "categoria": "Línea Capilar",
       "subcategoria": "Mascarillas y tratamientos",
-      "imagen": null,
+      "imagen": "img/capilar/21.jpg",
       "agotado": false,
       "marca": "Milagros"
     },
@@ -2262,7 +2297,7 @@
       "precio": 35000,
       "categoria": "Línea Capilar",
       "subcategoria": "Mascarillas y tratamientos",
-      "imagen": null,
+      "imagen": "img/capilar/ANYELUZ8.jpg",
       "agotado": false,
       "marca": "Anyeluz"
     },
@@ -2273,7 +2308,7 @@
       "precio": 45000,
       "categoria": "Línea Capilar",
       "subcategoria": "Mascarillas y tratamientos",
-      "imagen": null,
+      "imagen": "img/capilar/ANYELUZ9.jpg",
       "agotado": false,
       "marca": "Anyeluz"
     },
@@ -2284,7 +2319,7 @@
       "precio": 49000,
       "categoria": "Línea Capilar",
       "subcategoria": "Mascarillas y tratamientos",
-      "imagen": null,
+      "imagen": "img/capilar/16.jpg",
       "agotado": false,
       "marca": "Kaba"
     },
@@ -2306,7 +2341,7 @@
       "precio": 34000,
       "categoria": "Línea Capilar",
       "subcategoria": "Mascarillas y tratamientos",
-      "imagen": null,
+      "imagen": "img/capilar/5.jpg",
       "agotado": false,
       "marca": "La Poción"
     },
@@ -2328,7 +2363,7 @@
       "precio": 114000,
       "categoria": "Línea Capilar",
       "subcategoria": "Acondicionadores",
-      "imagen": null,
+      "imagen": "img/capilar/PB0073821.jpg",
       "agotado": false,
       "marca": "Wella"
     },
@@ -2339,7 +2374,7 @@
       "precio": 95000,
       "categoria": "Línea Capilar",
       "subcategoria": "Shampoos",
-      "imagen": null,
+      "imagen": "img/capilar/PB0076514.jpg",
       "agotado": false,
       "marca": "Wella"
     },
@@ -2361,7 +2396,7 @@
       "precio": 101000,
       "categoria": "Línea Capilar",
       "subcategoria": "Acondicionadores",
-      "imagen": null,
+      "imagen": "img/capilar/PB0093413.jpg",
       "agotado": false,
       "marca": "Wella"
     },
@@ -2372,7 +2407,7 @@
       "precio": 111000,
       "categoria": "Línea Capilar",
       "subcategoria": "Mascarillas y tratamientos",
-      "imagen": null,
+      "imagen": "img/capilar/PB0093188.jpg",
       "agotado": false,
       "marca": "Wella"
     },
@@ -2394,7 +2429,7 @@
       "precio": 128000,
       "categoria": "Línea Capilar",
       "subcategoria": "Aceites y serums capilares",
-      "imagen": null,
+      "imagen": "img/capilar/PB0091819.jpg",
       "agotado": false,
       "marca": "Wella"
     },
@@ -2416,7 +2451,7 @@
       "precio": 176900,
       "categoria": "Línea Capilar",
       "subcategoria": "Acondicionadores",
-      "imagen": null,
+      "imagen": "img/capilar/PB0099439.jpg",
       "agotado": false,
       "marca": "Wella"
     },
@@ -8004,7 +8039,7 @@
       "precio": 120000,
       "categoria": "Skincare",
       "subcategoria": "Cremas e hidratantes",
-      "imagen": "img/skincare/ELI-11.webp",
+      "imagen": "img/capilar/ELI-11.jpg",
       "agotado": false,
       "marca": "Elizavecca"
     },
@@ -9527,7 +9562,7 @@
       "precio": 89000,
       "categoria": "Skincare",
       "subcategoria": "Serums y ampollas",
-      "imagen": "img/skincare/COSRX7.webp",
+      "imagen": "img/capilar/COSRX7.jpg",
       "agotado": false,
       "marca": "COSRX"
     },
@@ -9538,7 +9573,7 @@
       "precio": 99000,
       "categoria": "Skincare",
       "subcategoria": "Cremas e hidratantes",
-      "imagen": "img/skincare/COSRX8.webp",
+      "imagen": "img/capilar/COSRX8.jpg",
       "agotado": false,
       "marca": "COSRX"
     },
@@ -9549,7 +9584,7 @@
       "precio": 93000,
       "categoria": "Skincare",
       "subcategoria": "Cremas e hidratantes",
-      "imagen": "img/skincare/COSRX9.webp",
+      "imagen": "img/capilar/COSRX9.jpg",
       "agotado": false,
       "marca": "COSRX"
     },
@@ -10610,7 +10645,7 @@
       "precio": 50000,
       "categoria": "Cuidado Personal",
       "subcategoria": "Bronceado y exfoliantes",
-      "imagen": null,
+      "imagen": "img/capilar/AUTOBRON.jpg",
       "agotado": false,
       "marca": "D'Luchi"
     },
@@ -11171,7 +11206,7 @@
       "precio": 33000,
       "categoria": "Importados",
       "subcategoria": "Cuidado de labios",
-      "imagen": null,
+      "imagen": "img/importados/CARMEX1.webp",
       "agotado": false,
       "marca": "Carmex"
     },
@@ -11182,7 +11217,7 @@
       "precio": 13000,
       "categoria": "Importados",
       "subcategoria": "Cuidado de labios",
-      "imagen": null,
+      "imagen": "img/importados/CARMEX12.webp",
       "agotado": false,
       "marca": "Carmex"
     },
@@ -11193,7 +11228,7 @@
       "precio": 13000,
       "categoria": "Importados",
       "subcategoria": "Cuidado de labios",
-      "imagen": null,
+      "imagen": "img/importados/CARMEX17.webp",
       "agotado": false,
       "marca": "Carmex"
     },
@@ -11204,7 +11239,7 @@
       "precio": 33000,
       "categoria": "Importados",
       "subcategoria": "Cuidado de labios",
-      "imagen": null,
+      "imagen": "img/importados/CARMEX2.jpg",
       "agotado": false,
       "marca": "Carmex"
     },
@@ -11215,7 +11250,7 @@
       "precio": 13000,
       "categoria": "Importados",
       "subcategoria": "Cuidado de labios",
-      "imagen": null,
+      "imagen": "img/importados/CARMEX20.jpg",
       "agotado": false,
       "marca": "Carmex"
     },
@@ -11226,7 +11261,7 @@
       "precio": 33000,
       "categoria": "Importados",
       "subcategoria": "Cuidado de labios",
-      "imagen": null,
+      "imagen": "img/importados/CARMEX9.jpg",
       "agotado": false,
       "marca": "Carmex"
     },
@@ -11237,7 +11272,7 @@
       "precio": 55000,
       "categoria": "Importados",
       "subcategoria": "Corporal e higiene",
-      "imagen": null,
+      "imagen": "img/importados/CAST-03.jpg",
       "agotado": false,
       "marca": "Otras"
     },
@@ -11248,7 +11283,7 @@
       "precio": 105000,
       "categoria": "Importados",
       "subcategoria": "Corporal e higiene",
-      "imagen": null,
+      "imagen": "img/importados/DOVE-02.webp",
       "agotado": false,
       "marca": "Dove"
     },
@@ -11259,7 +11294,7 @@
       "precio": 109000,
       "categoria": "Importados",
       "subcategoria": "Corporal e higiene",
-      "imagen": null,
+      "imagen": "img/importados/DOVE-03.webp",
       "agotado": false,
       "marca": "Dove"
     },
@@ -11270,7 +11305,7 @@
       "precio": 85000,
       "categoria": "Importados",
       "subcategoria": "Corporal e higiene",
-      "imagen": null,
+      "imagen": "img/importados/DOVE-04.webp",
       "agotado": false,
       "marca": "Dove"
     },
@@ -11281,7 +11316,7 @@
       "precio": 105000,
       "categoria": "Importados",
       "subcategoria": "Corporal e higiene",
-      "imagen": null,
+      "imagen": "img/importados/DOVE-05.webp",
       "agotado": false,
       "marca": "Dove"
     },
@@ -11292,7 +11327,7 @@
       "precio": 70000,
       "categoria": "Importados",
       "subcategoria": "Corporal e higiene",
-      "imagen": null,
+      "imagen": "img/importados/DOVE-06.webp",
       "agotado": false,
       "marca": "Dove"
     },
@@ -11303,7 +11338,7 @@
       "precio": 85000,
       "categoria": "Importados",
       "subcategoria": "Corporal e higiene",
-      "imagen": null,
+      "imagen": "img/importados/DOVE-07.webp",
       "agotado": false,
       "marca": "Dove"
     },
@@ -11314,7 +11349,7 @@
       "precio": 105000,
       "categoria": "Importados",
       "subcategoria": "Corporal e higiene",
-      "imagen": null,
+      "imagen": "img/importados/DOVE-08.webp",
       "agotado": false,
       "marca": "Dove"
     },
@@ -11325,7 +11360,7 @@
       "precio": 70000,
       "categoria": "Importados",
       "subcategoria": "Corporal e higiene",
-      "imagen": null,
+      "imagen": "img/importados/DOVE-09.webp",
       "agotado": false,
       "marca": "Dove"
     },
@@ -11336,7 +11371,7 @@
       "precio": 13000,
       "categoria": "Importados",
       "subcategoria": "Cuidado de labios",
-      "imagen": null,
+      "imagen": "img/importados/EOS-01.webp",
       "agotado": false,
       "marca": "eos"
     },
@@ -11347,7 +11382,7 @@
       "precio": 65000,
       "categoria": "Importados",
       "subcategoria": "Corporal e higiene",
-      "imagen": null,
+      "imagen": "img/importados/EOS-02.webp",
       "agotado": false,
       "marca": "eos"
     },
@@ -11358,7 +11393,7 @@
       "precio": 65000,
       "categoria": "Importados",
       "subcategoria": "Corporal e higiene",
-      "imagen": null,
+      "imagen": "img/importados/EOS-06.jpg",
       "agotado": false,
       "marca": "eos"
     },
@@ -11369,7 +11404,7 @@
       "precio": 65000,
       "categoria": "Importados",
       "subcategoria": "Corporal e higiene",
-      "imagen": null,
+      "imagen": "img/importados/EOS-07.webp",
       "agotado": false,
       "marca": "eos"
     },
@@ -11380,7 +11415,7 @@
       "precio": 65000,
       "categoria": "Importados",
       "subcategoria": "Corporal e higiene",
-      "imagen": null,
+      "imagen": "img/importados/EOS-08.jpg",
       "agotado": false,
       "marca": "eos"
     },
@@ -11391,7 +11426,7 @@
       "precio": 65000,
       "categoria": "Importados",
       "subcategoria": "Corporal e higiene",
-      "imagen": null,
+      "imagen": "img/importados/EOS-14.jpg",
       "agotado": false,
       "marca": "eos"
     },
@@ -11402,7 +11437,7 @@
       "precio": 165000,
       "categoria": "Importados",
       "subcategoria": "Corporal e higiene",
-      "imagen": null,
+      "imagen": "img/importados/MEDICUBE100.webp",
       "agotado": false,
       "marca": "Medicube"
     },
@@ -11413,7 +11448,7 @@
       "precio": 120000,
       "categoria": "Importados",
       "subcategoria": "Corporal e higiene",
-      "imagen": null,
+      "imagen": "img/importados/MEDICUBE101.webp",
       "agotado": false,
       "marca": "Medicube"
     },
@@ -11424,7 +11459,7 @@
       "precio": 105000,
       "categoria": "Importados",
       "subcategoria": "Corporal e higiene",
-      "imagen": "img/skincare/MEDICUBE83.webp",
+      "imagen": "img/importados/MEDICUBE83.jpg",
       "agotado": false,
       "marca": "Medicube"
     },
@@ -11435,7 +11470,7 @@
       "precio": 99000,
       "categoria": "Importados",
       "subcategoria": "Corporal e higiene",
-      "imagen": null,
+      "imagen": "img/importados/MILKY-01.webp",
       "agotado": false,
       "marca": "Otras"
     },
@@ -11446,7 +11481,7 @@
       "precio": 59000,
       "categoria": "Importados",
       "subcategoria": "Vitaminas y gomas",
-      "imagen": null,
+      "imagen": "img/importados/NATURE1.jpg",
       "agotado": false,
       "marca": "Otras"
     },
@@ -11457,7 +11492,7 @@
       "precio": 110000,
       "categoria": "Importados",
       "subcategoria": "Cuidado de labios",
-      "imagen": null,
+      "imagen": "img/importados/ORD11.webp",
       "agotado": false,
       "marca": "The Ordinary"
     },
@@ -11468,7 +11503,7 @@
       "precio": 135000,
       "categoria": "Importados",
       "subcategoria": "Corporal e higiene",
-      "imagen": null,
+      "imagen": "img/importados/ORD113.jpg",
       "agotado": false,
       "marca": "The Ordinary"
     },
@@ -11479,7 +11514,7 @@
       "precio": 85000,
       "categoria": "Importados",
       "subcategoria": "Corporal e higiene",
-      "imagen": null,
+      "imagen": "img/importados/ORD14.webp",
       "agotado": false,
       "marca": "The Ordinary"
     },
@@ -11490,7 +11525,7 @@
       "precio": 122000,
       "categoria": "Importados",
       "subcategoria": "Corporal e higiene",
-      "imagen": null,
+      "imagen": "img/importados/ORDI15.webp",
       "agotado": false,
       "marca": "The Ordinary"
     },
@@ -11501,7 +11536,7 @@
       "precio": 90000,
       "categoria": "Importados",
       "subcategoria": "Cuidado de labios",
-      "imagen": null,
+      "imagen": "img/importados/ORDI19.jpg",
       "agotado": false,
       "marca": "The Ordinary"
     },
@@ -11512,7 +11547,7 @@
       "precio": 120000,
       "categoria": "Importados",
       "subcategoria": "Corporal e higiene",
-      "imagen": null,
+      "imagen": "img/importados/ORDI6.jpg",
       "agotado": false,
       "marca": "The Ordinary"
     },
@@ -11523,7 +11558,7 @@
       "precio": 90000,
       "categoria": "Importados",
       "subcategoria": "Corporal e higiene",
-      "imagen": null,
+      "imagen": "img/importados/ORDI8.webp",
       "agotado": false,
       "marca": "The Ordinary"
     },
@@ -11534,7 +11569,7 @@
       "precio": 28000,
       "categoria": "Importados",
       "subcategoria": "Cuidado de labios",
-      "imagen": null,
+      "imagen": "img/importados/TIRTIR19.jpg",
       "agotado": false,
       "marca": "TIRTIR"
     },
@@ -11545,7 +11580,7 @@
       "precio": 120000,
       "categoria": "Importados",
       "subcategoria": "Cuidado de labios",
-      "imagen": null,
+      "imagen": "img/importados/TRULY10.png",
       "agotado": false,
       "marca": "Truly"
     },
@@ -11556,7 +11591,7 @@
       "precio": 180000,
       "categoria": "Importados",
       "subcategoria": "Corporal e higiene",
-      "imagen": null,
+      "imagen": "img/importados/TRULY11.webp",
       "agotado": false,
       "marca": "Truly"
     },
@@ -11578,7 +11613,7 @@
       "precio": 180000,
       "categoria": "Importados",
       "subcategoria": "Corporal e higiene",
-      "imagen": null,
+      "imagen": "img/importados/TRULY2.jpg",
       "agotado": false,
       "marca": "Truly"
     },
@@ -11589,7 +11624,7 @@
       "precio": 180000,
       "categoria": "Importados",
       "subcategoria": "Corporal e higiene",
-      "imagen": null,
+      "imagen": "img/importados/TRULY3.jpg",
       "agotado": false,
       "marca": "Truly"
     },
@@ -11600,7 +11635,7 @@
       "precio": 180000,
       "categoria": "Importados",
       "subcategoria": "Corporal e higiene",
-      "imagen": null,
+      "imagen": "img/importados/TRULY5.webp",
       "agotado": false,
       "marca": "Truly"
     },
@@ -11611,7 +11646,7 @@
       "precio": 180000,
       "categoria": "Importados",
       "subcategoria": "Corporal e higiene",
-      "imagen": null,
+      "imagen": "img/importados/TRULY8.webp",
       "agotado": false,
       "marca": "Truly"
     },
@@ -11622,7 +11657,7 @@
       "precio": 65000,
       "categoria": "Importados",
       "subcategoria": "Corporal e higiene",
-      "imagen": null,
+      "imagen": "img/importados/VASE-01.webp",
       "agotado": false,
       "marca": "Vaseline"
     },
@@ -11633,7 +11668,7 @@
       "precio": 65000,
       "categoria": "Importados",
       "subcategoria": "Corporal e higiene",
-      "imagen": null,
+      "imagen": "img/importados/VASE-02.png",
       "agotado": false,
       "marca": "Vaseline"
     },
@@ -11644,7 +11679,7 @@
       "precio": 65000,
       "categoria": "Importados",
       "subcategoria": "Corporal e higiene",
-      "imagen": null,
+      "imagen": "img/importados/VASE-07.webp",
       "agotado": false,
       "marca": "Vaseline"
     },
@@ -11655,7 +11690,7 @@
       "precio": 14000,
       "categoria": "Importados",
       "subcategoria": "Corporal e higiene",
-      "imagen": null,
+      "imagen": "img/importados/VASE-08.webp",
       "agotado": false,
       "marca": "Vaseline"
     },
@@ -11666,7 +11701,7 @@
       "precio": 25000,
       "categoria": "Importados",
       "subcategoria": "Cuidado de labios",
-      "imagen": null,
+      "imagen": "img/importados/VASE-18.webp",
       "agotado": false,
       "marca": "Vaseline"
     },
@@ -11677,7 +11712,7 @@
       "precio": 60000,
       "categoria": "Importados",
       "subcategoria": "Corporal e higiene",
-      "imagen": null,
+      "imagen": "img/importados/VASE-25.webp",
       "agotado": false,
       "marca": "Vaseline"
     },
@@ -11688,7 +11723,7 @@
       "precio": 65000,
       "categoria": "Importados",
       "subcategoria": "Corporal e higiene",
-      "imagen": null,
+      "imagen": "img/importados/VASE-28.jpeg",
       "agotado": false,
       "marca": "Vaseline"
     },
@@ -11699,7 +11734,7 @@
       "precio": 75000,
       "categoria": "Importados",
       "subcategoria": "Corporal e higiene",
-      "imagen": null,
+      "imagen": "img/importados/VASE-30.jpg",
       "agotado": false,
       "marca": "Vaseline"
     },
@@ -11710,7 +11745,7 @@
       "precio": 130000,
       "categoria": "Importados",
       "subcategoria": "Vitaminas y gomas",
-      "imagen": null,
+      "imagen": "img/importados/VITA12.webp",
       "agotado": false,
       "marca": "Olly"
     },
@@ -11721,7 +11756,7 @@
       "precio": 210000,
       "categoria": "Importados",
       "subcategoria": "Vitaminas y gomas",
-      "imagen": null,
+      "imagen": "img/importados/VITA13.jpg",
       "agotado": false,
       "marca": "Olly"
     },
@@ -11732,7 +11767,7 @@
       "precio": 120000,
       "categoria": "Importados",
       "subcategoria": "Vitaminas y gomas",
-      "imagen": null,
+      "imagen": "img/importados/VITA14.jpg",
       "agotado": false,
       "marca": "Olly"
     },
@@ -11743,7 +11778,7 @@
       "precio": 120000,
       "categoria": "Importados",
       "subcategoria": "Vitaminas y gomas",
-      "imagen": null,
+      "imagen": "img/importados/VITA15.webp",
       "agotado": false,
       "marca": "Olly"
     },
@@ -11754,7 +11789,7 @@
       "precio": 108000,
       "categoria": "Importados",
       "subcategoria": "Vitaminas y gomas",
-      "imagen": null,
+      "imagen": "img/importados/VITA40.webp",
       "agotado": false,
       "marca": "Olly"
     },
@@ -11765,7 +11800,7 @@
       "precio": 75000,
       "categoria": "Importados",
       "subcategoria": "Corporal e higiene",
-      "imagen": null,
+      "imagen": "img/importados/VITA41.webp",
       "agotado": false,
       "marca": "Otras"
     },
@@ -11776,7 +11811,7 @@
       "precio": 75000,
       "categoria": "Importados",
       "subcategoria": "Vitaminas y gomas",
-      "imagen": null,
+      "imagen": "img/importados/VITA42.jpg",
       "agotado": false,
       "marca": "Otras"
     },
@@ -11787,7 +11822,7 @@
       "precio": 100000,
       "categoria": "Importados",
       "subcategoria": "Vitaminas y gomas",
-      "imagen": null,
+      "imagen": "img/importados/VITA44.webp",
       "agotado": false,
       "marca": "Olly"
     },
