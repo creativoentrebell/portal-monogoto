@@ -5,6 +5,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Monogoto — Catálogo de Belleza</title>
 <meta name="description" content="Catálogo digital Monogoto: capilar, makeup, skincare y cuidado personal.">
+<link rel="icon" type="image/png" href="img/favicon.png">
+<link rel="apple-touch-icon" href="img/favicon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
@@ -293,7 +295,7 @@ const fmt = n => '$' + Number(n).toLocaleString('es-CO');
 /* ---------- carga de datos ---------- */
 async function cargar(){
   try{
-    const r = await fetch('productos.json');
+    const r = await fetch('monogoto_productos.json');
     productos = (await r.json()).productos;
   }catch(e){
     $('grid').innerHTML = '<div class="empty">No se pudo cargar el catálogo. Intenta recargar la página.</div>';
@@ -305,7 +307,7 @@ async function cargar(){
 async function cargarMayorista(){
   if(mayorista) return true;
   try{
-    const r = await fetch('precios-mayorista.json');
+    const r = await fetch('monogoto_productos-mayorista.json');
     mayorista = await r.json();
     return true;
   }catch(e){ mayorista = null; return false; }
