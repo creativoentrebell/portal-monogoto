@@ -184,6 +184,7 @@
 
   .cart-overlay{position:fixed;inset:0;background:rgba(111,92,72,.28);display:none;z-index:110}
   .cart-overlay.open{display:block}
+  #waOverlay{z-index:120}
   .cart-panel{position:fixed;top:0;right:0;height:100%;width:100%;max-width:420px;background:#fff;
     box-shadow:-10px 0 30px rgba(111,92,72,.15);display:flex;flex-direction:column;transform:translateX(100%);transition:transform .25s ease}
   .cart-overlay.open .cart-panel{transform:translateX(0)}
@@ -617,7 +618,7 @@ function abrirProducto(id){
   const p = productos.find(x => x.id === id);
   if(!p) return;
   productoActual = p;
-  const fotos = [p.imagen, ...(p.colores || [])].filter(Boolean);
+  const fotos = [...new Set([p.imagen, ...(p.colores || [])].filter(Boolean))];
   $('pImg').innerHTML = fotos.length
     ? `<img src="${fotos[0]}" alt="${p.nombre}" onerror="this.outerHTML='<span class=noimg>m</span>'">`
     : '<span class="noimg">m</span>';
