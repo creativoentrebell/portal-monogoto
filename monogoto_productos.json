@@ -1406,7 +1406,7 @@
       "precio": 45900,
       "categoria": "Línea Capilar",
       "subcategoria": "Aceites y serums capilares",
-      "imagen": "img/capilar/10642-1.jpg",
+      "imagen": "img/capilar/10642.jpg",
       "agotado": false,
       "marca": "Ponto"
     },
@@ -1498,7 +1498,7 @@
       "precio": 54000,
       "categoria": "Línea Capilar",
       "subcategoria": "Mascarillas y tratamientos",
-      "imagen": "img/capilar/22(1).jpg",
+      "imagen": "img/capilar/22-1.webp",
       "agotado": false,
       "marca": "Milagros"
     },
@@ -1509,7 +1509,7 @@
       "precio": 54000,
       "categoria": "Línea Capilar",
       "subcategoria": "Mascarillas y tratamientos",
-      "imagen": "img/capilar/22(2).jpg",
+      "imagen": "img/capilar/22-2.webp",
       "agotado": false,
       "marca": "Milagros"
     },
@@ -1820,7 +1820,7 @@
       "precio": 31000,
       "categoria": "Línea Capilar",
       "subcategoria": "Shampoos",
-      "imagen": null,
+      "imagen": "img/capilar/PODERH3.jpg",
       "agotado": false,
       "marca": "Otras"
     },
@@ -2374,7 +2374,7 @@
       "precio": 95000,
       "categoria": "Línea Capilar",
       "subcategoria": "Shampoos",
-      "imagen": "img/capilar/PB0076514.jpg",
+      "imagen": "img/capilar/PB0076514.webp",
       "agotado": false,
       "marca": "Wella"
     },
@@ -3514,7 +3514,7 @@
     {
       "id": "p0317",
       "nombre": "Base Liquida Soft Matte Beige 2 Ruby Rose",
-      "referencia": "HB-8050-",
+      "referencia": "HB-8050-BEGE2",
       "precio": 25000,
       "categoria": "Línea Make Up",
       "subcategoria": "Bases y correctores",
@@ -3536,7 +3536,7 @@
     {
       "id": "p0319",
       "nombre": "Base Liquida Soft Matte Nude 2 Ruby Rose",
-      "referencia": "HB-8050-",
+      "referencia": "HB-8050-NUDE2",
       "precio": 25000,
       "categoria": "Línea Make Up",
       "subcategoria": "Bases y correctores",
@@ -3613,7 +3613,7 @@
     {
       "id": "p0326",
       "nombre": "Bloom Bronzer Tropical #1 Bloomshell",
-      "referencia": "BL-BP33715-",
+      "referencia": "BL-BP33715-DIS-1",
       "precio": 29000,
       "categoria": "Línea Make Up",
       "subcategoria": "Iluminadores y contorno",
@@ -3624,7 +3624,7 @@
     {
       "id": "p0327",
       "nombre": "Bloom Bronzer Tropical #2 Bloomshell",
-      "referencia": "BL-BP33715-",
+      "referencia": "BL-BP33715-DIS-2",
       "precio": 29000,
       "categoria": "Línea Make Up",
       "subcategoria": "Iluminadores y contorno",
@@ -9149,7 +9149,7 @@
     {
       "id": "p0814",
       "nombre": "Madeca Cream Time Reverse 50ML",
-      "referencia": "CENTELLIAN24",
+      "referencia": "CENTELLIAN24-01",
       "precio": 115000,
       "categoria": "Skincare",
       "subcategoria": "Cremas e hidratantes",
@@ -9160,7 +9160,7 @@
     {
       "id": "p0815",
       "nombre": "Madeca Cream Time Reverse Zero (SEASON7) 80ML",
-      "referencia": "CENTELLIAN24",
+      "referencia": "CENTELLIAN24-06",
       "precio": 115000,
       "categoria": "Skincare",
       "subcategoria": "Cremas e hidratantes",
@@ -9171,7 +9171,7 @@
     {
       "id": "p0816",
       "nombre": "Madeca Mela Capture Ampoule Capsule Cream 55ML",
-      "referencia": "CENTELLIAN24",
+      "referencia": "CENTELLIAN24-08",
       "precio": 115000,
       "categoria": "Skincare",
       "subcategoria": "Serums y ampollas",
@@ -9303,7 +9303,7 @@
     {
       "id": "p0828",
       "nombre": "Mela Capture Ampoule Max",
-      "referencia": "CENTELLIAN24",
+      "referencia": "CENTELLIAN24-02",
       "precio": 118000,
       "categoria": "Skincare",
       "subcategoria": "Cremas e hidratantes",
