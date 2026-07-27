@@ -456,7 +456,7 @@
       "precio": 29900,
       "categoria": "Línea Capilar",
       "subcategoria": "Cremas para peinar y estilizado",
-      "imagen": "img/capilar/38.jpg",
+      "imagen": "img/capilar/38.webp",
       "agotado": false,
       "marca": "Milagros"
     },
@@ -1774,17 +1774,6 @@
       "categoria": "Línea Capilar",
       "subcategoria": "Mascarillas y tratamientos",
       "imagen": "img/capilar/PF025944.jpg",
-      "agotado": false,
-      "marca": "Alfaparf"
-    },
-    {
-      "id": "p0161",
-      "nombre": "Set Sdl Reconstr Shampoo 10 Ml- Obsequio",
-      "referencia": "PP030429",
-      "precio": 0,
-      "categoria": "Línea Capilar",
-      "subcategoria": "Shampoos",
-      "imagen": null,
       "agotado": false,
       "marca": "Alfaparf"
     },
@@ -4226,7 +4215,7 @@
       "precio": 17900,
       "categoria": "Línea Make Up",
       "subcategoria": "Labios",
-      "imagen": "img/makeup/5347-1.webp",
+      "imagen": "img/makeup/5347.webp",
       "agotado": false,
       "marca": "Ruby Rose"
     },
@@ -4586,7 +4575,7 @@
       "precio": 17500,
       "categoria": "Línea Make Up",
       "subcategoria": "Ojos y cejas",
-      "imagen": "img/makeup/SAMY-73.jpg",
+      "imagen": "img/makeup/SAMY-73.webp",
       "agotado": false,
       "marca": "Samy"
     },
@@ -4992,28 +4981,6 @@
       "marca": "Khol"
     },
     {
-      "id": "p0445",
-      "nombre": "Labial Atenea Liquido Velvet Dull Pink",
-      "referencia": "6220-1",
-      "precio": 21500,
-      "categoria": "Línea Make Up",
-      "subcategoria": "Labios",
-      "imagen": "img/makeup/6220-1.jpg",
-      "agotado": false,
-      "marca": "Atenea"
-    },
-    {
-      "id": "p0446",
-      "nombre": "Labial Atenea Liquido Velvet Old Rose",
-      "referencia": "6220-2",
-      "precio": 21500,
-      "categoria": "Línea Make Up",
-      "subcategoria": "Labios",
-      "imagen": "img/makeup/6220-2.jpg",
-      "agotado": false,
-      "marca": "Atenea"
-    },
-    {
       "id": "p0447",
       "nombre": "Labial Barra #001",
       "referencia": "SAMY-69",
@@ -5100,39 +5067,6 @@
       "imagen": "img/makeup/10951.jpg",
       "agotado": false,
       "marca": "Bloomshell"
-    },
-    {
-      "id": "p0455",
-      "nombre": "Lip Balm Peptide Atenea Cherry Spark",
-      "referencia": "10840",
-      "precio": 32000,
-      "categoria": "Línea Make Up",
-      "subcategoria": "Labios",
-      "imagen": "img/makeup/10840.jpg",
-      "agotado": false,
-      "marca": "Atenea"
-    },
-    {
-      "id": "p0456",
-      "nombre": "Lip Balm Peptide Atenea Pink Sugar",
-      "referencia": "10841",
-      "precio": 26500,
-      "categoria": "Línea Make Up",
-      "subcategoria": "Labios",
-      "imagen": "img/makeup/10841.jpg",
-      "agotado": false,
-      "marca": "Atenea"
-    },
-    {
-      "id": "p0457",
-      "nombre": "Lip Balm Peptide Atenea Sweet Vainilla",
-      "referencia": "10839",
-      "precio": 26500,
-      "categoria": "Línea Make Up",
-      "subcategoria": "Labios",
-      "imagen": "img/makeup/10839.jpg",
-      "agotado": false,
-      "marca": "Atenea"
     },
     {
       "id": "p0458",
@@ -6173,17 +6107,6 @@
       "marca": "Bloomshell"
     },
     {
-      "id": "p0544",
-      "nombre": "Raquel Mascara para Pestañas Negro",
-      "referencia": "PA32",
-      "precio": 15000,
-      "categoria": "Línea Make Up",
-      "subcategoria": "Ojos y cejas",
-      "imagen": "img/makeup/PA32.jpg",
-      "agotado": false,
-      "marca": "Raquel"
-    },
-    {
       "id": "p0545",
       "nombre": "Raquel Polvo Compacto # 00 Porcelana con Filtro",
       "referencia": "1935",
@@ -6465,7 +6388,7 @@
       "precio": 45000,
       "categoria": "Línea Make Up",
       "subcategoria": "Polvos y rubores",
-      "imagen": "img/makeup/7117-1.jpg",
+      "imagen": "img/makeup/7117.webp",
       "agotado": false,
       "marca": "Otras"
     },
@@ -7482,17 +7405,6 @@
       "marca": "Lilyeve"
     },
     {
-      "id": "p0663",
-      "nombre": "(pouch Sample) Bird Juice Moisturizing Cream 2ML",
-      "referencia": "ROUND-LAB17",
-      "precio": 0,
-      "categoria": "Skincare",
-      "subcategoria": "Cremas e hidratantes",
-      "imagen": "img/skincare/ROUND-LAB17.jpg",
-      "agotado": false,
-      "marca": "Round Lab"
-    },
-    {
       "id": "p0664",
       "nombre": "(renew) Molecule-Clear 5% Glycolic Acid Serum 30ML",
       "referencia": "NINE05",
@@ -7537,72 +7449,6 @@
       "marca": "Anua"
     },
     {
-      "id": "p0668",
-      "nombre": "(sample) Benton Guava Hydrating Make Up Base Prep Primer 1.2G",
-      "referencia": "BENTON-01",
-      "precio": 0,
-      "categoria": "Skincare",
-      "subcategoria": "Cremas e hidratantes",
-      "imagen": "img/skincare/BENTON-01.webp",
-      "agotado": false,
-      "marca": "Benton"
-    },
-    {
-      "id": "p0669",
-      "nombre": "(sample) Birch Juice Moisturizing Cleanser 2ML",
-      "referencia": "ROUND-LAB15",
-      "precio": 0,
-      "categoria": "Skincare",
-      "subcategoria": "Limpiadores",
-      "imagen": "img/skincare/ROUND-LAB15.jpg",
-      "agotado": false,
-      "marca": "Round Lab"
-    },
-    {
-      "id": "p0670",
-      "nombre": "(sample) Bird Juice Moisturizing Tone-Up Sunscreen Pouch 2ML",
-      "referencia": "ROUND-LAB18",
-      "precio": 0,
-      "categoria": "Skincare",
-      "subcategoria": "Protección solar",
-      "imagen": "img/skincare/ROUND-LAB18.jpg",
-      "agotado": false,
-      "marca": "Round Lab"
-    },
-    {
-      "id": "p0671",
-      "nombre": "(sample) Guava Moisture Soothing Cream 1.2G 1EA",
-      "referencia": "BENTON-02",
-      "precio": 0,
-      "categoria": "Skincare",
-      "subcategoria": "Cremas e hidratantes",
-      "imagen": null,
-      "agotado": false,
-      "marca": "Benton"
-    },
-    {
-      "id": "p0672",
-      "nombre": "(sample) Pine Calming Cica Ampoule 2ML",
-      "referencia": "ROUND-LAB16",
-      "precio": 0,
-      "categoria": "Skincare",
-      "subcategoria": "Serums y ampollas",
-      "imagen": "img/skincare/ROUND-LAB16.jpg",
-      "agotado": false,
-      "marca": "Round Lab"
-    },
-    {
-      "id": "p0673",
-      "nombre": "(sample) Wonder Releaf Centella Daily Son Lotion",
-      "referencia": "PURI-04",
-      "precio": 0,
-      "categoria": "Skincare",
-      "subcategoria": "Cremas e hidratantes",
-      "imagen": "img/skincare/PURI-04.jpg",
-      "agotado": false,
-      "marca": "Purito"
-    },
-    {
       "id": "p0674",
       "nombre": "0.1% Gentle Retinol Serum 30ML",
       "referencia": "DR-ALTHEA5",
@@ -7623,17 +7469,6 @@
       "imagen": "img/skincare/LINDSAY-01.jpg",
       "agotado": false,
       "marca": "Lindsay"
-    },
-    {
-      "id": "p0676",
-      "nombre": "1004 Day Signature Mirror Keyring",
-      "referencia": "SKIN1004-92",
-      "precio": 0,
-      "categoria": "Skincare",
-      "subcategoria": "Cremas e hidratantes",
-      "imagen": "img/skincare/SKIN1004-92.jpg",
-      "agotado": false,
-      "marca": "SKIN1004"
     },
     {
       "id": "p0677",
@@ -7678,28 +7513,6 @@
       "imagen": "img/skincare/ANUA4.webp",
       "agotado": false,
       "marca": "Anua"
-    },
-    {
-      "id": "p0681",
-      "nombre": "A-Control Azelaic Acid Serum 2ML",
-      "referencia": "NINE1",
-      "precio": 0,
-      "categoria": "Skincare",
-      "subcategoria": "Serums y ampollas",
-      "imagen": "img/skincare/NINE1.jpg",
-      "agotado": false,
-      "marca": "Nineless"
-    },
-    {
-      "id": "p0682",
-      "nombre": "A-Control Azelaic Acid X2ML Serum",
-      "referencia": "NINE01",
-      "precio": 0,
-      "categoria": "Skincare",
-      "subcategoria": "Serums y ampollas",
-      "imagen": "img/skincare/NINE01.jpg",
-      "agotado": false,
-      "marca": "Nineless"
     },
     {
       "id": "p0683",
@@ -7790,61 +7603,6 @@
       "marca": "Medicube"
     },
     {
-      "id": "p0691",
-      "nombre": "B-Boost 1% Kojic Acid Serum 2ML",
-      "referencia": "NINE2",
-      "precio": 0,
-      "categoria": "Skincare",
-      "subcategoria": "Serums y ampollas",
-      "imagen": "img/skincare/NINE2.jpg",
-      "agotado": false,
-      "marca": "Nineless"
-    },
-    {
-      "id": "p0692",
-      "nombre": "B-Boost 1% Kojic Acid X2ML",
-      "referencia": "NINE02",
-      "precio": 0,
-      "categoria": "Skincare",
-      "subcategoria": "Cremas e hidratantes",
-      "imagen": "img/skincare/NINE02.jpg",
-      "agotado": false,
-      "marca": "Nineless"
-    },
-    {
-      "id": "p0693",
-      "nombre": "B-Boost 10% Niacinamidade",
-      "referencia": "NINE03",
-      "precio": 0,
-      "categoria": "Skincare",
-      "subcategoria": "Cremas e hidratantes",
-      "imagen": "img/skincare/NINE03.jpg",
-      "agotado": false,
-      "marca": "Nineless"
-    },
-    {
-      "id": "p0694",
-      "nombre": "B-Boost 10% Niacinamidade Serum 2ML",
-      "referencia": "NINE3",
-      "precio": 0,
-      "categoria": "Skincare",
-      "subcategoria": "Serums y ampollas",
-      "imagen": "img/skincare/NINE3.jpg",
-      "agotado": false,
-      "marca": "Nineless"
-    },
-    {
-      "id": "p0695",
-      "nombre": "Bean Cleansing Oil, Cleansing Foam, Centtela Asiatica Toner Sachet 1.5",
-      "referencia": "MIXSOON44",
-      "precio": 0,
-      "categoria": "Skincare",
-      "subcategoria": "Limpiadores",
-      "imagen": "img/skincare/MIXSOON44.jpg",
-      "agotado": false,
-      "marca": "Mixsoon"
-    },
-    {
       "id": "p0696",
       "nombre": "Bean Cream 25ML",
       "referencia": "MIXSOON15",
@@ -7863,39 +7621,6 @@
       "categoria": "Skincare",
       "subcategoria": "Cremas e hidratantes",
       "imagen": "img/skincare/MIXSOON49-1.jpg",
-      "agotado": false,
-      "marca": "Mixsoon"
-    },
-    {
-      "id": "p0698",
-      "nombre": "Bean Cream Miniature 15ML",
-      "referencia": "MIXSOON49",
-      "precio": 0,
-      "categoria": "Skincare",
-      "subcategoria": "Cremas e hidratantes",
-      "imagen": "img/skincare/MIXSOON49-1.jpg",
-      "agotado": false,
-      "marca": "Mixsoon"
-    },
-    {
-      "id": "p0699",
-      "nombre": "Bean Essence Sachet X1.5ML",
-      "referencia": "MIXSOON51-1",
-      "precio": 0,
-      "categoria": "Skincare",
-      "subcategoria": "Tónicos y esencias",
-      "imagen": "img/skincare/MIXSOON51-1.jpg",
-      "agotado": false,
-      "marca": "Mixsoon"
-    },
-    {
-      "id": "p0700",
-      "nombre": "Bean Essence, Bean Cream Sachet",
-      "referencia": "MIXSOON33",
-      "precio": 0,
-      "categoria": "Skincare",
-      "subcategoria": "Tónicos y esencias",
-      "imagen": "img/skincare/MIXSOON33.webp",
       "agotado": false,
       "marca": "Mixsoon"
     },
@@ -7964,28 +7689,6 @@
       "imagen": "img/skincare/MEDICUBE5.webp",
       "agotado": false,
       "marca": "Medicube"
-    },
-    {
-      "id": "p0707",
-      "nombre": "Bha+dark Spot Zero Cream 1G",
-      "referencia": "BTS01",
-      "precio": 0,
-      "categoria": "Skincare",
-      "subcategoria": "Cremas e hidratantes",
-      "imagen": "img/skincare/BTS01.jpg",
-      "agotado": false,
-      "marca": "Otras"
-    },
-    {
-      "id": "p0708",
-      "nombre": "Bha+pore Zero Serum 1ML",
-      "referencia": "BTS02",
-      "precio": 0,
-      "categoria": "Skincare",
-      "subcategoria": "Serums y ampollas",
-      "imagen": "img/skincare/BTS02.jpg",
-      "agotado": false,
-      "marca": "Otras"
     },
     {
       "id": "p0709",
@@ -8087,17 +7790,6 @@
       "marca": "Mixsoon"
     },
     {
-      "id": "p0718",
-      "nombre": "Calming Sample Pouch",
-      "referencia": "PYAN-01",
-      "precio": 0,
-      "categoria": "Skincare",
-      "subcategoria": "Cremas e hidratantes",
-      "imagen": "img/skincare/PYAN-01.webp",
-      "agotado": false,
-      "marca": "Otras"
-    },
-    {
       "id": "p0719",
       "nombre": "Calming Serum : Green Tea + Panthenol 30ML",
       "referencia": "BEAUTY10",
@@ -8107,17 +7799,6 @@
       "imagen": "img/skincare/BEAUTY10.webp",
       "agotado": false,
       "marca": "Beauty of Joseon"
-    },
-    {
-      "id": "p0720",
-      "nombre": "Centella Asiatica Foam Miniature 20ML",
-      "referencia": "MIXSOON47",
-      "precio": 0,
-      "categoria": "Skincare",
-      "subcategoria": "Limpiadores",
-      "imagen": "img/skincare/MIXSOON47.jpg",
-      "agotado": false,
-      "marca": "Mixsoon"
     },
     {
       "id": "p0721",
@@ -8283,17 +7964,6 @@
       "imagen": "img/skincare/MIXSOON22.webp",
       "agotado": false,
       "marca": "Mixsoon"
-    },
-    {
-      "id": "p0736",
-      "nombre": "Daily Soft Touch Sunscreen",
-      "referencia": "PURI-01",
-      "precio": 0,
-      "categoria": "Skincare",
-      "subcategoria": "Protección solar",
-      "imagen": "img/skincare/PURI-01.jpg",
-      "agotado": false,
-      "marca": "Purito"
     },
     {
       "id": "p0737",
@@ -8470,17 +8140,6 @@
       "imagen": "img/skincare/BEAUTY14.webp",
       "agotado": false,
       "marca": "Beauty of Joseon"
-    },
-    {
-      "id": "p0753",
-      "nombre": "Gua Sha SKIN1004",
-      "referencia": "SKIN1004-91",
-      "precio": 0,
-      "categoria": "Skincare",
-      "subcategoria": "Cremas e hidratantes",
-      "imagen": "img/skincare/SKIN1004-91.jpg",
-      "agotado": false,
-      "marca": "SKIN1004"
     },
     {
       "id": "p0754",
@@ -8806,17 +8465,6 @@
       "marca": "Otras"
     },
     {
-      "id": "p0783",
-      "nombre": "Madagascar Centella Air-Fit Suncream Light 1.5ML Sachet",
-      "referencia": "SKIN1004-80",
-      "precio": 0,
-      "categoria": "Skincare",
-      "subcategoria": "Protección solar",
-      "imagen": "img/skincare/SKIN1004-80.jpg",
-      "agotado": false,
-      "marca": "SKIN1004"
-    },
-    {
       "id": "p0784",
       "nombre": "Madagascar Centella Ampoule Kit (mini Ampoule 4 Types)",
       "referencia": "SKIN1004-17",
@@ -8872,17 +8520,6 @@
       "marca": "SKIN1004"
     },
     {
-      "id": "p0789",
-      "nombre": "Madagascar Centella Hyalu-Cica Firts Ampoule 1.5ML Sachet",
-      "referencia": "SKIN1004-78",
-      "precio": 0,
-      "categoria": "Skincare",
-      "subcategoria": "Serums y ampollas",
-      "imagen": "img/skincare/SKIN1004-78.jpg",
-      "agotado": false,
-      "marca": "SKIN1004"
-    },
-    {
       "id": "p0790",
       "nombre": "Madagascar Centella Hyalu-Cica Gentle",
       "referencia": "SKIN1004-70",
@@ -8927,17 +8564,6 @@
       "marca": "SKIN1004"
     },
     {
-      "id": "p0794",
-      "nombre": "Madagascar Centella Ligth Cleansing Oil 2ML Sachet",
-      "referencia": "SKIN1004-73",
-      "precio": 0,
-      "categoria": "Skincare",
-      "subcategoria": "Cremas e hidratantes",
-      "imagen": "img/skincare/SKIN1004-73.jpg",
-      "agotado": false,
-      "marca": "SKIN1004"
-    },
-    {
       "id": "p0795",
       "nombre": "Madagascar Centella Matrixyl 10 Boosting Shot Ampoule 30ML",
       "referencia": "SKIN1004-64",
@@ -8945,17 +8571,6 @@
       "categoria": "Skincare",
       "subcategoria": "Serums y ampollas",
       "imagen": "img/skincare/SKIN1004-64.webp",
-      "agotado": false,
-      "marca": "SKIN1004"
-    },
-    {
-      "id": "p0796",
-      "nombre": "Madagascar Centella Poremizing Deep Cleansing Foam 1.5ML Sachet",
-      "referencia": "SKIN1004-77",
-      "precio": 0,
-      "categoria": "Skincare",
-      "subcategoria": "Limpiadores",
-      "imagen": "img/skincare/SKIN1004-77.jpg",
       "agotado": false,
       "marca": "SKIN1004"
     },
@@ -9026,17 +8641,6 @@
       "marca": "SKIN1004"
     },
     {
-      "id": "p0803",
-      "nombre": "Madagascar Centella Tea-Trica B5 Cream 1.5ML Sachet",
-      "referencia": "SKIN1004-79",
-      "precio": 0,
-      "categoria": "Skincare",
-      "subcategoria": "Cremas e hidratantes",
-      "imagen": "img/skincare/SKIN1004-79.jpg",
-      "agotado": false,
-      "marca": "SKIN1004"
-    },
-    {
       "id": "p0804",
       "nombre": "Madagascar Centella Tea-Trica Bha Foam 125ML",
       "referencia": "SKIN1004-2",
@@ -9055,17 +8659,6 @@
       "categoria": "Skincare",
       "subcategoria": "Cremas e hidratantes",
       "imagen": "img/skincare/SKIN1004-74.webp",
-      "agotado": false,
-      "marca": "SKIN1004"
-    },
-    {
-      "id": "p0806",
-      "nombre": "Madagascar Centella Tea-Trica Purifiying Toner 1.5ML Sachet",
-      "referencia": "SKIN1004-76",
-      "precio": 0,
-      "categoria": "Skincare",
-      "subcategoria": "Tónicos y esencias",
-      "imagen": "img/skincare/SKIN1004-76.jpg",
       "agotado": false,
       "marca": "SKIN1004"
     },
@@ -9224,39 +8817,6 @@
       "marca": "TIRTIR"
     },
     {
-      "id": "p0821",
-      "nombre": "Mask Fit Red Chusion 3 Shade Trial",
-      "referencia": "TIRTIR20",
-      "precio": 0,
-      "categoria": "Skincare",
-      "subcategoria": "Mascarillas",
-      "imagen": "img/skincare/TIRTIR20.jpg",
-      "agotado": false,
-      "marca": "TIRTIR"
-    },
-    {
-      "id": "p0822",
-      "nombre": "Mask Fit Red Cushion X 1G (40N,43N,45N)",
-      "referencia": "TIRTIR02",
-      "precio": 0,
-      "categoria": "Skincare",
-      "subcategoria": "Mascarillas",
-      "imagen": "img/skincare/TIRTIR02.webp",
-      "agotado": false,
-      "marca": "TIRTIR"
-    },
-    {
-      "id": "p0823",
-      "nombre": "Mask Fit Red Cushion (47N,51N,55N)",
-      "referencia": "TIRTIR04",
-      "precio": 0,
-      "categoria": "Skincare",
-      "subcategoria": "Mascarillas",
-      "imagen": "img/skincare/TIRTIR04.webp",
-      "agotado": false,
-      "marca": "TIRTIR"
-    },
-    {
       "id": "p0824",
       "nombre": "Mask Fit Red Cushion 23N 18G",
       "referencia": "TIRTIR10",
@@ -9264,17 +8824,6 @@
       "categoria": "Skincare",
       "subcategoria": "Mascarillas",
       "imagen": "img/skincare/TIRTIR10.webp",
-      "agotado": false,
-      "marca": "TIRTIR"
-    },
-    {
-      "id": "p0825",
-      "nombre": "Mask Fit Red X1G (43N, 45N,45W)",
-      "referencia": "TIRTIR03",
-      "precio": 0,
-      "categoria": "Skincare",
-      "subcategoria": "Mascarillas",
-      "imagen": "img/skincare/TIRTIR03.jpg",
       "agotado": false,
       "marca": "TIRTIR"
     },
@@ -9310,17 +8859,6 @@
       "imagen": null,
       "agotado": false,
       "marca": "Centellian 24"
-    },
-    {
-      "id": "p0829",
-      "nombre": "Mighty Bamboo Panthenol",
-      "referencia": "PURI-02",
-      "precio": 0,
-      "categoria": "Skincare",
-      "subcategoria": "Cremas e hidratantes",
-      "imagen": "img/skincare/PURI-02.jpg",
-      "agotado": false,
-      "marca": "Purito"
     },
     {
       "id": "p0830",
@@ -9382,17 +8920,6 @@
       "imagen": "img/skincare/MOEV-01.webp",
       "agotado": false,
       "marca": "Otras"
-    },
-    {
-      "id": "p0835",
-      "nombre": "Multi Ceramide Cream 1ML",
-      "referencia": "TOCOBO51",
-      "precio": 0,
-      "categoria": "Skincare",
-      "subcategoria": "Cremas e hidratantes",
-      "imagen": "img/skincare/TOCOBO51.jpg",
-      "agotado": false,
-      "marca": "Tocobo"
     },
     {
       "id": "p0836",
@@ -9514,17 +9041,6 @@
       "imagen": "img/skincare/MEDICUBE87.jpg",
       "agotado": false,
       "marca": "Medicube"
-    },
-    {
-      "id": "p0847",
-      "nombre": "PAÑOLETASKIN1004 (bojagi)",
-      "referencia": "SKIN1004-90",
-      "precio": 0,
-      "categoria": "Skincare",
-      "subcategoria": "Cremas e hidratantes",
-      "imagen": null,
-      "agotado": false,
-      "marca": "SKIN1004"
     },
     {
       "id": "p0848",
@@ -9806,17 +9322,6 @@
       "marca": "VT Cosmetics"
     },
     {
-      "id": "p0873",
-      "nombre": "Probio.cica Bakuchiol Eye Cream 1.5ML",
-      "referencia": "SKIN1004-55",
-      "precio": 0,
-      "categoria": "Skincare",
-      "subcategoria": "Cremas e hidratantes",
-      "imagen": "img/skincare/SKIN1004-55.webp",
-      "agotado": false,
-      "marca": "SKIN1004"
-    },
-    {
       "id": "p0874",
       "nombre": "Pure Sun Cream 50ML",
       "referencia": "MIXSOON17",
@@ -10068,39 +9573,6 @@
       "imagen": "img/skincare/KSEC-01.webp",
       "agotado": false,
       "marca": "Otras"
-    },
-    {
-      "id": "p0897",
-      "nombre": "Soondy Centella Essence Sachet",
-      "referencia": "MIXSOON50",
-      "precio": 0,
-      "categoria": "Skincare",
-      "subcategoria": "Tónicos y esencias",
-      "imagen": "img/skincare/MIXSOON50.jpg",
-      "agotado": false,
-      "marca": "Mixsoon"
-    },
-    {
-      "id": "p0898",
-      "nombre": "Steep (7,8,9) Bean Essence, Bean Cream, Sun Cream",
-      "referencia": "MIXSOON46",
-      "precio": 0,
-      "categoria": "Skincare",
-      "subcategoria": "Protección solar",
-      "imagen": "img/skincare/MIXSOON46.jpg",
-      "agotado": false,
-      "marca": "Mixsoon"
-    },
-    {
-      "id": "p0899",
-      "nombre": "Step (4,5,6) Galactomyces, Bifida, Fermente, Soody",
-      "referencia": "MIXSOON45",
-      "precio": 0,
-      "categoria": "Skincare",
-      "subcategoria": "Cremas e hidratantes",
-      "imagen": "img/skincare/MIXSOON45.jpg",
-      "agotado": false,
-      "marca": "Mixsoon"
     },
     {
       "id": "p0900",
@@ -10415,17 +9887,6 @@
       "imagen": "img/skincare/D-ALBA8.webp",
       "agotado": false,
       "marca": "d'Alba"
-    },
-    {
-      "id": "p0928",
-      "nombre": "Wonder Releaf Centella X1G",
-      "referencia": "PURI-03",
-      "precio": 0,
-      "categoria": "Skincare",
-      "subcategoria": "Cremas e hidratantes",
-      "imagen": "img/skincare/PURI-03.jpg",
-      "agotado": false,
-      "marca": "Purito"
     },
     {
       "id": "p0929",
@@ -11743,7 +11204,7 @@
       "precio": 28000,
       "categoria": "Importados",
       "subcategoria": "Cuidado de labios",
-      "imagen": "img/importados/TIRTIR19.jpg",
+      "imagen": "img/importados/TIRTIR19.webp",
       "agotado": false,
       "marca": "TIRTIR"
     },
@@ -11988,17 +11449,6 @@
       "imagen": "img/importados/VITA42.jpg",
       "agotado": false,
       "marca": "Otras"
-    },
-    {
-      "id": "p1071",
-      "nombre": "Olly Prenatal 60 Gummies",
-      "referencia": "VITA44",
-      "precio": 100000,
-      "categoria": "Importados",
-      "subcategoria": "Vitaminas y gomas",
-      "imagen": "img/importados/VITA44.webp",
-      "agotado": false,
-      "marca": "Olly"
     },
     {
       "id": "p1072",
@@ -13792,6 +13242,270 @@
       "imagen": null,
       "agotado": false,
       "marca": "Otras"
+    },
+    {
+      "id": "p1221",
+      "nombre": "Perfume Mist #68 240ML",
+      "referencia": "SOLDEJANEIRO06",
+      "precio": 190000,
+      "categoria": "Importados",
+      "subcategoria": "Corporal e higiene",
+      "marca": "Sol de Janeiro",
+      "imagen": null,
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1222",
+      "nombre": "Bio Oil 60ML",
+      "referencia": "PB0027802",
+      "precio": 38900,
+      "categoria": "Cuidado Personal",
+      "subcategoria": "Cremas corporales",
+      "marca": "Bio-Oil",
+      "imagen": null,
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1223",
+      "nombre": "Bio Oil Dry Skin Gel 50ML",
+      "referencia": "PB0082954",
+      "precio": 33900,
+      "categoria": "Cuidado Personal",
+      "subcategoria": "Cremas corporales",
+      "marca": "Bio-Oil",
+      "imagen": null,
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1224",
+      "nombre": "Bio Oil Body Lotion 205ML",
+      "referencia": "PB0087519",
+      "precio": 45900,
+      "categoria": "Cuidado Personal",
+      "subcategoria": "Cremas corporales",
+      "marca": "Bio-Oil",
+      "imagen": null,
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1225",
+      "nombre": "Vaseline Crema Corporal Cocoa Radiant 600ML",
+      "referencia": "VASE10",
+      "precio": 60000,
+      "categoria": "Importados",
+      "subcategoria": "Corporal e higiene",
+      "marca": "Vaseline",
+      "imagen": null,
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1226",
+      "nombre": "Vaseline Nourishing Moisture 72HR 600ML",
+      "referencia": "VASE-31",
+      "precio": 60000,
+      "categoria": "Importados",
+      "subcategoria": "Corporal e higiene",
+      "marca": "Vaseline",
+      "imagen": null,
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1227",
+      "nombre": "Vaseline Mini Cocoa Radiant 50ML",
+      "referencia": "VASE17",
+      "precio": 20000,
+      "categoria": "Importados",
+      "subcategoria": "Corporal e higiene",
+      "marca": "Vaseline",
+      "imagen": null,
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1228",
+      "nombre": "Vaseline Glaze and Glisten Sunlit Glow Mini 50ML",
+      "referencia": "VASE-20",
+      "precio": 20000,
+      "categoria": "Importados",
+      "subcategoria": "Corporal e higiene",
+      "marca": "Vaseline",
+      "imagen": null,
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1229",
+      "nombre": "Eos Body Wash Strawberry Dream 473ML",
+      "referencia": "EOS-21",
+      "precio": 65000,
+      "categoria": "Importados",
+      "subcategoria": "Corporal e higiene",
+      "marca": "eos",
+      "imagen": null,
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1230",
+      "nombre": "Eos Body Wash Pink Champagne 473ML",
+      "referencia": "EOS-10",
+      "precio": 65000,
+      "categoria": "Importados",
+      "subcategoria": "Corporal e higiene",
+      "marca": "eos",
+      "imagen": null,
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1231",
+      "nombre": "Niacinamide 30ML",
+      "referencia": "ORD12",
+      "precio": 57000,
+      "categoria": "Importados",
+      "subcategoria": "Corporal e higiene",
+      "marca": "The Ordinary",
+      "imagen": null,
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1232",
+      "nombre": "Vaseline Lip Therapy Berry Indi",
+      "referencia": "VASE-19",
+      "precio": 25000,
+      "categoria": "Importados",
+      "subcategoria": "Cuidado de labios",
+      "marca": "Vaseline",
+      "imagen": null,
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1233",
+      "nombre": "Wrinkle Bounce Multi Balm 9G",
+      "referencia": "KAHI-01",
+      "precio": 150000,
+      "categoria": "Importados",
+      "subcategoria": "Corporal e higiene",
+      "marca": "Kahi",
+      "imagen": null,
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1234",
+      "nombre": "Youthful Formula Ultimate Moisturizing Cream 100ML",
+      "referencia": "NIDA-01",
+      "precio": 115000,
+      "categoria": "Importados",
+      "subcategoria": "Corporal e higiene",
+      "marca": "Nida",
+      "imagen": null,
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1235",
+      "nombre": "Deep Collagen Silk Peptide Intensive Ampoule 40ML",
+      "referencia": "SUNGBOON-01",
+      "precio": 110000,
+      "categoria": "Importados",
+      "subcategoria": "Corporal e higiene",
+      "marca": "Sungboon Editor",
+      "imagen": null,
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1236",
+      "nombre": "Water Bank Blue Hyaluronic Gel Cream 45ML + 25ML",
+      "referencia": "LANE12",
+      "precio": 150000,
+      "categoria": "Importados",
+      "subcategoria": "Corporal e higiene",
+      "marca": "Laneige",
+      "imagen": null,
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1237",
+      "nombre": "Laneige Cream Skin Cerapeptide Duo",
+      "referencia": "LANE14",
+      "precio": 190000,
+      "categoria": "Importados",
+      "subcategoria": "Corporal e higiene",
+      "marca": "Laneige",
+      "imagen": null,
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1238",
+      "nombre": "Melatoning Cream Hydroquinone 2%",
+      "referencia": "DONG-01",
+      "precio": 150000,
+      "categoria": "Skincare",
+      "subcategoria": "Cremas e hidratantes",
+      "marca": "Otras",
+      "imagen": null,
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1239",
+      "nombre": "Aclean Gel 20 GR",
+      "referencia": "JC-04",
+      "precio": 83000,
+      "categoria": "Importados",
+      "subcategoria": "Corporal e higiene",
+      "marca": "Otras",
+      "imagen": null,
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1240",
+      "nombre": "Acnon Cream 13 GR",
+      "referencia": "JC-07",
+      "precio": 89000,
+      "categoria": "Importados",
+      "subcategoria": "Corporal e higiene",
+      "marca": "Otras",
+      "imagen": null,
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1241",
+      "nombre": "Encrespador Shiseido",
+      "referencia": "SHISHEIDO-01",
+      "precio": 100000,
+      "categoria": "Importados",
+      "subcategoria": "Corporal e higiene",
+      "marca": "Shiseido",
+      "imagen": null,
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1242",
+      "nombre": "Despigmentante de Axilas Shiro Wakibi Jin",
+      "referencia": "JC-08",
+      "precio": 79000,
+      "categoria": "Importados",
+      "subcategoria": "Corporal e higiene",
+      "marca": "Otras",
+      "imagen": null,
+      "agotado": false,
+      "nuevo": true
     }
   ]
 }

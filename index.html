@@ -549,12 +549,16 @@ function baseFiltrada(){
   if(!verAgotados) list = list.filter(p => !p.agotado);
   return list;
 }
+function normRef(s){
+  return String(s || '').toUpperCase().replace(/[\s\-_.]/g, '');
+}
 function visibles(){
   let list = baseFiltrada();
   if(marcaSel !== 'todas') list = list.filter(p => (p.marca || 'Otras') === marcaSel);
   if(q){
     const t = q.toLowerCase();
-    list = list.filter(p => p.nombre.toLowerCase().includes(t) || String(p.referencia).toLowerCase().includes(t) || (p.marca||'').toLowerCase().includes(t));
+    const tNorm = normRef(q);
+    list = list.filter(p => p.nombre.toLowerCase().includes(t) || String(p.referencia).toLowerCase().includes(t) || (p.marca||'').toLowerCase().includes(t) || normRef(p.referencia).includes(tNorm));
   }
   if(orden !== 'defecto'){
     list = [...list];
