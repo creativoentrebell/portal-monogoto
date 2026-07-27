@@ -137,10 +137,22 @@
   .destacados-title{font-family:var(--body);font-weight:600;font-size:1.15rem;color:var(--tinta);margin-bottom:14px;
     display:flex;align-items:center;gap:8px}
   .destacados-title svg{width:18px;height:18px;stroke:var(--taupe)}
-  .destacados-track{display:flex;gap:16px;overflow-x:auto;scrollbar-width:none;padding-bottom:4px}
+  .destacados-viewport{position:relative}
+  .destacados-track{display:flex;gap:16px;overflow-x:auto;scroll-behavior:smooth;scroll-snap-type:x mandatory;
+    scrollbar-width:none}
   .destacados-track::-webkit-scrollbar{display:none}
-  .destacados-track .card{min-width:185px;max-width:185px;flex-shrink:0}
-  @media(min-width:700px){.destacados-track .card{min-width:220px;max-width:220px}}
+  .destacados-track .card{flex:0 0 calc(50% - 8px);scroll-snap-align:start}
+  @media(min-width:560px){.destacados-track .card{flex:0 0 calc(33.333% - 11px)}}
+  @media(min-width:820px){.destacados-track .card{flex:0 0 calc(25% - 12px)}}
+  .destacados-arrow{position:absolute;top:50%;transform:translateY(-50%);width:38px;height:38px;border-radius:50%;
+    border:1px solid var(--borde);background:#fff;color:var(--taupe);display:flex;align-items:center;justify-content:center;
+    cursor:pointer;box-shadow:0 6px 16px rgba(111,92,72,.12);transition:border-color .15s,opacity .15s;z-index:2}
+  .destacados-arrow:hover{border-color:var(--beige)}
+  .destacados-arrow svg{width:17px;height:17px}
+  .destacados-arrow.prev{left:-6px}
+  .destacados-arrow.next{right:-6px}
+  @media(min-width:660px){.destacados-arrow.prev{left:-19px}.destacados-arrow.next{right:-19px}}
+  .destacados-arrow[disabled]{opacity:0;pointer-events:none}
 
   /* ============ Modal PIN ============ */
   .overlay{position:fixed;inset:0;background:rgba(111,92,72,.28);display:none;align-items:center;justify-content:center;z-index:100;padding:20px}
@@ -320,7 +332,15 @@
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
       Más vendidos de Skincare
     </div>
-    <div class="destacados-track" id="destacadosTrack"></div>
+    <div class="destacados-viewport">
+      <button class="destacados-arrow prev" id="destacadosPrev" aria-label="Ver anteriores">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg>
+      </button>
+      <div class="destacados-track" id="destacadosTrack"></div>
+      <button class="destacados-arrow next" id="destacadosNext" aria-label="Ver siguientes">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></svg>
+      </button>
+    </div>
   </div>
 </section>
 
@@ -661,6 +681,12 @@ function cardHTML(p){
   </article>`;
 }
 
+function actualizarFlechasDestacados(){
+  const track = $('destacadosTrack');
+  const max = track.scrollWidth - track.clientWidth;
+  $('destacadosPrev').disabled = track.scrollLeft <= 4;
+  $('destacadosNext').disabled = track.scrollLeft >= max - 4;
+}
 function renderDestacados(){
   const mostrar = cat === 'Todos' || cat === 'Skincare';
   let list = productos.filter(p => p.categoria === 'Skincare' && p.masVendido);
@@ -673,7 +699,23 @@ function renderDestacados(){
   $('destacadosWrap').style.display = 'block';
   $('destacadosTrack').innerHTML = list.map(cardHTML).join('');
   $('destacadosTrack').querySelectorAll('.card').forEach(c => c.onclick = () => abrirProducto(c.dataset.id));
+  $('destacadosTrack').scrollLeft = 0;
+  actualizarFlechasDestacados();
 }
+function moverDestacados(dir){
+  const track = $('destacadosTrack');
+  track.scrollBy({ left: dir * track.clientWidth, behavior: 'smooth' });
+}
+$('destacadosPrev').onclick = () => moverDestacados(-1);
+$('destacadosNext').onclick = () => moverDestacados(1);
+$('destacadosTrack').addEventListener('scroll', () => {
+  clearTimeout(window._destScrollT);
+  window._destScrollT = setTimeout(actualizarFlechasDestacados, 60);
+});
+window.addEventListener('resize', () => {
+  clearTimeout(window._destResizeT);
+  window._destResizeT = setTimeout(() => { if($('destacadosWrap').style.display !== 'none') actualizarFlechasDestacados(); }, 120);
+});
 
 function render(){
   pintarMarcas();
