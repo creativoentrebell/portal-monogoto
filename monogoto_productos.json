@@ -5454,7 +5454,7 @@
       "id": "p0488",
       "nombre": "Montoc Juicy Lips Np 201",
       "referencia": "8370",
-      "precio": 26000,
+      "precio": 28000,
       "categoria": "Línea Make Up",
       "subcategoria": "Labios",
       "imagen": "img/makeup/8370.jpg",
@@ -5469,7 +5469,7 @@
       "id": "p0489",
       "nombre": "Montoc Juicy Lips Np 202",
       "referencia": "8387",
-      "precio": 26000,
+      "precio": 28000,
       "categoria": "Línea Make Up",
       "subcategoria": "Labios",
       "imagen": "img/makeup/8387.jpg",
@@ -7446,7 +7446,8 @@
       "subcategoria": "Serums y ampollas",
       "imagen": "img/skincare/ANUA16.webp",
       "agotado": false,
-      "marca": "Anua"
+      "marca": "Anua",
+      "masVendido": true
     },
     {
       "id": "p0674",
@@ -7474,12 +7475,13 @@
       "id": "p0677",
       "nombre": "147 Barrier Cream 50ML",
       "referencia": "DR-ALTHEA4",
-      "precio": 105000,
+      "precio": 108000,
       "categoria": "Skincare",
       "subcategoria": "Cremas e hidratantes",
       "imagen": "img/skincare/DR-ALTHEA4.webp",
       "agotado": false,
-      "marca": "Dr. Althea"
+      "marca": "Dr. Althea",
+      "masVendido": true
     },
     {
       "id": "p0678",
@@ -7496,12 +7498,13 @@
       "id": "p0679",
       "nombre": "345 Relief Cream 50ML",
       "referencia": "DR-ALTHEA1",
-      "precio": 105000,
+      "precio": 108000,
       "categoria": "Skincare",
       "subcategoria": "Cremas e hidratantes",
       "imagen": "img/skincare/DR-ALTHEA1.webp",
       "agotado": false,
-      "marca": "Dr. Althea"
+      "marca": "Dr. Althea",
+      "masVendido": true
     },
     {
       "id": "p0680",
@@ -7853,7 +7856,8 @@
       "subcategoria": "Protección solar",
       "imagen": "img/skincare/TOCOBO32.webp",
       "agotado": false,
-      "marca": "Tocobo"
+      "marca": "Tocobo",
+      "masVendido": true
     },
     {
       "id": "p0726",
@@ -8737,7 +8741,8 @@
       "subcategoria": "Cremas e hidratantes",
       "imagen": "img/skincare/SKIN1004-7.webp",
       "agotado": false,
-      "marca": "SKIN1004"
+      "marca": "SKIN1004",
+      "masVendido": true
     },
     {
       "id": "p0814",
@@ -9117,7 +9122,8 @@
       "subcategoria": "Cremas e hidratantes",
       "imagen": "img/skincare/MEDICUBE21.webp",
       "agotado": false,
-      "marca": "Medicube"
+      "marca": "Medicube",
+      "masVendido": true
     },
     {
       "id": "p0855",
@@ -9128,7 +9134,8 @@
       "subcategoria": "Mascarillas",
       "imagen": "img/skincare/MEDICUBE16.webp",
       "agotado": false,
-      "marca": "Medicube"
+      "marca": "Medicube",
+      "masVendido": true
     },
     {
       "id": "p0856",
@@ -13397,7 +13404,8 @@
       "marca": "Kahi",
       "imagen": null,
       "agotado": false,
-      "nuevo": true
+      "nuevo": true,
+      "masVendido": true
     },
     {
       "id": "p1234",

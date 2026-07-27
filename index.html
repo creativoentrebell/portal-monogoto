@@ -127,8 +127,20 @@
   .marca-select{max-width:220px;text-overflow:ellipsis}
 
   .badge.new{background:var(--arena);color:var(--tinta)}
+  .badge.best{background:var(--tinta);color:#fff}
   .badges-wrap{position:absolute;top:10px;left:10px;display:flex;gap:5px;z-index:1}
   .badges-wrap .badge{position:static}
+
+  /* ============ Más vendidos ============ */
+  .destacados{padding:26px 20px 6px}
+  .destacados-inner{max-width:1180px;margin:0 auto}
+  .destacados-title{font-family:var(--body);font-weight:600;font-size:1.15rem;color:var(--tinta);margin-bottom:14px;
+    display:flex;align-items:center;gap:8px}
+  .destacados-title svg{width:18px;height:18px;stroke:var(--taupe)}
+  .destacados-track{display:flex;gap:16px;overflow-x:auto;scrollbar-width:none;padding-bottom:4px}
+  .destacados-track::-webkit-scrollbar{display:none}
+  .destacados-track .card{min-width:185px;max-width:185px;flex-shrink:0}
+  @media(min-width:700px){.destacados-track .card{min-width:220px;max-width:220px}}
 
   /* ============ Modal PIN ============ */
   .overlay{position:fixed;inset:0;background:rgba(111,92,72,.28);display:none;align-items:center;justify-content:center;z-index:100;padding:20px}
@@ -301,6 +313,16 @@
   <div class="cats-inner" id="catBar"></div>
   <div class="subs" id="subBar"></div>
 </nav>
+
+<section class="destacados" id="destacadosWrap" style="display:none">
+  <div class="destacados-inner">
+    <div class="destacados-title">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+      Más vendidos de Skincare
+    </div>
+    <div class="destacados-track" id="destacadosTrack"></div>
+  </div>
+</section>
 
 <main>
   <div class="main-inner">
@@ -614,6 +636,45 @@ function pintarMarcas(){
   $('marcaSel').innerHTML = `<option value="todas">Todas las marcas (${base.length})</option>` +
     marcas.map(m => `<option value="${m}" ${m===marcaSel?'selected':''}>${m} (${conteo[m]})</option>`).join('');
 }
+function cardHTML(p){
+  const img = p.imagen
+    ? `<img src="${p.imagen}" alt="${p.nombre}" loading="lazy" onerror="this.outerHTML='<span class=noimg>m</span>'">`
+    : `<span class="noimg">m</span>`;
+  const bs = [];
+  if(p.agotado) bs.push('<span class="badge out">Agotado</span>');
+  if(p.nuevo) bs.push('<span class="badge new">Nuevo</span>');
+  if(p.promocion) bs.push('<span class="badge promo">Promoción</span>');
+  if(p.masVendido) bs.push('<span class="badge best">Más vendidos</span>');
+  const badges = bs.length ? `<div class="badges-wrap">${bs.join('')}</div>` : '';
+  const sw = (p.colores && p.colores.length)
+    ? `<div class="swatches">${p.colores.map(c=>`<img src="${c}" loading="lazy" onclick="event.stopPropagation();this.closest('.card').querySelector('.thumb img').src='${c}'">`).join('')}</div>` : '';
+  return `<article class="card ${p.agotado?'agotado':''}" data-id="${p.id}">
+    ${badges}
+    <div class="thumb">${img}</div>
+    <div class="card-body">
+      ${p.marca && p.marca !== 'Otras' ? `<div class="card-marca">${p.marca}</div>` : ''}
+      <div class="card-name">${p.nombre}</div>
+      <div class="card-ref">REF ${p.referencia}</div>
+      ${sw}
+      ${precioHTML(p)}
+    </div>
+  </article>`;
+}
+
+function renderDestacados(){
+  const mostrar = cat === 'Todos' || cat === 'Skincare';
+  let list = productos.filter(p => p.categoria === 'Skincare' && p.masVendido);
+  if(modo === 'mayorista' && mayorista) list = list.filter(p => mayorista[p.referencia] !== undefined);
+  if(!verAgotados) list = list.filter(p => !p.agotado);
+  if(!mostrar || !list.length){
+    $('destacadosWrap').style.display = 'none';
+    return;
+  }
+  $('destacadosWrap').style.display = 'block';
+  $('destacadosTrack').innerHTML = list.map(cardHTML).join('');
+  $('destacadosTrack').querySelectorAll('.card').forEach(c => c.onclick = () => abrirProducto(c.dataset.id));
+}
+
 function render(){
   pintarMarcas();
   const list = visibles();
@@ -621,30 +682,9 @@ function render(){
   $('count').textContent = list.length + (list.length === 1 ? ' producto' : ' productos') +
     (modo === 'mayorista' ? ' · precios mayoristas' : modo === 'detal' ? ' · precios detal' : '');
   $('empty').style.display = list.length ? 'none' : 'block';
-  $('grid').innerHTML = list.map(p => {
-    const img = p.imagen
-      ? `<img src="${p.imagen}" alt="${p.nombre}" loading="lazy" onerror="this.outerHTML='<span class=noimg>m</span>'">`
-      : `<span class="noimg">m</span>`;
-    const bs = [];
-    if(p.agotado) bs.push('<span class="badge out">Agotado</span>');
-    if(p.nuevo) bs.push('<span class="badge new">Nuevo</span>');
-    if(p.promocion) bs.push('<span class="badge promo">Promoción</span>');
-    const badges = bs.length ? `<div class="badges-wrap">${bs.join('')}</div>` : '';
-    const sw = (p.colores && p.colores.length)
-      ? `<div class="swatches">${p.colores.map(c=>`<img src="${c}" loading="lazy" onclick="event.stopPropagation();this.closest('.card').querySelector('.thumb img').src='${c}'">`).join('')}</div>` : '';
-    return `<article class="card ${p.agotado?'agotado':''}" data-id="${p.id}">
-      ${badges}
-      <div class="thumb">${img}</div>
-      <div class="card-body">
-        ${p.marca && p.marca !== 'Otras' ? `<div class="card-marca">${p.marca}</div>` : ''}
-        <div class="card-name">${p.nombre}</div>
-        <div class="card-ref">REF ${p.referencia}</div>
-        ${sw}
-        ${precioHTML(p)}
-      </div>
-    </article>`;
-  }).join('');
+  $('grid').innerHTML = list.map(cardHTML).join('');
   $('grid').querySelectorAll('.card').forEach(c => c.onclick = () => abrirProducto(c.dataset.id));
+  renderDestacados();
 }
 
 /* ---------- detalle de producto ---------- */
@@ -684,6 +724,7 @@ function abrirProducto(id){
   if(p.agotado) pbs.push('<span class="badge out">Agotado</span>');
   if(p.nuevo) pbs.push('<span class="badge new">Nuevo</span>');
   if(p.promocion) pbs.push('<span class="badge promo">Promoción</span>');
+  if(p.masVendido) pbs.push('<span class="badge best">Más vendidos</span>');
   $('pBadges').innerHTML = pbs.join('');
   $('pMarca').textContent = (p.marca && p.marca !== 'Otras') ? p.marca : '';
   $('pName').textContent = p.nombre;
