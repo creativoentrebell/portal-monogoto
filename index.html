@@ -688,7 +688,7 @@ function actualizarFlechasDestacados(){
   $('destacadosNext').disabled = track.scrollLeft >= max - 4;
 }
 function renderDestacados(){
-  const mostrar = cat === 'Todos' || cat === 'Skincare';
+  const mostrar = (cat === 'Todos' || cat === 'Skincare') && !q;
   let list = productos.filter(p => p.categoria === 'Skincare' && p.masVendido);
   if(modo === 'mayorista' && mayorista) list = list.filter(p => mayorista[p.referencia] !== undefined);
   if(!verAgotados) list = list.filter(p => !p.agotado);
