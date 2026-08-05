@@ -8751,7 +8751,7 @@
       "precio": 115000,
       "categoria": "Skincare",
       "subcategoria": "Cremas e hidratantes",
-      "imagen": null,
+      "imagen": "img/skincare/CENTELLIAN24-01.webp",
       "agotado": false,
       "marca": "Centellian 24"
     },
@@ -8762,7 +8762,7 @@
       "precio": 115000,
       "categoria": "Skincare",
       "subcategoria": "Cremas e hidratantes",
-      "imagen": null,
+      "imagen": "img/skincare/CENTELLIAN24-06.webp",
       "agotado": false,
       "marca": "Centellian 24"
     },
@@ -8773,7 +8773,7 @@
       "precio": 115000,
       "categoria": "Skincare",
       "subcategoria": "Serums y ampollas",
-      "imagen": null,
+      "imagen": "img/skincare/CENTELLIAN24-08.webp",
       "agotado": false,
       "marca": "Centellian 24"
     },
@@ -8861,7 +8861,7 @@
       "precio": 118000,
       "categoria": "Skincare",
       "subcategoria": "Cremas e hidratantes",
-      "imagen": null,
+      "imagen": "img/skincare/CENTELLIAN24-02.webp",
       "agotado": false,
       "marca": "Centellian 24"
     },
@@ -9803,7 +9803,7 @@
       "precio": 10000,
       "categoria": "Skincare",
       "subcategoria": "Mascarillas",
-      "imagen": null,
+      "imagen": "img/skincare/FARM-02.jpg",
       "agotado": false,
       "marca": "Otras"
     },
@@ -10551,7 +10551,7 @@
       "precio": 28000,
       "categoria": "Cuidado Personal",
       "subcategoria": "Higiene y otros",
-      "imagen": null,
+      "imagen": "img/personal/AFEIT25.webp",
       "agotado": false,
       "marca": "Otras"
     },
@@ -10705,7 +10705,7 @@
       "precio": 28000,
       "categoria": "Cuidado Personal",
       "subcategoria": "Depilación y afeitado",
-      "imagen": null,
+      "imagen": "img/personal/AFEIT333.webp",
       "agotado": false,
       "marca": "Otras"
     },
@@ -10716,7 +10716,7 @@
       "precio": 28000,
       "categoria": "Cuidado Personal",
       "subcategoria": "Higiene y otros",
-      "imagen": null,
+      "imagen": "img/personal/AFEIT46.webp",
       "agotado": false,
       "marca": "Otras"
     },
@@ -13258,7 +13258,7 @@
       "categoria": "Importados",
       "subcategoria": "Corporal e higiene",
       "marca": "Sol de Janeiro",
-      "imagen": null,
+      "imagen": "img/personal/SOLDEJANEIRO06.webp",
       "agotado": false,
       "nuevo": true
     },
@@ -13270,7 +13270,7 @@
       "categoria": "Cuidado Personal",
       "subcategoria": "Cremas corporales",
       "marca": "Bio-Oil",
-      "imagen": null,
+      "imagen": "img/personal/PB0027802.jpg",
       "agotado": false,
       "nuevo": true
     },
@@ -13282,7 +13282,7 @@
       "categoria": "Cuidado Personal",
       "subcategoria": "Cremas corporales",
       "marca": "Bio-Oil",
-      "imagen": null,
+      "imagen": "img/personal/PB0082954.webp",
       "agotado": false,
       "nuevo": true
     },
@@ -13294,7 +13294,7 @@
       "categoria": "Cuidado Personal",
       "subcategoria": "Cremas corporales",
       "marca": "Bio-Oil",
-      "imagen": null,
+      "imagen": "img/personal/PB0087519.webp",
       "agotado": false,
       "nuevo": true
     },
@@ -13306,7 +13306,7 @@
       "categoria": "Importados",
       "subcategoria": "Corporal e higiene",
       "marca": "Vaseline",
-      "imagen": null,
+      "imagen": "img/importados/VASE10.jpg",
       "agotado": false,
       "nuevo": true
     },
@@ -13330,7 +13330,7 @@
       "categoria": "Importados",
       "subcategoria": "Corporal e higiene",
       "marca": "Vaseline",
-      "imagen": null,
+      "imagen": "img/importados/VASE17.jpg",
       "agotado": false,
       "nuevo": true
     },
@@ -13342,7 +13342,7 @@
       "categoria": "Importados",
       "subcategoria": "Corporal e higiene",
       "marca": "Vaseline",
-      "imagen": null,
+      "imagen": "img/importados/VASE-20.jpg",
       "agotado": false,
       "nuevo": true
     },
@@ -13354,7 +13354,7 @@
       "categoria": "Importados",
       "subcategoria": "Corporal e higiene",
       "marca": "eos",
-      "imagen": null,
+      "imagen": "img/importados/EOS-21.jpg",
       "agotado": false,
       "nuevo": true
     },
@@ -13366,7 +13366,7 @@
       "categoria": "Importados",
       "subcategoria": "Corporal e higiene",
       "marca": "eos",
-      "imagen": null,
+      "imagen": "img/importados/EOS-10.jpg",
       "agotado": false,
       "nuevo": true
     },
@@ -13378,7 +13378,7 @@
       "categoria": "Importados",
       "subcategoria": "Corporal e higiene",
       "marca": "The Ordinary",
-      "imagen": null,
+      "imagen": "img/importados/ORD12.webp",
       "agotado": false,
       "nuevo": true
     },
@@ -13390,7 +13390,7 @@
       "categoria": "Importados",
       "subcategoria": "Cuidado de labios",
       "marca": "Vaseline",
-      "imagen": null,
+      "imagen": "img/importados/VASE-19.jpg",
       "agotado": false,
       "nuevo": true
     },
@@ -13415,7 +13415,7 @@
       "categoria": "Importados",
       "subcategoria": "Corporal e higiene",
       "marca": "Nida",
-      "imagen": null,
+      "imagen": "img/importados/NIDA-01.jpg",
       "agotado": false,
       "nuevo": true
     },
@@ -13439,7 +13439,7 @@
       "categoria": "Importados",
       "subcategoria": "Corporal e higiene",
       "marca": "Laneige",
-      "imagen": null,
+      "imagen": "img/importados/LANE12.webp",
       "agotado": false,
       "nuevo": true
     },
@@ -13451,7 +13451,7 @@
       "categoria": "Importados",
       "subcategoria": "Corporal e higiene",
       "marca": "Laneige",
-      "imagen": null,
+      "imagen": "img/importados/LANE14.webp",
       "agotado": false,
       "nuevo": true
     },
@@ -13463,7 +13463,7 @@
       "categoria": "Skincare",
       "subcategoria": "Cremas e hidratantes",
       "marca": "Otras",
-      "imagen": null,
+      "imagen": "img/skincare/DONG-01.webp",
       "agotado": false,
       "nuevo": true
     },
@@ -13475,7 +13475,7 @@
       "categoria": "Importados",
       "subcategoria": "Corporal e higiene",
       "marca": "Otras",
-      "imagen": null,
+      "imagen": "img/importados/JC-04.webp",
       "agotado": false,
       "nuevo": true
     },
@@ -13487,7 +13487,7 @@
       "categoria": "Importados",
       "subcategoria": "Corporal e higiene",
       "marca": "Otras",
-      "imagen": null,
+      "imagen": "img/importados/JC-07.jpg",
       "agotado": false,
       "nuevo": true
     },
@@ -13499,7 +13499,7 @@
       "categoria": "Importados",
       "subcategoria": "Corporal e higiene",
       "marca": "Shiseido",
-      "imagen": null,
+      "imagen": "img/importados/SHISHEIDO-01.webp",
       "agotado": false,
       "nuevo": true
     },
@@ -13511,7 +13511,7 @@
       "categoria": "Importados",
       "subcategoria": "Corporal e higiene",
       "marca": "Otras",
-      "imagen": null,
+      "imagen": "img/importados/JC-08.jpg",
       "agotado": false,
       "nuevo": true
     },
