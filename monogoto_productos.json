@@ -13254,7 +13254,7 @@
       "id": "p1221",
       "nombre": "Perfume Mist #68 240ML",
       "referencia": "SOLDEJANEIRO06",
-      "precio": 190000,
+      "precio": 180000,
       "categoria": "Importados",
       "subcategoria": "Corporal e higiene",
       "marca": "Sol de Janeiro",
@@ -13643,7 +13643,7 @@
       "categoria": "Importados",
       "subcategoria": "Corporal e higiene",
       "marca": "Sol de Janeiro",
-      "imagen": null,
+      "imagen": "img/importados/SOLDEJANEIRO3.webp",
       "agotado": false,
       "nuevo": true
     },
@@ -13776,6 +13776,18 @@
       "subcategoria": "Bienestar y suplementos",
       "marca": "Soma",
       "imagen": "img/personal/SOMA02.webp",
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1265",
+      "nombre": "Candela Crema Reductora de Estrias y Celulitis 300GR",
+      "referencia": "CANDE-01",
+      "precio": 59900,
+      "categoria": "Cuidado Personal",
+      "subcategoria": "Cremas corporales",
+      "marca": "Candela",
+      "imagen": "img/personal/CANDE-01.jpg",
       "agotado": false,
       "nuevo": true
     }
