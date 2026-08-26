@@ -322,6 +322,12 @@
   .section-head .toggle-switch input:checked + .toggle-track{background:#fff}
   .section-head .toggle-switch input:checked ~ .toggle-thumb{background:var(--taupe)}
   @media(max-width:560px){.section-head{padding:14px 16px;border-radius:18px}}
+
+  /* Mascota en la barra de herramientas */
+  .section-head{position:relative}
+  .mascota{display:none;position:absolute;right:18px;bottom:0;height:112px;width:auto;
+    pointer-events:none;user-select:none;filter:drop-shadow(0 8px 14px rgba(111,92,72,.22))}
+  @media(min-width:1040px){.mascota{display:block}.section-head{padding-right:150px}}
 </style>
 </head>
 <body>
@@ -399,6 +405,7 @@
         Mostrar agotados
       </label>
       </div>
+      <img class="mascota" src="img/mascota.png" alt="" aria-hidden="true">
     </div>
     <div class="grid" id="grid"></div>
     <div class="empty" id="empty" style="display:none">No encontramos productos con ese filtro.</div>
