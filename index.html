@@ -353,6 +353,42 @@
     .subs{margin-top:8px;padding-top:7px;gap:6px}
     .sub-btn{font-size:.7rem;padding:6px 11px}
   }
+
+  /* ============ Móvil: cuadrícula de 2 y barra compacta (ago-2026) ============ */
+  @media(max-width:700px){
+    main{padding:20px 14px 60px}
+
+    /* Barra de herramientas compacta: 2 x 2 */
+    .section-head{padding:14px 15px;gap:12px;margin-bottom:18px}
+    .section-titles{flex:1 1 100%}
+    .section-title{font-size:1.3rem}
+    .section-count{font-size:.8rem}
+    .section-head .toolbar{flex:1 1 100%;display:grid;grid-template-columns:1fr 1fr;gap:8px;align-items:center}
+    .section-head .sort-select{width:100%;max-width:none;font-size:.72rem;padding:9px 28px 9px 12px;background-position:right 11px center;text-overflow:ellipsis}
+    .section-head .chip-toggle{width:100%;text-align:center;font-size:.72rem;padding:9px 8px}
+    .section-head .toggle-agotados{justify-content:center;font-size:.72rem;gap:7px;white-space:nowrap}
+
+    /* Cuadrícula de 2 productos */
+    .grid{grid-template-columns:repeat(2,1fr);gap:12px}
+    .card{border-radius:16px}
+    .card-body{padding:11px 12px 14px;gap:4px}
+    .card-marca{font-size:.62rem}
+    .card-name{font-size:.85rem;line-height:1.25}
+    .card-ref{font-size:.66rem}
+    .card-price{font-size:1rem}
+    .badge{font-size:.58rem;letter-spacing:.6px;padding:5px 9px;top:8px;left:8px}
+    .thumb .noimg{font-size:2rem}
+    .swatches img{width:22px;height:22px}
+  }
+
+  @media(max-width:420px){
+    .logo img{height:27px}
+    .logo .wordmark{font-size:1.15rem}
+    .mode-btn{font-size:.54rem;letter-spacing:.2px;padding:8px 4px;gap:2px}
+    .mode-btn svg{width:8px;height:8px}
+    .section-head .sort-select{font-size:.68rem;padding:9px 30px 9px 11px}
+    .section-head .chip-toggle,.section-head .toggle-agotados{font-size:.68rem}
+  }
 </style>
 </head>
 <body>
