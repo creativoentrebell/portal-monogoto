@@ -293,6 +293,35 @@
   .cliente-field.error .cliente-err{display:block}
 
   @media(prefers-reduced-motion:reduce){*{transition:none!important}}
+
+  /* ============ Barras café (ago-2026) ============ */
+  /* Barra 1 — categorías + subcategorías */
+  nav.cats{background:rgba(177,155,132,.97);border-bottom:1px solid rgba(255,255,255,.22)}
+  .cat-btn{background:rgba(255,255,255,.16);color:#fff;border-color:rgba(255,255,255,.34)}
+  .cat-btn:hover{background:rgba(255,255,255,.28);border-color:rgba(255,255,255,.5)}
+  .cat-btn.active{background:#fff;color:var(--taupe);border-color:#fff}
+  .subs{border-top:1px solid rgba(255,255,255,.22);margin-top:10px;padding-top:9px}
+  .sub-btn{background:transparent;color:rgba(255,255,255,.8)}
+  .sub-btn:hover{background:rgba(255,255,255,.16);color:#fff}
+  .sub-btn.active{background:rgba(255,255,255,.92);color:var(--tinta)}
+
+  /* Barra 2 — título + herramientas */
+  .section-head{background:var(--taupe);border-radius:var(--radius);padding:16px 22px;gap:18px 22px}
+  .section-title{color:#fff}
+  .section-count{color:rgba(255,255,255,.8)}
+  .section-head .sort-select{color:#fff;background-color:rgba(255,255,255,.16);border-color:rgba(255,255,255,.34);
+    background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6' fill='none'%3E%3Cpath d='M1 1l4 4 4-4' stroke='%23ffffff' stroke-width='1.6' stroke-linecap='round'/%3E%3C/svg%3E")}
+  .section-head .sort-select:hover{background-color:rgba(255,255,255,.28);border-color:rgba(255,255,255,.5)}
+  .section-head .sort-select option{color:var(--tinta);background:#fff}
+  .section-head .chip-toggle{background:rgba(255,255,255,.16);color:#fff;border-color:rgba(255,255,255,.34)}
+  .section-head .chip-toggle:hover{background:rgba(255,255,255,.28);border-color:rgba(255,255,255,.5)}
+  .section-head .chip-toggle.on{background:#fff;color:var(--taupe);border-color:#fff}
+  .section-head .toggle-agotados{color:rgba(255,255,255,.85)}
+  .section-head .toggle-agotados:hover{color:#fff}
+  .section-head .toggle-track{background:rgba(255,255,255,.32)}
+  .section-head .toggle-switch input:checked + .toggle-track{background:#fff}
+  .section-head .toggle-switch input:checked ~ .toggle-thumb{background:var(--taupe)}
+  @media(max-width:560px){.section-head{padding:14px 16px;border-radius:18px}}
 </style>
 </head>
 <body>
