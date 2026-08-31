@@ -11464,9 +11464,13 @@
       "precio": 14900,
       "categoria": "DU Belleza",
       "subcategoria": "Brochas y pinceles",
-      "imagen": "img/dubelleza/BL12.webp",
+      "imagen": "img/dubelleza/BL12_1.png",
       "agotado": false,
-      "marca": "Otras"
+      "marca": "Otras",
+      "colores": [
+        "img/dubelleza/BL12_1.png",
+        "img/dubelleza/BL12_2.webp"
+      ]
     },
     {
       "id": "p1073",
@@ -11508,9 +11512,13 @@
       "precio": 31000,
       "categoria": "DU Belleza",
       "subcategoria": "Brochas y pinceles",
-      "imagen": "img/dubelleza/BRO3261.webp",
+      "imagen": "img/dubelleza/BRO3261_1.png",
       "agotado": false,
-      "marca": "Ébano"
+      "marca": "Ébano",
+      "colores": [
+        "img/dubelleza/BRO3261_1.png",
+        "img/dubelleza/BRO3261_2.webp"
+      ]
     },
     {
       "id": "p1077",
@@ -11519,9 +11527,13 @@
       "precio": 31000,
       "categoria": "DU Belleza",
       "subcategoria": "Brochas y pinceles",
-      "imagen": "img/dubelleza/BRO3264.webp",
+      "imagen": "img/dubelleza/BRO3264_1.png",
       "agotado": false,
-      "marca": "Ébano"
+      "marca": "Ébano",
+      "colores": [
+        "img/dubelleza/BRO3264_1.png",
+        "img/dubelleza/BRO3264_2.webp"
+      ]
     },
     {
       "id": "p1078",
@@ -11541,9 +11553,13 @@
       "precio": 14000,
       "categoria": "DU Belleza",
       "subcategoria": "Brochas y pinceles",
-      "imagen": "img/dubelleza/BL11 2.webp",
+      "imagen": "img/dubelleza/BL11_1.png",
       "agotado": false,
-      "marca": "Otras"
+      "marca": "Otras",
+      "colores": [
+        "img/dubelleza/BL11_1.png",
+        "img/dubelleza/BL11_2.webp"
+      ]
     },
     {
       "id": "p1080",
@@ -11552,9 +11568,13 @@
       "precio": 12900,
       "categoria": "DU Belleza",
       "subcategoria": "Brochas y pinceles",
-      "imagen": "img/dubelleza/BL13.webp",
+      "imagen": "img/dubelleza/BL13_1.png",
       "agotado": false,
-      "marca": "Otras"
+      "marca": "Otras",
+      "colores": [
+        "img/dubelleza/BL13_1.png",
+        "img/dubelleza/BL13_2.webp"
+      ]
     },
     {
       "id": "p1081",
@@ -11585,9 +11605,13 @@
       "precio": 31000,
       "categoria": "DU Belleza",
       "subcategoria": "Brochas y pinceles",
-      "imagen": "img/dubelleza/BRO3262.png",
+      "imagen": "img/dubelleza/BRO3262_1.png",
       "agotado": false,
-      "marca": "Ébano"
+      "marca": "Ébano",
+      "colores": [
+        "img/dubelleza/BRO3262_1.png",
+        "img/dubelleza/BRO3262_2.png"
+      ]
     },
     {
       "id": "p1084",
@@ -11596,9 +11620,13 @@
       "precio": 14000,
       "categoria": "DU Belleza",
       "subcategoria": "Brochas y pinceles",
-      "imagen": "img/dubelleza/BL14.webp",
+      "imagen": "img/dubelleza/BL14_1.png",
       "agotado": false,
-      "marca": "Otras"
+      "marca": "Otras",
+      "colores": [
+        "img/dubelleza/BL14_1.png",
+        "img/dubelleza/BL14_2.webp"
+      ]
     },
     {
       "id": "p1085",
@@ -11607,9 +11635,13 @@
       "precio": 16000,
       "categoria": "DU Belleza",
       "subcategoria": "Brochas y pinceles",
-      "imagen": "img/dubelleza/BL9.webp",
+      "imagen": "img/dubelleza/BL9_1.png",
       "agotado": false,
-      "marca": "Otras"
+      "marca": "Otras",
+      "colores": [
+        "img/dubelleza/BL9_1.png",
+        "img/dubelleza/BL9_2.webp"
+      ]
     },
     {
       "id": "p1086",
@@ -11618,9 +11650,13 @@
       "precio": 14000,
       "categoria": "DU Belleza",
       "subcategoria": "Brochas y pinceles",
-      "imagen": "img/dubelleza/BL15.webp",
+      "imagen": "img/dubelleza/BL15_1.png",
       "agotado": false,
-      "marca": "Otras"
+      "marca": "Otras",
+      "colores": [
+        "img/dubelleza/BL15_1.png",
+        "img/dubelleza/BL15_2.webp"
+      ]
     },
     {
       "id": "p1087",
@@ -12737,9 +12773,13 @@
       "precio": 14000,
       "categoria": "DU Belleza",
       "subcategoria": "Brochas y pinceles",
-      "imagen": "img/dubelleza/PIN3145.webp",
+      "imagen": "img/dubelleza/PIN3145_1.png",
       "agotado": false,
-      "marca": "Ébano"
+      "marca": "Ébano",
+      "colores": [
+        "img/dubelleza/PIN3145_1.png",
+        "img/dubelleza/PIN3145_2.webp"
+      ]
     },
     {
       "id": "p1175",
@@ -12748,9 +12788,13 @@
       "precio": 14000,
       "categoria": "DU Belleza",
       "subcategoria": "Brochas y pinceles",
-      "imagen": "img/dubelleza/PIN3146.webp",
+      "imagen": "img/dubelleza/PIN3146_1.png",
       "agotado": false,
-      "marca": "Ébano"
+      "marca": "Ébano",
+      "colores": [
+        "img/dubelleza/PIN3146_1.png",
+        "img/dubelleza/PIN3146_2.webp"
+      ]
     },
     {
       "id": "p1176",
@@ -12759,9 +12803,13 @@
       "precio": 14000,
       "categoria": "DU Belleza",
       "subcategoria": "Brochas y pinceles",
-      "imagen": "img/dubelleza/PIN3147.webp",
+      "imagen": "img/dubelleza/PIN3147_1.png",
       "agotado": false,
-      "marca": "Ébano"
+      "marca": "Ébano",
+      "colores": [
+        "img/dubelleza/PIN3147_1.png",
+        "img/dubelleza/PIN3147_2.webp"
+      ]
     },
     {
       "id": "p1177",
@@ -12770,9 +12818,13 @@
       "precio": 14000,
       "categoria": "DU Belleza",
       "subcategoria": "Brochas y pinceles",
-      "imagen": "img/dubelleza/PIN3148.webp",
+      "imagen": "img/dubelleza/PIN3148_1.png",
       "agotado": false,
-      "marca": "Ébano"
+      "marca": "Ébano",
+      "colores": [
+        "img/dubelleza/PIN3148_1.png",
+        "img/dubelleza/PIN3148_2.webp"
+      ]
     },
     {
       "id": "p1178",
@@ -12781,9 +12833,13 @@
       "precio": 14000,
       "categoria": "DU Belleza",
       "subcategoria": "Brochas y pinceles",
-      "imagen": "img/dubelleza/PIN3149.webp",
+      "imagen": "img/dubelleza/PIN3149_1.png",
       "agotado": false,
-      "marca": "Ébano"
+      "marca": "Ébano",
+      "colores": [
+        "img/dubelleza/PIN3149_1.png",
+        "img/dubelleza/PIN3149_2.webp"
+      ]
     },
     {
       "id": "p1179",
@@ -12792,9 +12848,13 @@
       "precio": 14000,
       "categoria": "DU Belleza",
       "subcategoria": "Brochas y pinceles",
-      "imagen": "img/dubelleza/PIN3150.webp",
+      "imagen": "img/dubelleza/PIN3150_1.png",
       "agotado": false,
-      "marca": "Ébano"
+      "marca": "Ébano",
+      "colores": [
+        "img/dubelleza/PIN3150_1.png",
+        "img/dubelleza/PIN3150_2.webp"
+      ]
     },
     {
       "id": "p1180",
@@ -12803,9 +12863,13 @@
       "precio": 14000,
       "categoria": "DU Belleza",
       "subcategoria": "Brochas y pinceles",
-      "imagen": "img/dubelleza/PIN3151.webp",
+      "imagen": "img/dubelleza/PIN3151_1.png",
       "agotado": false,
-      "marca": "Ébano"
+      "marca": "Ébano",
+      "colores": [
+        "img/dubelleza/PIN3151_1.png",
+        "img/dubelleza/PIN3151_2.webp"
+      ]
     },
     {
       "id": "p1181",
@@ -13012,9 +13076,13 @@
       "precio": 10000,
       "categoria": "DU Belleza",
       "subcategoria": "Brochas y pinceles",
-      "imagen": "img/dubelleza/PD08.webp",
+      "imagen": "img/dubelleza/PD08_1.png",
       "agotado": false,
-      "marca": "Otras"
+      "marca": "Otras",
+      "colores": [
+        "img/dubelleza/PD08_1.png",
+        "img/dubelleza/PD08_2.webp"
+      ]
     },
     {
       "id": "p1200",
@@ -13023,9 +13091,13 @@
       "precio": 11000,
       "categoria": "DU Belleza",
       "subcategoria": "Brochas y pinceles",
-      "imagen": "img/dubelleza/PD10.webp",
+      "imagen": "img/dubelleza/PD10_1.png",
       "agotado": false,
-      "marca": "Otras"
+      "marca": "Otras",
+      "colores": [
+        "img/dubelleza/PD10_1.png",
+        "img/dubelleza/PD10_2.webp"
+      ]
     },
     {
       "id": "p1201",
@@ -13045,9 +13117,13 @@
       "precio": 10000,
       "categoria": "DU Belleza",
       "subcategoria": "Brochas y pinceles",
-      "imagen": "img/dubelleza/PD12.webp",
+      "imagen": "img/dubelleza/PD12_1.png",
       "agotado": false,
-      "marca": "Otras"
+      "marca": "Otras",
+      "colores": [
+        "img/dubelleza/PD12_1.png",
+        "img/dubelleza/PD12_2.webp"
+      ]
     },
     {
       "id": "p1203",
@@ -13056,9 +13132,13 @@
       "precio": 10000,
       "categoria": "DU Belleza",
       "subcategoria": "Brochas y pinceles",
-      "imagen": "img/dubelleza/PD13.webp",
+      "imagen": "img/dubelleza/PD13_1.png",
       "agotado": false,
-      "marca": "Otras"
+      "marca": "Otras",
+      "colores": [
+        "img/dubelleza/PD13_1.png",
+        "img/dubelleza/PD13_2.webp"
+      ]
     },
     {
       "id": "p1204",
@@ -13067,7 +13147,7 @@
       "precio": 10000,
       "categoria": "DU Belleza",
       "subcategoria": "Brochas y pinceles",
-      "imagen": "img/dubelleza/PD14.webp",
+      "imagen": "img/dubelleza/PD14_1.JPG",
       "agotado": false,
       "marca": "Otras"
     },
@@ -13078,9 +13158,13 @@
       "precio": 11000,
       "categoria": "DU Belleza",
       "subcategoria": "Brochas y pinceles",
-      "imagen": "img/dubelleza/PD15.webp",
+      "imagen": "img/dubelleza/PD15_1.png",
       "agotado": false,
-      "marca": "Otras"
+      "marca": "Otras",
+      "colores": [
+        "img/dubelleza/PD15_1.png",
+        "img/dubelleza/PD15_2.png"
+      ]
     },
     {
       "id": "p1206",
@@ -13089,9 +13173,13 @@
       "precio": 11000,
       "categoria": "DU Belleza",
       "subcategoria": "Brochas y pinceles",
-      "imagen": "img/dubelleza/PD16.webp",
+      "imagen": "img/dubelleza/PD16_1.png",
       "agotado": false,
-      "marca": "Otras"
+      "marca": "Otras",
+      "colores": [
+        "img/dubelleza/PD16_1.png",
+        "img/dubelleza/PD16_2.png"
+      ]
     },
     {
       "id": "p1207",
@@ -13100,9 +13188,13 @@
       "precio": 11000,
       "categoria": "DU Belleza",
       "subcategoria": "Brochas y pinceles",
-      "imagen": "img/dubelleza/PD17.webp",
+      "imagen": "img/dubelleza/PD17_1.png",
       "agotado": false,
-      "marca": "Otras"
+      "marca": "Otras",
+      "colores": [
+        "img/dubelleza/PD17_1.png",
+        "img/dubelleza/PD17_2.png"
+      ]
     },
     {
       "id": "p1208",
