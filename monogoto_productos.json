@@ -1,17 +1,6 @@
 {
   "productos": [
     {
-      "id": "p0001",
-      "nombre": "Mascarilla Escudo Cromatico X350",
-      "referencia": "PKP0113",
-      "precio": 25000,
-      "categoria": "Línea Capilar",
-      "subcategoria": "Mascarillas y tratamientos",
-      "imagen": "img/capilar/PKP0113.jpg",
-      "agotado": false,
-      "marca": "Prokpil"
-    },
-    {
       "id": "p0002",
       "nombre": "Serum Liss Unlimited Curl 125ML",
       "referencia": "LR-E3554104",
@@ -21,39 +10,6 @@
       "imagen": "img/capilar/LR-E3554104.jpg",
       "agotado": false,
       "marca": "L'Oréal"
-    },
-    {
-      "id": "p0003",
-      "nombre": "Aceite Cebolla Styles XXI X60",
-      "referencia": "ACE120",
-      "precio": 14500,
-      "categoria": "Línea Capilar",
-      "subcategoria": "Aceites y serums capilares",
-      "imagen": "img/capilar/ACE120.jpg",
-      "agotado": false,
-      "marca": "Styles XXI"
-    },
-    {
-      "id": "p0004",
-      "nombre": "Aceite de Argan Isabely 60ML",
-      "referencia": "21476-4",
-      "precio": 22000,
-      "categoria": "Línea Capilar",
-      "subcategoria": "Aceites y serums capilares",
-      "imagen": "img/capilar/21476-4.jpg",
-      "agotado": false,
-      "marca": "Isabely"
-    },
-    {
-      "id": "p0005",
-      "nombre": "Aceite de Coco y Cebolla Lehit",
-      "referencia": "BELL2008",
-      "precio": 27500,
-      "categoria": "Línea Capilar",
-      "subcategoria": "Aceites y serums capilares",
-      "imagen": "img/capilar/BELL2008.jpg",
-      "agotado": false,
-      "marca": "Lehit"
     },
     {
       "id": "p0006",
@@ -76,20 +32,6 @@
       "imagen": "img/capilar/CLICKHAIR32.jpg",
       "agotado": false,
       "marca": "Click Hair"
-    },
-    {
-      "id": "p0008",
-      "nombre": "Acondicionador Elvive",
-      "referencia": "AC07",
-      "precio": 18000,
-      "categoria": "Línea Capilar",
-      "subcategoria": "Acondicionadores",
-      "imagen": "img/capilar/AC07.jpg",
-      "agotado": false,
-      "marca": "Elvive",
-      "colores": [
-        "img/capilar/AC07(1).jpg"
-      ]
     },
     {
       "id": "p0009",
@@ -134,20 +76,6 @@
       "imagen": "img/capilar/30.webp",
       "agotado": false,
       "marca": "Milagros"
-    },
-    {
-      "id": "p0013",
-      "nombre": "Acondicionador Nutrivela 400ML Surt",
-      "referencia": "AC1998",
-      "precio": 20900,
-      "categoria": "Línea Capilar",
-      "subcategoria": "Acondicionadores",
-      "imagen": "img/capilar/AC1998.jpg",
-      "agotado": false,
-      "marca": "Nutribela",
-      "colores": [
-        "img/capilar/AC1998(1).jpg"
-      ]
     },
     {
       "id": "p0014",
@@ -326,17 +254,6 @@
       "marca": "Kaba"
     },
     {
-      "id": "p0030",
-      "nombre": "Chocolate X300 ML Prokapil",
-      "referencia": "PKP0026",
-      "precio": 30000,
-      "categoria": "Línea Capilar",
-      "subcategoria": "Mascarillas y tratamientos",
-      "imagen": "img/capilar/PKP0026.jpg",
-      "agotado": false,
-      "marca": "Prokpil"
-    },
-    {
       "id": "p0031",
       "nombre": "Click Hair Acondicionador 4 en 1 X 300ML",
       "referencia": "CLICKHAIR28",
@@ -346,28 +263,6 @@
       "imagen": "img/capilar/CLICKHAIR28.jpg",
       "agotado": false,
       "marca": "Click Hair"
-    },
-    {
-      "id": "p0032",
-      "nombre": "Cobre X300ML Prokapil",
-      "referencia": "PKP0022",
-      "precio": 30000,
-      "categoria": "Línea Capilar",
-      "subcategoria": "Mascarillas y tratamientos",
-      "imagen": "img/capilar/PKP0022.jpg",
-      "agotado": false,
-      "marca": "Prokpil"
-    },
-    {
-      "id": "p0033",
-      "nombre": "Cocktail Capilar Isabely 10ML",
-      "referencia": "21476-5",
-      "precio": 10000,
-      "categoria": "Línea Capilar",
-      "subcategoria": "Mascarillas y tratamientos",
-      "imagen": "img/capilar/21476-5.jpg",
-      "agotado": false,
-      "marca": "Isabely"
     },
     {
       "id": "p0034",
@@ -390,20 +285,6 @@
       "imagen": "img/capilar/LAPOCION2.jpg",
       "agotado": false,
       "marca": "La Poción"
-    },
-    {
-      "id": "p0036",
-      "nombre": "Crema de Peinar Nutribvela 300ML Surti",
-      "referencia": "CREMA997",
-      "precio": 17000,
-      "categoria": "Línea Capilar",
-      "subcategoria": "Mascarillas y tratamientos",
-      "imagen": "img/capilar/CREMA997.jpg",
-      "agotado": false,
-      "marca": "Otras",
-      "colores": [
-        "img/capilar/CREMA997(1).jpg"
-      ]
     },
     {
       "id": "p0037",
@@ -597,17 +478,6 @@
       "marca": "Otras"
     },
     {
-      "id": "p0054",
-      "nombre": "Gel Definidor de Crespos X300ML",
-      "referencia": "PKP0074",
-      "precio": 27000,
-      "categoria": "Línea Capilar",
-      "subcategoria": "Cremas para peinar y estilizado",
-      "imagen": "img/capilar/PKP0074.jpg",
-      "agotado": false,
-      "marca": "Prokpil"
-    },
-    {
       "id": "p0055",
       "nombre": "Gel Definidor Tongolé X500ML",
       "referencia": "TONGOLE10",
@@ -650,17 +520,6 @@
       "imagen": "img/capilar/10032-3.jpg",
       "agotado": false,
       "marca": "Ponto"
-    },
-    {
-      "id": "p0059",
-      "nombre": "Humo X300ML Prokapil",
-      "referencia": "PKP0024",
-      "precio": 30000,
-      "categoria": "Línea Capilar",
-      "subcategoria": "Mascarillas y tratamientos",
-      "imagen": "img/capilar/PKP0024.jpg",
-      "agotado": false,
-      "marca": "Prokpil"
     },
     {
       "id": "p0060",
@@ -729,39 +588,6 @@
       "marca": "Kaba"
     },
     {
-      "id": "p0066",
-      "nombre": "Kalos Mascarilla Reparadora S.o.s X320G",
-      "referencia": "KALOS-01",
-      "precio": 40000,
-      "categoria": "Línea Capilar",
-      "subcategoria": "Mascarillas y tratamientos",
-      "imagen": "img/capilar/KALOS-01.jpg",
-      "agotado": false,
-      "marca": "Kalos"
-    },
-    {
-      "id": "p0067",
-      "nombre": "Kit Mini Perfumes Citricos 40ML X 3 Click Hair",
-      "referencia": "CLICKHAIR12",
-      "precio": 47000,
-      "categoria": "Línea Capilar",
-      "subcategoria": "Perfumes capilares",
-      "imagen": "img/capilar/CLICKHAIR12.jpg",
-      "agotado": false,
-      "marca": "Click Hair"
-    },
-    {
-      "id": "p0068",
-      "nombre": "Kit Mini Perfumes Dulces 40ML X 3 Click Hair",
-      "referencia": "CLICKHAIR13",
-      "precio": 47000,
-      "categoria": "Línea Capilar",
-      "subcategoria": "Perfumes capilares",
-      "imagen": "img/capilar/CLICKHAIR13.webp",
-      "agotado": false,
-      "marca": "Click Hair"
-    },
-    {
       "id": "p0069",
       "nombre": "Kt Ld Easy Lisse 500ML",
       "referencia": "PF023346",
@@ -825,7 +651,8 @@
       "subcategoria": "Mascarillas y tratamientos",
       "imagen": "img/capilar/LR-E4033601.jpg",
       "agotado": false,
-      "marca": "L'Oréal"
+      "marca": "L'Oréal",
+      "nuevo": true
     },
     {
       "id": "p0075",
@@ -875,12 +702,13 @@
       "id": "p0079",
       "nombre": "Loreal Curl Expression Mascarilla 250ML",
       "referencia": "LR-E3827001",
-      "precio": 125000,
+      "precio": 136900,
       "categoria": "Línea Capilar",
       "subcategoria": "Mascarillas y tratamientos",
       "imagen": "img/capilar/LR-E3827001.jpg",
       "agotado": false,
-      "marca": "L'Oréal"
+      "marca": "L'Oréal",
+      "nuevo": true
     },
     {
       "id": "p0080",
@@ -891,7 +719,8 @@
       "subcategoria": "Acondicionadores",
       "imagen": "img/capilar/LR-E4033401.jpg",
       "agotado": false,
-      "marca": "L'Oréal"
+      "marca": "L'Oréal",
+      "nuevo": true
     },
     {
       "id": "p0081",
@@ -902,7 +731,8 @@
       "subcategoria": "Mascarillas y tratamientos",
       "imagen": "img/capilar/LR-E571802.jpg",
       "agotado": false,
-      "marca": "L'Oréal"
+      "marca": "L'Oréal",
+      "nuevo": true
     },
     {
       "id": "p0082",
@@ -949,28 +779,6 @@
       "marca": "Otras"
     },
     {
-      "id": "p0086",
-      "nombre": "Mascarilla Milkeratinx 350ML",
-      "referencia": "PKP0114",
-      "precio": 37000,
-      "categoria": "Línea Capilar",
-      "subcategoria": "Mascarillas y tratamientos",
-      "imagen": "img/capilar/PKP0114.jpg",
-      "agotado": false,
-      "marca": "Prokpil"
-    },
-    {
-      "id": "p0087",
-      "nombre": "Mascarilla 4 en 1 Curly Magic Hair X500ML",
-      "referencia": "MAGICHAIR16",
-      "precio": 40000,
-      "categoria": "Línea Capilar",
-      "subcategoria": "Mascarillas y tratamientos",
-      "imagen": "img/capilar/MAGICHAIR16.jpg",
-      "agotado": false,
-      "marca": "Magic Hair"
-    },
-    {
       "id": "p0088",
       "nombre": "Mascarilla Ancestral la Pocion X 350ML",
       "referencia": "POCION1",
@@ -982,17 +790,6 @@
       "marca": "La Poción"
     },
     {
-      "id": "p0089",
-      "nombre": "Mascarilla Anyeluz Nutritiva de Banano 3000ML",
-      "referencia": "ANYELUZ13",
-      "precio": 39000,
-      "categoria": "Línea Capilar",
-      "subcategoria": "Mascarillas y tratamientos",
-      "imagen": "img/capilar/ANYELUZ13.jpg",
-      "agotado": false,
-      "marca": "Anyeluz"
-    },
-    {
       "id": "p0090",
       "nombre": "Mascarilla Capilar Romero",
       "referencia": "PODERH8",
@@ -1002,28 +799,6 @@
       "imagen": null,
       "agotado": false,
       "marca": "Otras"
-    },
-    {
-      "id": "p0091",
-      "nombre": "Mascarilla Capilar Hechizo Total X 400ML Brujeria",
-      "referencia": "HECHIZO",
-      "precio": 33000,
-      "categoria": "Línea Capilar",
-      "subcategoria": "Mascarillas y tratamientos",
-      "imagen": "img/capilar/HECHIZO.jpg",
-      "agotado": false,
-      "marca": "Brujería"
-    },
-    {
-      "id": "p0092",
-      "nombre": "Mascarilla Crepel Fco 350G",
-      "referencia": "88523",
-      "precio": 34500,
-      "categoria": "Línea Capilar",
-      "subcategoria": "Mascarillas y tratamientos",
-      "imagen": "img/capilar/88523.jpg",
-      "agotado": false,
-      "marca": "Crecepel"
     },
     {
       "id": "p0093",
@@ -1046,17 +821,6 @@
       "imagen": "img/capilar/MILAGROS3.jpg",
       "agotado": false,
       "marca": "Milagros"
-    },
-    {
-      "id": "p0095",
-      "nombre": "Mascarilla Reparadora Anyeluz Afro",
-      "referencia": "MASANYAFR",
-      "precio": 49000,
-      "categoria": "Línea Capilar",
-      "subcategoria": "Mascarillas y tratamientos",
-      "imagen": "img/capilar/MASANYAFR.jpg",
-      "agotado": false,
-      "marca": "Anyeluz"
     },
     {
       "id": "p0096",
@@ -1136,28 +900,6 @@
       "marca": "Milagros"
     },
     {
-      "id": "p0103",
-      "nombre": "Mokachino X300 ML",
-      "referencia": "PKP0085",
-      "precio": 30000,
-      "categoria": "Línea Capilar",
-      "subcategoria": "Mascarillas y tratamientos",
-      "imagen": "img/capilar/PKP0085.jpg",
-      "agotado": false,
-      "marca": "Prokpil"
-    },
-    {
-      "id": "p0104",
-      "nombre": "Negro X300 ML Prokapil",
-      "referencia": "PKP00007",
-      "precio": 30000,
-      "categoria": "Línea Capilar",
-      "subcategoria": "Mascarillas y tratamientos",
-      "imagen": "img/capilar/PKP00007.jpg",
-      "agotado": false,
-      "marca": "Prokpil"
-    },
-    {
       "id": "p0105",
       "nombre": "Nutrivela Shampoo 400ML",
       "referencia": "SHAMP1659",
@@ -1178,17 +920,6 @@
       "imagen": "img/capilar/RITUAL10.jpg",
       "agotado": false,
       "marca": "Ritual Botánico"
-    },
-    {
-      "id": "p0107",
-      "nombre": "Oro Rosa X300ML",
-      "referencia": "PKP0089",
-      "precio": 30000,
-      "categoria": "Línea Capilar",
-      "subcategoria": "Mascarillas y tratamientos",
-      "imagen": "img/capilar/PKP0089.webp",
-      "agotado": false,
-      "marca": "Prokpil"
     },
     {
       "id": "p0108",
@@ -1525,17 +1256,6 @@
       "marca": "La Poción"
     },
     {
-      "id": "p0138",
-      "nombre": "Rinse Milkeratin X 300ML Prokapil",
-      "referencia": "PKP0039",
-      "precio": 31000,
-      "categoria": "Línea Capilar",
-      "subcategoria": "Acondicionadores",
-      "imagen": "img/capilar/PKP0039.jpg",
-      "agotado": false,
-      "marca": "Prokpil"
-    },
-    {
       "id": "p0139",
       "nombre": "Ritual Botanico Keratina 1000ML",
       "referencia": "RITUAL13",
@@ -1556,17 +1276,6 @@
       "imagen": "img/capilar/RITUAL7.jpg",
       "agotado": false,
       "marca": "Ritual Botánico"
-    },
-    {
-      "id": "p0141",
-      "nombre": "Rojo X300 ML Prokapil",
-      "referencia": "PKP0010",
-      "precio": 30000,
-      "categoria": "Línea Capilar",
-      "subcategoria": "Mascarillas y tratamientos",
-      "imagen": "img/capilar/PKP0010.jpg",
-      "agotado": false,
-      "marca": "Prokpil"
     },
     {
       "id": "p0142",
@@ -1778,17 +1487,6 @@
       "marca": "Alfaparf"
     },
     {
-      "id": "p0162",
-      "nombre": "Shampoo Humectante Crespos X300ML Proka",
-      "referencia": "PKP0072",
-      "precio": 27000,
-      "categoria": "Línea Capilar",
-      "subcategoria": "Shampoos",
-      "imagen": "img/capilar/PKP0072.jpg",
-      "agotado": false,
-      "marca": "Prokpil"
-    },
-    {
       "id": "p0163",
       "nombre": "Shampoo Anyeluz Coctel de Frutas X500ML",
       "referencia": "ANYELUZ5",
@@ -1803,17 +1501,6 @@
       ]
     },
     {
-      "id": "p0164",
-      "nombre": "Shampoo Cebolla",
-      "referencia": "PODERH3",
-      "precio": 31000,
-      "categoria": "Línea Capilar",
-      "subcategoria": "Shampoos",
-      "imagen": "img/capilar/PODERH3.jpg",
-      "agotado": false,
-      "marca": "Otras"
-    },
-    {
       "id": "p0165",
       "nombre": "Shampoo Coco",
       "referencia": "PODERH1",
@@ -1823,28 +1510,6 @@
       "imagen": null,
       "agotado": false,
       "marca": "Otras"
-    },
-    {
-      "id": "p0166",
-      "nombre": "Shampoo Color Care Prokapil",
-      "referencia": "PKP0034",
-      "precio": 29000,
-      "categoria": "Línea Capilar",
-      "subcategoria": "Shampoos",
-      "imagen": "img/capilar/PKP0034.jpg",
-      "agotado": false,
-      "marca": "Prokpil"
-    },
-    {
-      "id": "p0167",
-      "nombre": "Shampoo Crecepel Fco X 350ML",
-      "referencia": "88530",
-      "precio": 34500,
-      "categoria": "Línea Capilar",
-      "subcategoria": "Shampoos",
-      "imagen": "img/capilar/88530.jpg",
-      "agotado": false,
-      "marca": "Crecepel"
     },
     {
       "id": "p0168",
@@ -1879,28 +1544,6 @@
       "categoria": "Línea Capilar",
       "subcategoria": "Shampoos",
       "imagen": null,
-      "agotado": false,
-      "marca": "Otras"
-    },
-    {
-      "id": "p0171",
-      "nombre": "Shampoo Kids",
-      "referencia": "PODERH4",
-      "precio": 31000,
-      "categoria": "Línea Capilar",
-      "subcategoria": "Shampoos",
-      "imagen": null,
-      "agotado": false,
-      "marca": "Otras"
-    },
-    {
-      "id": "p0172",
-      "nombre": "Shampoo la Plansha Ionx 250GRS",
-      "referencia": "88561",
-      "precio": 34500,
-      "categoria": "Línea Capilar",
-      "subcategoria": "Shampoos",
-      "imagen": "img/capilar/88561.jpg",
       "agotado": false,
       "marca": "Otras"
     },
@@ -2040,28 +1683,6 @@
       "marca": "La Poción"
     },
     {
-      "id": "p0185",
-      "nombre": "Shampoo Vinagre de Manzana Ole",
-      "referencia": "OLE9",
-      "precio": 37000,
-      "categoria": "Línea Capilar",
-      "subcategoria": "Shampoos",
-      "imagen": "img/capilar/OLE9.jpg",
-      "agotado": false,
-      "marca": "Olé"
-    },
-    {
-      "id": "p0186",
-      "nombre": "Silicona Styles XXI 60 ML",
-      "referencia": "SILI13",
-      "precio": 14500,
-      "categoria": "Línea Capilar",
-      "subcategoria": "Mascarillas y tratamientos",
-      "imagen": "img/capilar/SILI13.jpg",
-      "agotado": false,
-      "marca": "Styles XXI"
-    },
-    {
       "id": "p0187",
       "nombre": "Skala Tratamiento Surtido",
       "referencia": "10619",
@@ -2080,17 +1701,6 @@
         "img/capilar/10619(6).jpg",
         "img/capilar/10619(7).jpg"
       ]
-    },
-    {
-      "id": "p0188",
-      "nombre": "Sobre Shampoo Natural Fortalecedor Kids 100G",
-      "referencia": "MILAGROS40",
-      "precio": 10900,
-      "categoria": "Línea Capilar",
-      "subcategoria": "Shampoos",
-      "imagen": "img/capilar/MILAGROS40.jpg",
-      "agotado": false,
-      "marca": "Milagros"
     },
     {
       "id": "p0189",
@@ -2113,17 +1723,6 @@
       "imagen": "img/capilar/PKP0121.webp",
       "agotado": false,
       "marca": "Prokpil"
-    },
-    {
-      "id": "p0191",
-      "nombre": "Terapia Capilar Anyeluz de Cebolla X300ML",
-      "referencia": "ANYELUZ3",
-      "precio": 37000,
-      "categoria": "Línea Capilar",
-      "subcategoria": "Mascarillas y tratamientos",
-      "imagen": "img/capilar/ANYELUZ3.jpg",
-      "agotado": false,
-      "marca": "Anyeluz"
     },
     {
       "id": "p0192",
@@ -2280,17 +1879,6 @@
       "marca": "Milagros"
     },
     {
-      "id": "p0206",
-      "nombre": "Tratamiento Nutritivo de Anyeluz X500ML",
-      "referencia": "ANYELUZ8",
-      "precio": 35000,
-      "categoria": "Línea Capilar",
-      "subcategoria": "Mascarillas y tratamientos",
-      "imagen": "img/capilar/ANYELUZ8.jpg",
-      "agotado": false,
-      "marca": "Anyeluz"
-    },
-    {
       "id": "p0207",
       "nombre": "Tratamiento Reparador Anyeplex X250ML",
       "referencia": "ANYELUZ9",
@@ -2313,17 +1901,6 @@
       "marca": "Kaba"
     },
     {
-      "id": "p0209",
-      "nombre": "Tratamiento Romero y Quinua Isabely 450ML",
-      "referencia": "24476-2",
-      "precio": 30000,
-      "categoria": "Línea Capilar",
-      "subcategoria": "Mascarillas y tratamientos",
-      "imagen": "img/capilar/24476-2.jpg",
-      "agotado": false,
-      "marca": "Isabely"
-    },
-    {
       "id": "p0210",
       "nombre": "Tratamiento Tongole X 450ML la Pocion",
       "referencia": "5",
@@ -2333,17 +1910,6 @@
       "imagen": "img/capilar/5.jpg",
       "agotado": false,
       "marca": "La Poción"
-    },
-    {
-      "id": "p0211",
-      "nombre": "Violeta Rojizo",
-      "referencia": "PKP0109",
-      "precio": 30000,
-      "categoria": "Línea Capilar",
-      "subcategoria": "Mascarillas y tratamientos",
-      "imagen": "img/capilar/PKP0109.jpg",
-      "agotado": false,
-      "marca": "Prokpil"
     },
     {
       "id": "p0212",
@@ -7815,17 +7381,6 @@
       "marca": "Mixsoon"
     },
     {
-      "id": "p0722",
-      "nombre": "Cepillo Koreano",
-      "referencia": "CEK-B",
-      "precio": 15000,
-      "categoria": "Skincare",
-      "subcategoria": "Cremas e hidratantes",
-      "imagen": null,
-      "agotado": false,
-      "marca": "Otras"
-    },
-    {
       "id": "p0723",
       "nombre": "Cica Calming Sun Cream Deluxe 10ML",
       "referencia": "TOCOBO42",
@@ -8023,17 +7578,6 @@
       "imagen": "img/skincare/BEAUTY4.webp",
       "agotado": false,
       "marca": "Beauty of Joseon"
-    },
-    {
-      "id": "p0742",
-      "nombre": "Escaner Facial",
-      "referencia": "FOCUSSKIN",
-      "precio": 50000,
-      "categoria": "Skincare",
-      "subcategoria": "Cremas e hidratantes",
-      "imagen": "img/skincare/FOCUSSKIN.jpg",
-      "agotado": false,
-      "marca": "Otras"
     },
     {
       "id": "p0743",
@@ -8807,17 +8351,6 @@
       "categoria": "Skincare",
       "subcategoria": "Protección solar",
       "imagen": "img/skincare/TIRTIR11.webp",
-      "agotado": false,
-      "marca": "TIRTIR"
-    },
-    {
-      "id": "p0820",
-      "nombre": "Mask Fir Red Sushion SPF 40 Pa++ 28N Oat",
-      "referencia": "TIRTIR16",
-      "precio": 130000,
-      "categoria": "Skincare",
-      "subcategoria": "Protección solar",
-      "imagen": "img/skincare/TIRTIR16.jpg",
       "agotado": false,
       "marca": "TIRTIR"
     },
@@ -9683,7 +9216,7 @@
       "categoria": "Skincare",
       "subcategoria": "Cremas e hidratantes",
       "imagen": "img/skincare/DR-MELAXIN02.webp",
-      "agotado": false,
+      "agotado": true,
       "marca": "Otras"
     },
     {
@@ -10094,17 +9627,6 @@
       "marca": "Heliocare"
     },
     {
-      "id": "p0947",
-      "nombre": "Ponds Crema Facial CLARAB3 Tubo 100ML",
-      "referencia": "CREMA159",
-      "precio": 28000,
-      "categoria": "Cuidado Facial",
-      "subcategoria": "Cremas y serums",
-      "imagen": "img/facial/CREMA159.webp",
-      "agotado": false,
-      "marca": "Pond's"
-    },
-    {
       "id": "p0948",
       "nombre": "Serum Anti Ojeras Gycolic Bright Loreal X 20G",
       "referencia": "11599",
@@ -10193,28 +9715,6 @@
       "marca": "Class Gold"
     },
     {
-      "id": "p0956",
-      "nombre": "Algodon 20G",
-      "referencia": "MEDIC25",
-      "precio": 1500,
-      "categoria": "Cuidado Personal",
-      "subcategoria": "Higiene y otros",
-      "imagen": null,
-      "agotado": false,
-      "marca": "Otras"
-    },
-    {
-      "id": "p0957",
-      "nombre": "Algodon 50GM",
-      "referencia": "MEDIC26",
-      "precio": 2500,
-      "categoria": "Cuidado Personal",
-      "subcategoria": "Higiene y otros",
-      "imagen": null,
-      "agotado": false,
-      "marca": "Otras"
-    },
-    {
       "id": "p0958",
       "nombre": "Australian Gold Instant Bronzer 4 Spray 237ML",
       "referencia": "AUST-01",
@@ -10224,28 +9724,6 @@
       "imagen": "img/personal/AUST-01.webp",
       "agotado": false,
       "marca": "Australian Gold"
-    },
-    {
-      "id": "p0959",
-      "nombre": "Babaria Gel de Ducha Aloe 600ML",
-      "referencia": "BABA-02",
-      "precio": 20000,
-      "categoria": "Cuidado Personal",
-      "subcategoria": "Higiene y otros",
-      "imagen": "img/personal/BABA-02.jpg",
-      "agotado": false,
-      "marca": "Babaria"
-    },
-    {
-      "id": "p0960",
-      "nombre": "Babaria Laca Oro 400 ML",
-      "referencia": "20042",
-      "precio": 28000,
-      "categoria": "Cuidado Personal",
-      "subcategoria": "Higiene y otros",
-      "imagen": "img/personal/20042.webp",
-      "agotado": false,
-      "marca": "Babaria"
     },
     {
       "id": "p0961",
@@ -10501,17 +9979,6 @@
       "marca": "Dromatic"
     },
     {
-      "id": "p0984",
-      "nombre": "Estuche Piel y Luminosa X 250ML Vlasy Naranjada",
-      "referencia": "110023",
-      "precio": 25000,
-      "categoria": "Cuidado Personal",
-      "subcategoria": "Higiene y otros",
-      "imagen": "img/personal/110023.jpg",
-      "agotado": false,
-      "marca": "Vlasy"
-    },
-    {
       "id": "p0985",
       "nombre": "Exfoliante Corporal Green Glow 350ML",
       "referencia": "VIVE24",
@@ -10556,28 +10023,6 @@
       "marca": "Otras"
     },
     {
-      "id": "p0989",
-      "nombre": "Glow By Mar Crema Glitter X 50 GR",
-      "referencia": "MA-91005",
-      "precio": 11000,
-      "categoria": "Cuidado Personal",
-      "subcategoria": "Cremas corporales",
-      "imagen": "img/personal/MA-91005.webp",
-      "agotado": false,
-      "marca": "Glow by Mar"
-    },
-    {
-      "id": "p0990",
-      "nombre": "Glow By Mar para Manos 200GR",
-      "referencia": "MA-9100",
-      "precio": 15000,
-      "categoria": "Cuidado Personal",
-      "subcategoria": "Cremas corporales",
-      "imagen": "img/personal/MA-9100.jpg",
-      "agotado": false,
-      "marca": "Glow by Mar"
-    },
-    {
       "id": "p0991",
       "nombre": "Helado Corporal Cacao Tropical Vive Beauty 170GR",
       "referencia": "VIVE04",
@@ -10596,17 +10041,6 @@
       "categoria": "Cuidado Personal",
       "subcategoria": "Higiene y otros",
       "imagen": "img/personal/LACTO-01.jpg",
-      "agotado": false,
-      "marca": "Otras"
-    },
-    {
-      "id": "p0993",
-      "nombre": "Leche de Coco X 60ML",
-      "referencia": "MPSL-60ML",
-      "precio": 10000,
-      "categoria": "Cuidado Personal",
-      "subcategoria": "Higiene y otros",
-      "imagen": null,
       "agotado": false,
       "marca": "Otras"
     },
@@ -10743,17 +10177,6 @@
       "marca": "Otras"
     },
     {
-      "id": "p1006",
-      "nombre": "Sanitizante 125ML",
-      "referencia": "MLPW*125ML",
-      "precio": 13000,
-      "categoria": "Cuidado Personal",
-      "subcategoria": "Higiene y otros",
-      "imagen": null,
-      "agotado": false,
-      "marca": "Otras"
-    },
-    {
       "id": "p1007",
       "nombre": "Shampoo Zero Sal 250 ML",
       "referencia": "S243",
@@ -10774,17 +10197,6 @@
       "imagen": "img/personal/10660.jpeg",
       "agotado": false,
       "marca": "Skala"
-    },
-    {
-      "id": "p1009",
-      "nombre": "Splash Boreal 260ML Vlasy",
-      "referencia": "510046",
-      "precio": 12000,
-      "categoria": "Cuidado Personal",
-      "subcategoria": "Cremas corporales",
-      "imagen": "img/personal/510046.webp",
-      "agotado": false,
-      "marca": "Vlasy"
     },
     {
       "id": "p1010",
@@ -13725,7 +13137,7 @@
     },
     {
       "id": "p1246",
-      "nombre": "Perfume Mist #48 240ML",
+      "nombre": "Perfume Mist #40 240ML",
       "referencia": "SOLDEJANEIRO04",
       "precio": 190000,
       "categoria": "Importados",
@@ -13962,6 +13374,459 @@
       "imagen": "img/personal/CANDE-01.jpg",
       "agotado": false,
       "nuevo": true
+    },
+    {
+      "id": "p1266",
+      "nombre": "Loreal Arcilla Purificadora Scalp Advanced",
+      "referencia": "LR-E3848301",
+      "precio": 137500,
+      "categoria": "Línea Capilar",
+      "subcategoria": "Mascarillas y tratamientos",
+      "marca": "L'Oréal",
+      "imagen": null,
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1267",
+      "nombre": "Loreal Shampoo Scalp Advanced 300ML",
+      "referencia": "LR-E3886001",
+      "precio": 110000,
+      "categoria": "Línea Capilar",
+      "subcategoria": "Shampoos",
+      "marca": "L'Oréal",
+      "imagen": null,
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1268",
+      "nombre": "Loreal Mascarilla Keratin Alpha Sleek 250ML",
+      "referencia": "LR-E4565500",
+      "precio": 146500,
+      "categoria": "Línea Capilar",
+      "subcategoria": "Mascarillas y tratamientos",
+      "marca": "L'Oréal",
+      "imagen": null,
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1269",
+      "nombre": "Loreal Serum Keratin Alpha Sleek 50ML",
+      "referencia": "LR-E4564700",
+      "precio": 178000,
+      "categoria": "Línea Capilar",
+      "subcategoria": "Aceites y serums capilares",
+      "marca": "L'Oréal",
+      "imagen": null,
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1270",
+      "nombre": "Loreal Smooth Transformer Keratin Alpha Sleek 200ML",
+      "referencia": "LR-E4563900",
+      "precio": 132000,
+      "categoria": "Línea Capilar",
+      "subcategoria": "Cremas para peinar y estilizado",
+      "marca": "L'Oréal",
+      "imagen": null,
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1271",
+      "nombre": "Loreal Shampoo Keratin Alpha Sleek 300ML",
+      "referencia": "LR-E4566100",
+      "precio": 112900,
+      "categoria": "Línea Capilar",
+      "subcategoria": "Shampoos",
+      "marca": "L'Oréal",
+      "imagen": null,
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1272",
+      "nombre": "Loreal Acondicionador Vitamino Color 200ML",
+      "referencia": "LR-E3567903",
+      "precio": 118900,
+      "categoria": "Línea Capilar",
+      "subcategoria": "Acondicionadores",
+      "marca": "L'Oréal",
+      "imagen": null,
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1273",
+      "nombre": "Loreal Shampoo Vitamino Color 300ML",
+      "referencia": "LR-E3566001",
+      "precio": 108000,
+      "categoria": "Línea Capilar",
+      "subcategoria": "Shampoos",
+      "marca": "L'Oréal",
+      "imagen": null,
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1274",
+      "nombre": "Loreal Curl Expression Jell 250ML",
+      "referencia": "LR-E3826201",
+      "precio": 136900,
+      "categoria": "Línea Capilar",
+      "subcategoria": "Cremas para peinar y estilizado",
+      "marca": "L'Oréal",
+      "imagen": null,
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1275",
+      "nombre": "Loreal Shampoo Curl Expression 300ML",
+      "referencia": "LR-E354802",
+      "precio": 111500,
+      "categoria": "Línea Capilar",
+      "subcategoria": "Shampoos",
+      "marca": "L'Oréal",
+      "imagen": null,
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1276",
+      "nombre": "Loreal Aceite Absolut Repair 90ML",
+      "referencia": "LR-E3574501",
+      "precio": 163500,
+      "categoria": "Línea Capilar",
+      "subcategoria": "Aceites y serums capilares",
+      "marca": "L'Oréal",
+      "imagen": null,
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1277",
+      "nombre": "Loreal Acondicionador Absolut Repair 200ML",
+      "referencia": "LR-E357801",
+      "precio": 115900,
+      "categoria": "Línea Capilar",
+      "subcategoria": "Acondicionadores",
+      "marca": "L'Oréal",
+      "imagen": null,
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1278",
+      "nombre": "Loreal Mascarilla Absolut Repair 250ML",
+      "referencia": "LR-E3557702",
+      "precio": 135000,
+      "categoria": "Línea Capilar",
+      "subcategoria": "Mascarillas y tratamientos",
+      "marca": "L'Oréal",
+      "imagen": null,
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1279",
+      "nombre": "Loreal Shampoo Absolut Repair 300ML",
+      "referencia": "LR-E3547402",
+      "precio": 108000,
+      "categoria": "Línea Capilar",
+      "subcategoria": "Shampoos",
+      "marca": "L'Oréal",
+      "imagen": null,
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1280",
+      "nombre": "Loreal Shampoo Absolut Repair 500ML",
+      "referencia": "LR-E3557703",
+      "precio": 132900,
+      "categoria": "Línea Capilar",
+      "subcategoria": "Shampoos",
+      "marca": "L'Oréal",
+      "imagen": null,
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1281",
+      "nombre": "Loreal Shampoo Absolut Repair Molecular 300ML",
+      "referencia": "LR-E4033800",
+      "precio": 119000,
+      "categoria": "Línea Capilar",
+      "subcategoria": "Shampoos",
+      "marca": "L'Oréal",
+      "imagen": null,
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1282",
+      "nombre": "Alfaparf Sdl Sublime Cristalli Liquidi 30ML",
+      "referencia": "PF025388",
+      "precio": 88000,
+      "categoria": "Línea Capilar",
+      "subcategoria": "Aceites y serums capilares",
+      "marca": "Alfaparf",
+      "imagen": null,
+      "agotado": false
+    },
+    {
+      "id": "p1283",
+      "nombre": "Alfaparf Sdl Sublime Cristalli Liquidi 15ML",
+      "referencia": "PF025387",
+      "precio": 64000,
+      "categoria": "Línea Capilar",
+      "subcategoria": "Aceites y serums capilares",
+      "marca": "Alfaparf",
+      "imagen": null,
+      "agotado": false
+    },
+    {
+      "id": "p1284",
+      "nombre": "Perfume Click Hair Mocca Shake",
+      "referencia": "CLICKHAIR35",
+      "precio": 39900,
+      "categoria": "Línea Capilar",
+      "subcategoria": "Perfumes capilares",
+      "marca": "Click Hair",
+      "imagen": null,
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1285",
+      "nombre": "Perfume Click Hair Golden Toffee",
+      "referencia": "CLICKHAIR34",
+      "precio": 39900,
+      "categoria": "Línea Capilar",
+      "subcategoria": "Perfumes capilares",
+      "marca": "Click Hair",
+      "imagen": null,
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1286",
+      "nombre": "Perfume Click Hair Vainilla Glaze",
+      "referencia": "CLICKHAIR36",
+      "precio": 39900,
+      "categoria": "Línea Capilar",
+      "subcategoria": "Perfumes capilares",
+      "marca": "Click Hair",
+      "imagen": null,
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1287",
+      "nombre": "Perfume de Miel Click Hair X100ML",
+      "referencia": "CLICKHAIR20",
+      "precio": 56000,
+      "categoria": "Línea Capilar",
+      "subcategoria": "Perfumes capilares",
+      "marca": "Click Hair",
+      "imagen": null,
+      "agotado": false
+    },
+    {
+      "id": "p1288",
+      "nombre": "Perfume Capilar Miel y Masmelo 100ML Click Hair",
+      "referencia": "CLICKHAIR30",
+      "precio": 56000,
+      "categoria": "Línea Capilar",
+      "subcategoria": "Perfumes capilares",
+      "marca": "Click Hair",
+      "imagen": null,
+      "agotado": false
+    },
+    {
+      "id": "p1289",
+      "nombre": "Perfume Capilar Miel y Pistacho 100ML Click Hair",
+      "referencia": "CLICKHAIR31",
+      "precio": 56000,
+      "categoria": "Línea Capilar",
+      "subcategoria": "Perfumes capilares",
+      "marca": "Click Hair",
+      "imagen": null,
+      "agotado": false
+    },
+    {
+      "id": "p1290",
+      "nombre": "Shampoo Click Cabello Graso de Aji X300ML",
+      "referencia": "CLICKHAIR19",
+      "precio": 45900,
+      "categoria": "Línea Capilar",
+      "subcategoria": "Shampoos",
+      "marca": "Click Hair",
+      "imagen": null,
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1291",
+      "nombre": "Miel para el Cabello Click Hair X20ML",
+      "referencia": "14851",
+      "precio": 27900,
+      "categoria": "Línea Capilar",
+      "subcategoria": "Mascarillas y tratamientos",
+      "marca": "Click Hair",
+      "imagen": null,
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1292",
+      "nombre": "Perfume Capilar Milagros Bali X120ML",
+      "referencia": "25",
+      "precio": 28000,
+      "categoria": "Línea Capilar",
+      "subcategoria": "Perfumes capilares",
+      "marca": "Milagros",
+      "imagen": null,
+      "agotado": false
+    },
+    {
+      "id": "p1293",
+      "nombre": "Shampoo Milagros Magia Capilar X450ML",
+      "referencia": "27",
+      "precio": 33900,
+      "categoria": "Línea Capilar",
+      "subcategoria": "Shampoos",
+      "marca": "Milagros",
+      "imagen": null,
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1294",
+      "nombre": "Milagros Mascarilla de Cebolla",
+      "referencia": "MILAGROS37",
+      "precio": 38000,
+      "categoria": "Línea Capilar",
+      "subcategoria": "Mascarillas y tratamientos",
+      "marca": "Milagros",
+      "imagen": null,
+      "agotado": false
+    },
+    {
+      "id": "p1295",
+      "nombre": "Mascarilla Romero Milagros",
+      "referencia": "MILAGROS4",
+      "precio": 36000,
+      "categoria": "Línea Capilar",
+      "subcategoria": "Mascarillas y tratamientos",
+      "marca": "Milagros",
+      "imagen": null,
+      "agotado": false
+    },
+    {
+      "id": "p1296",
+      "nombre": "Acondicionador Milagros Cebolla X100ML",
+      "referencia": "14442",
+      "precio": 15000,
+      "categoria": "Línea Capilar",
+      "subcategoria": "Acondicionadores",
+      "marca": "Milagros",
+      "imagen": null,
+      "agotado": false
+    },
+    {
+      "id": "p1297",
+      "nombre": "Ampolla Milagros Rescate Instantaneo",
+      "referencia": "34",
+      "precio": 14000,
+      "categoria": "Línea Capilar",
+      "subcategoria": "Mascarillas y tratamientos",
+      "marca": "Milagros",
+      "imagen": null,
+      "agotado": false
+    },
+    {
+      "id": "p1298",
+      "nombre": "Keratina Ritual Botanico X250ML",
+      "referencia": "RITUAL5",
+      "precio": 54000,
+      "categoria": "Línea Capilar",
+      "subcategoria": "Mascarillas y tratamientos",
+      "marca": "Ritual Botánico",
+      "imagen": null,
+      "agotado": false
+    },
+    {
+      "id": "p1299",
+      "nombre": "Keratina Ritual X120ML",
+      "referencia": "RITUAL4",
+      "precio": 34000,
+      "categoria": "Línea Capilar",
+      "subcategoria": "Mascarillas y tratamientos",
+      "marca": "Ritual Botánico",
+      "imagen": null,
+      "agotado": false
+    },
+    {
+      "id": "p1300",
+      "nombre": "Ritual Acondicionador Jalea Ritual",
+      "referencia": "RITUAL15",
+      "precio": 36000,
+      "categoria": "Línea Capilar",
+      "subcategoria": "Acondicionadores",
+      "marca": "Ritual Botánico",
+      "imagen": null,
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1301",
+      "nombre": "Ritual Shampoo Jalea Ritual Botanico 400ML",
+      "referencia": "RITUAL14",
+      "precio": 37000,
+      "categoria": "Línea Capilar",
+      "subcategoria": "Shampoos",
+      "marca": "Ritual Botánico",
+      "imagen": null,
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1302",
+      "nombre": "Tratamiento de Aguacate Ritual Botanico X400ML",
+      "referencia": "TRATAGUA",
+      "precio": 32000,
+      "categoria": "Línea Capilar",
+      "subcategoria": "Mascarillas y tratamientos",
+      "marca": "Ritual Botánico",
+      "imagen": null,
+      "agotado": false
+    },
+    {
+      "id": "p1303",
+      "nombre": "Mascarilla Bomba Botanica S.O.S X400ML",
+      "referencia": "RITUAL6",
+      "precio": 36000,
+      "categoria": "Línea Capilar",
+      "subcategoria": "Mascarillas y tratamientos",
+      "marca": "Ritual Botánico",
+      "imagen": null,
+      "agotado": false
+    },
+    {
+      "id": "p1304",
+      "nombre": "Wella Invigo Nutri-Enrich Shampoo 250ML",
+      "referencia": "PB0076526",
+      "precio": 101900,
+      "categoria": "Línea Capilar",
+      "subcategoria": "Shampoos",
+      "marca": "Wella",
+      "imagen": null,
+      "agotado": false
     }
   ]
 }
