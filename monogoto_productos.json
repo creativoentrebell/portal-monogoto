@@ -106,7 +106,7 @@
       "precio": 20000,
       "categoria": "Línea Capilar",
       "subcategoria": "Aceites y serums capilares",
-      "imagen": "img/capilar/PF016451.jpg",
+      "imagen": "img/capilar/PF016451.webp",
       "agotado": false,
       "marca": "Alfaparf"
     },
@@ -649,7 +649,7 @@
       "precio": 140000,
       "categoria": "Línea Capilar",
       "subcategoria": "Mascarillas y tratamientos",
-      "imagen": "img/capilar/LR-E4033601.jpg",
+      "imagen": "img/capilar/LR-E4033601.webp",
       "agotado": false,
       "marca": "L'Oréal",
       "nuevo": true
@@ -705,7 +705,7 @@
       "precio": 136900,
       "categoria": "Línea Capilar",
       "subcategoria": "Mascarillas y tratamientos",
-      "imagen": "img/capilar/LR-E3827001.jpg",
+      "imagen": "img/capilar/LR-E3827001.webp",
       "agotado": false,
       "marca": "L'Oréal",
       "nuevo": true
@@ -1471,9 +1471,12 @@
       "precio": 137000,
       "categoria": "Línea Capilar",
       "subcategoria": "Mascarillas y tratamientos",
-      "imagen": "img/capilar/PF025389.webp",
+      "imagen": "img/capilar/PF025389_1.webp",
       "agotado": false,
-      "marca": "Alfaparf"
+      "marca": "Alfaparf",
+      "colores": [
+        "img/capilar/PF025389_2.webp"
+      ]
     },
     {
       "id": "p0160",
@@ -1984,7 +1987,7 @@
       "precio": 128000,
       "categoria": "Línea Capilar",
       "subcategoria": "Aceites y serums capilares",
-      "imagen": "img/capilar/PB0091819.jpg",
+      "imagen": "img/capilar/PB0091819.webp",
       "agotado": false,
       "marca": "Wella"
     },
@@ -13383,7 +13386,7 @@
       "categoria": "Línea Capilar",
       "subcategoria": "Mascarillas y tratamientos",
       "marca": "L'Oréal",
-      "imagen": null,
+      "imagen": "img/capilar/LR-E3848301.jpg",
       "agotado": false,
       "nuevo": true
     },
@@ -13395,7 +13398,7 @@
       "categoria": "Línea Capilar",
       "subcategoria": "Shampoos",
       "marca": "L'Oréal",
-      "imagen": null,
+      "imagen": "img/capilar/LR-E3886001.jpg",
       "agotado": false,
       "nuevo": true
     },
@@ -13407,7 +13410,7 @@
       "categoria": "Línea Capilar",
       "subcategoria": "Mascarillas y tratamientos",
       "marca": "L'Oréal",
-      "imagen": null,
+      "imagen": "img/capilar/LR-E4565500.webp",
       "agotado": false,
       "nuevo": true
     },
@@ -13419,7 +13422,7 @@
       "categoria": "Línea Capilar",
       "subcategoria": "Aceites y serums capilares",
       "marca": "L'Oréal",
-      "imagen": null,
+      "imagen": "img/capilar/LR-E4564700.webp",
       "agotado": false,
       "nuevo": true
     },
@@ -13431,7 +13434,7 @@
       "categoria": "Línea Capilar",
       "subcategoria": "Cremas para peinar y estilizado",
       "marca": "L'Oréal",
-      "imagen": null,
+      "imagen": "img/capilar/LR-E4563900.webp",
       "agotado": false,
       "nuevo": true
     },
@@ -13443,7 +13446,7 @@
       "categoria": "Línea Capilar",
       "subcategoria": "Shampoos",
       "marca": "L'Oréal",
-      "imagen": null,
+      "imagen": "img/capilar/LR-E4566100.jpg",
       "agotado": false,
       "nuevo": true
     },
@@ -13455,7 +13458,7 @@
       "categoria": "Línea Capilar",
       "subcategoria": "Acondicionadores",
       "marca": "L'Oréal",
-      "imagen": null,
+      "imagen": "img/capilar/LR-E3567903.webp",
       "agotado": false,
       "nuevo": true
     },
@@ -13467,7 +13470,7 @@
       "categoria": "Línea Capilar",
       "subcategoria": "Shampoos",
       "marca": "L'Oréal",
-      "imagen": null,
+      "imagen": "img/capilar/LR-E3566001.webp",
       "agotado": false,
       "nuevo": true
     },
@@ -13479,7 +13482,7 @@
       "categoria": "Línea Capilar",
       "subcategoria": "Cremas para peinar y estilizado",
       "marca": "L'Oréal",
-      "imagen": null,
+      "imagen": "img/capilar/LR-E3826201.webp",
       "agotado": false,
       "nuevo": true
     },
@@ -13491,7 +13494,7 @@
       "categoria": "Línea Capilar",
       "subcategoria": "Shampoos",
       "marca": "L'Oréal",
-      "imagen": null,
+      "imagen": "img/capilar/LR-E354802.webp",
       "agotado": false,
       "nuevo": true
     },
@@ -13503,7 +13506,7 @@
       "categoria": "Línea Capilar",
       "subcategoria": "Aceites y serums capilares",
       "marca": "L'Oréal",
-      "imagen": null,
+      "imagen": "img/capilar/LR-E3574501.jpg",
       "agotado": false,
       "nuevo": true
     },
@@ -13515,7 +13518,7 @@
       "categoria": "Línea Capilar",
       "subcategoria": "Acondicionadores",
       "marca": "L'Oréal",
-      "imagen": null,
+      "imagen": "img/capilar/LR-E357801.jpg",
       "agotado": false,
       "nuevo": true
     },
@@ -13527,7 +13530,7 @@
       "categoria": "Línea Capilar",
       "subcategoria": "Mascarillas y tratamientos",
       "marca": "L'Oréal",
-      "imagen": null,
+      "imagen": "img/capilar/LR-E3557702.jpg",
       "agotado": false,
       "nuevo": true
     },
@@ -13539,7 +13542,7 @@
       "categoria": "Línea Capilar",
       "subcategoria": "Shampoos",
       "marca": "L'Oréal",
-      "imagen": null,
+      "imagen": "img/capilar/LR-E3547402.png",
       "agotado": false,
       "nuevo": true
     },
@@ -13551,7 +13554,7 @@
       "categoria": "Línea Capilar",
       "subcategoria": "Shampoos",
       "marca": "L'Oréal",
-      "imagen": null,
+      "imagen": "img/capilar/LR-E3557703.jpg",
       "agotado": false,
       "nuevo": true
     },
@@ -13563,7 +13566,7 @@
       "categoria": "Línea Capilar",
       "subcategoria": "Shampoos",
       "marca": "L'Oréal",
-      "imagen": null,
+      "imagen": "img/capilar/LR-E4033800.webp",
       "agotado": false,
       "nuevo": true
     },
@@ -13575,8 +13578,11 @@
       "categoria": "Línea Capilar",
       "subcategoria": "Aceites y serums capilares",
       "marca": "Alfaparf",
-      "imagen": null,
-      "agotado": false
+      "imagen": "img/capilar/PF025388_1.jpg",
+      "agotado": false,
+      "colores": [
+        "img/capilar/PF025388_2.webp"
+      ]
     },
     {
       "id": "p1283",
@@ -13586,8 +13592,11 @@
       "categoria": "Línea Capilar",
       "subcategoria": "Aceites y serums capilares",
       "marca": "Alfaparf",
-      "imagen": null,
-      "agotado": false
+      "imagen": "img/capilar/PF025387_1.webp",
+      "agotado": false,
+      "colores": [
+        "img/capilar/PF025387_2.webp"
+      ]
     },
     {
       "id": "p1284",
@@ -13597,7 +13606,7 @@
       "categoria": "Línea Capilar",
       "subcategoria": "Perfumes capilares",
       "marca": "Click Hair",
-      "imagen": null,
+      "imagen": "img/capilar/CLICKHAIR35.webp",
       "agotado": false,
       "nuevo": true
     },
@@ -13609,7 +13618,7 @@
       "categoria": "Línea Capilar",
       "subcategoria": "Perfumes capilares",
       "marca": "Click Hair",
-      "imagen": null,
+      "imagen": "img/capilar/CLICKHAIR34.webp",
       "agotado": false,
       "nuevo": true
     },
@@ -13621,7 +13630,7 @@
       "categoria": "Línea Capilar",
       "subcategoria": "Perfumes capilares",
       "marca": "Click Hair",
-      "imagen": null,
+      "imagen": "img/capilar/CLICKHAIR36.webp",
       "agotado": false,
       "nuevo": true
     },
@@ -13633,7 +13642,7 @@
       "categoria": "Línea Capilar",
       "subcategoria": "Perfumes capilares",
       "marca": "Click Hair",
-      "imagen": null,
+      "imagen": "img/capilar/CLICKHAIR20.webp",
       "agotado": false
     },
     {
@@ -13644,7 +13653,7 @@
       "categoria": "Línea Capilar",
       "subcategoria": "Perfumes capilares",
       "marca": "Click Hair",
-      "imagen": null,
+      "imagen": "img/capilar/CLICKHAIR30.jpg",
       "agotado": false
     },
     {
@@ -13655,7 +13664,7 @@
       "categoria": "Línea Capilar",
       "subcategoria": "Perfumes capilares",
       "marca": "Click Hair",
-      "imagen": null,
+      "imagen": "img/capilar/CLICKHAIR31.jpg",
       "agotado": false
     },
     {
@@ -13666,7 +13675,7 @@
       "categoria": "Línea Capilar",
       "subcategoria": "Shampoos",
       "marca": "Click Hair",
-      "imagen": null,
+      "imagen": "img/capilar/CLICKHAIR19.webp",
       "agotado": false,
       "nuevo": true
     },
@@ -13678,7 +13687,7 @@
       "categoria": "Línea Capilar",
       "subcategoria": "Mascarillas y tratamientos",
       "marca": "Click Hair",
-      "imagen": null,
+      "imagen": "img/capilar/14851.webp",
       "agotado": false,
       "nuevo": true
     },
@@ -13690,7 +13699,7 @@
       "categoria": "Línea Capilar",
       "subcategoria": "Perfumes capilares",
       "marca": "Milagros",
-      "imagen": null,
+      "imagen": "img/capilar/25.webp",
       "agotado": false
     },
     {
@@ -13701,7 +13710,7 @@
       "categoria": "Línea Capilar",
       "subcategoria": "Shampoos",
       "marca": "Milagros",
-      "imagen": null,
+      "imagen": "img/capilar/27.webp",
       "agotado": false,
       "nuevo": true
     },
@@ -13713,7 +13722,7 @@
       "categoria": "Línea Capilar",
       "subcategoria": "Mascarillas y tratamientos",
       "marca": "Milagros",
-      "imagen": null,
+      "imagen": "img/capilar/MILAGROS37.webp",
       "agotado": false
     },
     {
@@ -13724,7 +13733,7 @@
       "categoria": "Línea Capilar",
       "subcategoria": "Mascarillas y tratamientos",
       "marca": "Milagros",
-      "imagen": null,
+      "imagen": "img/capilar/MILAGROS4.webp",
       "agotado": false
     },
     {
@@ -13735,7 +13744,7 @@
       "categoria": "Línea Capilar",
       "subcategoria": "Acondicionadores",
       "marca": "Milagros",
-      "imagen": null,
+      "imagen": "img/capilar/14442.webp",
       "agotado": false
     },
     {
@@ -13746,7 +13755,7 @@
       "categoria": "Línea Capilar",
       "subcategoria": "Mascarillas y tratamientos",
       "marca": "Milagros",
-      "imagen": null,
+      "imagen": "img/capilar/34.webp",
       "agotado": false
     },
     {
@@ -13757,7 +13766,7 @@
       "categoria": "Línea Capilar",
       "subcategoria": "Mascarillas y tratamientos",
       "marca": "Ritual Botánico",
-      "imagen": null,
+      "imagen": "img/capilar/RITUAL5.webp",
       "agotado": false
     },
     {
@@ -13768,7 +13777,7 @@
       "categoria": "Línea Capilar",
       "subcategoria": "Mascarillas y tratamientos",
       "marca": "Ritual Botánico",
-      "imagen": null,
+      "imagen": "img/capilar/RITUAL4.webp",
       "agotado": false
     },
     {
@@ -13779,7 +13788,7 @@
       "categoria": "Línea Capilar",
       "subcategoria": "Acondicionadores",
       "marca": "Ritual Botánico",
-      "imagen": null,
+      "imagen": "img/capilar/RITUAL15.webp",
       "agotado": false,
       "nuevo": true
     },
@@ -13791,7 +13800,7 @@
       "categoria": "Línea Capilar",
       "subcategoria": "Shampoos",
       "marca": "Ritual Botánico",
-      "imagen": null,
+      "imagen": "img/capilar/RITUAL14.webp",
       "agotado": false,
       "nuevo": true
     },
@@ -13825,7 +13834,7 @@
       "categoria": "Línea Capilar",
       "subcategoria": "Shampoos",
       "marca": "Wella",
-      "imagen": null,
+      "imagen": "img/capilar/PB0076526.webp",
       "agotado": false
     }
   ]
