@@ -6937,7 +6937,7 @@
       "categoria": "Skincare",
       "subcategoria": "Protección solar",
       "imagen": "img/skincare/ANUA27.webp",
-      "agotado": false,
+      "agotado": true,
       "marca": "Anua"
     },
     {
@@ -6948,7 +6948,7 @@
       "categoria": "Skincare",
       "subcategoria": "Mascarillas",
       "imagen": "img/skincare/ANUA29.webp",
-      "agotado": false,
+      "agotado": true,
       "marca": "Anua"
     },
     {
@@ -6959,7 +6959,7 @@
       "categoria": "Skincare",
       "subcategoria": "Mascarillas",
       "imagen": "img/skincare/ANUA30.webp",
-      "agotado": false,
+      "agotado": true,
       "marca": "Anua"
     },
     {
@@ -6992,7 +6992,7 @@
       "categoria": "Skincare",
       "subcategoria": "Mascarillas",
       "imagen": "img/skincare/ANUA23.webp",
-      "agotado": false,
+      "agotado": true,
       "marca": "Anua"
     },
     {
@@ -7391,7 +7391,7 @@
       "categoria": "Skincare",
       "subcategoria": "Protección solar",
       "imagen": "img/skincare/TOCOBO42.webp",
-      "agotado": false,
+      "agotado": true,
       "marca": "Tocobo"
     },
     {
@@ -7447,7 +7447,7 @@
       "categoria": "Skincare",
       "subcategoria": "Cremas e hidratantes",
       "imagen": "img/skincare/ELI-11.webp",
-      "agotado": false,
+      "agotado": true,
       "marca": "Elizavecca"
     },
     {
@@ -7502,7 +7502,7 @@
       "categoria": "Skincare",
       "subcategoria": "Cremas e hidratantes",
       "imagen": "img/skincare/ANUA33.webp",
-      "agotado": false,
+      "agotado": true,
       "marca": "Anua"
     },
     {
@@ -7759,7 +7759,7 @@
       "categoria": "Skincare",
       "subcategoria": "Cremas e hidratantes",
       "imagen": "img/skincare/ANUA7.webp",
-      "agotado": false,
+      "agotado": true,
       "marca": "Anua"
     },
     {
@@ -8034,7 +8034,7 @@
       "categoria": "Skincare",
       "subcategoria": "Cremas e hidratantes",
       "imagen": "img/skincare/SKIN1004-18.webp",
-      "agotado": false,
+      "agotado": true,
       "marca": "SKIN1004"
     },
     {
@@ -8067,7 +8067,7 @@
       "categoria": "Skincare",
       "subcategoria": "Tónicos y esencias",
       "imagen": "img/skincare/SKIN1004-45.webp",
-      "agotado": false,
+      "agotado": true,
       "marca": "SKIN1004"
     },
     {
@@ -8078,7 +8078,7 @@
       "categoria": "Skincare",
       "subcategoria": "Cremas e hidratantes",
       "imagen": "img/skincare/SKIN1004-70.webp",
-      "agotado": false,
+      "agotado": true,
       "marca": "SKIN1004"
     },
     {
@@ -8133,7 +8133,7 @@
       "categoria": "Skincare",
       "subcategoria": "Mascarillas",
       "imagen": "img/skincare/SKIN1004-28.webp",
-      "agotado": false,
+      "agotado": true,
       "marca": "SKIN1004"
     },
     {
@@ -8155,7 +8155,7 @@
       "categoria": "Skincare",
       "subcategoria": "Cremas e hidratantes",
       "imagen": "img/skincare/SKIN1004-72.webp",
-      "agotado": false,
+      "agotado": true,
       "marca": "SKIN1004"
     },
     {
@@ -8166,7 +8166,7 @@
       "categoria": "Skincare",
       "subcategoria": "Cremas e hidratantes",
       "imagen": "img/skincare/SKIN1004-12.webp",
-      "agotado": false,
+      "agotado": true,
       "marca": "SKIN1004"
     },
     {
@@ -8243,7 +8243,7 @@
       "categoria": "Skincare",
       "subcategoria": "Cremas e hidratantes",
       "imagen": "img/skincare/SKIN1004-34.webp",
-      "agotado": false,
+      "agotado": true,
       "marca": "SKIN1004"
     },
     {
