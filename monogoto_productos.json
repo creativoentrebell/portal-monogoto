@@ -13836,6 +13836,18 @@
       "marca": "Wella",
       "imagen": "img/capilar/PB0076526.webp",
       "agotado": false
+    },
+    {
+      "id": "p1305",
+      "nombre": "Loreal Mascarilla Absolut Repair Molecular 250ML",
+      "referencia": "LR-E417300",
+      "precio": 139900,
+      "categoria": "Línea Capilar",
+      "subcategoria": "Mascarillas y tratamientos",
+      "marca": "L'Oréal",
+      "imagen": "img/capilar/LR-E417300.jpg",
+      "agotado": false,
+      "nuevo": true
     }
   ]
 }
