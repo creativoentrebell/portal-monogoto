@@ -69,6 +69,23 @@
   .sub-btn:hover{color:var(--taupe)}
   .sub-btn.active{background:var(--crema-claro);color:var(--tinta)}
 
+  /* ---- Flechas de desplazamiento de la barra de filtros ---- */
+  .cats-scroll{position:relative;max-width:1180px;margin:0 auto}
+  .cats-scroll > .cats-inner,.cats-scroll > .subs{max-width:none;margin-left:0;margin-right:0;scroll-behavior:smooth}
+  .cats-fade{position:absolute;top:0;bottom:0;width:52px;z-index:1;pointer-events:none;opacity:0;transition:opacity .18s}
+  .cats-fade.left{left:0;background:linear-gradient(to right,var(--navbg,rgba(255,255,255,.96)),var(--navbg0,rgba(255,255,255,0)))}
+  .cats-fade.right{right:0;background:linear-gradient(to left,var(--navbg,rgba(255,255,255,.96)),var(--navbg0,rgba(255,255,255,0)))}
+  .cats-arrow{position:absolute;top:50%;transform:translateY(-50%);z-index:2;width:30px;height:30px;padding:0;
+    border-radius:50%;border:none;cursor:pointer;display:none;align-items:center;justify-content:center;
+    background:#fff;color:var(--taupe);box-shadow:0 2px 9px rgba(111,92,72,.3)}
+  .cats-arrow svg{width:15px;height:15px}
+  .cats-arrow.prev{left:0}
+  .cats-arrow.next{right:0}
+  .cats-scroll.can-prev .cats-arrow.prev,.cats-scroll.can-next .cats-arrow.next{display:flex}
+  .cats-scroll.can-prev .cats-fade.left,.cats-scroll.can-next .cats-fade.right{opacity:1}
+  .subs-scroll .cats-arrow{margin-top:5px;width:26px;height:26px}
+  .subs-scroll .cats-arrow svg{width:13px;height:13px}
+
   /* ============ Zona de productos ============ */
   main{background:#fff;min-height:70vh;padding:30px 20px 70px}
   .main-inner{max-width:1180px;margin:0 auto}
@@ -298,7 +315,8 @@
 
   /* ============ Barras café (ago-2026) ============ */
   /* Barra 1 — categorías + subcategorías */
-  nav.cats{background:rgba(177,155,132,.97);border-bottom:1px solid rgba(255,255,255,.22)}
+  nav.cats{background:rgba(177,155,132,.97);border-bottom:1px solid rgba(255,255,255,.22);
+    --navbg:rgba(177,155,132,.97);--navbg0:rgba(177,155,132,0)}
   .cat-btn{background:rgba(255,255,255,.16);color:#fff;border-color:rgba(255,255,255,.34)}
   .cat-btn:hover{background:rgba(255,255,255,.28);border-color:rgba(255,255,255,.5)}
   .cat-btn.active{background:#fff;color:var(--taupe);border-color:#fff}
@@ -308,7 +326,9 @@
   .sub-btn.active{background:rgba(255,255,255,.92);color:var(--tinta)}
 
   /* Barra 1 en modo DU Belleza — azul DU */
-  nav.cats.du{background:rgba(166,216,242,.97);border-bottom-color:rgba(255,255,255,.55)}
+  nav.cats.du{background:rgba(166,216,242,.97);border-bottom-color:rgba(255,255,255,.55);
+    --navbg:rgba(166,216,242,.97);--navbg0:rgba(166,216,242,0)}
+  nav.cats.du .cats-arrow{color:var(--du-azul-txt)}
   nav.cats.du .cat-btn{background:rgba(255,255,255,.34);color:var(--du-azul-txt);border-color:rgba(255,255,255,.6)}
   nav.cats.du .cat-btn:hover{background:rgba(255,255,255,.55);border-color:#fff}
   nav.cats.du .cat-btn.active{background:#fff;color:var(--du-azul-txt);border-color:#fff}
@@ -429,8 +449,18 @@
 </header>
 
 <nav class="cats">
-  <div class="cats-inner" id="catBar"></div>
-  <div class="subs" id="subBar"></div>
+  <div class="cats-scroll">
+    <div class="cats-inner" id="catBar"></div>
+    <div class="cats-fade left"></div><div class="cats-fade right"></div>
+    <button class="cats-arrow prev" type="button" aria-label="Ver filtros anteriores"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg></button>
+    <button class="cats-arrow next" type="button" aria-label="Ver más filtros"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></svg></button>
+  </div>
+  <div class="cats-scroll subs-scroll">
+    <div class="subs" id="subBar"></div>
+    <div class="cats-fade left"></div><div class="cats-fade right"></div>
+    <button class="cats-arrow prev" type="button" aria-label="Ver subcategorías anteriores"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg></button>
+    <button class="cats-arrow next" type="button" aria-label="Ver más subcategorías"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></svg></button>
+  </div>
 </nav>
 
 <section class="destacados" id="destacadosWrap" style="display:none">
@@ -743,6 +773,31 @@ function pintarCats(){
   $('subBar').innerHTML = subs.length ? ['Todas',...subs].map(s =>
     `<button class="sub-btn ${s===sub?'active':''}" data-s="${s}">${s}</button>`).join('') : '';
   $('subBar').querySelectorAll('button').forEach(b => b.onclick = () => { sub = b.dataset.s; marcaSel='todas'; pintarCats(); render(); });
+  actualizarCatArrows();
+}
+
+/* ---------- flechas de desplazamiento de la barra de filtros ---------- */
+function initCatArrows(){
+  document.querySelectorAll('.cats-scroll').forEach(wrap => {
+    const track = wrap.querySelector('.cats-inner, .subs');
+    if(!track) return;
+    const upd = () => {
+      const max = track.scrollWidth - track.clientWidth;
+      wrap.classList.toggle('can-prev', max > 4 && track.scrollLeft > 4);
+      wrap.classList.toggle('can-next', max > 4 && track.scrollLeft < max - 4);
+    };
+    wrap.querySelectorAll('.cats-arrow').forEach(b => b.onclick = () => {
+      const paso = Math.max(120, track.clientWidth * 0.7);
+      track.scrollBy({left: b.classList.contains('prev') ? -paso : paso, behavior:'smooth'});
+    });
+    track.addEventListener('scroll', () => requestAnimationFrame(upd), {passive:true});
+    window.addEventListener('resize', upd);
+    wrap._upd = upd;
+    upd();
+  });
+}
+function actualizarCatArrows(){
+  requestAnimationFrame(() => document.querySelectorAll('.cats-scroll').forEach(w => w._upd && w._upd()));
 }
 
 function precioHTML(p){
@@ -1242,6 +1297,7 @@ $('search').addEventListener('input', e => {
 if(modo === 'mayorista'){ /* se carga en cargar() */ }
 cargarCarritoLS();
 actualizarContadorHeader();
+initCatArrows();
 cargar();
 
 /* Alto del header -> top del nav de categorías */
