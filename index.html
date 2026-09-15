@@ -732,13 +732,23 @@ function baseFiltrada(){
 function normRef(s){
   return String(s || '').toUpperCase().replace(/[\s\-_.]/g, '');
 }
+/* Normaliza nombre/marca para búsqueda: minúsculas, sin tildes, guiones = espacio */
+function normTxt(s){
+  return String(s || '').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+    .replace(/[-\u2010-\u2015]/g, ' ').replace(/\s+/g, ' ').trim();
+}
 function visibles(){
   let list = baseFiltrada();
   if(marcaSel !== 'todas') list = list.filter(p => (p.marca || 'Otras') === marcaSel);
   if(q){
     const t = q.toLowerCase();
     const tNorm = normRef(q);
-    list = list.filter(p => p.nombre.toLowerCase().includes(t) || String(p.referencia).toLowerCase().includes(t) || (p.marca||'').toLowerCase().includes(t) || normRef(p.referencia).includes(tNorm));
+    const palabras = normTxt(q).split(' ').filter(Boolean);
+    list = list.filter(p => {
+      const txt = normTxt(p.nombre + ' ' + (p.marca || ''));
+      const coincideTexto = palabras.length > 0 && palabras.every(w => txt.includes(w));
+      return coincideTexto || String(p.referencia).toLowerCase().includes(t) || normRef(p.referencia).includes(tNorm);
+    });
   }
   if(orden !== 'defecto'){
     list = [...list];
