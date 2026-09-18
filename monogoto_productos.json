@@ -1185,7 +1185,7 @@
       "precio": 39000,
       "categoria": "Línea Capilar",
       "subcategoria": "Mascarillas y tratamientos",
-      "imagen": "img/capilar/10096.jpg",
+      "imagen": "img/capilar/10096.webp",
       "agotado": false,
       "marca": "Ponto"
     },
@@ -1636,10 +1636,7 @@
       "subcategoria": "Shampoos",
       "imagen": "img/capilar/PKP0036.jpg",
       "agotado": false,
-      "marca": "Prokpil",
-      "colores": [
-        "img/capilar/PKP0036(1).jpg"
-      ]
+      "marca": "Prokpil"
     },
     {
       "id": "p0181",
@@ -2911,7 +2908,7 @@
       "precio": 8000,
       "categoria": "Línea Make Up",
       "subcategoria": "Labios",
-      "imagen": null,
+      "imagen": "img/makeup/SAMY-71.webp",
       "agotado": false,
       "marca": "Samy"
     },
@@ -3186,7 +3183,7 @@
       "precio": 29000,
       "categoria": "Línea Make Up",
       "subcategoria": "Iluminadores y contorno",
-      "imagen": "img/makeup/BL-BP33715-.jpg",
+      "imagen": "img/makeup/BL-BP33715-DIS-2.webp",
       "agotado": false,
       "marca": "Bloomshell"
     },
@@ -7139,7 +7136,7 @@
       "subcategoria": "Cremas e hidratantes",
       "imagen": "img/skincare/MOEV-05.webp",
       "agotado": false,
-      "marca": "Otras"
+      "marca": "Moev"
     },
     {
       "id": "p0688",
@@ -7315,7 +7312,7 @@
       "subcategoria": "Limpiadores",
       "imagen": "img/skincare/AREN-01.webp",
       "agotado": false,
-      "marca": "Otras"
+      "marca": "Arencia"
     },
     {
       "id": "p0714",
@@ -7348,7 +7345,7 @@
       "subcategoria": "Limpiadores",
       "imagen": "img/skincare/AREN-02.webp",
       "agotado": false,
-      "marca": "Otras"
+      "marca": "Arencia"
     },
     {
       "id": "p0717",
@@ -7569,7 +7566,7 @@
       "subcategoria": "Cremas e hidratantes",
       "imagen": "img/skincare/D016.webp",
       "agotado": false,
-      "marca": "Otras"
+      "marca": "Ultrasonic Shovel"
     },
     {
       "id": "p0741",
@@ -7591,7 +7588,7 @@
       "subcategoria": "Tónicos y esencias",
       "imagen": "img/skincare/KSEC-04.webp",
       "agotado": false,
-      "marca": "Otras"
+      "marca": "Seoul 1988"
     },
     {
       "id": "p0744",
@@ -7624,7 +7621,7 @@
       "subcategoria": "Limpiadores",
       "imagen": "img/skincare/AREN-05.webp",
       "agotado": false,
-      "marca": "Otras"
+      "marca": "Arencia"
     },
     {
       "id": "p0747",
@@ -7701,7 +7698,7 @@
       "subcategoria": "Serums y ampollas",
       "imagen": "img/skincare/HAIR-01.jpg",
       "agotado": false,
-      "marca": "Otras",
+      "marca": "LABO-H",
       "colores": [
         "img/skincare/HAIR-01.jpg",
         "img/skincare/HAIR-01_2.jpg"
@@ -7716,7 +7713,7 @@
       "subcategoria": "Protección solar",
       "imagen": "img/skincare/CELI-06.webp",
       "agotado": false,
-      "marca": "Otras"
+      "marca": "Celimax"
     },
     {
       "id": "p0756",
@@ -8013,7 +8010,7 @@
       "subcategoria": "Cremas e hidratantes",
       "imagen": null,
       "agotado": false,
-      "marca": "Otras"
+      "marca": "Lactomore"
     },
     {
       "id": "p0784",
@@ -8333,7 +8330,7 @@
       "subcategoria": "Cremas e hidratantes",
       "imagen": "img/skincare/DONG-04.jpg",
       "agotado": false,
-      "marca": "Centellian 24"
+      "marca": "Dongkook"
     },
     {
       "id": "p0818",
@@ -8460,7 +8457,7 @@
       "subcategoria": "Cremas e hidratantes",
       "imagen": "img/skincare/MOEV-01.webp",
       "agotado": false,
-      "marca": "Otras"
+      "marca": "Moev"
     },
     {
       "id": "p0836",
@@ -8526,7 +8523,7 @@
       "subcategoria": "Serums y ampollas",
       "imagen": "img/skincare/CELI-03.webp",
       "agotado": false,
-      "marca": "Otras"
+      "marca": "Celimax"
     },
     {
       "id": "p0842",
@@ -8537,7 +8534,7 @@
       "subcategoria": "Cremas e hidratantes",
       "imagen": "img/skincare/CELI-04.webp",
       "agotado": false,
-      "marca": "Otras"
+      "marca": "Celimax"
     },
     {
       "id": "p0843",
@@ -8548,7 +8545,7 @@
       "subcategoria": "Corporal e higiene",
       "imagen": "img/importados/DONG-02.jpg",
       "agotado": false,
-      "marca": "Otras"
+      "marca": "Dong-A"
     },
     {
       "id": "p0844",
@@ -8759,7 +8756,7 @@
       "subcategoria": "Serums y ampollas",
       "imagen": "img/skincare/DR-MELAXIN01.jpg",
       "agotado": false,
-      "marca": "Otras"
+      "marca": "Dr. Melaxin"
     },
     {
       "id": "p0864",
@@ -8781,7 +8778,7 @@
       "subcategoria": "Cremas e hidratantes",
       "imagen": "img/skincare/LACTOMORE-1.jpg",
       "agotado": false,
-      "marca": "Otras"
+      "marca": "Lactomore"
     },
     {
       "id": "p0866",
@@ -8825,7 +8822,7 @@
       "subcategoria": "Cremas e hidratantes",
       "imagen": "img/skincare/NUMBUZIN-01.jpg",
       "agotado": false,
-      "marca": "Otras",
+      "marca": "numbuzin",
       "colores": [
         "img/skincare/NUMBUZIN-01.jpg",
         "img/skincare/NUMBUZIN-01_2.webp"
@@ -8928,7 +8925,7 @@
       "subcategoria": "Cremas e hidratantes",
       "imagen": "img/skincare/PROCALM-01.jpg",
       "agotado": false,
-      "marca": "Otras"
+      "marca": "Hanmi"
     },
     {
       "id": "p0880",
@@ -8950,7 +8947,7 @@
       "subcategoria": "Tónicos y esencias",
       "imagen": "img/skincare/MOEV-02.webp",
       "agotado": false,
-      "marca": "Otras"
+      "marca": "Moev"
     },
     {
       "id": "p0882",
@@ -9071,7 +9068,7 @@
       "subcategoria": "Limpiadores",
       "imagen": "img/skincare/AREN-06.webp",
       "agotado": false,
-      "marca": "Otras"
+      "marca": "Arencia"
     },
     {
       "id": "p0893",
@@ -9104,7 +9101,7 @@
       "subcategoria": "Cremas e hidratantes",
       "imagen": "img/skincare/KSEC-05.webp",
       "agotado": false,
-      "marca": "Otras"
+      "marca": "Seoul 1988"
     },
     {
       "id": "p0896",
@@ -9115,7 +9112,7 @@
       "subcategoria": "Cremas e hidratantes",
       "imagen": "img/skincare/KSEC-01.webp",
       "agotado": false,
-      "marca": "Otras"
+      "marca": "Seoul 1988"
     },
     {
       "id": "p0900",
@@ -9148,7 +9145,7 @@
       "subcategoria": "Cremas e hidratantes",
       "imagen": "img/skincare/CELI-05.webp",
       "agotado": false,
-      "marca": "Otras"
+      "marca": "Celimax"
     },
     {
       "id": "p0903",
@@ -9170,7 +9167,7 @@
       "subcategoria": "Serums y ampollas",
       "imagen": "img/skincare/CELI-02.webp",
       "agotado": false,
-      "marca": "Otras"
+      "marca": "Celimax"
     },
     {
       "id": "p0905",
@@ -9220,7 +9217,7 @@
       "subcategoria": "Cremas e hidratantes",
       "imagen": "img/skincare/DR-MELAXIN02.webp",
       "agotado": true,
-      "marca": "Otras"
+      "marca": "Dr. Melaxin"
     },
     {
       "id": "p0909",
@@ -9286,7 +9283,7 @@
       "subcategoria": "Cremas e hidratantes",
       "imagen": "img/skincare/LACTOMORE-1.jpg",
       "agotado": false,
-      "marca": "Otras"
+      "marca": "Lactomore"
     },
     {
       "id": "p0915",
@@ -10940,7 +10937,7 @@
       "marca": "Ébano",
       "colores": [
         "img/dubelleza/BRO3261_1.png",
-        "img/dubelleza/BRO3261_2.webp"
+        "img/dubelleza/BRO3261_2.png"
       ]
     },
     {
@@ -10955,7 +10952,7 @@
       "marca": "Ébano",
       "colores": [
         "img/dubelleza/BRO3264_1.png",
-        "img/dubelleza/BRO3264_2.webp"
+        "img/dubelleza/BRO3264_2.png"
       ]
     },
     {
@@ -11928,7 +11925,7 @@
       "id": "p1153",
       "nombre": "Peinilla",
       "referencia": "PEI-104",
-      "precio": 4300,
+      "precio": 2000,
       "categoria": "DU Belleza",
       "subcategoria": "Cepillos y peinillas",
       "imagen": "img/dubelleza/PEI-104_1.jpg",
@@ -11937,29 +11934,32 @@
       "colores": [
         "img/dubelleza/PEI-104_1.jpg",
         "img/dubelleza/PEI-104_2.jpg"
-      ]
+      ],
+      "promocion": true
     },
     {
       "id": "p1154",
       "nombre": "Peinilla",
       "referencia": "PEI-105",
-      "precio": 4300,
+      "precio": 2000,
       "categoria": "DU Belleza",
       "subcategoria": "Cepillos y peinillas",
       "imagen": "img/dubelleza/pei-105.webp",
       "agotado": false,
-      "marca": "Otras"
+      "marca": "Otras",
+      "promocion": true
     },
     {
       "id": "p1155",
       "nombre": "Peinilla",
       "referencia": "PEI-106",
-      "precio": 5400,
+      "precio": 2000,
       "categoria": "DU Belleza",
       "subcategoria": "Cepillos y peinillas",
       "imagen": "img/dubelleza/pei-106.webp",
       "agotado": false,
-      "marca": "Otras"
+      "marca": "Otras",
+      "promocion": true
     },
     {
       "id": "p1156",
@@ -12205,7 +12205,7 @@
       "marca": "Ébano",
       "colores": [
         "img/dubelleza/PIN3145_1.png",
-        "img/dubelleza/PIN3145_2.webp"
+        "img/dubelleza/PIN3145_2.png"
       ]
     },
     {
@@ -12220,7 +12220,7 @@
       "marca": "Ébano",
       "colores": [
         "img/dubelleza/PIN3146_1.png",
-        "img/dubelleza/PIN3146_2.webp"
+        "img/dubelleza/PIN3146_2.png"
       ]
     },
     {
@@ -12235,7 +12235,7 @@
       "marca": "Ébano",
       "colores": [
         "img/dubelleza/PIN3147_1.png",
-        "img/dubelleza/PIN3147_2.webp"
+        "img/dubelleza/PIN3147_2.png"
       ]
     },
     {
@@ -12250,7 +12250,7 @@
       "marca": "Ébano",
       "colores": [
         "img/dubelleza/PIN3148_1.png",
-        "img/dubelleza/PIN3148_2.webp"
+        "img/dubelleza/PIN3148_2.png"
       ]
     },
     {
@@ -12265,7 +12265,7 @@
       "marca": "Ébano",
       "colores": [
         "img/dubelleza/PIN3149_1.png",
-        "img/dubelleza/PIN3149_2.webp"
+        "img/dubelleza/PIN3149_2.png"
       ]
     },
     {
@@ -12280,7 +12280,7 @@
       "marca": "Ébano",
       "colores": [
         "img/dubelleza/PIN3150_1.png",
-        "img/dubelleza/PIN3150_2.webp"
+        "img/dubelleza/PIN3150_2.png"
       ]
     },
     {
@@ -12295,7 +12295,7 @@
       "marca": "Ébano",
       "colores": [
         "img/dubelleza/PIN3151_1.png",
-        "img/dubelleza/PIN3151_2.webp"
+        "img/dubelleza/PIN3151_2.png"
       ]
     },
     {
@@ -12992,7 +12992,7 @@
       "categoria": "Importados",
       "subcategoria": "Corporal e higiene",
       "marca": "Kahi",
-      "imagen": "img/skincare/KAHI-01.webp",
+      "imagen": "img/importados/KAHI-01.jpg",
       "agotado": false,
       "nuevo": true,
       "masVendido": true
@@ -13052,7 +13052,7 @@
       "precio": 150000,
       "categoria": "Skincare",
       "subcategoria": "Cremas e hidratantes",
-      "marca": "Otras",
+      "marca": "Dong-A",
       "imagen": "img/skincare/DONG-01.webp",
       "agotado": false,
       "nuevo": true
@@ -13826,7 +13826,7 @@
       "categoria": "Línea Capilar",
       "subcategoria": "Mascarillas y tratamientos",
       "marca": "Ritual Botánico",
-      "imagen": null,
+      "imagen": "img/capilar/RITUAL6.jpg",
       "agotado": false
     },
     {
@@ -14448,7 +14448,7 @@
     {
       "id": "p1358",
       "nombre": "Summers Eve Desodorante Intimo",
-      "referencia": "SOMMER01",
+      "referencia": "SUMMER01",
       "precio": 34500,
       "categoria": "Cuidado Personal",
       "subcategoria": "Higiene y otros",
@@ -14607,6 +14607,826 @@
       "subcategoria": "Ojos y cejas",
       "marca": "Anik",
       "imagen": "img/makeup/CA2481.webp",
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1372",
+      "nombre": "Mini Perfume Milagros Majestuosa",
+      "referencia": "26-3",
+      "precio": 15000,
+      "categoria": "Línea Capilar",
+      "subcategoria": "Perfumes capilares",
+      "marca": "Milagros",
+      "imagen": "img/capilar/26-3.jpg",
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1373",
+      "nombre": "Perfume Capilar Milagros Irresistible X120ML",
+      "referencia": "25-1",
+      "precio": 28000,
+      "categoria": "Línea Capilar",
+      "subcategoria": "Perfumes capilares",
+      "marca": "Milagros",
+      "imagen": "img/capilar/25-1.webp",
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1374",
+      "nombre": "Alfaparf Sdl Scalp Reb. Gentle Exf. Scrub 150ML",
+      "referencia": "PF019471",
+      "precio": 102000,
+      "categoria": "Línea Capilar",
+      "subcategoria": "Mascarillas y tratamientos",
+      "marca": "Alfaparf",
+      "imagen": "img/capilar/PF019471.webp",
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1375",
+      "nombre": "Alfaparf Sdl Style&Care Thermal Protector 300ML",
+      "referencia": "PF023359",
+      "precio": 100000,
+      "categoria": "Línea Capilar",
+      "subcategoria": "Cremas para peinar y estilizado",
+      "marca": "Alfaparf",
+      "imagen": "img/capilar/PF023359.jpg",
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1376",
+      "nombre": "Sdl Style&Care Extreme Hairspray 500ML",
+      "referencia": "PF029700",
+      "precio": 80000,
+      "categoria": "Línea Capilar",
+      "subcategoria": "Cremas para peinar y estilizado",
+      "marca": "Alfaparf",
+      "imagen": "img/capilar/PF029700.jpg",
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1377",
+      "nombre": "Sdl Style&Care Blow Dry Cream 200ML",
+      "referencia": "PF023362",
+      "precio": 79900,
+      "categoria": "Línea Capilar",
+      "subcategoria": "Cremas para peinar y estilizado",
+      "marca": "Alfaparf",
+      "imagen": "img/capilar/PF023362.jpg",
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1378",
+      "nombre": "Sdl Style&Care Frozen Gel 150ML",
+      "referencia": "PF029703",
+      "precio": 70000,
+      "categoria": "Línea Capilar",
+      "subcategoria": "Cremas para peinar y estilizado",
+      "marca": "Alfaparf",
+      "imagen": "img/capilar/PF029703.jpeg",
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1379",
+      "nombre": "Bloomshell Brillo Poket Kiss BL-BLI0077",
+      "referencia": "16514",
+      "precio": 19900,
+      "categoria": "Línea Make Up",
+      "subcategoria": "Labios",
+      "marca": "Bloomshell",
+      "imagen": null,
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1380",
+      "nombre": "Majikal Jelly Pop Cherry",
+      "referencia": "MAJIKAL-12",
+      "precio": 19900,
+      "categoria": "Línea Make Up",
+      "subcategoria": "Labios",
+      "marca": "Majikal",
+      "imagen": "img/makeup/MAJIKAL-12.jpg",
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1381",
+      "nombre": "Majikal Jelly Pop Sugar",
+      "referencia": "MAJIKAL-13",
+      "precio": 19900,
+      "categoria": "Línea Make Up",
+      "subcategoria": "Labios",
+      "marca": "Majikal",
+      "imagen": "img/makeup/MAJIKAL-13.jpg",
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1382",
+      "nombre": "Majikal Jelly Pop Teddy",
+      "referencia": "MAJIKAL-14",
+      "precio": 19900,
+      "categoria": "Línea Make Up",
+      "subcategoria": "Labios",
+      "marca": "Majikal",
+      "imagen": "img/makeup/MAJIKAL-14.jpg",
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1383",
+      "nombre": "Majikal Jelly Pop Rose",
+      "referencia": "MAJIKAL-15",
+      "precio": 19900,
+      "categoria": "Línea Make Up",
+      "subcategoria": "Labios",
+      "marca": "Majikal",
+      "imagen": "img/makeup/MAJIKAL-15.jpg",
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1384",
+      "nombre": "Majikal Jelly Pop Petal",
+      "referencia": "MAJIKAL-16",
+      "precio": 19900,
+      "categoria": "Línea Make Up",
+      "subcategoria": "Labios",
+      "marca": "Majikal",
+      "imagen": "img/makeup/MAJIKAL-16.jpg",
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1385",
+      "nombre": "Bloomshell Trio Rubor Water Melon",
+      "referencia": "11812",
+      "precio": 35000,
+      "categoria": "Línea Make Up",
+      "subcategoria": "Polvos y rubores",
+      "marca": "Bloomshell",
+      "imagen": null,
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1386",
+      "nombre": "Bloomshell Trio Rubor New Terracota",
+      "referencia": "11810",
+      "precio": 35000,
+      "categoria": "Línea Make Up",
+      "subcategoria": "Polvos y rubores",
+      "marca": "Bloomshell",
+      "imagen": null,
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1387",
+      "nombre": "Bloomshell Trio Rubor New Pink",
+      "referencia": "7085",
+      "precio": 35000,
+      "categoria": "Línea Make Up",
+      "subcategoria": "Polvos y rubores",
+      "marca": "Bloomshell",
+      "imagen": null,
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1388",
+      "nombre": "Montoc Base Glow Filter #100",
+      "referencia": "14871",
+      "precio": 45000,
+      "categoria": "Línea Make Up",
+      "subcategoria": "Bases y correctores",
+      "marca": "Montoc",
+      "imagen": "img/makeup/14871_1.webp",
+      "agotado": false,
+      "nuevo": true,
+      "colores": [
+        "img/makeup/14871_1.webp",
+        "img/makeup/14871_2.webp"
+      ]
+    },
+    {
+      "id": "p1389",
+      "nombre": "Montoc Base Glow Filter #600",
+      "referencia": "14876",
+      "precio": 45000,
+      "categoria": "Línea Make Up",
+      "subcategoria": "Bases y correctores",
+      "marca": "Montoc",
+      "imagen": "img/makeup/14876_1.webp",
+      "agotado": false,
+      "nuevo": true,
+      "colores": [
+        "img/makeup/14876_1.webp",
+        "img/makeup/14876_2.webp"
+      ]
+    },
+    {
+      "id": "p1390",
+      "nombre": "Montoc Base Glow Filter #700",
+      "referencia": "14877",
+      "precio": 45000,
+      "categoria": "Línea Make Up",
+      "subcategoria": "Bases y correctores",
+      "marca": "Montoc",
+      "imagen": "img/makeup/14877_1.webp",
+      "agotado": false,
+      "nuevo": true,
+      "colores": [
+        "img/makeup/14877_1.webp",
+        "img/makeup/14877_2.webp"
+      ]
+    },
+    {
+      "id": "p1391",
+      "nombre": "Montoc Tinte Fijador de Cejas #01 Soft Brown",
+      "referencia": "15615",
+      "precio": 34900,
+      "categoria": "Línea Make Up",
+      "subcategoria": "Ojos y cejas",
+      "marca": "Montoc",
+      "imagen": "img/makeup/15615.webp",
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1392",
+      "nombre": "Montoc Tinte Fijador de Cejas #02 Auburn",
+      "referencia": "15616",
+      "precio": 34900,
+      "categoria": "Línea Make Up",
+      "subcategoria": "Ojos y cejas",
+      "marca": "Montoc",
+      "imagen": "img/makeup/15616.webp",
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1393",
+      "nombre": "Montoc Tinte Fijador de Cejas #03 Chestnut",
+      "referencia": "15617",
+      "precio": 34900,
+      "categoria": "Línea Make Up",
+      "subcategoria": "Ojos y cejas",
+      "marca": "Montoc",
+      "imagen": "img/makeup/15617.webp",
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1394",
+      "nombre": "Crema Corporal Lubriderm Clinical Theraphy 400ML",
+      "referencia": "CREMA241",
+      "precio": 89000,
+      "categoria": "Cuidado Personal",
+      "subcategoria": "Cremas corporales",
+      "marca": "Lubriderm",
+      "imagen": "img/personal/CREMA241.webp",
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1395",
+      "nombre": "Crema Corporal Lubriderm Clinical Therapy Intensiva 450GR",
+      "referencia": "CREMA246",
+      "precio": 88000,
+      "categoria": "Cuidado Personal",
+      "subcategoria": "Cremas corporales",
+      "marca": "Lubriderm",
+      "imagen": "img/personal/CREMA246.webp",
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1396",
+      "nombre": "Crema Corporal Lubriderm Extra Humectante Azul 400ML",
+      "referencia": "CREMA240",
+      "precio": 34500,
+      "categoria": "Cuidado Personal",
+      "subcategoria": "Cremas corporales",
+      "marca": "Lubriderm",
+      "imagen": "img/personal/CREMA240.webp",
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1397",
+      "nombre": "Crema Corporal Lubriderm Humectación Diaria Azul 200ML",
+      "referencia": "CREMA255",
+      "precio": 24500,
+      "categoria": "Cuidado Personal",
+      "subcategoria": "Cremas corporales",
+      "marca": "Lubriderm",
+      "imagen": "img/personal/CREMA255.webp",
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1398",
+      "nombre": "Crema Corporal Lubriderm Men's 400ML",
+      "referencia": "CREMA54",
+      "precio": 42000,
+      "categoria": "Cuidado Personal",
+      "subcategoria": "Cremas corporales",
+      "marca": "Lubriderm",
+      "imagen": "img/personal/CREMA54.webp",
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1399",
+      "nombre": "Crema Corporal Lubriderm Piel Sensible Verde 400ML",
+      "referencia": "CREMA257",
+      "precio": 39900,
+      "categoria": "Cuidado Personal",
+      "subcategoria": "Cremas corporales",
+      "marca": "Lubriderm",
+      "imagen": "img/personal/CREMA257.webp",
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1400",
+      "nombre": "Crema Corporal Lubriderm Prevención FPS 30 946ML",
+      "referencia": "CREMA243",
+      "precio": 84000,
+      "categoria": "Cuidado Personal",
+      "subcategoria": "Cremas corporales",
+      "marca": "Lubriderm",
+      "imagen": "img/personal/CREMA243.webp",
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1401",
+      "nombre": "Crema Corporal Lubriderm Protección Solar FPS 15 946ML",
+      "referencia": "CREMA245",
+      "precio": 65000,
+      "categoria": "Cuidado Personal",
+      "subcategoria": "Cremas corporales",
+      "marca": "Lubriderm",
+      "imagen": "img/personal/CREMA245.jpg",
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1402",
+      "nombre": "Crema Corporal Lubriderm Reparación Intensiva Dorada 200ML",
+      "referencia": "CREMA256",
+      "precio": 25500,
+      "categoria": "Cuidado Personal",
+      "subcategoria": "Cremas corporales",
+      "marca": "Lubriderm",
+      "imagen": "img/personal/CREMA256.jpg",
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1403",
+      "nombre": "Crema Corporal Lubriderm Reparación Intensiva Dorada 946ML",
+      "referencia": "CREMA251",
+      "precio": 65000,
+      "categoria": "Cuidado Personal",
+      "subcategoria": "Cremas corporales",
+      "marca": "Lubriderm",
+      "imagen": "img/personal/CREMA251.webp",
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1404",
+      "nombre": "Crema Corporal Lubriderm UV Morada 200ML",
+      "referencia": "CREMA253",
+      "precio": 25500,
+      "categoria": "Cuidado Personal",
+      "subcategoria": "Cremas corporales",
+      "marca": "Lubriderm",
+      "imagen": "img/personal/CREMA253.webp",
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1405",
+      "nombre": "Nivea Crema Corporal Milk Nutritiva 1000ML",
+      "referencia": "CREMA74",
+      "precio": 62000,
+      "categoria": "Cuidado Personal",
+      "subcategoria": "Cremas corporales",
+      "marca": "Nivea",
+      "imagen": "img/personal/CREMA74.webp",
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1406",
+      "nombre": "Nivea Crema Corporal Reafirmante Q10 1000ML",
+      "referencia": "CREMA73",
+      "precio": 62000,
+      "categoria": "Cuidado Personal",
+      "subcategoria": "Cremas corporales",
+      "marca": "Nivea",
+      "imagen": "img/personal/CREMA73.webp",
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1407",
+      "nombre": "Nivea Crema Corporal Regeneración Intensiva 1000ML",
+      "referencia": "CREMA75",
+      "precio": 68000,
+      "categoria": "Cuidado Personal",
+      "subcategoria": "Cremas corporales",
+      "marca": "Nivea",
+      "imagen": "img/personal/CREMA75.webp",
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1408",
+      "nombre": "Cetaphil Moisturizing Lotion Dry Skin 591ML",
+      "referencia": "CETAPHIL3",
+      "precio": 95000,
+      "categoria": "Cuidado Personal",
+      "subcategoria": "Cremas corporales",
+      "marca": "Cetaphil",
+      "imagen": "img/personal/CETAPHIL3.webp",
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1409",
+      "nombre": "Cetaphil Gentle Skin Cleanser 591ML",
+      "referencia": "CETAPHIL4",
+      "precio": 90000,
+      "categoria": "Cuidado Personal",
+      "subcategoria": "Cremas corporales",
+      "marca": "Cetaphil",
+      "imagen": "img/personal/CETAPHIL4.webp",
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1410",
+      "nombre": "Glow Your Own Way Hyaluronic Acid + Vitamin C + Guante",
+      "referencia": "B.TAN1",
+      "precio": 120000,
+      "categoria": "Importados",
+      "subcategoria": "Bronceado y exfoliantes",
+      "marca": "B.Tan",
+      "imagen": "img/importados/B.TAN1.webp",
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1411",
+      "nombre": "Glow Your Own Way Hyaluronic Acid + Vitamina C The OG Glow Dark",
+      "referencia": "B.TAN2",
+      "precio": 90000,
+      "categoria": "Importados",
+      "subcategoria": "Bronceado y exfoliantes",
+      "marca": "B.Tan",
+      "imagen": "img/importados/B.TAN2.jpg",
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1412",
+      "nombre": "Glow Your Own Way + Shimmer Hyaluronic Acid + Vitamin C Golden Glow 473ML",
+      "referencia": "B.TAN5",
+      "precio": 90000,
+      "categoria": "Importados",
+      "subcategoria": "Bronceado y exfoliantes",
+      "marca": "B.Tan",
+      "imagen": "img/importados/B.TAN5.jpg",
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1413",
+      "nombre": "Tums Antiacid Ultra Strength 1000 265 Tabletas Masticable",
+      "referencia": "VITA48",
+      "precio": 105900,
+      "categoria": "Importados",
+      "subcategoria": "Vitaminas y gomas",
+      "marca": "Tums",
+      "imagen": "img/importados/VITA48.jpg",
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1414",
+      "nombre": "Tums Antiácido 48 Tabletas",
+      "referencia": "TUMS-01",
+      "precio": 35900,
+      "categoria": "Importados",
+      "subcategoria": "Vitaminas y gomas",
+      "marca": "Tums",
+      "imagen": "img/importados/TUMS-01.jpg",
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1415",
+      "nombre": "Agua de Linos After 120ML",
+      "referencia": "AGDL01",
+      "precio": 36000,
+      "categoria": "Bienestar",
+      "subcategoria": "Aromaterapia",
+      "marca": "After",
+      "imagen": null,
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1416",
+      "nombre": "Esencia Difusor After 30ML",
+      "referencia": "ES02",
+      "precio": 28000,
+      "categoria": "Bienestar",
+      "subcategoria": "Aromaterapia",
+      "marca": "After",
+      "imagen": null,
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1417",
+      "nombre": "Abanico Puto Calor Rojo",
+      "referencia": "ABA01",
+      "precio": 59900,
+      "categoria": "Bienestar",
+      "subcategoria": "Abanicos",
+      "marca": "Otras",
+      "imagen": null,
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1418",
+      "nombre": "Abanico Puto Calor Degradado",
+      "referencia": "ABA02",
+      "precio": 59900,
+      "categoria": "Bienestar",
+      "subcategoria": "Abanicos",
+      "marca": "Otras",
+      "imagen": null,
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1419",
+      "nombre": "Abanico Puto Calor Rosa y Amarillo",
+      "referencia": "ABA03",
+      "precio": 59900,
+      "categoria": "Bienestar",
+      "subcategoria": "Abanicos",
+      "marca": "Otras",
+      "imagen": "img/bienestar/ABA03.webp",
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1420",
+      "nombre": "Abanico Puto Calor Negro",
+      "referencia": "ABA04",
+      "precio": 59900,
+      "categoria": "Bienestar",
+      "subcategoria": "Abanicos",
+      "marca": "Otras",
+      "imagen": "img/bienestar/ABA04.jpg",
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1421",
+      "nombre": "Abanico Puto Calor Blanco",
+      "referencia": "ABA05",
+      "precio": 59900,
+      "categoria": "Bienestar",
+      "subcategoria": "Abanicos",
+      "marca": "Otras",
+      "imagen": "img/bienestar/ABA05.webp",
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1422",
+      "nombre": "Abanico Puto Calor Glitter Dorado",
+      "referencia": "ABA06",
+      "precio": 69900,
+      "categoria": "Bienestar",
+      "subcategoria": "Abanicos",
+      "marca": "Otras",
+      "imagen": "img/bienestar/ABA06.jpg",
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1423",
+      "nombre": "Abanico Putos Sofocos Rosado",
+      "referencia": "ABA07",
+      "precio": 59900,
+      "categoria": "Bienestar",
+      "subcategoria": "Abanicos",
+      "marca": "Otras",
+      "imagen": null,
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1424",
+      "nombre": "Abanico It's Fucking Hot Rojo",
+      "referencia": "ABA08",
+      "precio": 59900,
+      "categoria": "Bienestar",
+      "subcategoria": "Abanicos",
+      "marca": "Otras",
+      "imagen": null,
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1425",
+      "nombre": "Abanico It's Fucking Hot Negro",
+      "referencia": "ABA09",
+      "precio": 59900,
+      "categoria": "Bienestar",
+      "subcategoria": "Abanicos",
+      "marca": "Otras",
+      "imagen": "img/bienestar/ABA09.jpg",
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1426",
+      "nombre": "Abanico It's Fucking Hot Amarillo",
+      "referencia": "ABA10",
+      "precio": 59900,
+      "categoria": "Bienestar",
+      "subcategoria": "Abanicos",
+      "marca": "Otras",
+      "imagen": "img/bienestar/ABA10.webp",
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1427",
+      "nombre": "Abanico It's Fucking Hot Degradado Atardecer",
+      "referencia": "ABA11",
+      "precio": 59900,
+      "categoria": "Bienestar",
+      "subcategoria": "Abanicos",
+      "marca": "Otras",
+      "imagen": "img/bienestar/ABA11.webp",
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1428",
+      "nombre": "Abanico Yo No Sudo, Brillo (Azul, Brilla en la Oscuridad)",
+      "referencia": "ABA12",
+      "precio": 69900,
+      "categoria": "Bienestar",
+      "subcategoria": "Abanicos",
+      "marca": "Otras",
+      "imagen": "img/bienestar/ABA12.webp",
+      "agotado": false,
+      "nuevo": true,
+      "colores": [
+        "img/bienestar/ABA12.webp",
+        "img/bienestar/ABA12_2.jpg"
+      ]
+    },
+    {
+      "id": "p1429",
+      "nombre": "Abanico Que Calor Rosa y Amarillo",
+      "referencia": "ABA13",
+      "precio": 59900,
+      "categoria": "Bienestar",
+      "subcategoria": "Abanicos",
+      "marca": "Otras",
+      "imagen": "img/bienestar/ABA13.webp",
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1430",
+      "nombre": "Abanico Que Calor Beige y Rojo",
+      "referencia": "ABA14",
+      "precio": 59900,
+      "categoria": "Bienestar",
+      "subcategoria": "Abanicos",
+      "marca": "Otras",
+      "imagen": "img/bienestar/ABA14.webp",
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1431",
+      "nombre": "Abanico Que Calor Negro",
+      "referencia": "ABA15",
+      "precio": 59900,
+      "categoria": "Bienestar",
+      "subcategoria": "Abanicos",
+      "marca": "Otras",
+      "imagen": "img/bienestar/ABA15.webp",
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1432",
+      "nombre": "Abanico Malditos Sofocos Rosado",
+      "referencia": "ABA16",
+      "precio": 59900,
+      "categoria": "Bienestar",
+      "subcategoria": "Abanicos",
+      "marca": "Otras",
+      "imagen": "img/bienestar/ABA16.webp",
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1433",
+      "nombre": "Abanico Yo No Sudo, Brillo Rosado",
+      "referencia": "ABA17",
+      "precio": 59900,
+      "categoria": "Bienestar",
+      "subcategoria": "Abanicos",
+      "marca": "Otras",
+      "imagen": "img/bienestar/ABA17.webp",
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1434",
+      "nombre": "Abanico Yo No Sudo, Brillo Negro",
+      "referencia": "ABA18",
+      "precio": 59900,
+      "categoria": "Bienestar",
+      "subcategoria": "Abanicos",
+      "marca": "Otras",
+      "imagen": "img/bienestar/ABA18.webp",
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1435",
+      "nombre": "Abanico Yo No Sudo, Brillo Silver Glitter",
+      "referencia": "ABA19",
+      "precio": 69900,
+      "categoria": "Bienestar",
+      "subcategoria": "Abanicos",
+      "marca": "Otras",
+      "imagen": "img/bienestar/ABA19.webp",
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1436",
+      "nombre": "Abanico Puto Cambio Climático Azul",
+      "referencia": "ABA20",
+      "precio": 59900,
+      "categoria": "Bienestar",
+      "subcategoria": "Abanicos",
+      "marca": "Otras",
+      "imagen": "img/bienestar/ABA20.webp",
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1437",
+      "nombre": "Abanico No Me da la Vida",
+      "referencia": "ABA21",
+      "precio": 59900,
+      "categoria": "Bienestar",
+      "subcategoria": "Abanicos",
+      "marca": "Otras",
+      "imagen": "img/bienestar/ABA21.jpg",
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1438",
+      "nombre": "Abanico Más Brisa",
+      "referencia": "ABA22",
+      "precio": 59900,
+      "categoria": "Bienestar",
+      "subcategoria": "Abanicos",
+      "marca": "Otras",
+      "imagen": "img/bienestar/ABA22.webp",
       "agotado": false,
       "nuevo": true
     }
