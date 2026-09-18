@@ -106,7 +106,7 @@
       "precio": 20000,
       "categoria": "Línea Capilar",
       "subcategoria": "Aceites y serums capilares",
-      "imagen": "img/capilar/PF016451.png",
+      "imagen": "img/capilar/PF016451.webp",
       "agotado": false,
       "marca": "Alfaparf"
     },
@@ -13826,7 +13826,7 @@
       "categoria": "Línea Capilar",
       "subcategoria": "Mascarillas y tratamientos",
       "marca": "Ritual Botánico",
-      "imagen": "img/capilar/RITUAL6.jpg",
+      "imagen": "img/capilar/RITUAL6.webp",
       "agotado": false
     },
     {
@@ -14453,7 +14453,7 @@
       "categoria": "Cuidado Personal",
       "subcategoria": "Higiene y otros",
       "marca": "Summer's Eve",
-      "imagen": null,
+      "imagen": "img/personal/SUMMER01.png",
       "agotado": false,
       "nuevo": true
     },
@@ -14654,7 +14654,7 @@
       "categoria": "Línea Capilar",
       "subcategoria": "Cremas para peinar y estilizado",
       "marca": "Alfaparf",
-      "imagen": "img/capilar/PF023359.jpg",
+      "imagen": "img/capilar/PF023359.webp",
       "agotado": false,
       "nuevo": true
     },
@@ -14690,7 +14690,7 @@
       "categoria": "Línea Capilar",
       "subcategoria": "Cremas para peinar y estilizado",
       "marca": "Alfaparf",
-      "imagen": "img/capilar/PF029703.jpeg",
+      "imagen": "img/capilar/PF029703.webp",
       "agotado": false,
       "nuevo": true
     },
@@ -14702,7 +14702,7 @@
       "categoria": "Línea Make Up",
       "subcategoria": "Labios",
       "marca": "Bloomshell",
-      "imagen": null,
+      "imagen": "img/makeup/16514.jpeg",
       "agotado": false,
       "nuevo": true
     },
@@ -14774,7 +14774,7 @@
       "categoria": "Línea Make Up",
       "subcategoria": "Polvos y rubores",
       "marca": "Bloomshell",
-      "imagen": null,
+      "imagen": "img/makeup/11812.webp",
       "agotado": false,
       "nuevo": true
     },
@@ -14786,7 +14786,7 @@
       "categoria": "Línea Make Up",
       "subcategoria": "Polvos y rubores",
       "marca": "Bloomshell",
-      "imagen": null,
+      "imagen": "img/makeup/11810.webp",
       "agotado": false,
       "nuevo": true
     },
@@ -14798,7 +14798,7 @@
       "categoria": "Línea Make Up",
       "subcategoria": "Polvos y rubores",
       "marca": "Bloomshell",
-      "imagen": null,
+      "imagen": "img/makeup/7085.webp",
       "agotado": false,
       "nuevo": true
     },
@@ -14894,7 +14894,7 @@
       "categoria": "Cuidado Personal",
       "subcategoria": "Cremas corporales",
       "marca": "Lubriderm",
-      "imagen": "img/personal/CREMA241.webp",
+      "imagen": "img/personal/CREMA241.jpg",
       "agotado": false,
       "nuevo": true
     },
@@ -14930,7 +14930,7 @@
       "categoria": "Cuidado Personal",
       "subcategoria": "Cremas corporales",
       "marca": "Lubriderm",
-      "imagen": "img/personal/CREMA255.webp",
+      "imagen": "img/personal/CREMA255.jpg",
       "agotado": false,
       "nuevo": true
     },
@@ -14990,7 +14990,7 @@
       "categoria": "Cuidado Personal",
       "subcategoria": "Cremas corporales",
       "marca": "Lubriderm",
-      "imagen": "img/personal/CREMA256.jpg",
+      "imagen": "img/personal/CREMA256.webp",
       "agotado": false,
       "nuevo": true
     },
@@ -15086,7 +15086,7 @@
       "categoria": "Importados",
       "subcategoria": "Bronceado y exfoliantes",
       "marca": "B.Tan",
-      "imagen": "img/importados/B.TAN1.webp",
+      "imagen": "img/importados/B.TAN1.png",
       "agotado": false,
       "nuevo": true
     },
@@ -15098,7 +15098,7 @@
       "categoria": "Importados",
       "subcategoria": "Bronceado y exfoliantes",
       "marca": "B.Tan",
-      "imagen": "img/importados/B.TAN2.jpg",
+      "imagen": "img/importados/B.TAN2.png",
       "agotado": false,
       "nuevo": true
     },
@@ -15110,7 +15110,7 @@
       "categoria": "Importados",
       "subcategoria": "Bronceado y exfoliantes",
       "marca": "B.Tan",
-      "imagen": "img/importados/B.TAN5.jpg",
+      "imagen": "img/importados/B.TAN5.png",
       "agotado": false,
       "nuevo": true
     },
@@ -15134,7 +15134,7 @@
       "categoria": "Importados",
       "subcategoria": "Vitaminas y gomas",
       "marca": "Tums",
-      "imagen": "img/importados/TUMS-01.jpg",
+      "imagen": "img/importados/TUMS-01.webp",
       "agotado": false,
       "nuevo": true
     },
@@ -15146,7 +15146,7 @@
       "categoria": "Bienestar",
       "subcategoria": "Aromaterapia",
       "marca": "After",
-      "imagen": null,
+      "imagen": "img/bienestar/AGDL01.jpg",
       "agotado": false,
       "nuevo": true
     },
@@ -15158,7 +15158,7 @@
       "categoria": "Bienestar",
       "subcategoria": "Aromaterapia",
       "marca": "After",
-      "imagen": null,
+      "imagen": "img/bienestar/ES02.jpg",
       "agotado": false,
       "nuevo": true
     },
@@ -15170,7 +15170,7 @@
       "categoria": "Bienestar",
       "subcategoria": "Abanicos",
       "marca": "Otras",
-      "imagen": null,
+      "imagen": "img/bienestar/ABA01.webp",
       "agotado": false,
       "nuevo": true
     },
@@ -15182,7 +15182,7 @@
       "categoria": "Bienestar",
       "subcategoria": "Abanicos",
       "marca": "Otras",
-      "imagen": null,
+      "imagen": "img/bienestar/ABA02.webp",
       "agotado": false,
       "nuevo": true
     },
@@ -15242,7 +15242,7 @@
       "categoria": "Bienestar",
       "subcategoria": "Abanicos",
       "marca": "Otras",
-      "imagen": null,
+      "imagen": "img/bienestar/ABA07.webp",
       "agotado": false,
       "nuevo": true
     },
@@ -15254,7 +15254,7 @@
       "categoria": "Bienestar",
       "subcategoria": "Abanicos",
       "marca": "Otras",
-      "imagen": null,
+      "imagen": "img/bienestar/ABA08.webp",
       "agotado": false,
       "nuevo": true
     },
@@ -15390,7 +15390,7 @@
       "categoria": "Bienestar",
       "subcategoria": "Abanicos",
       "marca": "Otras",
-      "imagen": "img/bienestar/ABA19.webp",
+      "imagen": "img/bienestar/ABA19.jpg",
       "agotado": false,
       "nuevo": true
     },
@@ -15414,7 +15414,7 @@
       "categoria": "Bienestar",
       "subcategoria": "Abanicos",
       "marca": "Otras",
-      "imagen": "img/bienestar/ABA21.jpg",
+      "imagen": "img/bienestar/ABA21.webp",
       "agotado": false,
       "nuevo": true
     },
