@@ -14623,7 +14623,7 @@
       "categoria": "Importados",
       "subcategoria": "Vitaminas y gomas",
       "marca": "Otras",
-      "imagen": null,
+      "imagen": "img/importados/VITA45.jpg",
       "agotado": false,
       "nuevo": true
     },
@@ -14635,7 +14635,7 @@
       "categoria": "Importados",
       "subcategoria": "Vitaminas y gomas",
       "marca": "Otras",
-      "imagen": null,
+      "imagen": "img/importados/VITA46.jpg",
       "agotado": false,
       "nuevo": true
     },
@@ -14647,7 +14647,7 @@
       "categoria": "Importados",
       "subcategoria": "Vitaminas y gomas",
       "marca": "Now",
-      "imagen": null,
+      "imagen": "img/importados/VITA26.jpg",
       "agotado": false,
       "nuevo": true
     },
@@ -15656,7 +15656,7 @@
       "categoria": "Línea Capilar",
       "subcategoria": "Shampoos",
       "marca": "Milagros",
-      "imagen": null,
+      "imagen": "img/capilar/MILAGROS20.webp",
       "agotado": false,
       "nuevo": true
     },
@@ -15668,7 +15668,7 @@
       "categoria": "Línea Capilar",
       "subcategoria": "Acondicionadores",
       "marca": "Milagros",
-      "imagen": null,
+      "imagen": "img/capilar/MILAGROS21.webp",
       "agotado": false,
       "nuevo": true
     },
@@ -15680,7 +15680,7 @@
       "categoria": "Importados",
       "subcategoria": "Vitaminas y gomas",
       "marca": "Bloom",
-      "imagen": null,
+      "imagen": "img/importados/BLOOM-01.jpg",
       "agotado": false,
       "nuevo": true
     },
@@ -15692,7 +15692,7 @@
       "categoria": "Importados",
       "subcategoria": "Vitaminas y gomas",
       "marca": "Bloom",
-      "imagen": null,
+      "imagen": "img/importados/BLOOM-02.webp",
       "agotado": false,
       "nuevo": true
     },
@@ -15716,7 +15716,7 @@
       "categoria": "Importados",
       "subcategoria": "Corporal e higiene",
       "marca": "eos",
-      "imagen": null,
+      "imagen": "img/importados/EOS-28.jpg",
       "agotado": false,
       "nuevo": true
     },
@@ -15728,7 +15728,7 @@
       "categoria": "Importados",
       "subcategoria": "Corporal e higiene",
       "marca": "eos",
-      "imagen": null,
+      "imagen": "img/importados/EOS-29.jpg",
       "agotado": false,
       "nuevo": true
     },
@@ -15740,7 +15740,7 @@
       "categoria": "Importados",
       "subcategoria": "Corporal e higiene",
       "marca": "Sol de Janeiro",
-      "imagen": null,
+      "imagen": "img/importados/SOLDEJANEIRO17.jpg",
       "agotado": false,
       "nuevo": true
     },
@@ -15752,7 +15752,7 @@
       "categoria": "Importados",
       "subcategoria": "Corporal e higiene",
       "marca": "Truly",
-      "imagen": null,
+      "imagen": "img/importados/TRULY18.jpg",
       "agotado": false,
       "nuevo": true
     },
@@ -15764,7 +15764,7 @@
       "categoria": "Importados",
       "subcategoria": "Corporal e higiene",
       "marca": "Truly",
-      "imagen": null,
+      "imagen": "img/importados/TRULY19.jpg",
       "agotado": false,
       "nuevo": true
     },
@@ -15800,7 +15800,7 @@
       "categoria": "Importados",
       "subcategoria": "Cuidado de labios",
       "marca": "Vaseline",
-      "imagen": null,
+      "imagen": "img/importados/VASE-36.jpg",
       "agotado": false,
       "nuevo": true
     },
@@ -15812,7 +15812,7 @@
       "categoria": "Importados",
       "subcategoria": "Cuidado de labios",
       "marca": "Vaseline",
-      "imagen": null,
+      "imagen": "img/importados/VASE-34.jpg",
       "agotado": false,
       "nuevo": true
     },
@@ -15824,9 +15824,13 @@
       "categoria": "Importados",
       "subcategoria": "Cuidado de labios",
       "marca": "Vaseline",
-      "imagen": null,
+      "imagen": "img/importados/VASE-35M.avif",
       "agotado": false,
-      "nuevo": true
+      "nuevo": true,
+      "colores": [
+        "img/importados/VASE-35M.avif",
+        "img/importados/VASE-35O.avif"
+      ]
     },
     {
       "id": "p1454",
@@ -15836,7 +15840,7 @@
       "categoria": "Importados",
       "subcategoria": "Cuidado de labios",
       "marca": "Vaseline",
-      "imagen": null,
+      "imagen": "img/importados/VASE-12.jpg",
       "agotado": false,
       "nuevo": true
     },
@@ -15848,7 +15852,7 @@
       "categoria": "Importados",
       "subcategoria": "Cuidado de labios",
       "marca": "Daise",
-      "imagen": null,
+      "imagen": "img/importados/DAI-01.jpg",
       "agotado": false,
       "nuevo": true
     },
@@ -15860,7 +15864,7 @@
       "categoria": "Importados",
       "subcategoria": "Cuidado de labios",
       "marca": "Daise",
-      "imagen": null,
+      "imagen": "img/importados/DAI-02.jpg",
       "agotado": false,
       "nuevo": true
     },
@@ -15872,7 +15876,7 @@
       "categoria": "Importados",
       "subcategoria": "Cuidado de labios",
       "marca": "Daise",
-      "imagen": null,
+      "imagen": "img/importados/DAI-03.jpg",
       "agotado": false,
       "nuevo": true
     },
@@ -15884,7 +15888,7 @@
       "categoria": "Importados",
       "subcategoria": "Corporal e higiene",
       "marca": "Daise",
-      "imagen": null,
+      "imagen": "img/importados/DAISE-03.jpg",
       "agotado": false,
       "nuevo": true
     },
@@ -15896,7 +15900,7 @@
       "categoria": "Importados",
       "subcategoria": "Corporal e higiene",
       "marca": "Daise",
-      "imagen": null,
+      "imagen": "img/importados/DAISE-05.jpg",
       "agotado": false,
       "nuevo": true
     },
@@ -15908,7 +15912,7 @@
       "categoria": "Importados",
       "subcategoria": "Cuidado de labios",
       "marca": "Daise",
-      "imagen": null,
+      "imagen": "img/importados/DAISE-07.avif",
       "agotado": false,
       "nuevo": true
     },
@@ -15920,7 +15924,7 @@
       "categoria": "Importados",
       "subcategoria": "Cuidado de labios",
       "marca": "Daise",
-      "imagen": null,
+      "imagen": "img/importados/DAISE-08.avif",
       "agotado": false,
       "nuevo": true
     },
@@ -15932,7 +15936,7 @@
       "categoria": "Importados",
       "subcategoria": "Cuidado de labios",
       "marca": "Daise",
-      "imagen": null,
+      "imagen": "img/importados/DAISE-09.avif",
       "agotado": false,
       "nuevo": true
     },
@@ -15944,7 +15948,7 @@
       "categoria": "Importados",
       "subcategoria": "Cuidado de labios",
       "marca": "Daise",
-      "imagen": null,
+      "imagen": "img/importados/DAISE-10.avif",
       "agotado": false,
       "nuevo": true
     },
@@ -15956,7 +15960,7 @@
       "categoria": "Importados",
       "subcategoria": "Cuidado de labios",
       "marca": "Daise",
-      "imagen": null,
+      "imagen": "img/importados/DAISE-12.avif",
       "agotado": false,
       "nuevo": true
     },
@@ -15968,7 +15972,7 @@
       "categoria": "Importados",
       "subcategoria": "Cuidado de labios",
       "marca": "Aquaphor",
-      "imagen": null,
+      "imagen": "img/importados/AQUA-01.jpg",
       "agotado": false,
       "nuevo": true
     },
@@ -15980,7 +15984,7 @@
       "categoria": "Importados",
       "subcategoria": "Cuidado de labios",
       "marca": "ChapStick",
-      "imagen": null,
+      "imagen": "img/importados/CHPS-05.avif",
       "agotado": false,
       "nuevo": true
     },
@@ -15992,7 +15996,7 @@
       "categoria": "Importados",
       "subcategoria": "Cuidado de labios",
       "marca": "ChapStick",
-      "imagen": null,
+      "imagen": "img/importados/CHPS-07.avif",
       "agotado": false,
       "nuevo": true
     },
@@ -16004,7 +16008,7 @@
       "categoria": "Importados",
       "subcategoria": "Cuidado de labios",
       "marca": "ChapStick",
-      "imagen": null,
+      "imagen": "img/importados/CHPS-08.avif",
       "agotado": false,
       "nuevo": true
     },
@@ -16016,7 +16020,7 @@
       "categoria": "Importados",
       "subcategoria": "Corporal e higiene",
       "marca": "Listerine",
-      "imagen": null,
+      "imagen": "img/importados/LIST-01.jpg",
       "agotado": false,
       "nuevo": true
     },
@@ -16028,7 +16032,7 @@
       "categoria": "Importados",
       "subcategoria": "Cuidado capilar",
       "marca": "Lola Cosmetics",
-      "imagen": null,
+      "imagen": "img/importados/LOLA-01.jpg",
       "agotado": false,
       "nuevo": true
     },
@@ -16040,7 +16044,7 @@
       "categoria": "Importados",
       "subcategoria": "Cuidado capilar",
       "marca": "Otras",
-      "imagen": null,
+      "imagen": "img/importados/CAST-01.jpg",
       "agotado": false,
       "nuevo": true
     },
@@ -16052,7 +16056,7 @@
       "categoria": "Importados",
       "subcategoria": "Cuidado capilar",
       "marca": "Difeel",
-      "imagen": null,
+      "imagen": "img/importados/CAST-02.jpg",
       "agotado": false,
       "nuevo": true
     },
