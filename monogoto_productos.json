@@ -1170,7 +1170,7 @@
       "precio": 40000,
       "categoria": "Línea Capilar",
       "subcategoria": "Mascarillas y tratamientos",
-      "imagen": null,
+      "imagen": "img/capilar/10822.jpg",
       "agotado": false,
       "marca": "Ponto"
     },
@@ -1492,7 +1492,7 @@
       "precio": 35000,
       "categoria": "Línea Capilar",
       "subcategoria": "Shampoos",
-      "imagen": null,
+      "imagen": "img/capilar/ANYELUZ5.png",
       "agotado": false,
       "marca": "Anyeluz"
     },
@@ -15704,7 +15704,7 @@
       "categoria": "Importados",
       "subcategoria": "Corporal e higiene",
       "marca": "eos",
-      "imagen": null,
+      "imagen": "img/importados/EOS-27.avif",
       "agotado": false,
       "nuevo": true
     },
@@ -15788,7 +15788,7 @@
       "categoria": "Importados",
       "subcategoria": "Corporal e higiene",
       "marca": "Vaseline",
-      "imagen": null,
+      "imagen": "img/importados/VASE-14.avif",
       "agotado": false,
       "nuevo": true
     },
@@ -16068,7 +16068,7 @@
       "categoria": "Cuidado Personal",
       "subcategoria": "Bienestar y suplementos",
       "marca": "Otras",
-      "imagen": null,
+      "imagen": "img/personal/FEM-01.webp",
       "agotado": false,
       "nuevo": true
     },
@@ -16081,7 +16081,7 @@
       "subcategoria": "Serums y ampollas",
       "marca": "Beauty of Joseon",
       "descripcion": "Revive Eye Serum : Ginseng + Retinal (Suero revitalizante para ojos: ginseng y retinal) Sérum para el contorno de ojos que hidrata profundamente sin dejar una sensación pesada. Con una fórmula rica en ingredientes beneficiosos para la piel. Mantiene tu piel hidratada e iluminada con la vitamina E. Ingredientes claves: ácido hialurónico, ceramidas, niacinamida, extracto de ginseng, retinal.",
-      "imagen": null,
+      "imagen": "img/skincare/BEAUTY3.jpg",
       "agotado": false
     },
     {
@@ -16093,7 +16093,7 @@
       "subcategoria": "Serums y ampollas",
       "marca": "Medicube",
       "descripcion": "Ampolla antienvejecimiento enriquecida con PDRN de salmón, complejo de colágeno de salmón y péptidos mejora la elasticidad de la piel, atenúa las imperfecciones y reduce la pigmentación de melanina. La ampolla es hipoalergénica y segura para usar en pieles sensibles. Ingredientes claves: Ácido acrílico, extracto de cúrcuma, colágeno hidrolizado, péptidos.",
-      "imagen": null,
+      "imagen": "img/skincare/MEDICUBE18.webp",
       "agotado": false
     },
     {
@@ -16105,7 +16105,7 @@
       "subcategoria": "Protección solar",
       "marca": "Tocobo",
       "descripcion": "Ultra ligero y cómodo, este protector solar con textura refrescante de suero hidrata tu piel y la protege de los rayos UVA y UVB con FPS50+ PA++++. Es indetectable sobre la piel y se absorbe fácilmente, así que no debes preocuparte por residuos blancos o grasosos. Ingredientes claves: Niacinamida, extracto de algodón, extracto de flor y corteza.",
-      "imagen": null,
+      "imagen": "img/skincare/TOCOBO33.jpg",
       "agotado": false
     }
   ]
