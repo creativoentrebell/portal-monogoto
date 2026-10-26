@@ -6904,7 +6904,11 @@
       "imagen": "img/skincare/DR-ALTHEA24.webp",
       "agotado": false,
       "marca": "Dr. Althea",
-      "descripcion": "Limpiador líquido exfoliante de textura acuosa que retira el exceso de grasa, ayuda a destapar los poros y a prevenir los puntos negros, con acabado fresco y no pegajoso. Se puede usar en zona T, mejillas y mentón. Para todo tipo de piel, especialmente grasa o con poros dilatados. Ingredientes claves: Hamamelis, corteza de sauce, raíz de escutelaria, pantenol, glicirricinato dipotásico."
+      "descripcion": "Limpiador líquido exfoliante de textura acuosa que retira el exceso de grasa, ayuda a destapar los poros y a prevenir los puntos negros, con acabado fresco y no pegajoso. Se puede usar en zona T, mejillas y mentón. Para todo tipo de piel, especialmente grasa o con poros dilatados. Ingredientes claves: Hamamelis, corteza de sauce, raíz de escutelaria, pantenol, glicirricinato dipotásico.",
+      "etiquetas": [
+        "Grasa y poros",
+        "Exfoliación"
+      ]
     },
     {
       "id": "p0659",
@@ -6916,7 +6920,12 @@
       "imagen": "img/skincare/ANUA27.webp",
       "agotado": true,
       "marca": "Anua",
-      "descripcion": "Protector solar de uso diario SPF50 que también funciona como hidratante ligero y prebase de maquillaje. Su textura no es grasosa, no deja residuo blanco y deja la piel con acabado jugoso. No comedogénico y suave con la piel sensible. Ingredientes claves: Glicerina, hialuronato de sodio, niacinamida, pantenol, vitamina E."
+      "descripcion": "Protector solar de uso diario SPF50 que también funciona como hidratante ligero y prebase de maquillaje. Su textura no es grasosa, no deja residuo blanco y deja la piel con acabado jugoso. No comedogénico y suave con la piel sensible. Ingredientes claves: Glicerina, hialuronato de sodio, niacinamida, pantenol, vitamina E.",
+      "etiquetas": [
+        "Hidratación",
+        "Piel sensible",
+        "Protección solar"
+      ]
     },
     {
       "id": "p0660",
@@ -6928,7 +6937,11 @@
       "imagen": "img/skincare/ANUA29.webp",
       "agotado": true,
       "marca": "Anua",
-      "descripcion": "La Mascarilla Calmante de Colágeno Anua Heartleaf 70 está formulada para calmar y aliviar la piel irritada, a la vez que refuerza la barrera de hidratación cutánea. Es una mascarilla hidratante enriquecida con 2000 ppm de extracto de colágeno. Ingredientes claves: agua de flor, hoja y tallo de Houttuynia Cordata y extracto de hoja de Aloe, ácido hialurónico."
+      "descripcion": "La Mascarilla Calmante de Colágeno Anua Heartleaf 70 está formulada para calmar y aliviar la piel irritada, a la vez que refuerza la barrera de hidratación cutánea. Es una mascarilla hidratante enriquecida con 2000 ppm de extracto de colágeno. Ingredientes claves: agua de flor, hoja y tallo de Houttuynia Cordata y extracto de hoja de Aloe, ácido hialurónico.",
+      "etiquetas": [
+        "Piel sensible",
+        "Calmante"
+      ]
     },
     {
       "id": "p0661",
@@ -6940,7 +6953,11 @@
       "imagen": "img/skincare/ANUA30.webp",
       "agotado": true,
       "marca": "Anua",
-      "descripcion": "Mascarilla de hidrogel de 1 mm con extracto de durazno y colágeno que hidrata en profundidad, mejora la textura y deja la piel luminosa. Se vuelve transparente a medida que la piel absorbe los ingredientes y es lo bastante ligera para dejarla puesta toda la noche. Ingredientes claves: Extracto de durazno fermentado, niacinamida, colágeno de bajo peso molecular, adenosina, vitamina B12, ácido hialurónico."
+      "descripcion": "Mascarilla de hidrogel de 1 mm con extracto de durazno y colágeno que hidrata en profundidad, mejora la textura y deja la piel luminosa. Se vuelve transparente a medida que la piel absorbe los ingredientes y es lo bastante ligera para dejarla puesta toda la noche. Ingredientes claves: Extracto de durazno fermentado, niacinamida, colágeno de bajo peso molecular, adenosina, vitamina B12, ácido hialurónico.",
+      "etiquetas": [
+        "Hidratación",
+        "Luminosidad"
+      ]
     },
     {
       "id": "p0662",
@@ -6963,7 +6980,11 @@
       "imagen": "img/skincare/NINE05.webp",
       "agotado": false,
       "marca": "Nineless",
-      "descripcion": "Este sérum antiacné con ácido glicólico ayuda a mejorar la textura desigual de la piel para lograr un acabado más uniforme. Su fórmula también contiene pantenol y alantoína, que ayudan a calmar y cuidar la piel. Ingredientes claves: Ácido glicólico, pantenol, ácido cítrico."
+      "descripcion": "Este sérum antiacné con ácido glicólico ayuda a mejorar la textura desigual de la piel para lograr un acabado más uniforme. Su fórmula también contiene pantenol y alantoína, que ayudan a calmar y cuidar la piel. Ingredientes claves: Ácido glicólico, pantenol, ácido cítrico.",
+      "etiquetas": [
+        "Granitos",
+        "Exfoliación"
+      ]
     },
     {
       "id": "p0665",
@@ -6975,7 +6996,12 @@
       "imagen": "img/skincare/ANUA23.webp",
       "agotado": true,
       "marca": "Anua",
-      "descripcion": "Mascarilla en tela de hidrogel empapada en esencia que ayuda a atenuar manchas, pecas e imperfecciones, unifica el tono y aporta luminosidad a la piel apagada mientras la mantiene hidratada. Apta para todo tipo de piel. Ingredientes claves: Extracto de limón verde, vitamina C, niacinamida, glutatión, ácido ferúlico, vitamina E."
+      "descripcion": "Mascarilla en tela de hidrogel empapada en esencia que ayuda a atenuar manchas, pecas e imperfecciones, unifica el tono y aporta luminosidad a la piel apagada mientras la mantiene hidratada. Apta para todo tipo de piel. Ingredientes claves: Extracto de limón verde, vitamina C, niacinamida, glutatión, ácido ferúlico, vitamina E.",
+      "etiquetas": [
+        "Granitos",
+        "Manchas",
+        "Luminosidad"
+      ]
     },
     {
       "id": "p0666",
@@ -6987,7 +7013,12 @@
       "imagen": "img/skincare/NINE06.webp",
       "agotado": false,
       "marca": "Nineless",
-      "descripcion": "Sérum exfoliante de uso diario, ligero y sin fragancia, que limpia los poros, retira el exceso de grasa y las células muertas, y suaviza la textura áspera mientras hidrata. Ideal para piel grasa o mixta con tendencia al acné, puntos negros y poros dilatados. Ingredientes claves: Ácido salicílico (0,15%), betaína, pantenol, hialuronato de sodio."
+      "descripcion": "Sérum exfoliante de uso diario, ligero y sin fragancia, que limpia los poros, retira el exceso de grasa y las células muertas, y suaviza la textura áspera mientras hidrata. Ideal para piel grasa o mixta con tendencia al acné, puntos negros y poros dilatados. Ingredientes claves: Ácido salicílico (0,15%), betaína, pantenol, hialuronato de sodio.",
+      "etiquetas": [
+        "Granitos",
+        "Grasa y poros",
+        "Exfoliación"
+      ]
     },
     {
       "id": "p0667",
@@ -7000,7 +7031,11 @@
       "agotado": false,
       "marca": "Anua",
       "descripcion": "Sérum formulado con un 10% de Niacinamida, 4% de Ácido Tranexámico y 2% de Arbutina, ideal para quienes desean aclarar todo tipo de manchas y unificar el tono de la piel, logrando una piel hidratada y luminosa. La Niacinamida al 10% ayuda a fortalecer la barrera de la piel y mejorar su textura.",
-      "masVendido": true
+      "masVendido": true,
+      "etiquetas": [
+        "Manchas",
+        "Luminosidad"
+      ]
     },
     {
       "id": "p0674",
@@ -7012,7 +7047,11 @@
       "imagen": "img/skincare/DR-ALTHEA5.webp",
       "agotado": false,
       "marca": "Dr. Althea",
-      "descripcion": "Un suero hidratante formulado con retinol que ayuda a mejorar la elasticidad de la piel y reducir la aparición de líneas finas y arrugas. Contiene Bakuchiol que ayuda a mejorar la textura de la piel y reducir la pigmentación. Ingredientes claves: Pantenol, aceite de soja, jugo de alba, retinol, extracto de flor, lavanda. 0.1% Gentle Retinol Serum (Suero suave de retinol)"
+      "descripcion": "Un suero hidratante formulado con retinol que ayuda a mejorar la elasticidad de la piel y reducir la aparición de líneas finas y arrugas. Contiene Bakuchiol que ayuda a mejorar la textura de la piel y reducir la pigmentación. Ingredientes claves: Pantenol, aceite de soja, jugo de alba, retinol, extracto de flor, lavanda. 0.1% Gentle Retinol Serum (Suero suave de retinol)",
+      "etiquetas": [
+        "Manchas",
+        "Antiedad"
+      ]
     },
     {
       "id": "p0675",
@@ -7036,7 +7075,11 @@
       "agotado": false,
       "marca": "Dr. Althea",
       "descripcion": "La Crema 147 Barrier es un tratamiento avanzado de cuidado de la piel diseñado para fortalecer la barrera cutánea, proporcionar nutrición y garantizar una hidratación profunda. Su formulación está enriquecida con ingredientes que refuerzan la función protectora de la piel. Ingredientes claves: Niacinamida, ceramidas, centella asiática, aceite de macadamia, ácido hialurónico. 147 Barrier Cream (Crema protectora 147)",
-      "masVendido": true
+      "masVendido": true,
+      "etiquetas": [
+        "Hidratación",
+        "Piel seca"
+      ]
     },
     {
       "id": "p0678",
@@ -7048,7 +7091,12 @@
       "imagen": "img/skincare/ANUA8.webp",
       "agotado": false,
       "marca": "Anua",
-      "descripcion": "Crema hidratante diseñada para reparar y fortalecer la barrera de la piel seca, tirante o irritada. Su fórmula con pantenol y tres tipos de ceramidas ayuda a retener la humedad y a calmar el enrojecimiento. Sin fragancia ni alcohol. Ingredientes claves: Pantenol, ceramidas NP, AP y EOP, ácido hialurónico, ectoína, extracto de centella asiática."
+      "descripcion": "Crema hidratante diseñada para reparar y fortalecer la barrera de la piel seca, tirante o irritada. Su fórmula con pantenol y tres tipos de ceramidas ayuda a retener la humedad y a calmar el enrojecimiento. Sin fragancia ni alcohol. Ingredientes claves: Pantenol, ceramidas NP, AP y EOP, ácido hialurónico, ectoína, extracto de centella asiática.",
+      "etiquetas": [
+        "Hidratación",
+        "Piel seca",
+        "Calmante"
+      ]
     },
     {
       "id": "p0679",
@@ -7061,7 +7109,11 @@
       "agotado": false,
       "marca": "Dr. Althea",
       "descripcion": "Crema calmante vegana ideal para hidratar y proteger la piel sensible. Formulada con ingredientes naturales como Centella Asiática Extract, esta crema ofrece un alivio efectivo para irritaciones y ayuda a restaurar la barrera cutánea. Ingredientes claves: Niacinamida, pantenol, ácido hialurónico, extracto de centella asiática. 345 Relief Cream (Crema de alivio 345)",
-      "masVendido": true
+      "masVendido": true,
+      "etiquetas": [
+        "Piel sensible",
+        "Calmante"
+      ]
     },
     {
       "id": "p0680",
@@ -7073,7 +7125,11 @@
       "imagen": "img/skincare/ANUA4.webp",
       "agotado": false,
       "marca": "Anua",
-      "descripcion": "Limpiador facial en espuma cremosa y ligera que retira los residuos sin resecar, ayuda a mantener el equilibrio de hidratación y a controlar la grasa. Se usa como segundo paso después del aceite limpiador. Baja irritación y sin fragancia, para todo tipo de piel. Ingredientes claves: Ácido hialurónico (8 tipos), glicerina, pantenol, PCA de zinc."
+      "descripcion": "Limpiador facial en espuma cremosa y ligera que retira los residuos sin resecar, ayuda a mantener el equilibrio de hidratación y a controlar la grasa. Se usa como segundo paso después del aceite limpiador. Baja irritación y sin fragancia, para todo tipo de piel. Ingredientes claves: Ácido hialurónico (8 tipos), glicerina, pantenol, PCA de zinc.",
+      "etiquetas": [
+        "Grasa y poros",
+        "Hidratación"
+      ]
     },
     {
       "id": "p0683",
@@ -7085,7 +7141,11 @@
       "imagen": "img/skincare/COSRX5.webp",
       "agotado": false,
       "marca": "COSRX",
-      "descripcion": "Este producto está formulado con 73,7% de filtrado de baba de caracol, 2% de niacinamida y 5 tipos de péptidos que ayudan a regenerar las células, aclarar e hidratar la zona y reducir las líneas de expresión. Actúa como antioxidante y es conocido por sus habilidades para curar heridas y cicatrices de acné. Ingredientes claves: Filtrado de caracol, aceite de girasol, niacinamida, pantenol."
+      "descripcion": "Este producto está formulado con 73,7% de filtrado de baba de caracol, 2% de niacinamida y 5 tipos de péptidos que ayudan a regenerar las células, aclarar e hidratar la zona y reducir las líneas de expresión. Actúa como antioxidante y es conocido por sus habilidades para curar heridas y cicatrices de acné. Ingredientes claves: Filtrado de caracol, aceite de girasol, niacinamida, pantenol.",
+      "etiquetas": [
+        "Antiedad",
+        "Ojeras y contorno"
+      ]
     },
     {
       "id": "p0684",
@@ -7097,7 +7157,11 @@
       "imagen": "img/skincare/MEDICUBE41.webp",
       "agotado": false,
       "marca": "Medicube",
-      "descripcion": "Ampolla iluminadora de uso mañana y noche que ayuda a atenuar manchas y pigmentación para un tono más uniforme. Textura ligera, no pegajosa y de rápida absorción. La vitamina C puede causar un leve hormigueo; en ese caso, empezar usándola día de por medio. Ingredientes claves: Vitamina C pura (25%), derivado de vitamina C (2%), vitamina B5 (2%), ácido ferúlico, vitamina E, adenosina."
+      "descripcion": "Ampolla iluminadora de uso mañana y noche que ayuda a atenuar manchas y pigmentación para un tono más uniforme. Textura ligera, no pegajosa y de rápida absorción. La vitamina C puede causar un leve hormigueo; en ese caso, empezar usándola día de por medio. Ingredientes claves: Vitamina C pura (25%), derivado de vitamina C (2%), vitamina B5 (2%), ácido ferúlico, vitamina E, adenosina.",
+      "etiquetas": [
+        "Manchas",
+        "Luminosidad"
+      ]
     },
     {
       "id": "p0685",
@@ -7109,7 +7173,11 @@
       "imagen": "img/skincare/ABIB6.webp",
       "agotado": false,
       "marca": "Abib",
-      "descripcion": "Esta barra solar orgánica defiende fácilmente los rayos UV mientras calma y fortalece la piel. La fórmula resistente al agua. Diseño curvo que se adhiere perfectamente a la cara para una mejor aplicación. Formulado con ingredientes naturales para hidratar y calmar tu piel para una tez suave. Ingredientes claves: Aceite vegetal, semilla de camelia, semilla de girasol."
+      "descripcion": "Esta barra solar orgánica defiende fácilmente los rayos UV mientras calma y fortalece la piel. La fórmula resistente al agua. Diseño curvo que se adhiere perfectamente a la cara para una mejor aplicación. Formulado con ingredientes naturales para hidratar y calmar tu piel para una tez suave. Ingredientes claves: Aceite vegetal, semilla de camelia, semilla de girasol.",
+      "etiquetas": [
+        "Calmante",
+        "Protección solar"
+      ]
     },
     {
       "id": "p0686",
@@ -7121,7 +7189,12 @@
       "imagen": "img/skincare/COSRX3.webp",
       "agotado": false,
       "marca": "COSRX",
-      "descripcion": "Protector solar híbrido físico y químico ofrece protección solar de SPF50+ PA+++ junto con beneficios hidratantes y calmantes con ingredientes como extracto de hoja de aloe y glicerina. En una textura de crema ligera, la fórmula se absorbe rápidamente en la piel sin dejar un acabado grasoso o blanco. Ingredientes claves: Extracto de hoja de aloe, ácido esteárico, ácido sulfónico."
+      "descripcion": "Protector solar híbrido físico y químico ofrece protección solar de SPF50+ PA+++ junto con beneficios hidratantes y calmantes con ingredientes como extracto de hoja de aloe y glicerina. En una textura de crema ligera, la fórmula se absorbe rápidamente en la piel sin dejar un acabado grasoso o blanco. Ingredientes claves: Extracto de hoja de aloe, ácido esteárico, ácido sulfónico.",
+      "etiquetas": [
+        "Hidratación",
+        "Calmante",
+        "Protección solar"
+      ]
     },
     {
       "id": "p0687",
@@ -7145,7 +7218,10 @@
       "imagen": "img/skincare/ANUA28.jpg",
       "agotado": false,
       "marca": "Anua",
-      "descripcion": "Crema tone-up con color SPF50+ PA++++ que se aplica con las manos como un hidratante. Da un toque de color, unifica el tono y disimula el enrojecimiento con cobertura ligera, mientras controla el brillo con un acabado mate pero luminoso. Ingredientes claves: Niacinamida, madecasósido, ceramida NP, vitamina E, dióxido de titanio."
+      "descripcion": "Crema tone-up con color SPF50+ PA++++ que se aplica con las manos como un hidratante. Da un toque de color, unifica el tono y disimula el enrojecimiento con cobertura ligera, mientras controla el brillo con un acabado mate pero luminoso. Ingredientes claves: Niacinamida, madecasósido, ceramida NP, vitamina E, dióxido de titanio.",
+      "etiquetas": [
+        "Protección solar"
+      ]
     },
     {
       "id": "p0689",
@@ -7157,7 +7233,12 @@
       "imagen": "img/skincare/DR-ALTHEA26.webp",
       "agotado": false,
       "marca": "Dr. Althea",
-      "descripcion": "Sérum ligero vegano de color azul natural que aporta hidratación profunda y duradera, apoya la barrera, calma la irritación y deja un acabado jugoso. Se absorbe rápido sin dejar sensación pegajosa. Para todo tipo de piel, incluso sensible o deshidratada. Ingredientes claves: Agua de bambú (70%), ácido hialurónico, pantenol, guaiazuleno, niacinamida, centella asiática, PDRN vegano."
+      "descripcion": "Sérum ligero vegano de color azul natural que aporta hidratación profunda y duradera, apoya la barrera, calma la irritación y deja un acabado jugoso. Se absorbe rápido sin dejar sensación pegajosa. Para todo tipo de piel, incluso sensible o deshidratada. Ingredientes claves: Agua de bambú (70%), ácido hialurónico, pantenol, guaiazuleno, niacinamida, centella asiática, PDRN vegano.",
+      "etiquetas": [
+        "Hidratación",
+        "Piel sensible",
+        "Calmante"
+      ]
     },
     {
       "id": "p0690",
@@ -7169,7 +7250,10 @@
       "imagen": "img/skincare/MEDICUBE67.webp",
       "agotado": false,
       "marca": "Medicube",
-      "descripcion": "Es un suero avanzado y altamente concentrado diseñado para refinar los poros y mejorar la textura general de la piel. Esta fórmula ayuda a minimizar la apariencia de los poros dilatados, controlar el exceso de sebo y revitalizar la piel cansada y estresada para una tez más suave y clara. Ingredientes claves: Extracto de flor, berenjena, ácido cítrico, colágeno, centella asiática, ceramida."
+      "descripcion": "Es un suero avanzado y altamente concentrado diseñado para refinar los poros y mejorar la textura general de la piel. Esta fórmula ayuda a minimizar la apariencia de los poros dilatados, controlar el exceso de sebo y revitalizar la piel cansada y estresada para una tez más suave y clara. Ingredientes claves: Extracto de flor, berenjena, ácido cítrico, colágeno, centella asiática, ceramida.",
+      "etiquetas": [
+        "Grasa y poros"
+      ]
     },
     {
       "id": "p0696",
@@ -7181,7 +7265,12 @@
       "imagen": "img/skincare/MIXSOON15.webp",
       "agotado": false,
       "marca": "Mixsoon",
-      "descripcion": "Crema rica pero ligera, no grasosa y de rápida absorción, que hidrata intensamente, fortalece la barrera, calma la irritación y ayuda a prevenir la pérdida de humedad, además de mejorar la textura y la luminosidad. Ideal para piel seca, deshidratada o áspera; apta para todo tipo de piel. Ingredientes claves: Extracto de soya fermentada, fermento de cebada, fermento de granada, fermento de jugo de pera."
+      "descripcion": "Crema rica pero ligera, no grasosa y de rápida absorción, que hidrata intensamente, fortalece la barrera, calma la irritación y ayuda a prevenir la pérdida de humedad, además de mejorar la textura y la luminosidad. Ideal para piel seca, deshidratada o áspera; apta para todo tipo de piel. Ingredientes claves: Extracto de soya fermentada, fermento de cebada, fermento de granada, fermento de jugo de pera.",
+      "etiquetas": [
+        "Hidratación",
+        "Piel seca",
+        "Calmante"
+      ]
     },
     {
       "id": "p0697",
@@ -7193,7 +7282,12 @@
       "imagen": "img/skincare/MIXSOON49-1.jpg",
       "agotado": false,
       "marca": "Mixsoon",
-      "descripcion": "Versión mini (15 ml) de la Bean Cream: crema rica pero ligera, no grasosa, que hidrata intensamente, fortalece la barrera, calma la irritación y ayuda a mejorar la textura y la luminosidad. Ideal para piel seca o deshidratada. Ingredientes claves: Extracto de soya fermentada, fermento de cebada, fermento de granada, fermento de jugo de pera."
+      "descripcion": "Versión mini (15 ml) de la Bean Cream: crema rica pero ligera, no grasosa, que hidrata intensamente, fortalece la barrera, calma la irritación y ayuda a mejorar la textura y la luminosidad. Ideal para piel seca o deshidratada. Ingredientes claves: Extracto de soya fermentada, fermento de cebada, fermento de granada, fermento de jugo de pera.",
+      "etiquetas": [
+        "Hidratación",
+        "Piel seca",
+        "Calmante"
+      ]
     },
     {
       "id": "p0701",
@@ -7205,7 +7299,12 @@
       "imagen": "img/skincare/MIXSOON9.webp",
       "agotado": false,
       "marca": "Mixsoon",
-      "descripcion": "Contorno de ojos ligero y no grasoso que ayuda a iluminar las ojeras, reducir la hinchazón y suavizar las líneas finas, mientras hidrata y apoya la barrera. Se aplica mañana y noche con suaves toques. Vegano, sin alcohol ni fragancia. Ingredientes claves: Soya fermentada, extracto de callo de hibisco, niacinamida, adenosina, pantenol, vitamina E."
+      "descripcion": "Contorno de ojos ligero y no grasoso que ayuda a iluminar las ojeras, reducir la hinchazón y suavizar las líneas finas, mientras hidrata y apoya la barrera. Se aplica mañana y noche con suaves toques. Vegano, sin alcohol ni fragancia. Ingredientes claves: Soya fermentada, extracto de callo de hibisco, niacinamida, adenosina, pantenol, vitamina E.",
+      "etiquetas": [
+        "Antiedad",
+        "Luminosidad",
+        "Ojeras y contorno"
+      ]
     },
     {
       "id": "p0702",
@@ -7217,7 +7316,11 @@
       "imagen": "img/skincare/MIXSOON25.webp",
       "agotado": false,
       "marca": "Mixsoon",
-      "descripcion": "La crema hidratante en barra se siente ligera en la piel y se absorbe rápidamente en la piel, sin dejar sensaciones pegajosas. Se puede aplicar varias capas para obtener efectos humectantes aún mayores. Perfecto para nutrir y reforzar la barrera cutánea sobre la marcha. Ingredientes claves: Aceite de girasol, manteca de karité, aceite de ricino, extracto de soja."
+      "descripcion": "La crema hidratante en barra se siente ligera en la piel y se absorbe rápidamente en la piel, sin dejar sensaciones pegajosas. Se puede aplicar varias capas para obtener efectos humectantes aún mayores. Perfecto para nutrir y reforzar la barrera cutánea sobre la marcha. Ingredientes claves: Aceite de girasol, manteca de karité, aceite de ricino, extracto de soja.",
+      "etiquetas": [
+        "Hidratación",
+        "Piel seca"
+      ]
     },
     {
       "id": "p0703",
@@ -7240,7 +7343,11 @@
       "imagen": "img/skincare/MIXSOON18.webp",
       "agotado": false,
       "marca": "Mixsoon",
-      "descripcion": "Esta barra solar está equipada con filtros químicos para protección UV SPF 50+ PA++++ y está repleta de extractos de plantas fermentadas, para una hidratación constante, beneficios iluminadores, para obtener beneficios acondicionadores y exfoliantes de la piel. Ingredientes claves: Extracto de soja, cebada, granada, pera, aceite de oliva."
+      "descripcion": "Esta barra solar está equipada con filtros químicos para protección UV SPF 50+ PA++++ y está repleta de extractos de plantas fermentadas, para una hidratación constante, beneficios iluminadores, para obtener beneficios acondicionadores y exfoliantes de la piel. Ingredientes claves: Extracto de soja, cebada, granada, pera, aceite de oliva.",
+      "etiquetas": [
+        "Luminosidad",
+        "Protección solar"
+      ]
     },
     {
       "id": "p0705",
@@ -7252,7 +7359,11 @@
       "imagen": "img/skincare/MIXSOON28.webp",
       "agotado": false,
       "marca": "Mixsoon",
-      "descripcion": "Pads de algodón empapados en esencia de frijoles que hidratan y nutren la piel seca o cansada, la calman y ayudan a mejorar la textura y la elasticidad. Se usan como tónico, como mascarilla rápida o para retirar maquillaje ligero. Ingredientes claves: Siete extractos de frijoles y legumbres (soya, lenteja, frijol, arveja, maní, algarrobo), niacinamida, ácido hialurónico, adenosina."
+      "descripcion": "Pads de algodón empapados en esencia de frijoles que hidratan y nutren la piel seca o cansada, la calman y ayudan a mejorar la textura y la elasticidad. Se usan como tónico, como mascarilla rápida o para retirar maquillaje ligero. Ingredientes claves: Siete extractos de frijoles y legumbres (soya, lenteja, frijol, arveja, maní, algarrobo), niacinamida, ácido hialurónico, adenosina.",
+      "etiquetas": [
+        "Hidratación",
+        "Piel seca"
+      ]
     },
     {
       "id": "p0706",
@@ -7276,7 +7387,11 @@
       "imagen": "img/skincare/TOCOBO8.webp",
       "agotado": false,
       "marca": "Tocobo",
-      "descripcion": "Esta esencia fermentada de lactobacilos suaviza las líneas de expresión, promueve la regeneración celular e hidrata la piel. Sus ingredientes activos previenen el daño causado por factores externos, aportando una barrera cutánea sana y un efecto iluminador y radiante. Este producto está formulado con tres bacterias de ácido láctico distintas."
+      "descripcion": "Esta esencia fermentada de lactobacilos suaviza las líneas de expresión, promueve la regeneración celular e hidrata la piel. Sus ingredientes activos previenen el daño causado por factores externos, aportando una barrera cutánea sana y un efecto iluminador y radiante. Este producto está formulado con tres bacterias de ácido láctico distintas.",
+      "etiquetas": [
+        "Antiedad",
+        "Luminosidad"
+      ]
     },
     {
       "id": "p0710",
@@ -7288,7 +7403,11 @@
       "imagen": "img/skincare/MIXSOON4.webp",
       "agotado": false,
       "marca": "Mixsoon",
-      "descripcion": "Esencia probiótica de textura ligera y acuosa, no grasosa, que fortalece la barrera, hidrata en profundidad, calma la irritación y el enrojecimiento y ayuda a proteger la piel del estrés ambiental. Para piel sensible, seca, deshidratada o estresada. Vegana, sin alcohol ni fragancia. Ingredientes claves: Extracto de fermento de bífida, glicerina."
+      "descripcion": "Esencia probiótica de textura ligera y acuosa, no grasosa, que fortalece la barrera, hidrata en profundidad, calma la irritación y el enrojecimiento y ayuda a proteger la piel del estrés ambiental. Para piel sensible, seca, deshidratada o estresada. Vegana, sin alcohol ni fragancia. Ingredientes claves: Extracto de fermento de bífida, glicerina.",
+      "etiquetas": [
+        "Piel sensible",
+        "Calmante"
+      ]
     },
     {
       "id": "p0711",
@@ -7300,7 +7419,11 @@
       "imagen": "img/skincare/MIXSOON21.webp",
       "agotado": false,
       "marca": "Mixsoon",
-      "descripcion": "Esta mascarilla de extracto de bífida repone la humedad de la piel y ayuda a eliminar las células muertas viejas de la piel para mantener el tono de la piel limpio, lo que ayuda a mejorar la salud de la piel debilitada. Ingredientes claves: Pantenol, fermento de bífida."
+      "descripcion": "Esta mascarilla de extracto de bífida repone la humedad de la piel y ayuda a eliminar las células muertas viejas de la piel para mantener el tono de la piel limpio, lo que ayuda a mejorar la salud de la piel debilitada. Ingredientes claves: Pantenol, fermento de bífida.",
+      "etiquetas": [
+        "Hidratación",
+        "Exfoliación"
+      ]
     },
     {
       "id": "p0712",
@@ -7312,7 +7435,12 @@
       "imagen": "img/skincare/ANUA26.webp",
       "agotado": false,
       "marca": "Anua",
-      "descripcion": "Sérum ligero de rápida absorción que hidrata, fortalece la barrera cutánea y calma la piel, sin dejar sensación pegajosa. Para uso diario en piel seca, sensible, normal o mixta. Ingredientes claves: Savia de abedul japonés (70%), 10 tipos de ácido hialurónico, alantoína, betaína, extracto de pepino."
+      "descripcion": "Sérum ligero de rápida absorción que hidrata, fortalece la barrera cutánea y calma la piel, sin dejar sensación pegajosa. Para uso diario en piel seca, sensible, normal o mixta. Ingredientes claves: Savia de abedul japonés (70%), 10 tipos de ácido hialurónico, alantoína, betaína, extracto de pepino.",
+      "etiquetas": [
+        "Hidratación",
+        "Piel seca",
+        "Piel sensible"
+      ]
     },
     {
       "id": "p0713",
@@ -7324,7 +7452,11 @@
       "imagen": "img/skincare/AREN-01.webp",
       "agotado": false,
       "marca": "Arencia",
-      "descripcion": "Un limpiador todo en uno para pieles sensibles que proporciona tres efectos en una sola aplicación: puede ser un limpiador diario, un exfoliante facial y un desmaquillador. Ingredientes claves: Carbón vegetal, almendra dulce, caolín, aceite de limón, ácido de coco."
+      "descripcion": "Un limpiador todo en uno para pieles sensibles que proporciona tres efectos en una sola aplicación: puede ser un limpiador diario, un exfoliante facial y un desmaquillador. Ingredientes claves: Carbón vegetal, almendra dulce, caolín, aceite de limón, ácido de coco.",
+      "etiquetas": [
+        "Piel sensible",
+        "Exfoliación"
+      ]
     },
     {
       "id": "p0714",
@@ -7348,7 +7480,12 @@
       "imagen": "img/skincare/TOCOBO7.webp",
       "agotado": false,
       "marca": "Tocobo",
-      "descripcion": "Aceite limpiador con polvo de calamina, primer paso de la doble limpieza, que disuelve maquillaje y protector solar, absorbe el exceso de grasa para ayudar con poros y puntos negros, y calma la piel irritada. Deja la piel suave y sin sensación grasosa. Agitar antes de usar. Vegano, ideal para piel grasa o mixta con tendencia al acné. Ingredientes claves: Calamina, aceite de oliva, extractos de arroz, avena y soya."
+      "descripcion": "Aceite limpiador con polvo de calamina, primer paso de la doble limpieza, que disuelve maquillaje y protector solar, absorbe el exceso de grasa para ayudar con poros y puntos negros, y calma la piel irritada. Deja la piel suave y sin sensación grasosa. Agitar antes de usar. Vegano, ideal para piel grasa o mixta con tendencia al acné. Ingredientes claves: Calamina, aceite de oliva, extractos de arroz, avena y soya.",
+      "etiquetas": [
+        "Granitos",
+        "Grasa y poros",
+        "Calmante"
+      ]
     },
     {
       "id": "p0716",
@@ -7360,7 +7497,11 @@
       "imagen": "img/skincare/AREN-02.webp",
       "agotado": false,
       "marca": "Arencia",
-      "descripcion": "Limpiador de textura cremosa tipo mochi que forma una espuma suave con agua. Retira suciedad, grasa y residuos mientras calma la piel, ayuda a reducir el enrojecimiento visible y exfolia suavemente, cuidando la barrera de hidratación. Para piel sensible, seca, normal y todo tipo de piel. Ingredientes claves: Hoja de corazón, extracto de flor de caléndula, polvo de arroz, glicerina."
+      "descripcion": "Limpiador de textura cremosa tipo mochi que forma una espuma suave con agua. Retira suciedad, grasa y residuos mientras calma la piel, ayuda a reducir el enrojecimiento visible y exfolia suavemente, cuidando la barrera de hidratación. Para piel sensible, seca, normal y todo tipo de piel. Ingredientes claves: Hoja de corazón, extracto de flor de caléndula, polvo de arroz, glicerina.",
+      "etiquetas": [
+        "Piel sensible",
+        "Calmante"
+      ]
     },
     {
       "id": "p0717",
@@ -7372,7 +7513,12 @@
       "imagen": "img/skincare/MIXSOON24.webp",
       "agotado": false,
       "marca": "Mixsoon",
-      "descripcion": "Es una bruma facial que destaca por su versatilidad y capacidad para proporcionar una hidratación instantánea, aliviando eficazmente la piel seca y sensible. Este producto ha sido formulado con extractos naturales de alta calidad, como la centella asiática y la hoja de corazón, ingredientes reconocidos por sus propiedades calmantes y regeneradoras. Ingredientes claves: Extracto de margarita, árbol de té, hoja de corazón, centella asiática."
+      "descripcion": "Es una bruma facial que destaca por su versatilidad y capacidad para proporcionar una hidratación instantánea, aliviando eficazmente la piel seca y sensible. Este producto ha sido formulado con extractos naturales de alta calidad, como la centella asiática y la hoja de corazón, ingredientes reconocidos por sus propiedades calmantes y regeneradoras. Ingredientes claves: Extracto de margarita, árbol de té, hoja de corazón, centella asiática.",
+      "etiquetas": [
+        "Piel seca",
+        "Piel sensible",
+        "Calmante"
+      ]
     },
     {
       "id": "p0719",
@@ -7384,7 +7530,11 @@
       "imagen": "img/skincare/BEAUTY10.webp",
       "agotado": false,
       "marca": "Beauty of Joseon",
-      "descripcion": "Este serum ligero es ideal para calmar la piel irritada y restaurar su barrera cutánea. Su fórmula suave y enriquecida con ingredientes de la medicina tradicional coreana \"hanbang\" se enfoca en reducir el enrojecimiento y la sensibilidad de la piel. Ingredientes claves: Camelia, artemisa, ginseng, pantenol, extracto té verde."
+      "descripcion": "Este serum ligero es ideal para calmar la piel irritada y restaurar su barrera cutánea. Su fórmula suave y enriquecida con ingredientes de la medicina tradicional coreana \"hanbang\" se enfoca en reducir el enrojecimiento y la sensibilidad de la piel. Ingredientes claves: Camelia, artemisa, ginseng, pantenol, extracto té verde.",
+      "etiquetas": [
+        "Piel sensible",
+        "Calmante"
+      ]
     },
     {
       "id": "p0721",
@@ -7396,7 +7546,12 @@
       "imagen": "img/skincare/MIXSOON20.jpg",
       "agotado": false,
       "marca": "Mixsoon",
-      "descripcion": "Mascarilla de tela tipo gelatina que se adhiere bien a la piel e hidrata y calma la piel seca, sensible o con enrojecimiento, apoyando la recuperación de la barrera. Se deja de 10 a 20 minutos después de la limpieza. Ingredientes claves: Extracto de centella asiática (20%), glicerina."
+      "descripcion": "Mascarilla de tela tipo gelatina que se adhiere bien a la piel e hidrata y calma la piel seca, sensible o con enrojecimiento, apoyando la recuperación de la barrera. Se deja de 10 a 20 minutos después de la limpieza. Ingredientes claves: Extracto de centella asiática (20%), glicerina.",
+      "etiquetas": [
+        "Piel seca",
+        "Piel sensible",
+        "Calmante"
+      ]
     },
     {
       "id": "p0723",
@@ -7408,7 +7563,12 @@
       "imagen": "img/skincare/TOCOBO42.webp",
       "agotado": true,
       "marca": "Tocobo",
-      "descripcion": "Presentación mini (10 ml) del protector solar en sérum SPF50+ PA++++ de la línea Cica Calming. Textura ligera y húmeda de rápida absorción, sin residuo pegajoso, que además calma y refresca la piel irritada por el sol. No comedogénico, vegano, apto para piel sensible o con tendencia al acné. Ingredientes claves: Complejo de centella fermentada, 10 tipos de ácido hialurónico, aloe vera, niacinamida."
+      "descripcion": "Presentación mini (10 ml) del protector solar en sérum SPF50+ PA++++ de la línea Cica Calming. Textura ligera y húmeda de rápida absorción, sin residuo pegajoso, que además calma y refresca la piel irritada por el sol. No comedogénico, vegano, apto para piel sensible o con tendencia al acné. Ingredientes claves: Complejo de centella fermentada, 10 tipos de ácido hialurónico, aloe vera, niacinamida.",
+      "etiquetas": [
+        "Piel sensible",
+        "Calmante",
+        "Protección solar"
+      ]
     },
     {
       "id": "p0724",
@@ -7420,7 +7580,12 @@
       "imagen": "img/skincare/TOCOBO36.webp",
       "agotado": false,
       "marca": "Tocobo",
-      "descripcion": "Protector solar en sérum SPF50+ PA++++ de textura ligera y húmeda que se absorbe rápido y deja un acabado suave sin residuo pegajoso. Además de proteger, calma y refresca la piel irritada o acalorada. No comedogénico, vegano, apto para piel sensible o con tendencia al acné. Ingredientes claves: Complejo de centella fermentada, 10 tipos de ácido hialurónico, aloe vera, niacinamida."
+      "descripcion": "Protector solar en sérum SPF50+ PA++++ de textura ligera y húmeda que se absorbe rápido y deja un acabado suave sin residuo pegajoso. Además de proteger, calma y refresca la piel irritada o acalorada. No comedogénico, vegano, apto para piel sensible o con tendencia al acné. Ingredientes claves: Complejo de centella fermentada, 10 tipos de ácido hialurónico, aloe vera, niacinamida.",
+      "etiquetas": [
+        "Piel sensible",
+        "Calmante",
+        "Protección solar"
+      ]
     },
     {
       "id": "p0725",
@@ -7433,7 +7598,11 @@
       "agotado": false,
       "marca": "Tocobo",
       "descripcion": "El Tocobo Cica Cooling Sun Stick ofrece protección solar mineral SPF50+ PA++++ en un formato en barra de rápida aplicación. Combina óxido de zinc y dióxido de titanio micronizados para brindar cobertura de amplio espectro, mientras un complejo de centella asiática y mentol natural proporciona efecto refrescante inmediato. Ingredientes claves: Extracto de té verde, niacinamida, extracto de centella, ácido hialurónico.",
-      "masVendido": true
+      "masVendido": true,
+      "etiquetas": [
+        "Calmante",
+        "Protección solar"
+      ]
     },
     {
       "id": "p0726",
@@ -7445,7 +7614,12 @@
       "imagen": "img/skincare/MIXSOON19.webp",
       "agotado": false,
       "marca": "Mixsoon",
-      "descripcion": "Un protector solar refrescante con filtros químicos y minerales híbridos que protegen la piel y la dejan con un brillo hidratante. Contiene tres tipos de ácido hialurónico y extracto de centella asiática para mantener la piel calmada e hidratada. Ingredientes claves: Extracto de centella, ácido hialurónico, berenjena, aceite de jojoba, cúrcuma."
+      "descripcion": "Un protector solar refrescante con filtros químicos y minerales híbridos que protegen la piel y la dejan con un brillo hidratante. Contiene tres tipos de ácido hialurónico y extracto de centella asiática para mantener la piel calmada e hidratada. Ingredientes claves: Extracto de centella, ácido hialurónico, berenjena, aceite de jojoba, cúrcuma.",
+      "etiquetas": [
+        "Hidratación",
+        "Calmante",
+        "Protección solar"
+      ]
     },
     {
       "id": "p0727",
@@ -7457,7 +7631,10 @@
       "imagen": "img/skincare/TOCOBO3.webp",
       "agotado": false,
       "marca": "Tocobo",
-      "descripcion": "Espuma limpiadora cremosa con microburbujas que limpia los poros en profundidad, absorbe impurezas y exceso de grasa, y mantiene la piel hidratada sin resecarla. Ideal para piel grasa o mixta con poros obstruidos, también apta para piel sensible. Ingredientes claves: Tensioactivos derivados del coco, arcilla rosada y mineral, bentonita, calamina, extracto de jabonera."
+      "descripcion": "Espuma limpiadora cremosa con microburbujas que limpia los poros en profundidad, absorbe impurezas y exceso de grasa, y mantiene la piel hidratada sin resecarla. Ideal para piel grasa o mixta con poros obstruidos, también apta para piel sensible. Ingredientes claves: Tensioactivos derivados del coco, arcilla rosada y mineral, bentonita, calamina, extracto de jabonera.",
+      "etiquetas": [
+        "Grasa y poros"
+      ]
     },
     {
       "id": "p0728",
@@ -7491,7 +7668,10 @@
       "imagen": "img/skincare/APLB-01.webp",
       "agotado": false,
       "marca": "APLB",
-      "descripcion": "Suplemento de belleza para una piel firme, luminosa e intensamente hidratada desde el interior. Un suplemento oral que actúa desde adentro para mejorar la elasticidad, firmeza e hidratación de la piel, mientras combate los signos de envejecimiento y fatiga cutánea. Ingredientes claves: Zinc, colágeno hidrolizado, vitamina D, B Y E, péptidos, ceramidas."
+      "descripcion": "Suplemento de belleza para una piel firme, luminosa e intensamente hidratada desde el interior. Un suplemento oral que actúa desde adentro para mejorar la elasticidad, firmeza e hidratación de la piel, mientras combate los signos de envejecimiento y fatiga cutánea. Ingredientes claves: Zinc, colágeno hidrolizado, vitamina D, B Y E, péptidos, ceramidas.",
+      "etiquetas": [
+        "Antiedad"
+      ]
     },
     {
       "id": "p0731",
@@ -7503,7 +7683,10 @@
       "imagen": "img/skincare/VT-COS9.webp",
       "agotado": false,
       "marca": "VT Cosmetics",
-      "descripcion": "Este Collagen Reedle Shot 100 ayuda a estimular y tensar tu piel. El delicado diseño del Cica Reedle de tamaño micro facilita la absorción de la piel y despierta la condición de la piel para restaurar la piel sana. Infundido con ingredientes reafirmantes para la piel. Ingredientes claves: Vitamina E, Colágeno, proteína de leche, centella asiática, ácido hialurónico."
+      "descripcion": "Este Collagen Reedle Shot 100 ayuda a estimular y tensar tu piel. El delicado diseño del Cica Reedle de tamaño micro facilita la absorción de la piel y despierta la condición de la piel para restaurar la piel sana. Infundido con ingredientes reafirmantes para la piel. Ingredientes claves: Vitamina E, Colágeno, proteína de leche, centella asiática, ácido hialurónico.",
+      "etiquetas": [
+        "Antiedad"
+      ]
     },
     {
       "id": "p0732",
@@ -7515,7 +7698,11 @@
       "imagen": "img/skincare/VT-COS10.webp",
       "agotado": false,
       "marca": "VT Cosmetics",
-      "descripcion": "Esencia blanca translúcida y elástica de la línea Reedle Shot enfocada en firmeza, con función iluminadora y de mejora de arrugas. Se masajea sobre la piel limpia y se sigue con un hidratante. Para todo tipo de piel; hacer prueba de parche si la piel es sensible. Ingredientes claves: Niacinamida, adenosina, hialuronato de sodio, agua de colágeno, centella asiática, extracto de propóleo, proteína de leche."
+      "descripcion": "Esencia blanca translúcida y elástica de la línea Reedle Shot enfocada en firmeza, con función iluminadora y de mejora de arrugas. Se masajea sobre la piel limpia y se sigue con un hidratante. Para todo tipo de piel; hacer prueba de parche si la piel es sensible. Ingredientes claves: Niacinamida, adenosina, hialuronato de sodio, agua de colágeno, centella asiática, extracto de propóleo, proteína de leche.",
+      "etiquetas": [
+        "Antiedad",
+        "Luminosidad"
+      ]
     },
     {
       "id": "p0733",
@@ -7527,7 +7714,10 @@
       "imagen": "img/skincare/ANUA33.webp",
       "agotado": true,
       "marca": "Anua",
-      "descripcion": "Crema para cuello y mandíbula con rodillo gua sha integrado en forma de W. Se aplica con masaje ascendente durante unos minutos para reafirmar, definir el contorno y suavizar las líneas del cuello, con una sensación refrescante. Ingredientes claves: Retinol, colágeno hidrolizado, péptidos, niacinamida, adenosina, escualano."
+      "descripcion": "Crema para cuello y mandíbula con rodillo gua sha integrado en forma de W. Se aplica con masaje ascendente durante unos minutos para reafirmar, definir el contorno y suavizar las líneas del cuello, con una sensación refrescante. Ingredientes claves: Retinol, colágeno hidrolizado, péptidos, niacinamida, adenosina, escualano.",
+      "etiquetas": [
+        "Antiedad"
+      ]
     },
     {
       "id": "p0734",
@@ -7539,7 +7729,12 @@
       "imagen": "img/skincare/D-ALBA05.jpg",
       "agotado": false,
       "marca": "d'Alba",
-      "descripcion": "Crema ligera de rápida absorción y no grasosa que aporta luminosidad, hidrata en profundidad, unifica el tono y apoya la elasticidad, con un suave aroma cítrico. Apta para todo tipo de piel, incluso sensible. Ingredientes claves: Trufa blanca italiana, vitamina C, glutatión, cápsulas de vitaminas E y K con ceramidas veganas, espino amarillo, niacinamida."
+      "descripcion": "Crema ligera de rápida absorción y no grasosa que aporta luminosidad, hidrata en profundidad, unifica el tono y apoya la elasticidad, con un suave aroma cítrico. Apta para todo tipo de piel, incluso sensible. Ingredientes claves: Trufa blanca italiana, vitamina C, glutatión, cápsulas de vitaminas E y K con ceramidas veganas, espino amarillo, niacinamida.",
+      "etiquetas": [
+        "Manchas",
+        "Hidratación",
+        "Luminosidad"
+      ]
     },
     {
       "id": "p0735",
@@ -7563,7 +7758,10 @@
       "imagen": "img/skincare/MEDICUBE65.webp",
       "agotado": false,
       "marca": "Medicube",
-      "descripcion": "Crema antiedad rica y aterciopelada con tecnología de péptidos que apoya la elasticidad y la estructura natural de la piel, hidrata, unifica el tono y refuerza la barrera cutánea. Se absorbe sin sensación pesada ni grasosa. Ingredientes claves: Complejo de péptidos, adenosina, niacinamida, ácido hialurónico, ceramidas."
+      "descripcion": "Crema antiedad rica y aterciopelada con tecnología de péptidos que apoya la elasticidad y la estructura natural de la piel, hidrata, unifica el tono y refuerza la barrera cutánea. Se absorbe sin sensación pesada ni grasosa. Ingredientes claves: Complejo de péptidos, adenosina, niacinamida, ácido hialurónico, ceramidas.",
+      "etiquetas": [
+        "Antiedad"
+      ]
     },
     {
       "id": "p0738",
@@ -7575,7 +7773,12 @@
       "imagen": "img/skincare/MEDICUBE23.webp",
       "agotado": false,
       "marca": "Medicube",
-      "descripcion": "Sérum de uso nocturno que trabaja líneas finas, textura irregular y pigmentación, además de aportar luminosidad e hidratación. Empezar 2 a 3 veces por semana, evitar ojos y labios, y seguir con un hidratante suave. Ingredientes claves: Complejo de vitamina A (retinol, retinal, HPR, palmitato de retinilo), bakuchiol, niacinamida, escualano, pantenol, colágeno hidrolizado."
+      "descripcion": "Sérum de uso nocturno que trabaja líneas finas, textura irregular y pigmentación, además de aportar luminosidad e hidratación. Empezar 2 a 3 veces por semana, evitar ojos y labios, y seguir con un hidratante suave. Ingredientes claves: Complejo de vitamina A (retinol, retinal, HPR, palmitato de retinilo), bakuchiol, niacinamida, escualano, pantenol, colágeno hidrolizado.",
+      "etiquetas": [
+        "Manchas",
+        "Antiedad",
+        "Luminosidad"
+      ]
     },
     {
       "id": "p0739",
@@ -7610,7 +7813,11 @@
       "imagen": "img/skincare/BEAUTY4.webp",
       "agotado": false,
       "marca": "Beauty of Joseon",
-      "descripcion": "Crema hidratante inspirada en la medicina herbal coreana (hanbang) que nutre en profundidad, refuerza la barrera cutánea y equilibra la grasa y la hidratación de la piel. Su textura es rica y cremosa y deja un brillo natural. Ideal para piel normal, seca o mixta. Ingredientes claves: Agua de salvado de arroz (29%), agua de raíz de ginseng (5%), niacinamida (2%), escualano (2%), ceramida NP."
+      "descripcion": "Crema hidratante inspirada en la medicina herbal coreana (hanbang) que nutre en profundidad, refuerza la barrera cutánea y equilibra la grasa y la hidratación de la piel. Su textura es rica y cremosa y deja un brillo natural. Ideal para piel normal, seca o mixta. Ingredientes claves: Agua de salvado de arroz (29%), agua de raíz de ginseng (5%), niacinamida (2%), escualano (2%), ceramida NP.",
+      "etiquetas": [
+        "Hidratación",
+        "Piel seca"
+      ]
     },
     {
       "id": "p0743",
@@ -7622,7 +7829,12 @@
       "imagen": "img/skincare/KSEC-04.webp",
       "agotado": false,
       "marca": "Seoul 1988",
-      "descripcion": "Esencia ligera de rápida absorción que hidrata, protege de la resequedad y mejora la textura, dejando la piel más luminosa, rellena y uniforme. Se aplica después del tónico, mañana y/o noche. Para piel seca, normal o sensible. Ingredientes claves: Filtrado de baba de caracol (97%), extracto de arroz, fermento de arroz (sake)."
+      "descripcion": "Esencia ligera de rápida absorción que hidrata, protege de la resequedad y mejora la textura, dejando la piel más luminosa, rellena y uniforme. Se aplica después del tónico, mañana y/o noche. Para piel seca, normal o sensible. Ingredientes claves: Filtrado de baba de caracol (97%), extracto de arroz, fermento de arroz (sake).",
+      "etiquetas": [
+        "Hidratación",
+        "Piel seca",
+        "Luminosidad"
+      ]
     },
     {
       "id": "p0744",
@@ -7634,7 +7846,12 @@
       "imagen": "img/skincare/NINE04.webp",
       "agotado": false,
       "marca": "Nineless",
-      "descripcion": "Crema para el contorno de ojos, enriquecida con ingredientes iluminadores y revitalizantes como la adenosina y la niacinamida. La urea proporciona una hidratación constante. Ofrece un doble efecto: antiarrugas y lifting instantáneo para combatir los signos del envejecimiento. Ingredientes claves: Ácido cítrico, extracto de onagra, ácido hialurónico, ceramidas, ácido esteárico."
+      "descripcion": "Crema para el contorno de ojos, enriquecida con ingredientes iluminadores y revitalizantes como la adenosina y la niacinamida. La urea proporciona una hidratación constante. Ofrece un doble efecto: antiarrugas y lifting instantáneo para combatir los signos del envejecimiento. Ingredientes claves: Ácido cítrico, extracto de onagra, ácido hialurónico, ceramidas, ácido esteárico.",
+      "etiquetas": [
+        "Antiedad",
+        "Luminosidad",
+        "Ojeras y contorno"
+      ]
     },
     {
       "id": "p0745",
@@ -7646,7 +7863,11 @@
       "imagen": "img/skincare/MEDICUBE6.webp",
       "agotado": false,
       "marca": "Medicube",
-      "descripcion": "Crema calmante para piel sensible, estresada o irritada que ayuda a reducir el enrojecimiento, hidrata hasta por 48 horas y apoya la barrera cutánea. Sin fragancia ni colorantes. Ingredientes claves: Complejo de 12 activos de centella, exosomas de cica, ceramida NP, ectoína, pantenol, extracto de regaliz."
+      "descripcion": "Crema calmante para piel sensible, estresada o irritada que ayuda a reducir el enrojecimiento, hidrata hasta por 48 horas y apoya la barrera cutánea. Sin fragancia ni colorantes. Ingredientes claves: Complejo de 12 activos de centella, exosomas de cica, ceramida NP, ectoína, pantenol, extracto de regaliz.",
+      "etiquetas": [
+        "Piel sensible",
+        "Calmante"
+      ]
     },
     {
       "id": "p0746",
@@ -7658,7 +7879,11 @@
       "imagen": "img/skincare/AREN-05.webp",
       "agotado": false,
       "marca": "Arencia",
-      "descripcion": "Limpiador con extracto de rosa mosqueta (rico en vitamina C), aloe rosa calmante y manzanilla azul, con propiedades antioxidantes y calmante. Pensado para piel seca o madura que busca brillo, nutrición y reparación del tono. Ingredientes claves: Extracto de rosa mosqueta, aloe rosa, manzanilla, polvo de arroz, glicerina."
+      "descripcion": "Limpiador con extracto de rosa mosqueta (rico en vitamina C), aloe rosa calmante y manzanilla azul, con propiedades antioxidantes y calmante. Pensado para piel seca o madura que busca brillo, nutrición y reparación del tono. Ingredientes claves: Extracto de rosa mosqueta, aloe rosa, manzanilla, polvo de arroz, glicerina.",
+      "etiquetas": [
+        "Piel seca",
+        "Calmante"
+      ]
     },
     {
       "id": "p0747",
@@ -7682,7 +7907,12 @@
       "imagen": "img/skincare/BEAUTY16.webp",
       "agotado": false,
       "marca": "Beauty of Joseon",
-      "descripcion": "Protector solar en sérum SPF50+ PA++++ de textura ligera y cremosa que se absorbe rápido, no deja residuo y deja la piel fresca e hidratada. Además de proteger, nutre y calma la piel. Ideal para piel seca, madura o normal. Ingredientes claves: Extracto de ginseng (30%), niacinamida, adenosina."
+      "descripcion": "Protector solar en sérum SPF50+ PA++++ de textura ligera y cremosa que se absorbe rápido, no deja residuo y deja la piel fresca e hidratada. Además de proteger, nutre y calma la piel. Ideal para piel seca, madura o normal. Ingredientes claves: Extracto de ginseng (30%), niacinamida, adenosina.",
+      "etiquetas": [
+        "Piel seca",
+        "Calmante",
+        "Protección solar"
+      ]
     },
     {
       "id": "p0749",
@@ -7694,7 +7924,10 @@
       "imagen": "img/skincare/BEAUTY6.webp",
       "agotado": false,
       "marca": "Beauty of Joseon",
-      "descripcion": "Aceite limpiador ligero, primer paso de la doble limpieza, que emulsiona y retira suciedad, exceso de grasa, impurezas y maquillaje ligero (no resistente al agua). Deja la piel suave y sin sensación grasosa. Apto para varios tipos de piel, incluso grasa o con tendencia a imperfecciones. Ingredientes claves: Aceite de semilla de ginseng, aceite de soya, aceite de oliva, aceite de semilla de camelia."
+      "descripcion": "Aceite limpiador ligero, primer paso de la doble limpieza, que emulsiona y retira suciedad, exceso de grasa, impurezas y maquillaje ligero (no resistente al agua). Deja la piel suave y sin sensación grasosa. Apto para varios tipos de piel, incluso grasa o con tendencia a imperfecciones. Ingredientes claves: Aceite de semilla de ginseng, aceite de soya, aceite de oliva, aceite de semilla de camelia.",
+      "etiquetas": [
+        "Grasa y poros"
+      ]
     },
     {
       "id": "p0750",
@@ -7706,7 +7939,11 @@
       "imagen": "img/skincare/BEAUTY5.webp",
       "agotado": false,
       "marca": "Beauty of Joseon",
-      "descripcion": "Tónico bifásico que hidrata con extracto de arroz y equilibra el exceso de grasa para una piel luminosa sin brillo graso; también ayuda a afinar la apariencia de los poros. Agitar antes de usar. Para todo tipo de piel. Ingredientes claves: Extracto de arroz, aminoácidos de arroz, complejo de polvos equilibrantes de grasa, pantenol, hialuronato de sodio, ceramida NP."
+      "descripcion": "Tónico bifásico que hidrata con extracto de arroz y equilibra el exceso de grasa para una piel luminosa sin brillo graso; también ayuda a afinar la apariencia de los poros. Agitar antes de usar. Para todo tipo de piel. Ingredientes claves: Extracto de arroz, aminoácidos de arroz, complejo de polvos equilibrantes de grasa, pantenol, hialuronato de sodio, ceramida NP.",
+      "etiquetas": [
+        "Grasa y poros",
+        "Luminosidad"
+      ]
     },
     {
       "id": "p0751",
@@ -7718,7 +7955,11 @@
       "imagen": "img/skincare/APLB-02.webp",
       "agotado": false,
       "marca": "APLB",
-      "descripcion": "Estas tabletas de belleza que contienen extracto de levadura L-glutatión y niacinamida para mejorar la elasticidad de la piel e iluminar su luminosidad. Estas tabletas de belleza respaldan diversas funciones corporales, como ayudar a estimular el metabolismo y la regeneración del sistema inmunológico celular. Ingredientes claves: vitaminas B2, B6, D3 y E, aceite de palma, niacinamida."
+      "descripcion": "Estas tabletas de belleza que contienen extracto de levadura L-glutatión y niacinamida para mejorar la elasticidad de la piel e iluminar su luminosidad. Estas tabletas de belleza respaldan diversas funciones corporales, como ayudar a estimular el metabolismo y la regeneración del sistema inmunológico celular. Ingredientes claves: vitaminas B2, B6, D3 y E, aceite de palma, niacinamida.",
+      "etiquetas": [
+        "Antiedad",
+        "Luminosidad"
+      ]
     },
     {
       "id": "p0752",
@@ -7757,7 +7998,11 @@
       "imagen": "img/skincare/CELI-06.webp",
       "agotado": false,
       "marca": "Celimax",
-      "descripcion": "Protector solar SPF50+ PA++++ con efecto tone-up rosado que ilumina y unifica el tono mientras hidrata. Textura ligera y suave con acabado luminoso. Hipoalergénico, apto para todo tipo de piel, incluso sensible. Ingredientes claves: Dióxido de titanio, 10 tipos de ácido hialurónico, niacinamida, hoja de corazón, adenosina, pantenol."
+      "descripcion": "Protector solar SPF50+ PA++++ con efecto tone-up rosado que ilumina y unifica el tono mientras hidrata. Textura ligera y suave con acabado luminoso. Hipoalergénico, apto para todo tipo de piel, incluso sensible. Ingredientes claves: Dióxido de titanio, 10 tipos de ácido hialurónico, niacinamida, hoja de corazón, adenosina, pantenol.",
+      "etiquetas": [
+        "Luminosidad",
+        "Protección solar"
+      ]
     },
     {
       "id": "p0756",
@@ -7769,7 +8014,12 @@
       "imagen": "img/skincare/ANUA12.webp",
       "agotado": false,
       "marca": "Anua",
-      "descripcion": "Crema hidratante en gel que calma la piel irritada o con tendencia al acné, ayuda a controlar la grasa y refuerza la barrera cutánea. Se absorbe rápido y no deja sensación pegajosa. Ingredientes claves: Extracto de hoja de corazón (70%), centella asiática, verdolaga, niacinamida, pantenol."
+      "descripcion": "Crema hidratante en gel que calma la piel irritada o con tendencia al acné, ayuda a controlar la grasa y refuerza la barrera cutánea. Se absorbe rápido y no deja sensación pegajosa. Ingredientes claves: Extracto de hoja de corazón (70%), centella asiática, verdolaga, niacinamida, pantenol.",
+      "etiquetas": [
+        "Granitos",
+        "Grasa y poros",
+        "Calmante"
+      ]
     },
     {
       "id": "p0757",
@@ -7792,7 +8042,12 @@
       "imagen": "img/skincare/ANUA17.webp",
       "agotado": false,
       "marca": "Anua",
-      "descripcion": "Mascarilla de arcilla de enjuague que absorbe el exceso de grasa, ayuda a afinar los poros y exfolia suavemente, mientras calma e hidrata la piel. Ingredientes claves: Caolín (20%), bentonita, extracto de hoja de corazón (10%), centella asiática, ácido hialurónico, pantenol, ceramida NP."
+      "descripcion": "Mascarilla de arcilla de enjuague que absorbe el exceso de grasa, ayuda a afinar los poros y exfolia suavemente, mientras calma e hidrata la piel. Ingredientes claves: Caolín (20%), bentonita, extracto de hoja de corazón (10%), centella asiática, ácido hialurónico, pantenol, ceramida NP.",
+      "etiquetas": [
+        "Grasa y poros",
+        "Calmante",
+        "Exfoliación"
+      ]
     },
     {
       "id": "p0759",
@@ -7804,7 +8059,10 @@
       "imagen": "img/skincare/ANUA7.webp",
       "agotado": true,
       "marca": "Anua",
-      "descripcion": "Aceite limpiador ligero que disuelve maquillaje, protector solar, grasa e impurezas en un solo paso, sin dejar residuo graso. Se masajea sobre la piel seca, se emulsiona con agua y se enjuaga antes del segundo limpiador. Baja irritación y no comedogénico, apto para todo tipo de piel, incluso sensible o con tendencia al acné. Ingredientes claves: Extracto de hoja de corazón, aceites de girasol, macadamia, oliva, jojoba y semilla de uva, vitamina E."
+      "descripcion": "Aceite limpiador ligero que disuelve maquillaje, protector solar, grasa e impurezas en un solo paso, sin dejar residuo graso. Se masajea sobre la piel seca, se emulsiona con agua y se enjuaga antes del segundo limpiador. Baja irritación y no comedogénico, apto para todo tipo de piel, incluso sensible o con tendencia al acné. Ingredientes claves: Extracto de hoja de corazón, aceites de girasol, macadamia, oliva, jojoba y semilla de uva, vitamina E.",
+      "etiquetas": [
+        "Grasa y poros"
+      ]
     },
     {
       "id": "p0760",
@@ -7816,7 +8074,12 @@
       "imagen": "img/skincare/ANUA3.webp",
       "agotado": false,
       "marca": "Anua",
-      "descripcion": "Espuma limpiadora de textura rica que elimina impurezas y exceso de grasa, exfolia suavemente la zona de la nariz y las mejillas, y calma la piel estresada dejándola hidratada. No comedogénica y de baja irritación. Ingredientes claves: Agua y polvo de hoja de corazón, quercetina, ácido hialurónico, betaína salicilato, glicerina."
+      "descripcion": "Espuma limpiadora de textura rica que elimina impurezas y exceso de grasa, exfolia suavemente la zona de la nariz y las mejillas, y calma la piel estresada dejándola hidratada. No comedogénica y de baja irritación. Ingredientes claves: Agua y polvo de hoja de corazón, quercetina, ácido hialurónico, betaína salicilato, glicerina.",
+      "etiquetas": [
+        "Grasa y poros",
+        "Calmante",
+        "Exfoliación"
+      ]
     },
     {
       "id": "p0761",
@@ -7828,7 +8091,11 @@
       "imagen": "img/skincare/ANUA25.webp",
       "agotado": false,
       "marca": "Anua",
-      "descripcion": "Crema protectora enriquecida con extracto de hoja de corazón y ácido hialurónico, esta fórmula ligera e hidratante se aplica con suavidad y deja la piel hidratada, a la vez que ayuda a mantener el equilibrio de hidratación."
+      "descripcion": "Crema protectora enriquecida con extracto de hoja de corazón y ácido hialurónico, esta fórmula ligera e hidratante se aplica con suavidad y deja la piel hidratada, a la vez que ayuda a mantener el equilibrio de hidratación.",
+      "etiquetas": [
+        "Hidratación",
+        "Protección solar"
+      ]
     },
     {
       "id": "p0762",
@@ -7851,7 +8118,11 @@
       "imagen": "img/skincare/APLB-04.webp",
       "agotado": false,
       "marca": "APLB",
-      "descripcion": "Suplemento de belleza formulado para mejorar la hidratación, elasticidad y resistencia cutánea. Una combinación precisa de ácido hialurónico, ceramidas y antioxidantes que trabajan en sinergia para mantener tu piel sana, jugosa y protegida a largo plazo. Ingredientes claves: Vitaminas B2, B6, D y E, zinc, selenio, ceramidas."
+      "descripcion": "Suplemento de belleza formulado para mejorar la hidratación, elasticidad y resistencia cutánea. Una combinación precisa de ácido hialurónico, ceramidas y antioxidantes que trabajan en sinergia para mantener tu piel sana, jugosa y protegida a largo plazo. Ingredientes claves: Vitaminas B2, B6, D y E, zinc, selenio, ceramidas.",
+      "etiquetas": [
+        "Hidratación",
+        "Antiedad"
+      ]
     },
     {
       "id": "p0764",
@@ -7874,7 +8145,11 @@
       "imagen": "img/skincare/MEDICUBE52.webp",
       "agotado": false,
       "marca": "Medicube",
-      "descripcion": "Crema hidratante en cápsulas azules de ácido hialurónico y gel transparente que se mezclan al gusto: más gel para una textura ligera, más cápsulas para hidratación más rica. Hidrata de forma prolongada, apoya la barrera, calma el enrojecimiento y deja la piel jugosa con efecto refrescante. No comedogénica. Ingredientes claves: Ácido hialurónico de bajo peso molecular, ceramidas, pantenol, betaína, alantoína."
+      "descripcion": "Crema hidratante en cápsulas azules de ácido hialurónico y gel transparente que se mezclan al gusto: más gel para una textura ligera, más cápsulas para hidratación más rica. Hidrata de forma prolongada, apoya la barrera, calma el enrojecimiento y deja la piel jugosa con efecto refrescante. No comedogénica. Ingredientes claves: Ácido hialurónico de bajo peso molecular, ceramidas, pantenol, betaína, alantoína.",
+      "etiquetas": [
+        "Hidratación",
+        "Calmante"
+      ]
     },
     {
       "id": "p0766",
@@ -7886,7 +8161,11 @@
       "imagen": "img/skincare/MEDICUBE49.webp",
       "agotado": false,
       "marca": "Medicube",
-      "descripcion": "Sérum bifásico (capa de aceite y capa hidratante; agitar antes de usar) que mejora la hidratación y la elasticidad para una piel más rellena, suave y luminosa, y ayuda a unificar el tono. Textura ligera de rápida absorción. Ideal para piel seca o deshidratada. Ingredientes claves: Ácido hialurónico, PDRN de salmón, péptidos."
+      "descripcion": "Sérum bifásico (capa de aceite y capa hidratante; agitar antes de usar) que mejora la hidratación y la elasticidad para una piel más rellena, suave y luminosa, y ayuda a unificar el tono. Textura ligera de rápida absorción. Ideal para piel seca o deshidratada. Ingredientes claves: Ácido hialurónico, PDRN de salmón, péptidos.",
+      "etiquetas": [
+        "Hidratación",
+        "Antiedad"
+      ]
     },
     {
       "id": "p0767",
@@ -7898,7 +8177,11 @@
       "imagen": "img/skincare/VT-COS11.webp",
       "agotado": false,
       "marca": "VT Cosmetics",
-      "descripcion": "Devuelve la vida a tu piel con Hydrop Reedle Shot 100 de VT, un tratamiento intensamente hidratante que empapa la piel de humedad a la vez que fortalece su barrera para una luminosidad duradera. Esta fórmula abre las vías de absorción de la piel, asegurando que cada gota de hidratación penetre profundamente en la piel. Ingredientes claves: Hialuronato de sodio, niacinamida, extracto de berenjena, centella asiática, cúrcuma."
+      "descripcion": "Devuelve la vida a tu piel con Hydrop Reedle Shot 100 de VT, un tratamiento intensamente hidratante que empapa la piel de humedad a la vez que fortalece su barrera para una luminosidad duradera. Esta fórmula abre las vías de absorción de la piel, asegurando que cada gota de hidratación penetre profundamente en la piel. Ingredientes claves: Hialuronato de sodio, niacinamida, extracto de berenjena, centella asiática, cúrcuma.",
+      "etiquetas": [
+        "Hidratación",
+        "Luminosidad"
+      ]
     },
     {
       "id": "p0768",
@@ -7910,7 +8193,11 @@
       "imagen": "img/skincare/MEDICUBE81.webp",
       "agotado": false,
       "marca": "Medicube",
-      "descripcion": "Tónico en spray que calma y purifica la piel con tendencia al acné o con enrojecimiento. Se puede usar después de la limpieza, sobre el maquillaje o en cualquier momento del día para refrescar la piel. Ingredientes claves: Ácido hipocloroso (150 ppm), citrato de sodio, alantoína, pantenol, niacinamida."
+      "descripcion": "Tónico en spray que calma y purifica la piel con tendencia al acné o con enrojecimiento. Se puede usar después de la limpieza, sobre el maquillaje o en cualquier momento del día para refrescar la piel. Ingredientes claves: Ácido hipocloroso (150 ppm), citrato de sodio, alantoína, pantenol, niacinamida.",
+      "etiquetas": [
+        "Granitos",
+        "Calmante"
+      ]
     },
     {
       "id": "p0769",
@@ -7922,7 +8209,12 @@
       "imagen": "img/skincare/MEDICUBE82.webp",
       "agotado": false,
       "marca": "Medicube",
-      "descripcion": "El peeling de ácido hipocloroso de medicube está formulado con extracto de arroz y ácido hipocloroso para suavizar la superficie de la piel y equilibrar su pH. Calma e hidrata profundamente, ayudándote a conseguir una piel radiante. Ingredientes claves: Salvado de arroz, cafeína, ácido hipocloroso, ceramida, ácido hialurónico."
+      "descripcion": "El peeling de ácido hipocloroso de medicube está formulado con extracto de arroz y ácido hipocloroso para suavizar la superficie de la piel y equilibrar su pH. Calma e hidrata profundamente, ayudándote a conseguir una piel radiante. Ingredientes claves: Salvado de arroz, cafeína, ácido hipocloroso, ceramida, ácido hialurónico.",
+      "etiquetas": [
+        "Calmante",
+        "Luminosidad",
+        "Exfoliación"
+      ]
     },
     {
       "id": "p0770",
@@ -8018,7 +8310,11 @@
       "imagen": "img/skincare/MEDICUBE62.webp",
       "agotado": false,
       "marca": "Medicube",
-      "descripcion": "Sérum en bruma 2 en 1 con textura bifásica de aceite y gelatina que ayuda a proteger la piel de la resequedad y a refrescar la piel apagada; trabaja manchas y tono desigual. Rociado de cerca se aplica como sérum y a 10-20 cm como bruma ligera. Agitar antes de usar. Ingredientes claves: Ácido kójico, cúrcuma, vitamina C, pantenol, niacinamida."
+      "descripcion": "Sérum en bruma 2 en 1 con textura bifásica de aceite y gelatina que ayuda a proteger la piel de la resequedad y a refrescar la piel apagada; trabaja manchas y tono desigual. Rociado de cerca se aplica como sérum y a 10-20 cm como bruma ligera. Agitar antes de usar. Ingredientes claves: Ácido kójico, cúrcuma, vitamina C, pantenol, niacinamida.",
+      "etiquetas": [
+        "Manchas",
+        "Luminosidad"
+      ]
     },
     {
       "id": "p0778",
@@ -8030,7 +8326,11 @@
       "imagen": "img/skincare/MEDICUBE39.webp",
       "agotado": false,
       "marca": "Medicube",
-      "descripcion": "Esta mascarilla nocturna premium combina ingredientes de alto rendimiento, para transformar tu piel mientras duermes. La cúrcuma y el ácido kójico ayudan a reducir manchas y unificar el tono, aporta hidratación profunda, dejando la piel suave, luminosa y renovada. Ingredientes claves: Cúrcuma, ácido kójico, retinol, colágeno, niacinamida, Vitamina C, aceite de soja."
+      "descripcion": "Esta mascarilla nocturna premium combina ingredientes de alto rendimiento, para transformar tu piel mientras duermes. La cúrcuma y el ácido kójico ayudan a reducir manchas y unificar el tono, aporta hidratación profunda, dejando la piel suave, luminosa y renovada. Ingredientes claves: Cúrcuma, ácido kójico, retinol, colágeno, niacinamida, Vitamina C, aceite de soja.",
+      "etiquetas": [
+        "Manchas",
+        "Luminosidad"
+      ]
     },
     {
       "id": "p0779",
@@ -8042,7 +8342,12 @@
       "imagen": "img/skincare/MEDICUBE76.webp",
       "agotado": false,
       "marca": "Medicube",
-      "descripcion": "Una dosis diaria de cúrcuma refuerza el sistema inmunitario, mientras que el uso semanal del exfoliante facial de cúrcuma y ácido kójico de Medicube realza la luminosidad de la piel. Esta ampolla exfoliante, elimina las células muertas, mejora la textura de la piel y reduce el exceso de sebo. Ingredientes claves: Cúrcuma, ácido kójico, extracto de naranja, hierbabuena, niacinamida, árbol de té, ceramida."
+      "descripcion": "Una dosis diaria de cúrcuma refuerza el sistema inmunitario, mientras que el uso semanal del exfoliante facial de cúrcuma y ácido kójico de Medicube realza la luminosidad de la piel. Esta ampolla exfoliante, elimina las células muertas, mejora la textura de la piel y reduce el exceso de sebo. Ingredientes claves: Cúrcuma, ácido kójico, extracto de naranja, hierbabuena, niacinamida, árbol de té, ceramida.",
+      "etiquetas": [
+        "Grasa y poros",
+        "Luminosidad",
+        "Exfoliación"
+      ]
     },
     {
       "id": "p0780",
@@ -8054,7 +8359,11 @@
       "imagen": "img/skincare/MEDICUBE72.webp",
       "agotado": false,
       "marca": "Medicube",
-      "descripcion": "Tónico alisador para rostro y cuerpo con aplicador de boquilla que ayuda a mejorar el tono desigual, las zonas oscuras y la textura áspera, con exfoliación suave. Se puede usar también en axilas, codos y rodillas. Textura ligera y no pegajosa. Ingredientes claves: Ácido kójico, cúrcuma, niacinamida, ácido glicólico."
+      "descripcion": "Tónico alisador para rostro y cuerpo con aplicador de boquilla que ayuda a mejorar el tono desigual, las zonas oscuras y la textura áspera, con exfoliación suave. Se puede usar también en axilas, codos y rodillas. Textura ligera y no pegajosa. Ingredientes claves: Ácido kójico, cúrcuma, niacinamida, ácido glicólico.",
+      "etiquetas": [
+        "Manchas",
+        "Exfoliación"
+      ]
     },
     {
       "id": "p0781",
@@ -8066,7 +8375,11 @@
       "imagen": "img/skincare/MEDICUBE77.webp",
       "agotado": false,
       "marca": "Medicube",
-      "descripcion": "Es una crema facial de tratamiento diseñada para mejorar el tono desigual, reducir la apariencia de manchas oscuras y revitalizar la piel apagada, con una combinación de ácido kójico, extracto de cúrcuma y antioxidantes estabilizados. Ingredientes claves: Cúrcuma, ácido kójico, raíz japónica, aceite de ricino, extracto de fresa, ácido ascórbico, ceramida."
+      "descripcion": "Es una crema facial de tratamiento diseñada para mejorar el tono desigual, reducir la apariencia de manchas oscuras y revitalizar la piel apagada, con una combinación de ácido kójico, extracto de cúrcuma y antioxidantes estabilizados. Ingredientes claves: Cúrcuma, ácido kójico, raíz japónica, aceite de ricino, extracto de fresa, ácido ascórbico, ceramida.",
+      "etiquetas": [
+        "Manchas",
+        "Luminosidad"
+      ]
     },
     {
       "id": "p0782",
@@ -8101,7 +8414,10 @@
       "imagen": "img/skincare/SKIN1004-18.webp",
       "agotado": true,
       "marca": "SKIN1004",
-      "descripcion": "Madagascar Centella Cream (crema de centella de madagascar). Ingredientes claves: Extracto de centella, extracto hoja de menta, extracto de cacao, ceramida."
+      "descripcion": "Madagascar Centella Cream (crema de centella de madagascar). Ingredientes claves: Extracto de centella, extracto hoja de menta, extracto de cacao, ceramida.",
+      "etiquetas": [
+        "Calmante"
+      ]
     },
     {
       "id": "p0786",
@@ -8113,7 +8429,11 @@
       "imagen": "img/skincare/SKIN1004-38.webp",
       "agotado": false,
       "marca": "SKIN1004",
-      "descripcion": "Protector solar en barra SPF50+ PA++++ con acabado mate y sedoso, sin residuo blanco, que deja la piel con aspecto de porcelana. Hidrata, ayuda a controlar la grasa y los poros, y reconforta la piel después de la exposición al sol. Ingredientes claves: Extracto de centella asiática, ácido hialurónico, extracto de cáscara de castaña, derivado de vitamina E."
+      "descripcion": "Protector solar en barra SPF50+ PA++++ con acabado mate y sedoso, sin residuo blanco, que deja la piel con aspecto de porcelana. Hidrata, ayuda a controlar la grasa y los poros, y reconforta la piel después de la exposición al sol. Ingredientes claves: Extracto de centella asiática, ácido hialurónico, extracto de cáscara de castaña, derivado de vitamina E.",
+      "etiquetas": [
+        "Grasa y poros",
+        "Protección solar"
+      ]
     },
     {
       "id": "p0787",
@@ -8125,7 +8445,12 @@
       "imagen": "img/skincare/SKIN1004-23.webp",
       "agotado": false,
       "marca": "SKIN1004",
-      "descripcion": "Tónico hidratante con exfoliación suave (AHA y LHA) que calma, ilumina, mejora la textura y ayuda con las líneas finas, mientras apoya la barrera de la piel. Ingredientes claves: Agua de hoja de centella asiática, ácido hialurónico, ceramida NP, ácido cítrico, ácido capriloil salicílico."
+      "descripcion": "Tónico hidratante con exfoliación suave (AHA y LHA) que calma, ilumina, mejora la textura y ayuda con las líneas finas, mientras apoya la barrera de la piel. Ingredientes claves: Agua de hoja de centella asiática, ácido hialurónico, ceramida NP, ácido cítrico, ácido capriloil salicílico.",
+      "etiquetas": [
+        "Hidratación",
+        "Calmante",
+        "Luminosidad"
+      ]
     },
     {
       "id": "p0788",
@@ -8137,7 +8462,10 @@
       "imagen": "img/skincare/SKIN1004-45.webp",
       "agotado": true,
       "marca": "SKIN1004",
-      "descripcion": "Bruma facial ultrafina que hidrata y deja la piel con acabado jugoso y luminoso, con un efecto refrescante. Se puede usar en cualquier momento del día. Ingredientes claves: Extracto de centella asiática, ácido hialurónico, agua de hoja de té verde, xilitol, ceramida NP."
+      "descripcion": "Bruma facial ultrafina que hidrata y deja la piel con acabado jugoso y luminoso, con un efecto refrescante. Se puede usar en cualquier momento del día. Ingredientes claves: Extracto de centella asiática, ácido hialurónico, agua de hoja de té verde, xilitol, ceramida NP.",
+      "etiquetas": [
+        "Hidratación"
+      ]
     },
     {
       "id": "p0790",
@@ -8149,7 +8477,12 @@
       "imagen": "img/skincare/SKIN1004-70.webp",
       "agotado": true,
       "marca": "SKIN1004",
-      "descripcion": "Leche limpiadora de pH ligeramente ácido que retira maquillaje, suciedad y exceso de grasa sin resecar. Hidrata, apoya la barrera y calma el enrojecimiento y la irritación. Apta para piel sensible, seca, normal y todo tipo de piel. Ingredientes claves: Centella asiática, ácido hialurónico hidrolizado, ceramidas, pantenol, betaglucano, ectoína."
+      "descripcion": "Leche limpiadora de pH ligeramente ácido que retira maquillaje, suciedad y exceso de grasa sin resecar. Hidrata, apoya la barrera y calma el enrojecimiento y la irritación. Apta para piel sensible, seca, normal y todo tipo de piel. Ingredientes claves: Centella asiática, ácido hialurónico hidrolizado, ceramidas, pantenol, betaglucano, ectoína.",
+      "etiquetas": [
+        "Hidratación",
+        "Piel seca",
+        "Calmante"
+      ]
     },
     {
       "id": "p0791",
@@ -8161,7 +8494,11 @@
       "imagen": "img/skincare/SKIN1004-62.webp",
       "agotado": false,
       "marca": "SKIN1004",
-      "descripcion": "Crema hidratante ligera que calma la piel y aporta hidratación hasta por 100 horas. Para piel normal, seca o mixta. Ingredientes claves: Extracto de centella asiática, 5 tipos de ácido hialurónico, colágeno hidrolizado."
+      "descripcion": "Crema hidratante ligera que calma la piel y aporta hidratación hasta por 100 horas. Para piel normal, seca o mixta. Ingredientes claves: Extracto de centella asiática, 5 tipos de ácido hialurónico, colágeno hidrolizado.",
+      "etiquetas": [
+        "Hidratación",
+        "Calmante"
+      ]
     },
     {
       "id": "p0792",
@@ -8195,7 +8532,12 @@
       "imagen": "img/skincare/SKIN1004-64.webp",
       "agotado": false,
       "marca": "SKIN1004",
-      "descripcion": "Ampolla con microespículas que aporta hidratación intensa y deja la piel más firme y rellena, mejora la elasticidad y suaviza la apariencia de líneas finas. Es normal un leve hormigueo o enrojecimiento temporal que desaparece en 1 a 2 horas. Para piel seca, deshidratada, madura o normal. Ingredientes claves: Matrixyl 3000 (10%), Volufiline (5%), ácido hialurónico, centella asiática, pantenol."
+      "descripcion": "Ampolla con microespículas que aporta hidratación intensa y deja la piel más firme y rellena, mejora la elasticidad y suaviza la apariencia de líneas finas. Es normal un leve hormigueo o enrojecimiento temporal que desaparece en 1 a 2 horas. Para piel seca, deshidratada, madura o normal. Ingredientes claves: Matrixyl 3000 (10%), Volufiline (5%), ácido hialurónico, centella asiática, pantenol.",
+      "etiquetas": [
+        "Hidratación",
+        "Piel seca",
+        "Antiedad"
+      ]
     },
     {
       "id": "p0797",
@@ -8207,7 +8549,12 @@
       "imagen": "img/skincare/SKIN1004-28.webp",
       "agotado": true,
       "marca": "SKIN1004",
-      "descripcion": "Mascarilla de arcilla en barra que limpia los poros obstruidos y absorbe el exceso de grasa sin irritar, ayuda a minimizar la apariencia de los poros y exfolia suavemente. Se aplica sobre la piel limpia evitando ojos y boca, se deja unos minutos y se enjuaga. Para piel grasa, normal o mixta. Ingredientes claves: Caolín (18%) y 5 tipos de arcilla, centella asiática (4,9%), aloe vera, polvo de frijol rojo."
+      "descripcion": "Mascarilla de arcilla en barra que limpia los poros obstruidos y absorbe el exceso de grasa sin irritar, ayuda a minimizar la apariencia de los poros y exfolia suavemente. Se aplica sobre la piel limpia evitando ojos y boca, se deja unos minutos y se enjuaga. Para piel grasa, normal o mixta. Ingredientes claves: Caolín (18%) y 5 tipos de arcilla, centella asiática (4,9%), aloe vera, polvo de frijol rojo.",
+      "etiquetas": [
+        "Grasa y poros",
+        "Calmante",
+        "Exfoliación"
+      ]
     },
     {
       "id": "p0798",
@@ -8219,7 +8566,10 @@
       "imagen": "img/skincare/SKIN1004-84.webp",
       "agotado": false,
       "marca": "SKIN1004",
-      "descripcion": "Kit de viaje con la rutina de 4 pasos para el cuidado de los poros: Poremizing Deep Cleansing Foam (20 ml), Poremizing Clear Toner (30 ml), Poremizing Fresh Ampoule (30 ml) y Poremizing Light Gel Cream (30 ml). Pensado para poros dilatados, exceso de grasa y textura irregular."
+      "descripcion": "Kit de viaje con la rutina de 4 pasos para el cuidado de los poros: Poremizing Deep Cleansing Foam (20 ml), Poremizing Clear Toner (30 ml), Poremizing Fresh Ampoule (30 ml) y Poremizing Light Gel Cream (30 ml). Pensado para poros dilatados, exceso de grasa y textura irregular.",
+      "etiquetas": [
+        "Grasa y poros"
+      ]
     },
     {
       "id": "p0799",
@@ -8231,7 +8581,12 @@
       "imagen": "img/skincare/SKIN1004-72.webp",
       "agotado": true,
       "marca": "SKIN1004",
-      "descripcion": "Contorno de ojos reafirmante que ayuda a mejorar la apariencia de las líneas finas y la firmeza alrededor de los ojos, además de calmar e hidratar. Crema rica de rápida absorción, con bakuchiol como alternativa vegana al retinol. Para piel seca o normal. Ingredientes claves: Centella asiática fermentada, bakuchiol, ceramida NP, ácido hialurónico, niacinamida, adenosina."
+      "descripcion": "Contorno de ojos reafirmante que ayuda a mejorar la apariencia de las líneas finas y la firmeza alrededor de los ojos, además de calmar e hidratar. Crema rica de rápida absorción, con bakuchiol como alternativa vegana al retinol. Para piel seca o normal. Ingredientes claves: Centella asiática fermentada, bakuchiol, ceramida NP, ácido hialurónico, niacinamida, adenosina.",
+      "etiquetas": [
+        "Calmante",
+        "Antiedad",
+        "Ojeras y contorno"
+      ]
     },
     {
       "id": "p0800",
@@ -8243,7 +8598,11 @@
       "imagen": "img/skincare/SKIN1004-12.webp",
       "agotado": true,
       "marca": "SKIN1004",
-      "descripcion": "Crema de barrera rica y mantecosa que calma, hidrata y apoya una piel de aspecto más firme y joven. Textura espesa y suave que nutre sin sentirse pesada ni pegajosa. Para piel seca, normal o mixta. Ingredientes claves: Centella asiática fermentada, centella asiática, manteca de karité, ceramida NP, aceite de macadamia."
+      "descripcion": "Crema de barrera rica y mantecosa que calma, hidrata y apoya una piel de aspecto más firme y joven. Textura espesa y suave que nutre sin sentirse pesada ni pegajosa. Para piel seca, normal o mixta. Ingredientes claves: Centella asiática fermentada, centella asiática, manteca de karité, ceramida NP, aceite de macadamia.",
+      "etiquetas": [
+        "Piel seca",
+        "Calmante"
+      ]
     },
     {
       "id": "p0801",
@@ -8255,7 +8614,11 @@
       "imagen": "img/skincare/SKIN1004-27.webp",
       "agotado": false,
       "marca": "SKIN1004",
-      "descripcion": "Tónico esencia que hidrata, calma el enrojecimiento y fortalece la barrera de la piel. Su textura ligera se absorbe con rapidez. Ingredientes claves: Extracto de centella asiática de Madagascar, pantenol, ácido hialurónico, ceramida NP."
+      "descripcion": "Tónico esencia que hidrata, calma el enrojecimiento y fortalece la barrera de la piel. Su textura ligera se absorbe con rapidez. Ingredientes claves: Extracto de centella asiática de Madagascar, pantenol, ácido hialurónico, ceramida NP.",
+      "etiquetas": [
+        "Hidratación",
+        "Calmante"
+      ]
     },
     {
       "id": "p0802",
@@ -8267,7 +8630,10 @@
       "imagen": "img/skincare/SKIN1004-67.webp",
       "agotado": false,
       "marca": "SKIN1004",
-      "descripcion": "Ampolla reafirmante con microespículas que combina retinol y retinal para mejorar la apariencia de la firmeza, la textura y las arrugas. Empezar 2 a 3 veces por semana, evitar ojos y labios, y usar protector solar en la mañana; un leve hormigueo inicial es normal. Ingredientes claves: Retinol (0,2%), retinal, escualano, centella asiática, pantenol."
+      "descripcion": "Ampolla reafirmante con microespículas que combina retinol y retinal para mejorar la apariencia de la firmeza, la textura y las arrugas. Empezar 2 a 3 veces por semana, evitar ojos y labios, y usar protector solar en la mañana; un leve hormigueo inicial es normal. Ingredientes claves: Retinol (0,2%), retinal, escualano, centella asiática, pantenol.",
+      "etiquetas": [
+        "Antiedad"
+      ]
     },
     {
       "id": "p0804",
@@ -8279,7 +8645,12 @@
       "imagen": "img/skincare/SKIN1004-2.webp",
       "agotado": false,
       "marca": "SKIN1004",
-      "descripcion": "Espuma limpiadora profunda para piel con tendencia al acné que destapa los poros y exfolia suavemente las células muertas, con efecto calmante. Fórmula cremosa con un toque de aroma a árbol de té que forma una espuma densa y suave. Para piel normal, mixta o grasa. Ingredientes claves: Centella asiática, agua de hoja de árbol de té, ácido salicílico (BHA), extracto de hoja de pino."
+      "descripcion": "Espuma limpiadora profunda para piel con tendencia al acné que destapa los poros y exfolia suavemente las células muertas, con efecto calmante. Fórmula cremosa con un toque de aroma a árbol de té que forma una espuma densa y suave. Para piel normal, mixta o grasa. Ingredientes claves: Centella asiática, agua de hoja de árbol de té, ácido salicílico (BHA), extracto de hoja de pino.",
+      "etiquetas": [
+        "Granitos",
+        "Calmante",
+        "Exfoliación"
+      ]
     },
     {
       "id": "p0805",
@@ -8291,7 +8662,11 @@
       "imagen": "img/skincare/SKIN1004-74.webp",
       "agotado": false,
       "marca": "SKIN1004",
-      "descripcion": "Un gel exfoliante que ofrece un cuidado exfoliante suave para eliminar puntos negros, puntos blancos y células muertas de la piel. La hoja de árbol de té y la celulosa proporcionan un doble efecto peeling para eliminar las impurezas de la piel. Ingredientes claves: Extracto de té verde, agua hoja de té, pantenol, ácido salicílico."
+      "descripcion": "Un gel exfoliante que ofrece un cuidado exfoliante suave para eliminar puntos negros, puntos blancos y células muertas de la piel. La hoja de árbol de té y la celulosa proporcionan un doble efecto peeling para eliminar las impurezas de la piel. Ingredientes claves: Extracto de té verde, agua hoja de té, pantenol, ácido salicílico.",
+      "etiquetas": [
+        "Grasa y poros",
+        "Exfoliación"
+      ]
     },
     {
       "id": "p0807",
@@ -8303,7 +8678,12 @@
       "imagen": "img/skincare/SKIN1004-13.webp",
       "agotado": false,
       "marca": "SKIN1004",
-      "descripcion": "Tónico para pieles grasas o propensas al acné, que buscan una piel purificada y equilibrada. Purifica y limpia, calma y reduce la inflamación. Ingredientes claves: Extracto de flor de Lavanda, agua hoja de té, ácido cítrico."
+      "descripcion": "Tónico para pieles grasas o propensas al acné, que buscan una piel purificada y equilibrada. Purifica y limpia, calma y reduce la inflamación. Ingredientes claves: Extracto de flor de Lavanda, agua hoja de té, ácido cítrico.",
+      "etiquetas": [
+        "Granitos",
+        "Grasa y poros",
+        "Calmante"
+      ]
     },
     {
       "id": "p0808",
@@ -8315,7 +8695,11 @@
       "imagen": "img/skincare/SKIN1004-36.webp",
       "agotado": false,
       "marca": "SKIN1004",
-      "descripcion": "Madagascar Centella tea-trica soothing sun milk (leche solar calmante té y centella). Ingredientes claves: Extracto de centella, hojas de pino, calamina."
+      "descripcion": "Madagascar Centella tea-trica soothing sun milk (leche solar calmante té y centella). Ingredientes claves: Extracto de centella, hojas de pino, calamina.",
+      "etiquetas": [
+        "Calmante",
+        "Protección solar"
+      ]
     },
     {
       "id": "p0809",
@@ -8327,7 +8711,12 @@
       "imagen": "img/skincare/SKIN1004-34.webp",
       "agotado": true,
       "marca": "SKIN1004",
-      "descripcion": "Crema antigranos que combate el acné incipiente Infundida con agua de hojas de árbol de té, para calmar intensamente la piel sensible e irritada. La calamina en la fórmula absorbe el exceso de sebo y favorece la limpieza de la piel. La textura en gel se absorbe rápidamente en la piel sin dejar sensación pegajosa. Ingredientes claves: Extracto de centella, hojas de pino, calamina."
+      "descripcion": "Crema antigranos que combate el acné incipiente Infundida con agua de hojas de árbol de té, para calmar intensamente la piel sensible e irritada. La calamina en la fórmula absorbe el exceso de sebo y favorece la limpieza de la piel. La textura en gel se absorbe rápidamente en la piel sin dejar sensación pegajosa. Ingredientes claves: Extracto de centella, hojas de pino, calamina.",
+      "etiquetas": [
+        "Granitos",
+        "Grasa y poros",
+        "Calmante"
+      ]
     },
     {
       "id": "p0810",
@@ -8339,7 +8728,11 @@
       "imagen": "img/skincare/SKIN1004-82.webp",
       "agotado": false,
       "marca": "SKIN1004",
-      "descripcion": "Gel crema que apoya el equilibrio de la piel y la calma, ayuda con el calor y el enrojecimiento visibles, las marcas posteriores a la irritación y el tono desigual, y sella la hidratación sin dejar brillo. Para piel sensible, normal o mixta. Ingredientes claves: Centella TECA, PDRN vegetal, niacinamida, adenosina, picnogenol."
+      "descripcion": "Gel crema que apoya el equilibrio de la piel y la calma, ayuda con el calor y el enrojecimiento visibles, las marcas posteriores a la irritación y el tono desigual, y sella la hidratación sin dejar brillo. Para piel sensible, normal o mixta. Ingredientes claves: Centella TECA, PDRN vegetal, niacinamida, adenosina, picnogenol.",
+      "etiquetas": [
+        "Piel sensible",
+        "Calmante"
+      ]
     },
     {
       "id": "p0811",
@@ -8362,7 +8755,12 @@
       "imagen": "img/skincare/SKIN1004-25.webp",
       "agotado": false,
       "marca": "SKIN1004",
-      "descripcion": "Tónico exfoliante suave de uso diario con PHA que alisa la superficie de la piel, retira el exceso de grasa y las células muertas, calma y aporta luminosidad. Textura ligera y acuosa. No comedogénico, apto para todo tipo de piel, incluso sensible o con imperfecciones. Ingredientes claves: Extracto de centella asiática, gluconolactona (PHA), betaína."
+      "descripcion": "Tónico exfoliante suave de uso diario con PHA que alisa la superficie de la piel, retira el exceso de grasa y las células muertas, calma y aporta luminosidad. Textura ligera y acuosa. No comedogénico, apto para todo tipo de piel, incluso sensible o con imperfecciones. Ingredientes claves: Extracto de centella asiática, gluconolactona (PHA), betaína.",
+      "etiquetas": [
+        "Calmante",
+        "Luminosidad",
+        "Exfoliación"
+      ]
     },
     {
       "id": "p0813",
@@ -8387,7 +8785,10 @@
       "imagen": "img/skincare/CENTELLIAN24-01.webp",
       "agotado": false,
       "marca": "Centellian 24",
-      "descripcion": "Es una crema antiedad de cuidado intensivo formulada con una alta concentración de activos derivados de Centella Asiática. Patentados en una estructura de 3 capas para una absorción profunda y rápida, mientras una fórmula rica en proteínas ayuda a mejorar elasticidad, firmeza e hidratación de la piel. Ingredientes claves: Pantenol, niacinamida, centella asiática, ácido madecásico, aceite de jojoba, glicerina."
+      "descripcion": "Es una crema antiedad de cuidado intensivo formulada con una alta concentración de activos derivados de Centella Asiática. Patentados en una estructura de 3 capas para una absorción profunda y rápida, mientras una fórmula rica en proteínas ayuda a mejorar elasticidad, firmeza e hidratación de la piel. Ingredientes claves: Pantenol, niacinamida, centella asiática, ácido madecásico, aceite de jojoba, glicerina.",
+      "etiquetas": [
+        "Antiedad"
+      ]
     },
     {
       "id": "p0815",
@@ -8399,7 +8800,11 @@
       "imagen": "img/skincare/CENTELLIAN24-06.webp",
       "agotado": false,
       "marca": "Centellian 24",
-      "descripcion": "Crema antiedad ligera para rostro y cuello, de base acuosa y sensación fresca no pegajosa, ideal para clima cálido y húmedo. Hidrata, calma la irritación, apoya la barrera y ayuda a mejorar la elasticidad, las líneas finas y la opacidad. Para todo tipo de piel, especialmente grasa o mixta y sensible. Ingredientes claves: Madecasósido, asiaticósido, centella asiática, niacinamida, pantenol, ácido hialurónico, ceramida NP, adenosina."
+      "descripcion": "Crema antiedad ligera para rostro y cuello, de base acuosa y sensación fresca no pegajosa, ideal para clima cálido y húmedo. Hidrata, calma la irritación, apoya la barrera y ayuda a mejorar la elasticidad, las líneas finas y la opacidad. Para todo tipo de piel, especialmente grasa o mixta y sensible. Ingredientes claves: Madecasósido, asiaticósido, centella asiática, niacinamida, pantenol, ácido hialurónico, ceramida NP, adenosina.",
+      "etiquetas": [
+        "Calmante",
+        "Antiedad"
+      ]
     },
     {
       "id": "p0816",
@@ -8411,7 +8816,11 @@
       "imagen": "img/skincare/CENTELLIAN24-08.webp",
       "agotado": false,
       "marca": "Centellian 24",
-      "descripcion": "Crema en gel rosado y elástico con cápsulas blancas de ampolla que se mezclan al aplicarla como último paso de la rutina. Ayuda a mejorar las manchas superficiales y profundas, el melasma y el tono desigual del cuello, con un efecto refrescante y tensor que mejora la elasticidad y la hinchazón. Ingredientes claves: Activos iluminadores, 6 tipos de péptidos, 6 tipos de colágeno, PDRN, 10 tipos de ácido hialurónico."
+      "descripcion": "Crema en gel rosado y elástico con cápsulas blancas de ampolla que se mezclan al aplicarla como último paso de la rutina. Ayuda a mejorar las manchas superficiales y profundas, el melasma y el tono desigual del cuello, con un efecto refrescante y tensor que mejora la elasticidad y la hinchazón. Ingredientes claves: Activos iluminadores, 6 tipos de péptidos, 6 tipos de colágeno, PDRN, 10 tipos de ácido hialurónico.",
+      "etiquetas": [
+        "Manchas",
+        "Antiedad"
+      ]
     },
     {
       "id": "p0817",
@@ -8470,7 +8879,11 @@
       "imagen": "img/skincare/BEAUTY9.webp",
       "agotado": false,
       "marca": "Beauty of Joseon",
-      "descripcion": "Protector solar en barra SPF50+ con acabado mate que controla el brillo. Se reaplica fácilmente durante el día, sobre la piel limpia o encima del maquillaje. Ingredientes claves: Extracto de artemisa, extracto de camelia."
+      "descripcion": "Protector solar en barra SPF50+ con acabado mate que controla el brillo. Se reaplica fácilmente durante el día, sobre la piel limpia o encima del maquillaje. Ingredientes claves: Extracto de artemisa, extracto de camelia.",
+      "etiquetas": [
+        "Grasa y poros",
+        "Protección solar"
+      ]
     },
     {
       "id": "p0827",
@@ -8482,7 +8895,12 @@
       "imagen": "img/skincare/MEDICUBE19.webp",
       "agotado": false,
       "marca": "Medicube",
-      "descripcion": "Sérum potenciador con alto contenido de glutatión que ilumina la piel, ayuda a atenuar manchas y pigmentación y suaviza la apariencia de líneas de expresión. Diseñado para usarse con los dispositivos de la marca, aunque es apto para uso diario. Ingredientes claves: Glutatión, niacinamida, adenosina, lisado de fermento de bífida, colágeno."
+      "descripcion": "Sérum potenciador con alto contenido de glutatión que ilumina la piel, ayuda a atenuar manchas y pigmentación y suaviza la apariencia de líneas de expresión. Diseñado para usarse con los dispositivos de la marca, aunque es apto para uso diario. Ingredientes claves: Glutatión, niacinamida, adenosina, lisado de fermento de bífida, colágeno.",
+      "etiquetas": [
+        "Manchas",
+        "Antiedad",
+        "Luminosidad"
+      ]
     },
     {
       "id": "p0828",
@@ -8494,7 +8912,12 @@
       "imagen": "img/skincare/CENTELLIAN24-02.webp",
       "agotado": false,
       "marca": "Centellian 24",
-      "descripcion": "Ampolla con gotero de la línea Mela Capture que trabaja varias preocupaciones a la vez: manchas oscuras, apariencia de arrugas y elasticidad, además de iluminar la piel. Se masajea sobre todo el rostro. Ingredientes claves: Centella asiática y TECA, niacinamida (50.000 ppm), complejo GLUTA-C (vitamina C, glutatión y ácido hialurónico), ácido tranexámico, alfa-arbutina, madecasósido."
+      "descripcion": "Ampolla con gotero de la línea Mela Capture que trabaja varias preocupaciones a la vez: manchas oscuras, apariencia de arrugas y elasticidad, además de iluminar la piel. Se masajea sobre todo el rostro. Ingredientes claves: Centella asiática y TECA, niacinamida (50.000 ppm), complejo GLUTA-C (vitamina C, glutatión y ácido hialurónico), ácido tranexámico, alfa-arbutina, madecasósido.",
+      "etiquetas": [
+        "Manchas",
+        "Antiedad",
+        "Luminosidad"
+      ]
     },
     {
       "id": "p0830",
@@ -8534,6 +8957,9 @@
         "img/skincare/TOCOBO48_2.webp",
         "img/skincare/TOCOBO48_3.webp",
         "img/skincare/TOCOBO48_4.jpg"
+      ],
+      "etiquetas": [
+        "Protección solar"
       ]
     },
     {
@@ -8546,7 +8972,10 @@
       "imagen": "img/skincare/TOCOBO40.webp",
       "agotado": false,
       "marca": "Tocobo",
-      "descripcion": "De textura ligera, resistente al agua, a la humedad, al sudor y al sebo durante mucho tiempo y con una potente protección UV. Tiene una maravillosa textura ligera que no resulta pegajosa ni pesada, pero que ofrece una potente protección frente a los rayos UV. Ingredientes claves: zinc, ácido madecásico, asiaticósido, ácido asiático, centella asiática. VITA WATERPROOF SUN STICK MINI (Vita barra solar)"
+      "descripcion": "De textura ligera, resistente al agua, a la humedad, al sudor y al sebo durante mucho tiempo y con una potente protección UV. Tiene una maravillosa textura ligera que no resulta pegajosa ni pesada, pero que ofrece una potente protección frente a los rayos UV. Ingredientes claves: zinc, ácido madecásico, asiaticósido, ácido asiático, centella asiática. VITA WATERPROOF SUN STICK MINI (Vita barra solar)",
+      "etiquetas": [
+        "Protección solar"
+      ]
     },
     {
       "id": "p0834",
@@ -8570,7 +8999,11 @@
       "imagen": "img/skincare/MIXSOON3.webp",
       "agotado": false,
       "marca": "Mixsoon",
-      "descripcion": "Esencia acuosa y ligera, de rápida absorción y sin sensación pegajosa, que calma el enrojecimiento y la irritación, refresca la piel y la ayuda a recuperarse del calor, el sol y la contaminación, con hidratación profunda. Para todo tipo de piel, especialmente irritada, sensible o seca. Ingredientes claves: Extracto de semilla de frijol mungo."
+      "descripcion": "Esencia acuosa y ligera, de rápida absorción y sin sensación pegajosa, que calma el enrojecimiento y la irritación, refresca la piel y la ayuda a recuperarse del calor, el sol y la contaminación, con hidratación profunda. Para todo tipo de piel, especialmente irritada, sensible o seca. Ingredientes claves: Extracto de semilla de frijol mungo.",
+      "etiquetas": [
+        "Piel sensible",
+        "Calmante"
+      ]
     },
     {
       "id": "p0837",
@@ -8582,7 +9015,11 @@
       "imagen": "img/skincare/DR-ALTHEA2.webp",
       "agotado": false,
       "marca": "Dr. Althea",
-      "descripcion": "Esencia de textura ligera que ilumina y revitaliza la piel, ayuda a unificar el tono, suaviza la apariencia de las manchas oscuras e hidrata. Ingredientes claves: Extracto de ciruela kakadu (85%), niacinamida, fermento de arroz."
+      "descripcion": "Esencia de textura ligera que ilumina y revitaliza la piel, ayuda a unificar el tono, suaviza la apariencia de las manchas oscuras e hidrata. Ingredientes claves: Extracto de ciruela kakadu (85%), niacinamida, fermento de arroz.",
+      "etiquetas": [
+        "Manchas",
+        "Luminosidad"
+      ]
     },
     {
       "id": "p0838",
@@ -8594,7 +9031,12 @@
       "imagen": "img/skincare/INNIS-02.jpg",
       "agotado": false,
       "marca": "Innisfree",
-      "descripcion": "Polvo suelto que absorbe el exceso de grasa, controla el brillo y ayuda a calmar las zonas con tendencia al acné, fijando el maquillaje sin obstruir los poros. Para piel grasa o con tendencia al acné. Ingredientes claves: Ácido salicílico, calamina, centella asiática, ácido hialurónico, sílice."
+      "descripcion": "Polvo suelto que absorbe el exceso de grasa, controla el brillo y ayuda a calmar las zonas con tendencia al acné, fijando el maquillaje sin obstruir los poros. Para piel grasa o con tendencia al acné. Ingredientes claves: Ácido salicílico, calamina, centella asiática, ácido hialurónico, sílice.",
+      "etiquetas": [
+        "Granitos",
+        "Grasa y poros",
+        "Calmante"
+      ]
     },
     {
       "id": "p0839",
@@ -8606,7 +9048,10 @@
       "imagen": "img/skincare/INNIS-05.webp",
       "agotado": false,
       "marca": "Innisfree",
-      "descripcion": "Polvo suelto mineral translúcido que controla la grasa y el brillo con acabado mate, absorbe el sebo sin obstruir los poros, difumina su apariencia y ayuda a fijar el maquillaje. Para piel grasa, mixta o con tendencia al acné. Ingredientes claves: Minerales naturales de Jeju, menta, extracto de té verde."
+      "descripcion": "Polvo suelto mineral translúcido que controla la grasa y el brillo con acabado mate, absorbe el sebo sin obstruir los poros, difumina su apariencia y ayuda a fijar el maquillaje. Para piel grasa, mixta o con tendencia al acné. Ingredientes claves: Minerales naturales de Jeju, menta, extracto de té verde.",
+      "etiquetas": [
+        "Grasa y poros"
+      ]
     },
     {
       "id": "p0840",
@@ -8618,7 +9063,10 @@
       "imagen": "img/skincare/INNIS-07.jpg",
       "agotado": false,
       "marca": "Innisfree",
-      "descripcion": "Polvo suelto que absorbe el exceso de grasa y controla el brillo mientras mantiene la piel hidratada. Difumina los poros, suaviza la piel y fija el maquillaje sin marcar las líneas finas. Apto también para piel seca o deshidratada."
+      "descripcion": "Polvo suelto que absorbe el exceso de grasa y controla el brillo mientras mantiene la piel hidratada. Difumina los poros, suaviza la piel y fija el maquillaje sin marcar las líneas finas. Apto también para piel seca o deshidratada.",
+      "etiquetas": [
+        "Grasa y poros"
+      ]
     },
     {
       "id": "p0841",
@@ -8630,7 +9078,11 @@
       "imagen": "img/skincare/CELI-03.webp",
       "agotado": false,
       "marca": "Celimax",
-      "descripcion": "Ampolla ligera de rápida absorción, sin residuo, que ilumina el tono, calma, suaviza la textura áspera e hidrata en profundidad, además de apoyar la barrera y la elasticidad. Para todo tipo de piel. Ingredientes claves: Extracto de noni (71,77%), pantenol, colágeno soluble, hialuronato de sodio, alantoína, adenosina."
+      "descripcion": "Ampolla ligera de rápida absorción, sin residuo, que ilumina el tono, calma, suaviza la textura áspera e hidrata en profundidad, además de apoyar la barrera y la elasticidad. Para todo tipo de piel. Ingredientes claves: Extracto de noni (71,77%), pantenol, colágeno soluble, hialuronato de sodio, alantoína, adenosina.",
+      "etiquetas": [
+        "Calmante",
+        "Luminosidad"
+      ]
     },
     {
       "id": "p0842",
@@ -8642,7 +9094,11 @@
       "imagen": "img/skincare/CELI-04.webp",
       "agotado": false,
       "marca": "Celimax",
-      "descripcion": "Una crema altamente nutritiva con 55% de extracto de noni y 1% de aceite de semilla de noni para calmar e hidratar la piel seca y dañada, disminuye eficazmente la hinchazón de la piel, promoviendo la curación de diversos problemas de la piel. Ingredientes claves: Manteca de karité, niacinamida, extracto de morinda, romero, ácido hialurónico, ceramida."
+      "descripcion": "Una crema altamente nutritiva con 55% de extracto de noni y 1% de aceite de semilla de noni para calmar e hidratar la piel seca y dañada, disminuye eficazmente la hinchazón de la piel, promoviendo la curación de diversos problemas de la piel. Ingredientes claves: Manteca de karité, niacinamida, extracto de morinda, romero, ácido hialurónico, ceramida.",
+      "etiquetas": [
+        "Piel seca",
+        "Calmante"
+      ]
     },
     {
       "id": "p0843",
@@ -8665,7 +9121,11 @@
       "imagen": "img/skincare/MEDICUBE42.webp",
       "agotado": false,
       "marca": "Medicube",
-      "descripcion": "Ampolla con espículas recubiertas de exosomas que ayuda a afinar los poros y suavizar la textura, mejora la luminosidad y potencia la absorción de los productos siguientes. Es normal sentir un leve hormigueo; aplicar después de la limpieza evitando ojos y labios, y terminar con un hidratante. Ingredientes claves: Espículas (esponja hidrolizada), exosomas de lactobacilos, AHA, BHA, PHA, niacinamida."
+      "descripcion": "Ampolla con espículas recubiertas de exosomas que ayuda a afinar los poros y suavizar la textura, mejora la luminosidad y potencia la absorción de los productos siguientes. Es normal sentir un leve hormigueo; aplicar después de la limpieza evitando ojos y labios, y terminar con un hidratante. Ingredientes claves: Espículas (esponja hidrolizada), exosomas de lactobacilos, AHA, BHA, PHA, niacinamida.",
+      "etiquetas": [
+        "Grasa y poros",
+        "Luminosidad"
+      ]
     },
     {
       "id": "p0845",
@@ -8677,7 +9137,10 @@
       "imagen": "img/skincare/MEDICUBE43.webp",
       "agotado": false,
       "marca": "Medicube",
-      "descripcion": "Un suero que contiene 7500 PPM de exosomas ofrece un cuidado de poros de alta gama para quienes cuidan sus poros con efectos notables. Cierre inmediato y seguro de los poros, mejora del 23,36 % en el volumen de los poros y puede durar 3 días después de un solo uso. Ingredientes claves: Niacinamida, extracto de onagra, pantenol, ácido cítrico."
+      "descripcion": "Un suero que contiene 7500 PPM de exosomas ofrece un cuidado de poros de alta gama para quienes cuidan sus poros con efectos notables. Cierre inmediato y seguro de los poros, mejora del 23,36 % en el volumen de los poros y puede durar 3 días después de un solo uso. Ingredientes claves: Niacinamida, extracto de onagra, pantenol, ácido cítrico.",
+      "etiquetas": [
+        "Grasa y poros"
+      ]
     },
     {
       "id": "p0846",
@@ -8689,7 +9152,12 @@
       "imagen": "img/skincare/MEDICUBE87.jpg",
       "agotado": false,
       "marca": "Medicube",
-      "descripcion": "Loción bifásica de tratamiento localizado para la noche: con un copito se toma el polvo rosado del fondo (sin agitar) y se aplica sobre el granito. Ayuda a absorber el exceso de grasa y a calmar las imperfecciones que están saliendo. Se enjuaga en la mañana. No comedogénica. Ingredientes claves: Calamina, centella asiática, ácido salicílico, aceite de árbol de té, óxido de zinc."
+      "descripcion": "Loción bifásica de tratamiento localizado para la noche: con un copito se toma el polvo rosado del fondo (sin agitar) y se aplica sobre el granito. Ayuda a absorber el exceso de grasa y a calmar las imperfecciones que están saliendo. Se enjuaga en la mañana. No comedogénica. Ingredientes claves: Calamina, centella asiática, ácido salicílico, aceite de árbol de té, óxido de zinc.",
+      "etiquetas": [
+        "Granitos",
+        "Grasa y poros",
+        "Calmante"
+      ]
     },
     {
       "id": "p0848",
@@ -8701,7 +9169,11 @@
       "imagen": "img/skincare/MEDICUBE8.webp",
       "agotado": false,
       "marca": "Medicube",
-      "descripcion": "Gel potenciador está formulado con PDRN de salmón que proporciona un efecto calmante y reafirmante. El gel hidratante cuida la piel y hace que la piel exterior brille."
+      "descripcion": "Gel potenciador está formulado con PDRN de salmón que proporciona un efecto calmante y reafirmante. El gel hidratante cuida la piel y hace que la piel exterior brille.",
+      "etiquetas": [
+        "Calmante",
+        "Antiedad"
+      ]
     },
     {
       "id": "p0849",
@@ -8713,7 +9185,11 @@
       "imagen": "img/skincare/VT-COS7.webp",
       "agotado": false,
       "marca": "VT Cosmetics",
-      "descripcion": "Gel crema ligero y acuoso, sin fragancia, con cápsulas de crema densa que aporta luminosidad e hidratación, apoya la barrera y mejora la firmeza y la elasticidad. Para piel apagada, áspera o con pérdida de firmeza y líneas finas. Ingredientes claves: PDRN de ginseng silvestre, 10 tipos de ácido hialurónico, 9 péptidos, ceramida NP, escualano, niacinamida."
+      "descripcion": "Gel crema ligero y acuoso, sin fragancia, con cápsulas de crema densa que aporta luminosidad e hidratación, apoya la barrera y mejora la firmeza y la elasticidad. Para piel apagada, áspera o con pérdida de firmeza y líneas finas. Ingredientes claves: PDRN de ginseng silvestre, 10 tipos de ácido hialurónico, 9 péptidos, ceramida NP, escualano, niacinamida.",
+      "etiquetas": [
+        "Antiedad",
+        "Luminosidad"
+      ]
     },
     {
       "id": "p0850",
@@ -8725,7 +9201,10 @@
       "imagen": "img/skincare/MEDICUBE80.webp",
       "agotado": false,
       "marca": "Medicube",
-      "descripcion": "Enriquecido con un 99 % de PDRN y un rosa en gel se funde en la piel para una reparación profunda: piel firme y elástica sin sensación pegajosa. Clínicamente probado para resultados visibles. Ingredientes claves: Extracto de PDRN, colágeno, Niacinamida, ácido hialurónico, ceramidas."
+      "descripcion": "Enriquecido con un 99 % de PDRN y un rosa en gel se funde en la piel para una reparación profunda: piel firme y elástica sin sensación pegajosa. Clínicamente probado para resultados visibles. Ingredientes claves: Extracto de PDRN, colágeno, Niacinamida, ácido hialurónico, ceramidas.",
+      "etiquetas": [
+        "Antiedad"
+      ]
     },
     {
       "id": "p0851",
@@ -8737,7 +9216,11 @@
       "imagen": "img/skincare/MIXSOON42.webp",
       "agotado": false,
       "marca": "Mixsoon",
-      "descripcion": "Sérum de textura ligera y no pegajosa que nutre la piel, apoya la elasticidad y suaviza la apariencia de las líneas finas, además de hidratar y unificar el tono. Ingredientes claves: PDRN de arroz, colágeno, péptidos, ácido hialurónico, fermento de arroz, niacinamida."
+      "descripcion": "Sérum de textura ligera y no pegajosa que nutre la piel, apoya la elasticidad y suaviza la apariencia de las líneas finas, además de hidratar y unificar el tono. Ingredientes claves: PDRN de arroz, colágeno, péptidos, ácido hialurónico, fermento de arroz, niacinamida.",
+      "etiquetas": [
+        "Hidratación",
+        "Antiedad"
+      ]
     },
     {
       "id": "p0852",
@@ -8749,7 +9232,10 @@
       "imagen": "img/skincare/MEDICUBE35.webp",
       "agotado": false,
       "marca": "Medicube",
-      "descripcion": "Gel limpiador con fórmula que limpia profundamente, apoya la regeneración y repara la barrera de la piel, mientras hidrata intensamente, mejora textura y tono, promueve regeneración celular. Ingredientes claves: Extracto de fruta, ácido hialurónico, PDRN de salmón, niacinamida, pantenol."
+      "descripcion": "Gel limpiador con fórmula que limpia profundamente, apoya la regeneración y repara la barrera de la piel, mientras hidrata intensamente, mejora textura y tono, promueve regeneración celular. Ingredientes claves: Extracto de fruta, ácido hialurónico, PDRN de salmón, niacinamida, pantenol.",
+      "etiquetas": [
+        "Hidratación"
+      ]
     },
     {
       "id": "p0853",
@@ -8761,7 +9247,11 @@
       "imagen": "img/skincare/MEDICUBE63.webp",
       "agotado": false,
       "marca": "Medicube",
-      "descripcion": "Sérum en microburbujas que estallan al contacto con la piel y se absorben en segundos sin dejarla pegajosa. Hidrata, apoya la barrera y deja la piel más rellena, suave y luminosa. Fórmula bifásica; agitar antes de usar. Ingredientes claves: PDRN, niacinamida, colágeno, ácido hialurónico, ceramida, pantenol, vitamina E."
+      "descripcion": "Sérum en microburbujas que estallan al contacto con la piel y se absorben en segundos sin dejarla pegajosa. Hidrata, apoya la barrera y deja la piel más rellena, suave y luminosa. Fórmula bifásica; agitar antes de usar. Ingredientes claves: PDRN, niacinamida, colágeno, ácido hialurónico, ceramida, pantenol, vitamina E.",
+      "etiquetas": [
+        "Hidratación",
+        "Luminosidad"
+      ]
     },
     {
       "id": "p0854",
@@ -8774,7 +9264,12 @@
       "agotado": false,
       "marca": "Medicube",
       "descripcion": "Una crema enriquecida con cápsulas de colágeno rosa que mejora el tono desigual de la piel y aumenta la luminosidad para pieles apagadas y flácidas. Las cápsulas mantienen los efectos reafirmantes e hidratantes del PDRN hasta que se absorben en la piel, logrando un brillo máximo. Ingredientes claves: Extracto de colágeno, aceite de moringa, extracto de salmón, ceramida.",
-      "masVendido": true
+      "masVendido": true,
+      "etiquetas": [
+        "Manchas",
+        "Antiedad",
+        "Luminosidad"
+      ]
     },
     {
       "id": "p0855",
@@ -8787,7 +9282,12 @@
       "agotado": false,
       "marca": "Medicube",
       "descripcion": "Mascarilla de gel tipo gelatina que pasa de rosada a transparente a medida que la piel la absorbe. Ayuda con la elasticidad, la hidratación y la luminosidad, y calma la irritación. Se puede usar de noche o de día. Ingredientes claves: PDRN de salmón, colágeno hidrolizado, niacinamida, péptidos, adenosina, pantenol.",
-      "masVendido": true
+      "masVendido": true,
+      "etiquetas": [
+        "Calmante",
+        "Antiedad",
+        "Luminosidad"
+      ]
     },
     {
       "id": "p0856",
@@ -8799,7 +9299,11 @@
       "imagen": "img/skincare/MEDICUBE61.webp",
       "agotado": false,
       "marca": "Medicube",
-      "descripcion": "Sérum en bruma 2 en 1 con textura bifásica de aceite y gelatina que hidrata y aporta un brillo jugoso sin sensación pegajosa. Rociado de cerca se aplica como sérum y a 10-20 cm como bruma ligera. Ingredientes claves: Agua de colágeno (80,9%), PDRN, glutatión, ácido hialurónico, niacinamida, ceramida NP."
+      "descripcion": "Sérum en bruma 2 en 1 con textura bifásica de aceite y gelatina que hidrata y aporta un brillo jugoso sin sensación pegajosa. Rociado de cerca se aplica como sérum y a 10-20 cm como bruma ligera. Ingredientes claves: Agua de colágeno (80,9%), PDRN, glutatión, ácido hialurónico, niacinamida, ceramida NP.",
+      "etiquetas": [
+        "Hidratación",
+        "Luminosidad"
+      ]
     },
     {
       "id": "p0857",
@@ -8811,7 +9315,11 @@
       "imagen": "img/skincare/MEDICUBE79.webp",
       "agotado": false,
       "marca": "Medicube",
-      "descripcion": "Limpiador facial en crema que se convierte en espuma de microburbujas, con cápsulas rosadas de PDRN y glutatión. Elimina impurezas, ayuda a limpiar los poros, refina la textura y aporta luminosidad, sin dejar la piel tirante. Ingredientes claves: Niacinamida, glutatión, PDRN de salmón, colágeno hidrolizado."
+      "descripcion": "Limpiador facial en crema que se convierte en espuma de microburbujas, con cápsulas rosadas de PDRN y glutatión. Elimina impurezas, ayuda a limpiar los poros, refina la textura y aporta luminosidad, sin dejar la piel tirante. Ingredientes claves: Niacinamida, glutatión, PDRN de salmón, colágeno hidrolizado.",
+      "etiquetas": [
+        "Grasa y poros",
+        "Luminosidad"
+      ]
     },
     {
       "id": "p0858",
@@ -8823,7 +9331,10 @@
       "imagen": "img/skincare/MEDICUBE25.webp",
       "agotado": false,
       "marca": "Medicube",
-      "descripcion": "Crema de textura acuosa que se absorbe fácilmente y aporta hidratación duradera con acabado jugoso; ayuda a suavizar la apariencia de la piel y a unificar el tono. Funciona bien debajo del protector solar y el maquillaje. Para piel normal, mixta o seca. Ingredientes claves: PDRN de salmón, complejo de ácido hialurónico, niacinamida, ceramidas, péptidos, pantenol."
+      "descripcion": "Crema de textura acuosa que se absorbe fácilmente y aporta hidratación duradera con acabado jugoso; ayuda a suavizar la apariencia de la piel y a unificar el tono. Funciona bien debajo del protector solar y el maquillaje. Para piel normal, mixta o seca. Ingredientes claves: PDRN de salmón, complejo de ácido hialurónico, niacinamida, ceramidas, péptidos, pantenol.",
+      "etiquetas": [
+        "Hidratación"
+      ]
     },
     {
       "id": "p0859",
@@ -8835,7 +9346,12 @@
       "imagen": "img/skincare/MEDICUBE22.webp",
       "agotado": false,
       "marca": "Medicube",
-      "descripcion": "Esta crema para ojos está formulada con niacinamida, péptidos, retinol y PDRN de salmón que ayudan a reducir la apariencia de las áreas oscurecidas y mejoran las áreas opacas de los ojos con una hidratación intensiva. Ingredientes claves: Niacinamida, retinol, extracto de café, ácido hialurónico, péptidos."
+      "descripcion": "Esta crema para ojos está formulada con niacinamida, péptidos, retinol y PDRN de salmón que ayudan a reducir la apariencia de las áreas oscurecidas y mejoran las áreas opacas de los ojos con una hidratación intensiva. Ingredientes claves: Niacinamida, retinol, extracto de café, ácido hialurónico, péptidos.",
+      "etiquetas": [
+        "Antiedad",
+        "Luminosidad",
+        "Ojeras y contorno"
+      ]
     },
     {
       "id": "p0860",
@@ -8847,7 +9363,11 @@
       "imagen": "img/skincare/MEDICUBE55.webp",
       "agotado": false,
       "marca": "Medicube",
-      "descripcion": "Con un factor de protección FPS 50+ PA++++, esta fórmula avanzada defiende la piel de los rayos UVA y UVB sin dejar residuos blancos ni sensación grasosa. Enriquecido con un 99% de PDRN, revitaliza la piel desde el interior, mejorando su firmeza, elasticidad y luminosidad natural. Ingredientes claves: Niacinamida, ácido hialurónico, Ácido esteárico, extracto de colágeno."
+      "descripcion": "Con un factor de protección FPS 50+ PA++++, esta fórmula avanzada defiende la piel de los rayos UVA y UVB sin dejar residuos blancos ni sensación grasosa. Enriquecido con un 99% de PDRN, revitaliza la piel desde el interior, mejorando su firmeza, elasticidad y luminosidad natural. Ingredientes claves: Niacinamida, ácido hialurónico, Ácido esteárico, extracto de colágeno.",
+      "etiquetas": [
+        "Luminosidad",
+        "Protección solar"
+      ]
     },
     {
       "id": "p0861",
@@ -8871,7 +9391,11 @@
       "imagen": "img/skincare/DR-ALTHEA19.webp",
       "agotado": false,
       "marca": "Dr. Althea",
-      "descripcion": "La crema PDRN Reju, es una crema única que ayuda a mejorar la textura de la piel y a restaurar su firmeza. Con una textura ligera y no grasa, se puede aplicar en capas según el tipo de piel para brindar una hidratación y elasticidad personalizadas. Ingredientes claves: Centella asiática, pantenol, ácido acrílico, ácido hialurónico. PDRN Reju 5000 Cream (Hidratante de PDRN)"
+      "descripcion": "La crema PDRN Reju, es una crema única que ayuda a mejorar la textura de la piel y a restaurar su firmeza. Con una textura ligera y no grasa, se puede aplicar en capas según el tipo de piel para brindar una hidratación y elasticidad personalizadas. Ingredientes claves: Centella asiática, pantenol, ácido acrílico, ácido hialurónico. PDRN Reju 5000 Cream (Hidratante de PDRN)",
+      "etiquetas": [
+        "Hidratación",
+        "Antiedad"
+      ]
     },
     {
       "id": "p0863",
@@ -8883,7 +9407,10 @@
       "imagen": "img/skincare/DR-MELAXIN01.jpg",
       "agotado": false,
       "marca": "Dr. Melaxin",
-      "descripcion": "Spray exfoliante que retira células muertas y suaviza la piel áspera para un aspecto más uniforme. Se rocía sobre la piel seca, se masajea suavemente y se enjuaga; usar de noche, empezando 1 a 2 veces por semana, y protector solar al día siguiente. Ingredientes claves: AHA, PHA, ácido kójico, cúrcuma, retinol, niacinamida."
+      "descripcion": "Spray exfoliante que retira células muertas y suaviza la piel áspera para un aspecto más uniforme. Se rocía sobre la piel seca, se masajea suavemente y se enjuaga; usar de noche, empezando 1 a 2 veces por semana, y protector solar al día siguiente. Ingredientes claves: AHA, PHA, ácido kójico, cúrcuma, retinol, niacinamida.",
+      "etiquetas": [
+        "Exfoliación"
+      ]
     },
     {
       "id": "p0864",
@@ -8895,7 +9422,12 @@
       "imagen": "img/skincare/MIXSOON35.webp",
       "agotado": false,
       "marca": "Mixsoon",
-      "descripcion": "Sérum con microespículas recubiertas de ácido hialurónico, pensado para piel sensible, que calma la irritación, mejora la elasticidad, hidrata y apoya la barrera. Se aplica después del tónico con suaves toques; hacer prueba de parche antes del primer uso. Ingredientes claves: Centella asiática (madecasósido, asiaticósido), péptidos, adenosina, ácido hialurónico, niacinamida."
+      "descripcion": "Sérum con microespículas recubiertas de ácido hialurónico, pensado para piel sensible, que calma la irritación, mejora la elasticidad, hidrata y apoya la barrera. Se aplica después del tónico con suaves toques; hacer prueba de parche antes del primer uso. Ingredientes claves: Centella asiática (madecasósido, asiaticósido), péptidos, adenosina, ácido hialurónico, niacinamida.",
+      "etiquetas": [
+        "Hidratación",
+        "Piel sensible",
+        "Calmante"
+      ]
     },
     {
       "id": "p0865",
@@ -8958,6 +9490,10 @@
       "colores": [
         "img/skincare/NUMBUZIN-01.jpg",
         "img/skincare/NUMBUZIN-01_2.webp"
+      ],
+      "etiquetas": [
+        "Calmante",
+        "Protección solar"
       ]
     },
     {
@@ -8970,7 +9506,11 @@
       "imagen": "img/skincare/DR-ALTHEA9.webp",
       "agotado": false,
       "marca": "Dr. Althea",
-      "descripcion": "Bálsamo desmaquillante con dispensador giratorio que retira el maquillaje y limpia los poros en profundidad; se vuelve lechoso al contacto con el agua y se enjuaga sin dejar sensación grasosa. Ayuda a controlar la grasa y calma el enrojecimiento. Para todo tipo de piel. Ingredientes claves: Sulfonato de guaiazuleno de sodio, extracto de té verde, aceite de soya."
+      "descripcion": "Bálsamo desmaquillante con dispensador giratorio que retira el maquillaje y limpia los poros en profundidad; se vuelve lechoso al contacto con el agua y se enjuaga sin dejar sensación grasosa. Ayuda a controlar la grasa y calma el enrojecimiento. Para todo tipo de piel. Ingredientes claves: Sulfonato de guaiazuleno de sodio, extracto de té verde, aceite de soya.",
+      "etiquetas": [
+        "Grasa y poros",
+        "Calmante"
+      ]
     },
     {
       "id": "p0871",
@@ -8982,7 +9522,12 @@
       "imagen": "img/skincare/VT-COS12.webp",
       "agotado": false,
       "marca": "VT Cosmetics",
-      "descripcion": "Esencia blanca translúcida de la línea Reedle Shot con enfoque calmante, con función iluminadora y de mejora de arrugas. Se masajea sobre la piel limpia y se sigue con un hidratante. Para todo tipo de piel; hacer prueba de parche si la piel es sensible. Ingredientes claves: Niacinamida, adenosina, hialuronato de sodio, centella asiática, betaglucano, árbol de té, alantoína, ceramida NP."
+      "descripcion": "Esencia blanca translúcida de la línea Reedle Shot con enfoque calmante, con función iluminadora y de mejora de arrugas. Se masajea sobre la piel limpia y se sigue con un hidratante. Para todo tipo de piel; hacer prueba de parche si la piel es sensible. Ingredientes claves: Niacinamida, adenosina, hialuronato de sodio, centella asiática, betaglucano, árbol de té, alantoína, ceramida NP.",
+      "etiquetas": [
+        "Calmante",
+        "Antiedad",
+        "Luminosidad"
+      ]
     },
     {
       "id": "p0872",
@@ -8994,7 +9539,12 @@
       "imagen": "img/skincare/VT-COS13.webp",
       "agotado": false,
       "marca": "VT Cosmetics",
-      "descripcion": "Esencia blanca translúcida de la línea Reedle Shot con enfoque calmante, en una intensidad mayor que la versión 100, con función iluminadora y de mejora de arrugas. Se masajea sobre la piel limpia y se sigue con un hidratante. Hacer prueba de parche si la piel es sensible y no aplicar sobre heridas. Ingredientes claves: Niacinamida, adenosina, hialuronato de sodio, centella asiática, árbol de té, alantoína, betaglucano, ceramida NP."
+      "descripcion": "Esencia blanca translúcida de la línea Reedle Shot con enfoque calmante, en una intensidad mayor que la versión 100, con función iluminadora y de mejora de arrugas. Se masajea sobre la piel limpia y se sigue con un hidratante. Hacer prueba de parche si la piel es sensible y no aplicar sobre heridas. Ingredientes claves: Niacinamida, adenosina, hialuronato de sodio, centella asiática, árbol de té, alantoína, betaglucano, ceramida NP.",
+      "etiquetas": [
+        "Calmante",
+        "Antiedad",
+        "Luminosidad"
+      ]
     },
     {
       "id": "p0874",
@@ -9006,7 +9556,11 @@
       "imagen": "img/skincare/MIXSOON17.webp",
       "agotado": false,
       "marca": "Mixsoon",
-      "descripcion": "Una crema solar física que ofrece protección UV con FPS 50+ PA++++. Utiliza filtros físicos que bloquean eficazmente los rayos UVA y UVB. Contiene ceramida NP y pantenol para una barrera de hidratación, agua glacial y 5 tipos de ácidos hialurónicos para una hidratación profunda. Ingredientes claves: Extracto de centella, ácido madecásico, ácido asiático, ceramidas."
+      "descripcion": "Una crema solar física que ofrece protección UV con FPS 50+ PA++++. Utiliza filtros físicos que bloquean eficazmente los rayos UVA y UVB. Contiene ceramida NP y pantenol para una barrera de hidratación, agua glacial y 5 tipos de ácidos hialurónicos para una hidratación profunda. Ingredientes claves: Extracto de centella, ácido madecásico, ácido asiático, ceramidas.",
+      "etiquetas": [
+        "Hidratación",
+        "Protección solar"
+      ]
     },
     {
       "id": "p0875",
@@ -9018,7 +9572,10 @@
       "imagen": "img/skincare/ABIB5.webp",
       "agotado": false,
       "marca": "Abib",
-      "descripcion": "Protector solar en barra SPF50+ de amplio espectro que se desliza con suavidad, no se siente grasoso y deja un acabado natural y luminoso, sin residuo blanco. Mantiene la piel hidratada y se puede aplicar sobre o debajo del maquillaje; reaplicar cada 2 horas. Para piel normal, mixta o sensible. Ingredientes claves: Centella asiática, aloe vera, té verde, extracto de pepino, ceramida NP."
+      "descripcion": "Protector solar en barra SPF50+ de amplio espectro que se desliza con suavidad, no se siente grasoso y deja un acabado natural y luminoso, sin residuo blanco. Mantiene la piel hidratada y se puede aplicar sobre o debajo del maquillaje; reaplicar cada 2 horas. Para piel normal, mixta o sensible. Ingredientes claves: Centella asiática, aloe vera, té verde, extracto de pepino, ceramida NP.",
+      "etiquetas": [
+        "Protección solar"
+      ]
     },
     {
       "id": "p0876",
@@ -9030,7 +9587,11 @@
       "imagen": "img/skincare/LINDSAY-02.jpg",
       "agotado": false,
       "marca": "Lindsay",
-      "descripcion": "Mascarilla plástica (modeling) de alginato en vaso individual con espátula: se mezcla el polvo con agua, se aplica en capa gruesa y se retira en una pieza a los 15-20 minutos. Hidrata, calma y refresca la piel irritada o grasa y ayuda con los poros. Ingredientes claves: Tierra de diatomeas, alginato, polvo de hoja de árbol de té, aceite de menta, aloe vera, alantoína."
+      "descripcion": "Mascarilla plástica (modeling) de alginato en vaso individual con espátula: se mezcla el polvo con agua, se aplica en capa gruesa y se retira en una pieza a los 15-20 minutos. Hidrata, calma y refresca la piel irritada o grasa y ayuda con los poros. Ingredientes claves: Tierra de diatomeas, alginato, polvo de hoja de árbol de té, aceite de menta, aloe vera, alantoína.",
+      "etiquetas": [
+        "Grasa y poros",
+        "Calmante"
+      ]
     },
     {
       "id": "p0877",
@@ -9042,7 +9603,11 @@
       "imagen": "img/skincare/VT-COS6.webp",
       "agotado": false,
       "marca": "VT Cosmetics",
-      "descripcion": "Proporciona un cuidado denso y slow-aging con energía roja vibrante para una piel firme y radiante. Ayuda a darle brillo a la piel y mejorar la elasticidad y claridad de la piel. La sinergia potenciadora con pantenol, arbutin, tocopherol y ceramida NP ayuda a crear un cutis firme y resistente. Ingredientes claves: Niacinamida, ceramida, pantenol, ácido asiático, extracto de cacao, moringa."
+      "descripcion": "Proporciona un cuidado denso y slow-aging con energía roja vibrante para una piel firme y radiante. Ayuda a darle brillo a la piel y mejorar la elasticidad y claridad de la piel. La sinergia potenciadora con pantenol, arbutin, tocopherol y ceramida NP ayuda a crear un cutis firme y resistente. Ingredientes claves: Niacinamida, ceramida, pantenol, ácido asiático, extracto de cacao, moringa.",
+      "etiquetas": [
+        "Antiedad",
+        "Luminosidad"
+      ]
     },
     {
       "id": "p0878",
@@ -9054,7 +9619,12 @@
       "imagen": "img/skincare/MEDICUBE86.jpg",
       "agotado": false,
       "marca": "Medicube",
-      "descripcion": "Peeling en gel de enjuague para piel sensible y con tendencia al acné que retira células muertas, ayuda a destapar y afinar poros, suaviza la textura y calma el enrojecimiento. Se deja 1 a 2 minutos sobre la piel seca y se enjuaga; usar solo de noche, 2 a 3 veces por semana, y protector solar en el día. Ingredientes claves: Ácido succínico, ácido láctico, ácido salicílico, niacinamida, centella asiática, ácido hialurónico."
+      "descripcion": "Peeling en gel de enjuague para piel sensible y con tendencia al acné que retira células muertas, ayuda a destapar y afinar poros, suaviza la textura y calma el enrojecimiento. Se deja 1 a 2 minutos sobre la piel seca y se enjuaga; usar solo de noche, 2 a 3 veces por semana, y protector solar en el día. Ingredientes claves: Ácido succínico, ácido láctico, ácido salicílico, niacinamida, centella asiática, ácido hialurónico.",
+      "etiquetas": [
+        "Granitos",
+        "Calmante",
+        "Exfoliación"
+      ]
     },
     {
       "id": "p0879",
@@ -9066,7 +9636,11 @@
       "imagen": "img/skincare/PROCALM-01.jpg",
       "agotado": false,
       "marca": "Hanmi",
-      "descripcion": "Crema cosmética con vitamina K que calma la piel con tendencia al enrojecimiento y ayuda con la apariencia de moretones y ojeras, mientras hidrata y unifica el tono. Se aplica en poca cantidad con suaves toques 2 a 3 veces al día, solo sobre piel intacta; después de un procedimiento, seguir las indicaciones del especialista. Ingredientes claves: Vitamina K3, árnica, niacinamida, pantenol, vitamina C, fermentos probióticos."
+      "descripcion": "Crema cosmética con vitamina K que calma la piel con tendencia al enrojecimiento y ayuda con la apariencia de moretones y ojeras, mientras hidrata y unifica el tono. Se aplica en poca cantidad con suaves toques 2 a 3 veces al día, solo sobre piel intacta; después de un procedimiento, seguir las indicaciones del especialista. Ingredientes claves: Vitamina K3, árnica, niacinamida, pantenol, vitamina C, fermentos probióticos.",
+      "etiquetas": [
+        "Calmante",
+        "Ojeras y contorno"
+      ]
     },
     {
       "id": "p0880",
@@ -9078,7 +9652,11 @@
       "imagen": "img/skincare/VT-COS8.webp",
       "agotado": false,
       "marca": "VT Cosmetics",
-      "descripcion": "Tratamiento intensivo localizado en crema blanca, el nivel más fuerte de la línea Reedle Shot, con función iluminadora y de mejora de arrugas. Se usa de noche una vez cada 7 días; si se siente muy fuerte, mezclarlo con la rutina habitual o aplicarlo solo en zonas puntuales. Hacer prueba de parche en piel sensible. Ingredientes claves: Niacinamida, adenosina, centella asiática, extracto de ginseng rojo, propóleo, oro, elastina hidrolizada, ceramida NP."
+      "descripcion": "Tratamiento intensivo localizado en crema blanca, el nivel más fuerte de la línea Reedle Shot, con función iluminadora y de mejora de arrugas. Se usa de noche una vez cada 7 días; si se siente muy fuerte, mezclarlo con la rutina habitual o aplicarlo solo en zonas puntuales. Hacer prueba de parche en piel sensible. Ingredientes claves: Niacinamida, adenosina, centella asiática, extracto de ginseng rojo, propóleo, oro, elastina hidrolizada, ceramida NP.",
+      "etiquetas": [
+        "Antiedad",
+        "Luminosidad"
+      ]
     },
     {
       "id": "p0881",
@@ -9102,7 +9680,11 @@
       "imagen": "img/skincare/ROUND-LAB4.webp",
       "agotado": false,
       "marca": "Round Lab",
-      "descripcion": "Sérum de textura acuosa, ligeramente viscosa y ligera que aporta hidratación profunda y duradera. Sin fragancia, apto para piel sensible y todo tipo de piel. Ingredientes claves: Savia de abedul, ácido hialurónico, extracto de hoja de eclipta."
+      "descripcion": "Sérum de textura acuosa, ligeramente viscosa y ligera que aporta hidratación profunda y duradera. Sin fragancia, apto para piel sensible y todo tipo de piel. Ingredientes claves: Savia de abedul, ácido hialurónico, extracto de hoja de eclipta.",
+      "etiquetas": [
+        "Hidratación",
+        "Piel sensible"
+      ]
     },
     {
       "id": "p0883",
@@ -9114,7 +9696,12 @@
       "imagen": "img/skincare/ROUND-LAB2.webp",
       "agotado": false,
       "marca": "Round Lab",
-      "descripcion": "Protector solar en barra SPF50+ PA++++ que hidrata mientras protege de los rayos UVA y UVB. Acabado ligero con efecto refrescante, apto para piel sensible y sin oxibenzona ni octinoxato. Ingredientes claves: Savia de abedul, ácido hialurónico, péptidos, niacinamida, adenosina."
+      "descripcion": "Protector solar en barra SPF50+ PA++++ que hidrata mientras protege de los rayos UVA y UVB. Acabado ligero con efecto refrescante, apto para piel sensible y sin oxibenzona ni octinoxato. Ingredientes claves: Savia de abedul, ácido hialurónico, péptidos, niacinamida, adenosina.",
+      "etiquetas": [
+        "Hidratación",
+        "Piel sensible",
+        "Protección solar"
+      ]
     },
     {
       "id": "p0884",
@@ -9126,7 +9713,11 @@
       "imagen": "img/skincare/VT-COS17.webp",
       "agotado": false,
       "marca": "VT Cosmetics",
-      "descripcion": "Esencia de la línea Reedle Shot con retinoides, con función iluminadora y de mejora de arrugas. Se masajea sobre la piel limpia y se sigue con un hidratante. Para todo tipo de piel; hacer prueba de parche si la piel es sensible, no aplicar sobre heridas y usar protector solar. Ingredientes claves: Retinol, retinoato de hidroxipinacolona, niacinamida, bakuchiol, adenosina, centella asiática, hialuronato de sodio."
+      "descripcion": "Esencia de la línea Reedle Shot con retinoides, con función iluminadora y de mejora de arrugas. Se masajea sobre la piel limpia y se sigue con un hidratante. Para todo tipo de piel; hacer prueba de parche si la piel es sensible, no aplicar sobre heridas y usar protector solar. Ingredientes claves: Retinol, retinoato de hidroxipinacolona, niacinamida, bakuchiol, adenosina, centella asiática, hialuronato de sodio.",
+      "etiquetas": [
+        "Antiedad",
+        "Luminosidad"
+      ]
     },
     {
       "id": "p0885",
@@ -9138,7 +9729,12 @@
       "imagen": "img/skincare/ANUA24.webp",
       "agotado": false,
       "marca": "Anua",
-      "descripcion": "Sérum de retinol encapsulado en nanoliposomas que estimula la renovación de la piel para suavizar líneas finas, atenuar manchas y marcas de acné, y mejorar textura, poros y tono, con menos irritación. Apto para principiantes; empezar 2 a 3 noches por semana y usar protector solar en la mañana. Ingredientes claves: Retinol (0,3%), niacinamida, ceramida NP, adenosina, ácido hialurónico, escualano, pantenol."
+      "descripcion": "Sérum de retinol encapsulado en nanoliposomas que estimula la renovación de la piel para suavizar líneas finas, atenuar manchas y marcas de acné, y mejorar textura, poros y tono, con menos irritación. Apto para principiantes; empezar 2 a 3 noches por semana y usar protector solar en la mañana. Ingredientes claves: Retinol (0,3%), niacinamida, ceramida NP, adenosina, ácido hialurónico, escualano, pantenol.",
+      "etiquetas": [
+        "Granitos",
+        "Manchas",
+        "Antiedad"
+      ]
     },
     {
       "id": "p0886",
@@ -9150,7 +9746,11 @@
       "imagen": "img/skincare/DR-ALTHEA20.webp",
       "agotado": false,
       "marca": "Dr. Althea",
-      "descripcion": "Sérum para el contorno de ojos con aplicador rodillo tipo gua sha que ayuda a reducir la apariencia de líneas finas, ojeras, hinchazón y flacidez, con efecto tensor temporal, mientras hidrata y calma. Evitar el contacto directo con los ojos. Ingredientes claves: Retinol (1.000 ppm), bakuchiol, ácido hialurónico, centella asiática, péptidos, ceramida NP, pantenol."
+      "descripcion": "Sérum para el contorno de ojos con aplicador rodillo tipo gua sha que ayuda a reducir la apariencia de líneas finas, ojeras, hinchazón y flacidez, con efecto tensor temporal, mientras hidrata y calma. Evitar el contacto directo con los ojos. Ingredientes claves: Retinol (1.000 ppm), bakuchiol, ácido hialurónico, centella asiática, péptidos, ceramida NP, pantenol.",
+      "etiquetas": [
+        "Antiedad",
+        "Ojeras y contorno"
+      ]
     },
     {
       "id": "p0887",
@@ -9162,7 +9762,11 @@
       "imagen": "img/skincare/MEDICUBE70.webp",
       "agotado": false,
       "marca": "Medicube",
-      "descripcion": "SERUM (Suero refuerzo de retinol) Es un suero facial antiedad diseñado para mejorar la firmeza y elasticidad de la piel, reducir líneas de expresión y unificar el tono. Combina retinol encapsulado y NMN de alta pureza para minimizar la irritación y potenciar los resultados. Ingredientes claves: Retinol, retinal, ceramidas, pantenol, niacinamida, ácido hialurónico, péptidos, vitamina C."
+      "descripcion": "SERUM (Suero refuerzo de retinol) Es un suero facial antiedad diseñado para mejorar la firmeza y elasticidad de la piel, reducir líneas de expresión y unificar el tono. Combina retinol encapsulado y NMN de alta pureza para minimizar la irritación y potenciar los resultados. Ingredientes claves: Retinol, retinal, ceramidas, pantenol, niacinamida, ácido hialurónico, péptidos, vitamina C.",
+      "etiquetas": [
+        "Manchas",
+        "Antiedad"
+      ]
     },
     {
       "id": "p0888",
@@ -9174,7 +9778,11 @@
       "imagen": "img/skincare/APLB-05.webp",
       "agotado": false,
       "marca": "APLB",
-      "descripcion": "Suplemento oral en tabletas (30 tabletas de 500 mg) para el cuidado de la piel desde adentro: apoya una piel con apariencia más joven, luminosa y uniforme, con protección antioxidante. Tomar 1 tableta al día con agua, preferiblemente con una comida. Ingredientes claves: Retinol (vitamina A), vitamina C, vitamina E, zinc, selenio."
+      "descripcion": "Suplemento oral en tabletas (30 tabletas de 500 mg) para el cuidado de la piel desde adentro: apoya una piel con apariencia más joven, luminosa y uniforme, con protección antioxidante. Tomar 1 tableta al día con agua, preferiblemente con una comida. Ingredientes claves: Retinol (vitamina A), vitamina C, vitamina E, zinc, selenio.",
+      "etiquetas": [
+        "Antiedad",
+        "Luminosidad"
+      ]
     },
     {
       "id": "p0889",
@@ -9186,7 +9794,11 @@
       "imagen": "img/skincare/APLB-06.webp",
       "agotado": false,
       "marca": "APLB",
-      "descripcion": "Una mascarilla facial que contiene retinol, vitamina C y vitamina E para revitalizar la piel apagada. Enriquecida con extracto de centella asiática para calmar e hidratar la piel irritada. Ingredientes claves: Extracto de centella, té verde, extracto de fruta, colágeno, vitamina C."
+      "descripcion": "Una mascarilla facial que contiene retinol, vitamina C y vitamina E para revitalizar la piel apagada. Enriquecida con extracto de centella asiática para calmar e hidratar la piel irritada. Ingredientes claves: Extracto de centella, té verde, extracto de fruta, colágeno, vitamina C.",
+      "etiquetas": [
+        "Calmante",
+        "Luminosidad"
+      ]
     },
     {
       "id": "p0890",
@@ -9198,7 +9810,11 @@
       "imagen": "img/skincare/BEAUTY13.webp",
       "agotado": false,
       "marca": "Beauty of Joseon",
-      "descripcion": "Sérum reafirmante que hidrata y revitaliza para que la piel luzca más elástica y rellena, con beneficios antioxidantes y calmantes. Ideal para piel seca o cansada que ha perdido firmeza. Sin fragancia ni alcohol. Ingredientes claves: Agua de raíz de ginseng (63%), mucina de caracol (3%), extracto de ginseng, centella asiática."
+      "descripcion": "Sérum reafirmante que hidrata y revitaliza para que la piel luzca más elástica y rellena, con beneficios antioxidantes y calmantes. Ideal para piel seca o cansada que ha perdido firmeza. Sin fragancia ni alcohol. Ingredientes claves: Agua de raíz de ginseng (63%), mucina de caracol (3%), extracto de ginseng, centella asiática.",
+      "etiquetas": [
+        "Piel seca",
+        "Antiedad"
+      ]
     },
     {
       "id": "p0891",
@@ -9210,7 +9826,11 @@
       "imagen": "img/skincare/ANUA1.webp",
       "agotado": false,
       "marca": "Anua",
-      "descripcion": "Limpiador en polvo enzimático que exfolia suavemente y deja la piel más luminosa y uniforme, sin resecarla. También se puede usar como mascarilla de enjuague mezclándolo con agua. Sin fragancia. Ingredientes claves: Polvo y extracto de arroz, alfa-arbutina, ceramida NP, papaína, proteasa, caolín."
+      "descripcion": "Limpiador en polvo enzimático que exfolia suavemente y deja la piel más luminosa y uniforme, sin resecarla. También se puede usar como mascarilla de enjuague mezclándolo con agua. Sin fragancia. Ingredientes claves: Polvo y extracto de arroz, alfa-arbutina, ceramida NP, papaína, proteasa, caolín.",
+      "etiquetas": [
+        "Luminosidad",
+        "Exfoliación"
+      ]
     },
     {
       "id": "p0892",
@@ -9234,7 +9854,10 @@
       "imagen": "img/skincare/TIRTIR-21.webp",
       "agotado": false,
       "marca": "TIRTIR",
-      "descripcion": "Esencia de pH 5,5 con un solo ingrediente activo, extracto de romero, con propiedades antioxidantes, calmantes y refrescantes. Sin alcohol, fragancia, aceites, parabenos, siliconas ni sulfatos. Vegana. Ingredientes claves: Extracto de romero."
+      "descripcion": "Esencia de pH 5,5 con un solo ingrediente activo, extracto de romero, con propiedades antioxidantes, calmantes y refrescantes. Sin alcohol, fragancia, aceites, parabenos, siliconas ni sulfatos. Vegana. Ingredientes claves: Extracto de romero.",
+      "etiquetas": [
+        "Calmante"
+      ]
     },
     {
       "id": "p0894",
@@ -9257,7 +9880,11 @@
       "imagen": "img/skincare/KSEC-05.webp",
       "agotado": false,
       "marca": "Seoul 1988",
-      "descripcion": "Bola liofilizada de colágeno que se disuelve en el sérum o la esencia antes de aplicarla en rostro y cuello (nunca directamente en seco sobre la piel). Ayuda con la firmeza, la elasticidad, la hidratación y la apariencia de líneas finas y opacidad. Uso nocturno, ideal para piel seca, madura o deshidratada. Ingredientes claves: Colágeno hidrolizado."
+      "descripcion": "Bola liofilizada de colágeno que se disuelve en el sérum o la esencia antes de aplicarla en rostro y cuello (nunca directamente en seco sobre la piel). Ayuda con la firmeza, la elasticidad, la hidratación y la apariencia de líneas finas y opacidad. Uso nocturno, ideal para piel seca, madura o deshidratada. Ingredientes claves: Colágeno hidrolizado.",
+      "etiquetas": [
+        "Hidratación",
+        "Antiedad"
+      ]
     },
     {
       "id": "p0896",
@@ -9269,7 +9896,12 @@
       "imagen": "img/skincare/KSEC-01.webp",
       "agotado": false,
       "marca": "Seoul 1988",
-      "descripcion": "Esta crema enriquecida con un 93% de Filtrado de Secreción de Caracol y Filtrado de Fermento de Arroz (Sake) proporciona una hidratación profunda, ilumina la piel y efectos calmantes y ayuda a reforzar la barrera cutánea. Ingredientes claves: Filtrado de arroz, filtrado de baba de caracol, pantenol."
+      "descripcion": "Esta crema enriquecida con un 93% de Filtrado de Secreción de Caracol y Filtrado de Fermento de Arroz (Sake) proporciona una hidratación profunda, ilumina la piel y efectos calmantes y ayuda a reforzar la barrera cutánea. Ingredientes claves: Filtrado de arroz, filtrado de baba de caracol, pantenol.",
+      "etiquetas": [
+        "Hidratación",
+        "Calmante",
+        "Luminosidad"
+      ]
     },
     {
       "id": "p0900",
@@ -9281,7 +9913,11 @@
       "imagen": "img/skincare/INNIS-04.jpg",
       "agotado": false,
       "marca": "Innisfree",
-      "descripcion": "Mascarilla de arcilla cremosa de enjuague que no reseca. Ayuda a controlar el exceso de grasa, minimiza visiblemente los poros y exfolia para suavizar la piel. Usar 1 a 2 veces por semana. Ideal para piel mixta o grasa, incluso con tendencia al acné. Ingredientes claves: Ceniza volcánica de Jeju, AHA (ácido láctico)."
+      "descripcion": "Mascarilla de arcilla cremosa de enjuague que no reseca. Ayuda a controlar el exceso de grasa, minimiza visiblemente los poros y exfolia para suavizar la piel. Usar 1 a 2 veces por semana. Ideal para piel mixta o grasa, incluso con tendencia al acné. Ingredientes claves: Ceniza volcánica de Jeju, AHA (ácido láctico).",
+      "etiquetas": [
+        "Grasa y poros",
+        "Exfoliación"
+      ]
     },
     {
       "id": "p0901",
@@ -9304,7 +9940,11 @@
       "imagen": "img/skincare/CELI-05.webp",
       "agotado": false,
       "marca": "Celimax",
-      "descripcion": "Hidratación intensa: Ayuda a retener la humedad y proporciona una barrera protectora que previene la pérdida de agua, manteniendo la piel suave, flexible y radiante. Propiedades antioxidantes: Rico en antioxidantes naturales, como las vitaminas C y E, que ayudan a combatir los radicales libres responsables del envejecimiento prematuro de la piel. Ingredientes claves: Manteca de karité, ceramida, semilla de jojoba, péptidos, cúrcuma."
+      "descripcion": "Hidratación intensa: Ayuda a retener la humedad y proporciona una barrera protectora que previene la pérdida de agua, manteniendo la piel suave, flexible y radiante. Propiedades antioxidantes: Rico en antioxidantes naturales, como las vitaminas C y E, que ayudan a combatir los radicales libres responsables del envejecimiento prematuro de la piel. Ingredientes claves: Manteca de karité, ceramida, semilla de jojoba, péptidos, cúrcuma.",
+      "etiquetas": [
+        "Hidratación",
+        "Ojeras y contorno"
+      ]
     },
     {
       "id": "p0903",
@@ -9316,7 +9956,11 @@
       "imagen": "img/skincare/COSRX10.webp",
       "agotado": false,
       "marca": "COSRX",
-      "descripcion": "Crema de uso nocturno con 0,1% de retinol, pensada para quienes empiezan a usar retinol. Ayuda a suavizar líneas finas, mejorar la elasticidad y la textura, y prevenir el acné. Usar protector solar durante el día; no recomendada en embarazo ni lactancia. Ingredientes claves: Retinol (0,1%), pantenol, adenosina, tocotrienoles (vitamina E)."
+      "descripcion": "Crema de uso nocturno con 0,1% de retinol, pensada para quienes empiezan a usar retinol. Ayuda a suavizar líneas finas, mejorar la elasticidad y la textura, y prevenir el acné. Usar protector solar durante el día; no recomendada en embarazo ni lactancia. Ingredientes claves: Retinol (0,1%), pantenol, adenosina, tocotrienoles (vitamina E).",
+      "etiquetas": [
+        "Granitos",
+        "Antiedad"
+      ]
     },
     {
       "id": "p0904",
@@ -9328,7 +9972,11 @@
       "imagen": "img/skincare/CELI-02.webp",
       "agotado": false,
       "marca": "Celimax",
-      "descripcion": "Sérum en gel de uso nocturno para los primeros signos de pérdida de firmeza y líneas finas, que deja la piel más lisa, uniforme y firme con acabado luminoso. Si es la primera vez con retinol, empezar pocas veces por semana; no usar en embarazo ni lactancia. Ingredientes claves: Retinol (0,1%), péptidos, pantenol, alantoína, adenosina, vitamina E."
+      "descripcion": "Sérum en gel de uso nocturno para los primeros signos de pérdida de firmeza y líneas finas, que deja la piel más lisa, uniforme y firme con acabado luminoso. Si es la primera vez con retinol, empezar pocas veces por semana; no usar en embarazo ni lactancia. Ingredientes claves: Retinol (0,1%), péptidos, pantenol, alantoína, adenosina, vitamina E.",
+      "etiquetas": [
+        "Antiedad",
+        "Luminosidad"
+      ]
     },
     {
       "id": "p0905",
@@ -9358,7 +10006,12 @@
       "imagen": "img/skincare/INNIS-10.jpg",
       "agotado": false,
       "marca": "Innisfree",
-      "descripcion": "Protector solar SPF50+ PA++++ con efecto tone-up y acabado mate, sin residuo blanco, que también funciona como prebase de maquillaje. Ayuda a controlar la grasa, ilumina y cuida las manchas. Apto para todo tipo de piel, especialmente grasa. Ingredientes claves: Filtros UV minerales."
+      "descripcion": "Protector solar SPF50+ PA++++ con efecto tone-up y acabado mate, sin residuo blanco, que también funciona como prebase de maquillaje. Ayuda a controlar la grasa, ilumina y cuida las manchas. Apto para todo tipo de piel, especialmente grasa. Ingredientes claves: Filtros UV minerales.",
+      "etiquetas": [
+        "Grasa y poros",
+        "Manchas",
+        "Protección solar"
+      ]
     },
     {
       "id": "p0907",
@@ -9370,7 +10023,11 @@
       "imagen": "img/skincare/INNIS-09.jpg",
       "agotado": false,
       "marca": "Innisfree",
-      "descripcion": "Protector solar SPF50+ PA++++ hidratante y ligero con efecto tone-up que corrige el tono y aporta luminosidad natural sin residuo blanco, con acabado jugoso. Se aplica como último paso de la rutina, antes del maquillaje. Ingredientes claves: Derivado de vitamina C."
+      "descripcion": "Protector solar SPF50+ PA++++ hidratante y ligero con efecto tone-up que corrige el tono y aporta luminosidad natural sin residuo blanco, con acabado jugoso. Se aplica como último paso de la rutina, antes del maquillaje. Ingredientes claves: Derivado de vitamina C.",
+      "etiquetas": [
+        "Luminosidad",
+        "Protección solar"
+      ]
     },
     {
       "id": "p0908",
@@ -9382,7 +10039,11 @@
       "imagen": "img/skincare/DR-MELAXIN02.webp",
       "agotado": true,
       "marca": "Dr. Melaxin",
-      "descripcion": "Crema de textura suave que trabaja manchas, hiperpigmentación y tono desigual mientras hidrata y apoya la barrera cutánea, apta para piel sensible. Se usa mañana y noche como último paso antes del protector solar. Ingredientes claves: Ácido tranexámico, niacinamida, manteca de karité, ceramida NP, pantenol, glutatión."
+      "descripcion": "Crema de textura suave que trabaja manchas, hiperpigmentación y tono desigual mientras hidrata y apoya la barrera cutánea, apta para piel sensible. Se usa mañana y noche como último paso antes del protector solar. Ingredientes claves: Ácido tranexámico, niacinamida, manteca de karité, ceramida NP, pantenol, glutatión.",
+      "etiquetas": [
+        "Manchas",
+        "Piel sensible"
+      ]
     },
     {
       "id": "p0909",
@@ -9394,7 +10055,12 @@
       "imagen": "img/skincare/APLB-07.webp",
       "agotado": false,
       "marca": "APLB",
-      "descripcion": "Mascarilla en tela iluminadora que ayuda a atenuar la apariencia de las manchas, unificar el tono y calmar el enrojecimiento, mientras hidrata. Ingredientes claves: Ácido tranexámico, niacinamida, hialuronato de sodio, agua de centella asiática."
+      "descripcion": "Mascarilla en tela iluminadora que ayuda a atenuar la apariencia de las manchas, unificar el tono y calmar el enrojecimiento, mientras hidrata. Ingredientes claves: Ácido tranexámico, niacinamida, hialuronato de sodio, agua de centella asiática.",
+      "etiquetas": [
+        "Manchas",
+        "Calmante",
+        "Luminosidad"
+      ]
     },
     {
       "id": "p0910",
@@ -9442,7 +10108,11 @@
       "imagen": "img/skincare/MEDICUBE20.webp",
       "agotado": false,
       "marca": "Medicube",
-      "descripcion": "Crema hidratante y reafirmante de textura rica y nutritiva que ayuda con las arrugas y mejora la elasticidad. Especialmente indicada para piel seca o deshidratada, aunque se puede usar en todo tipo de piel. Ingredientes claves: Colágeno, ácido hialurónico, elastina francesa, niacinamida, manteca de karité, adenosina, escualano."
+      "descripcion": "Crema hidratante y reafirmante de textura rica y nutritiva que ayuda con las arrugas y mejora la elasticidad. Especialmente indicada para piel seca o deshidratada, aunque se puede usar en todo tipo de piel. Ingredientes claves: Colágeno, ácido hialurónico, elastina francesa, niacinamida, manteca de karité, adenosina, escualano.",
+      "etiquetas": [
+        "Piel seca",
+        "Antiedad"
+      ]
     },
     {
       "id": "p0914",
@@ -9465,7 +10135,11 @@
       "imagen": "img/skincare/D-ALBA4.webp",
       "agotado": false,
       "marca": "d'Alba",
-      "descripcion": "Protector solar SPF50+ PA++++ con tono verde que neutraliza el enrojecimiento y aporta luminosidad; también sirve como prebase de maquillaje. Textura ligera, no grasosa ni pegajosa, sin residuo blanco. Vegano. Ingredientes claves: Trufa blanca con vitamina E, centella asiática, niacinamida, agua de árbol de té, ácido hialurónico, dióxido de titanio."
+      "descripcion": "Protector solar SPF50+ PA++++ con tono verde que neutraliza el enrojecimiento y aporta luminosidad; también sirve como prebase de maquillaje. Textura ligera, no grasosa ni pegajosa, sin residuo blanco. Vegano. Ingredientes claves: Trufa blanca con vitamina E, centella asiática, niacinamida, agua de árbol de té, ácido hialurónico, dióxido de titanio.",
+      "etiquetas": [
+        "Luminosidad",
+        "Protección solar"
+      ]
     },
     {
       "id": "p0916",
@@ -9477,7 +10151,11 @@
       "imagen": "img/skincare/D-ALBA10.jpg",
       "agotado": false,
       "marca": "d'Alba",
-      "descripcion": "Protector solar SPF50+ con efecto tone-up y corrector de color que unifica e ilumina el tono, además de hidratar, calmar y apoyar la barrera de la piel. Ingredientes claves: Niacinamida, hialuronato de sodio, escualano, centella asiática, alantoína, dióxido de titanio."
+      "descripcion": "Protector solar SPF50+ con efecto tone-up y corrector de color que unifica e ilumina el tono, además de hidratar, calmar y apoyar la barrera de la piel. Ingredientes claves: Niacinamida, hialuronato de sodio, escualano, centella asiática, alantoína, dióxido de titanio.",
+      "etiquetas": [
+        "Luminosidad",
+        "Protección solar"
+      ]
     },
     {
       "id": "p0917",
@@ -9489,7 +10167,11 @@
       "imagen": "img/skincare/D-ALBA6.jpg",
       "agotado": false,
       "marca": "d'Alba",
-      "descripcion": "Protector solar en textura de esencia con beneficios de cuidado: hidrata, ilumina y apoya la barrera de la piel. Ingredientes claves: Vitamina C, niacinamida, ácido hialurónico, agua de colágeno, centella asiática, ceramida NP, pantenol."
+      "descripcion": "Protector solar en textura de esencia con beneficios de cuidado: hidrata, ilumina y apoya la barrera de la piel. Ingredientes claves: Vitamina C, niacinamida, ácido hialurónico, agua de colágeno, centella asiática, ceramida NP, pantenol.",
+      "etiquetas": [
+        "Luminosidad",
+        "Protección solar"
+      ]
     },
     {
       "id": "p0918",
@@ -9501,7 +10183,11 @@
       "imagen": null,
       "agotado": false,
       "marca": "Otras",
-      "descripcion": "Mascarilla en tela que hidrata y calma el enrojecimiento. Ingredientes claves: Extracto de acerola, hialuronato de sodio, glicirricinato dipotásico, glicerina."
+      "descripcion": "Mascarilla en tela que hidrata y calma el enrojecimiento. Ingredientes claves: Extracto de acerola, hialuronato de sodio, glicirricinato dipotásico, glicerina.",
+      "etiquetas": [
+        "Hidratación",
+        "Calmante"
+      ]
     },
     {
       "id": "p0919",
@@ -9513,7 +10199,11 @@
       "imagen": "img/skincare/FARM-02.jpg",
       "agotado": false,
       "marca": "Otras",
-      "descripcion": "Mascarilla en tela que hidrata y calma el enrojecimiento. Ingredientes claves: Extracto de acerola, hialuronato de sodio, glicirricinato dipotásico, glicerina."
+      "descripcion": "Mascarilla en tela que hidrata y calma el enrojecimiento. Ingredientes claves: Extracto de acerola, hialuronato de sodio, glicirricinato dipotásico, glicerina.",
+      "etiquetas": [
+        "Hidratación",
+        "Calmante"
+      ]
     },
     {
       "id": "p0920",
@@ -9525,7 +10215,10 @@
       "imagen": "img/skincare/TOCOBO34.webp",
       "agotado": false,
       "marca": "Tocobo",
-      "descripcion": "Protector solar mineral con tono rosado que unifica el tono, disimula poros e imperfecciones y sirve como prebase de maquillaje. Su textura es ligera tipo leche, con acabado suave y luminoso, sin sensación pegajosa. Vegano, apto para todo tipo de piel. Ingredientes claves: Dióxido de titanio, agua y extracto de espino amarillo, niacinamida, vitamina B12, adenosina, hialuronato de sodio."
+      "descripcion": "Protector solar mineral con tono rosado que unifica el tono, disimula poros e imperfecciones y sirve como prebase de maquillaje. Su textura es ligera tipo leche, con acabado suave y luminoso, sin sensación pegajosa. Vegano, apto para todo tipo de piel. Ingredientes claves: Dióxido de titanio, agua y extracto de espino amarillo, niacinamida, vitamina B12, adenosina, hialuronato de sodio.",
+      "etiquetas": [
+        "Protección solar"
+      ]
     },
     {
       "id": "p0921",
@@ -9537,7 +10230,11 @@
       "imagen": "img/skincare/VT-COS14.webp",
       "agotado": false,
       "marca": "VT Cosmetics",
-      "descripcion": "Esencia amarillo pálido con cápsulas vitamínicas naranjas de la línea Reedle Shot, con función iluminadora y de mejora de arrugas. Se masajea sobre la piel limpia y se sigue con un hidratante. Para todo tipo de piel; hacer prueba de parche si la piel es sensible y usar protector solar. Ingredientes claves: Niacinamida, adenosina, vitamina C, vitamina E, astaxantina, glutatión, espino amarillo, centella asiática."
+      "descripcion": "Esencia amarillo pálido con cápsulas vitamínicas naranjas de la línea Reedle Shot, con función iluminadora y de mejora de arrugas. Se masajea sobre la piel limpia y se sigue con un hidratante. Para todo tipo de piel; hacer prueba de parche si la piel es sensible y usar protector solar. Ingredientes claves: Niacinamida, adenosina, vitamina C, vitamina E, astaxantina, glutatión, espino amarillo, centella asiática.",
+      "etiquetas": [
+        "Antiedad",
+        "Luminosidad"
+      ]
     },
     {
       "id": "p0922",
@@ -9549,7 +10246,11 @@
       "imagen": "img/skincare/ANUA32.webp",
       "agotado": false,
       "marca": "Anua",
-      "descripcion": "Sérum iluminador que unifica el tono, aporta luminosidad a la piel apagada y ayuda a atenuar pecas e imperfecciones visibles, además de mejorar la textura y apoyar la barrera cutánea. Ingredientes claves: Extracto de limón verde (56%), vitamina C (20%), pantenol, glutatión, vitamina E, ácido ferúlico, niacinamida."
+      "descripcion": "Sérum iluminador que unifica el tono, aporta luminosidad a la piel apagada y ayuda a atenuar pecas e imperfecciones visibles, además de mejorar la textura y apoyar la barrera cutánea. Ingredientes claves: Extracto de limón verde (56%), vitamina C (20%), pantenol, glutatión, vitamina E, ácido ferúlico, niacinamida.",
+      "etiquetas": [
+        "Manchas",
+        "Luminosidad"
+      ]
     },
     {
       "id": "p0923",
@@ -9561,7 +10262,12 @@
       "imagen": "img/skincare/INNIS-08.webp",
       "agotado": false,
       "marca": "Innisfree",
-      "descripcion": "Protector solar SPF50+ PA++++ con color y efecto tone-up que ilumina, cuida las manchas y deja un acabado jugoso sin residuo blanco; sirve como base de maquillaje. Aplicar 15 minutos antes de la exposición al sol y reaplicar cada 2 horas. Para todo tipo de piel. Ingredientes claves: Derivado de vitamina C."
+      "descripcion": "Protector solar SPF50+ PA++++ con color y efecto tone-up que ilumina, cuida las manchas y deja un acabado jugoso sin residuo blanco; sirve como base de maquillaje. Aplicar 15 minutos antes de la exposición al sol y reaplicar cada 2 horas. Para todo tipo de piel. Ingredientes claves: Derivado de vitamina C.",
+      "etiquetas": [
+        "Manchas",
+        "Luminosidad",
+        "Protección solar"
+      ]
     },
     {
       "id": "p0924",
@@ -9573,7 +10279,11 @@
       "imagen": "img/skincare/VT-COS1.webp",
       "agotado": false,
       "marca": "VT Cosmetics",
-      "descripcion": "VT Cosmetics Reedle Shot 100 es una ampolla de cuidado de la piel de última generación con pequeñas microagujas que penetran profundamente en la piel para exfoliar suavemente, minimizar los poros y mejorar la textura de la piel para una tez más suave y saludable. Ingredientes claves: Niacinamida, semilla de macadamia, ácido madecásico, extracto de centella."
+      "descripcion": "VT Cosmetics Reedle Shot 100 es una ampolla de cuidado de la piel de última generación con pequeñas microagujas que penetran profundamente en la piel para exfoliar suavemente, minimizar los poros y mejorar la textura de la piel para una tez más suave y saludable. Ingredientes claves: Niacinamida, semilla de macadamia, ácido madecásico, extracto de centella.",
+      "etiquetas": [
+        "Grasa y poros",
+        "Exfoliación"
+      ]
     },
     {
       "id": "p0925",
@@ -9585,7 +10295,11 @@
       "imagen": "img/skincare/VT-COS2.webp",
       "agotado": false,
       "marca": "VT Cosmetics",
-      "descripcion": "Esencia blanca translúcida de la línea Reedle Shot, con función iluminadora y de mejora de arrugas, pensada como cuidado intensivo en ciclos de 3 días. Se aplica de noche sobre la piel limpia presionando con los dedos y se sigue con un hidratante. Para todo tipo de piel; hacer prueba de parche si la piel es sensible y usar protector solar. Ingredientes claves: Niacinamida, adenosina, centella asiática, extracto de propóleo, hialuronato de sodio, aceite de macadamia."
+      "descripcion": "Esencia blanca translúcida de la línea Reedle Shot, con función iluminadora y de mejora de arrugas, pensada como cuidado intensivo en ciclos de 3 días. Se aplica de noche sobre la piel limpia presionando con los dedos y se sigue con un hidratante. Para todo tipo de piel; hacer prueba de parche si la piel es sensible y usar protector solar. Ingredientes claves: Niacinamida, adenosina, centella asiática, extracto de propóleo, hialuronato de sodio, aceite de macadamia.",
+      "etiquetas": [
+        "Antiedad",
+        "Luminosidad"
+      ]
     },
     {
       "id": "p0926",
@@ -9597,7 +10311,11 @@
       "imagen": "img/skincare/VT-COS3.webp",
       "agotado": false,
       "marca": "VT Cosmetics",
-      "descripcion": "Tratamiento nocturno en crema blanca de la línea Reedle Shot, con función iluminadora y de mejora de arrugas, pensado como cuidado especial semanal (una vez cada 7 días). Si se siente muy intenso, se puede mezclar con la rutina habitual o aplicar solo en zonas puntuales y calmar con una crema de cica. Ingredientes claves: Niacinamida, centella asiática, adenosina, extracto de propóleo, elastina hidrolizada, ceramida NP, hialuronato de sodio."
+      "descripcion": "Tratamiento nocturno en crema blanca de la línea Reedle Shot, con función iluminadora y de mejora de arrugas, pensado como cuidado especial semanal (una vez cada 7 días). Si se siente muy intenso, se puede mezclar con la rutina habitual o aplicar solo en zonas puntuales y calmar con una crema de cica. Ingredientes claves: Niacinamida, centella asiática, adenosina, extracto de propóleo, elastina hidrolizada, ceramida NP, hialuronato de sodio.",
+      "etiquetas": [
+        "Antiedad",
+        "Luminosidad"
+      ]
     },
     {
       "id": "p0927",
@@ -9609,7 +10327,11 @@
       "imagen": "img/skincare/D-ALBA8.webp",
       "agotado": false,
       "marca": "d'Alba",
-      "descripcion": "Producto facial vegano 2 en 1 con un sérum acuoso que hidrata y calma y una crema intensa que nutre y reafirma. Se pueden usar juntos o por separado para ajustar la consistencia a lo que la piel necesita cada día. No comedogénico, para todo tipo de piel. Ingredientes claves: Trufa blanca del Piamonte con vitamina E, ceramida NP, centella asiática, pantenol, colágeno vegano."
+      "descripcion": "Producto facial vegano 2 en 1 con un sérum acuoso que hidrata y calma y una crema intensa que nutre y reafirma. Se pueden usar juntos o por separado para ajustar la consistencia a lo que la piel necesita cada día. No comedogénico, para todo tipo de piel. Ingredientes claves: Trufa blanca del Piamonte con vitamina E, ceramida NP, centella asiática, pantenol, colágeno vegano.",
+      "etiquetas": [
+        "Hidratación",
+        "Antiedad"
+      ]
     },
     {
       "id": "p0929",
@@ -9621,7 +10343,10 @@
       "imagen": "img/skincare/MEDICUBE2.webp",
       "agotado": false,
       "marca": "Medicube",
-      "descripcion": "Limpiador facial especialmente diseñado para pieles sensibles y delicadas. Su fórmula de espuma y enriquecida con ingredientes hidratantes asegura una limpieza profunda sin comprometer la barrera protectora de la piel. Ingredientes claves: Extracto de hoja de Aspalathus linearis, extracto de acerola, ácido láurico."
+      "descripcion": "Limpiador facial especialmente diseñado para pieles sensibles y delicadas. Su fórmula de espuma y enriquecida con ingredientes hidratantes asegura una limpieza profunda sin comprometer la barrera protectora de la piel. Ingredientes claves: Extracto de hoja de Aspalathus linearis, extracto de acerola, ácido láurico.",
+      "etiquetas": [
+        "Piel sensible"
+      ]
     },
     {
       "id": "p0930",
@@ -9633,7 +10358,11 @@
       "imagen": "img/skincare/MEDICUBE34.webp",
       "agotado": false,
       "marca": "Medicube",
-      "descripcion": "Espuma limpiadora diaria con cápsulas azules de exosomas que ayuda a eliminar puntos negros, grasa e impurezas de los poros y a retirar células muertas. Baja irritación, apta incluso para piel sensible o con tendencia al acné. Ingredientes claves: AHA, BHA, PHA, ácido salicílico, exosomas de cica, centella asiática."
+      "descripcion": "Espuma limpiadora diaria con cápsulas azules de exosomas que ayuda a eliminar puntos negros, grasa e impurezas de los poros y a retirar células muertas. Baja irritación, apta incluso para piel sensible o con tendencia al acné. Ingredientes claves: AHA, BHA, PHA, ácido salicílico, exosomas de cica, centella asiática.",
+      "etiquetas": [
+        "Grasa y poros",
+        "Exfoliación"
+      ]
     },
     {
       "id": "p0931",
@@ -9645,7 +10374,11 @@
       "imagen": "img/skincare/MEDICUBE9.webp",
       "agotado": false,
       "marca": "Medicube",
-      "descripcion": "Crema hidratante para el cuidado de los poros que ayuda a afinar su apariencia y a mejorar la textura con una exfoliación suave. Si no se está acostumbrado a los ácidos, introducirla poco a poco. Ingredientes claves: Ácido glicólico, ácido hialurónico, vitamina E, pantenol, alantoína."
+      "descripcion": "Crema hidratante para el cuidado de los poros que ayuda a afinar su apariencia y a mejorar la textura con una exfoliación suave. Si no se está acostumbrado a los ácidos, introducirla poco a poco. Ingredientes claves: Ácido glicólico, ácido hialurónico, vitamina E, pantenol, alantoína.",
+      "etiquetas": [
+        "Grasa y poros",
+        "Exfoliación"
+      ]
     },
     {
       "id": "p0932",
@@ -9657,7 +10390,10 @@
       "imagen": "img/skincare/MEDICUBE1.webp",
       "agotado": false,
       "marca": "Medicube",
-      "descripcion": "Sérum para piel grasa o mixta que ayuda a minimizar la apariencia de los poros, controlar el exceso de grasa y devolver la hidratación a la piel después de la limpieza. Ingredientes claves: Extracto de limoncillo, cáscara de lima, hoja de hierbabuena, extracto de flor de camelia."
+      "descripcion": "Sérum para piel grasa o mixta que ayuda a minimizar la apariencia de los poros, controlar el exceso de grasa y devolver la hidratación a la piel después de la limpieza. Ingredientes claves: Extracto de limoncillo, cáscara de lima, hoja de hierbabuena, extracto de flor de camelia.",
+      "etiquetas": [
+        "Grasa y poros"
+      ]
     },
     {
       "id": "p0933",
@@ -13207,7 +13943,11 @@
       "descripcion": "Ampolla reafirmante de textura rica y rápida absorción que ayuda con la flacidez, las arrugas, las líneas finas y la pérdida de elasticidad, dejando un acabado luminoso. Para todo tipo de piel. Ingredientes claves: Agua y péptidos de seda, colágeno hidrolizado, elastina, complejo de péptidos, ácido hialurónico, niacinamida, centella asiática.",
       "imagen": "img/skincare/SUNGBOON-01.jpg",
       "agotado": false,
-      "nuevo": true
+      "nuevo": true,
+      "etiquetas": [
+        "Antiedad",
+        "Luminosidad"
+      ]
     },
     {
       "id": "p1236",
@@ -14076,7 +14816,11 @@
       "descripcion": "Parches de hidrogel rosados para el contorno de ojos que ayudan a reducir la apariencia de hinchazón, ojeras, resequedad y líneas finas. Se dejan 15 a 20 minutos; refrigerarlos antes da un efecto más refrescante. También se pueden usar en frente, líneas de expresión y cuello. Ingredientes claves: PDRN de salmón, colágeno, NAD, niacinamida, ácido hialurónico.",
       "imagen": null,
       "agotado": false,
-      "nuevo": true
+      "nuevo": true,
+      "etiquetas": [
+        "Antiedad",
+        "Ojeras y contorno"
+      ]
     },
     {
       "id": "p1309",
@@ -14089,7 +14833,11 @@
       "descripcion": "Par de parches de hidrogel rosados para el contorno de ojos que ayudan a reducir la apariencia de hinchazón, ojeras, resequedad y líneas finas. Se dejan 15 a 20 minutos; refrigerarlos antes da un efecto más refrescante. Ingredientes claves: PDRN de salmón, colágeno, NAD, niacinamida, ácido hialurónico.",
       "imagen": null,
       "agotado": false,
-      "nuevo": true
+      "nuevo": true,
+      "etiquetas": [
+        "Antiedad",
+        "Ojeras y contorno"
+      ]
     },
     {
       "id": "p1310",
@@ -14125,7 +14873,11 @@
       "marca": "Centellian 24",
       "descripcion": "Contorno de ojos reafirmante que ayuda a levantar y definir la zona, reducir la hinchazón, rellenar las ojeras hundidas y mejorar la elasticidad, mientras trabaja líneas finas y arrugas profundas. Suave para ojos sensibles. Se masajea alrededor de los ojos hasta absorberse. Ingredientes claves: Centella asiática (TECA), PDRN, sistema de tres retinoides (retinol, retinal, palmitato de retinilo), niacinamida, ceramidas, adenosina.",
       "imagen": "img/skincare/CENTELLIAN24-09.jpg",
-      "agotado": false
+      "agotado": false,
+      "etiquetas": [
+        "Antiedad",
+        "Ojeras y contorno"
+      ]
     },
     {
       "id": "p1313",
@@ -14187,7 +14939,11 @@
       "descripcion": "Sérum en bruma bifásico (sérum y aceite) de rociado fino que hidrata, aporta luminosidad y refresca la piel apagada, dejando un acabado jugoso. Se puede usar sobre el maquillaje o en cualquier momento del día. Ingredientes claves: Extracto de trufa blanca, aceites de macadamia, aguacate y rosa mosqueta, ácido hialurónico, adenosina.",
       "imagen": "img/skincare/D-ALBA16.webp",
       "agotado": false,
-      "nuevo": true
+      "nuevo": true,
+      "etiquetas": [
+        "Hidratación",
+        "Luminosidad"
+      ]
     },
     {
       "id": "p1318",
@@ -14200,7 +14956,11 @@
       "descripcion": "Sérum en spray de base oleosa que calma la irritación y el enrojecimiento, hidrata y deja la piel fresca y luminosa, sin residuo. Para piel sensible, enrojecida o irritada; no comedogénico. Ingredientes claves: Trufa blanca con vitamina E (Trufferol), mezcla de aceites florales, Aquaxyl.",
       "imagen": "img/skincare/D-ALBA17.webp",
       "agotado": false,
-      "nuevo": true
+      "nuevo": true,
+      "etiquetas": [
+        "Piel sensible",
+        "Calmante"
+      ]
     },
     {
       "id": "p1319",
@@ -14237,7 +14997,12 @@
       "marca": "SKIN1004",
       "descripcion": "Un tónico especialmente diseñado para pieles grasas y para minimizar la apariencia de poros dilatados debido a la secreción excesiva de sebo. La sal rosada con ricos minerales ayuda a eliminar las células muertas de la piel y los desechos de los poros mientras revitaliza la piel. Ingredientes claves: extracto de centella, extracto de lavanda, ácido glicólico.",
       "imagen": "img/skincare/SKIN1004-40.webp",
-      "agotado": false
+      "agotado": false,
+      "etiquetas": [
+        "Grasa y poros",
+        "Calmante",
+        "Exfoliación"
+      ]
     },
     {
       "id": "p1322",
@@ -14249,7 +15014,10 @@
       "marca": "SKIN1004",
       "descripcion": "Ampolla formulada con una alta concentración de extracto de Centella Asiática de Madagascar, reconocida por sus propiedades calmantes y curativas que reparan la piel dañada y disminuyen la irritación. Ingredientes claves: Extracto de centella fermentada, ceramidas, pantenol.",
       "imagen": "img/skincare/SKIN1004-63.webp",
-      "agotado": false
+      "agotado": false,
+      "etiquetas": [
+        "Calmante"
+      ]
     },
     {
       "id": "p1323",
@@ -14261,7 +15029,11 @@
       "marca": "SKIN1004",
       "descripcion": "Protector solar en textura de ampolla SPF50+ PA++++ que se absorbe rápido, sin residuo blanco ni película, con acabado natural y luminoso. Además calma la piel sensible, apoya la barrera e hidrata. Ingredientes claves: Centella asiática de Madagascar, TECA, fermento de lactobacilos, niacinamida, ceramidas, pantenol.",
       "imagen": "img/skincare/SKIN1004-30.webp",
-      "agotado": false
+      "agotado": false,
+      "etiquetas": [
+        "Calmante",
+        "Protección solar"
+      ]
     },
     {
       "id": "p1324",
@@ -14273,7 +15045,12 @@
       "marca": "SKIN1004",
       "descripcion": "Kit de viaje con rutina calmante de 4 pasos para piel con imperfecciones: Tea-Trica BHA Foam (20 ml), Tea-Trica Purifying Toner (30 ml), Tea-Trica Relief Ampoule (30 ml) y Tea-Trica B5 Cream (30 ml). Ayuda a equilibrar la grasa, cuidar los poros y calmar la piel.",
       "imagen": "img/skincare/SKIN1004-87.jpg",
-      "agotado": false
+      "agotado": false,
+      "etiquetas": [
+        "Granitos",
+        "Grasa y poros",
+        "Calmante"
+      ]
     },
     {
       "id": "p1325",
@@ -14285,7 +15062,10 @@
       "marca": "SKIN1004",
       "descripcion": "Kit de viaje con rutina hidratante de 4 pasos: Hyalu-Cica Brightening Toner, Hyalu-Cica Blue Serum, Hyalu-Cica Moisture Cream y Hyalu-Cica Sleeping Pack (30 ml cada uno). Para piel deshidratada o apagada; aporta hidratación profunda, brillo jugoso y apoyo a la barrera.",
       "imagen": "img/skincare/SKIN1004-86.webp",
-      "agotado": false
+      "agotado": false,
+      "etiquetas": [
+        "Hidratación"
+      ]
     },
     {
       "id": "p1326",
@@ -14297,7 +15077,11 @@
       "marca": "SKIN1004",
       "descripcion": "Ampolla hidratante de textura acuosa y rápida absorción, pensada como primer paso de la rutina (paso 0) para preparar la piel. Hidrata y calma. Ingredientes claves: Extracto de centella asiática, 5 tipos de ácido hialurónico, savia de abedul, extracto de hiedra.",
       "imagen": null,
-      "agotado": false
+      "agotado": false,
+      "etiquetas": [
+        "Hidratación",
+        "Calmante"
+      ]
     },
     {
       "id": "p1327",
@@ -14309,7 +15093,10 @@
       "marca": "SKIN1004",
       "descripcion": "Tónico de doble acción formulado con extractos de manzana, papaya, uva y durazno, y un derivado estable y poco irritante de vitamina C, para una piel radiante, luminosa, flexible y juvenil. Ingredientes claves: Extracto de centella asiática, niacinamida, pantenol, extracto de fruta.",
       "imagen": "img/skincare/SKIN1004-20.webp",
-      "agotado": false
+      "agotado": false,
+      "etiquetas": [
+        "Luminosidad"
+      ]
     },
     {
       "id": "p1328",
@@ -14321,7 +15108,11 @@
       "marca": "SKIN1004",
       "descripcion": "Crema equilibrante del tono que hidrata y ayuda a mejorar la apariencia del tono desigual para un cutis más luminoso, con exfoliación suave. Textura de ligera a media que se absorbe rápido y deja un acabado suave, no pegajoso. Para piel seca, normal o mixta. Ingredientes claves: Centella asiática, niacinamida, ácido tranexámico, madecasósido, pantenol, bisabolol.",
       "imagen": "img/skincare/SKIN1004-42.webp",
-      "agotado": false
+      "agotado": false,
+      "etiquetas": [
+        "Manchas",
+        "Luminosidad"
+      ]
     },
     {
       "id": "p1329",
@@ -14333,7 +15124,10 @@
       "marca": "Tocobo",
       "descripcion": "Loción solar SPF50+ PA++++ de uso diario para rostro y cuerpo, de textura ligera que se absorbe rápido y deja un acabado mate suave, sin residuo blanco ni sensación pegajosa. Resiste bien el sudor y la reaplicación. Vegana, para todo tipo de piel. Ingredientes claves: Vitamina E, compuestos de centella asiática, alantoína, aceite de espino amarillo.",
       "imagen": "img/skincare/TOCOBO57.webp",
-      "agotado": false
+      "agotado": false,
+      "etiquetas": [
+        "Protección solar"
+      ]
     },
     {
       "id": "p1330",
@@ -14345,7 +15139,11 @@
       "marca": "Tocobo",
       "descripcion": "Sérum de textura ligera y acuosa que calma rápidamente la piel irritada, sensible o enrojecida por el calor, con efecto refrescante, y la hidrata. Apto para todo tipo de piel, incluso con tendencia al acné. Ingredientes claves: Centella asiática fermentada, extracto de árbol de té, ácido hialurónico de varios pesos moleculares.",
       "imagen": "img/skincare/TOCOBO47.webp",
-      "agotado": false
+      "agotado": false,
+      "etiquetas": [
+        "Piel sensible",
+        "Calmante"
+      ]
     },
     {
       "id": "p1331",
@@ -14357,7 +15155,11 @@
       "marca": "Tocobo",
       "descripcion": "Gel crema ligero de rápida absorción que calma y refresca la piel sensible o irritada, la hidrata y ayuda a fortalecer la barrera cutánea, sin sensación pegajosa. Ingredientes claves: Centella asiática y complejo de cica fermentada, ácido hialurónico, árbol de té, niacinamida, pantenol, ceramida NP.",
       "imagen": "img/skincare/TOCOBO46.webp",
-      "agotado": false
+      "agotado": false,
+      "etiquetas": [
+        "Piel sensible",
+        "Calmante"
+      ]
     },
     {
       "id": "p1332",
@@ -14369,7 +15171,11 @@
       "marca": "Tocobo",
       "descripcion": "Protector solar en barra SPF50+ PA++++ con filtros químicos y minerales, de acabado mate, fino y transparente, no pegajoso. Ayuda a controlar la grasa, calma la piel y funciona como prebase de maquillaje; su formato facilita aplicarlo en nariz, mejillas y orejas. Ingredientes claves: Centella asiática, extracto de algodón, dióxido de titanio, vitamina E.",
       "imagen": "img/skincare/TOCOBO31.webp",
-      "agotado": false
+      "agotado": false,
+      "etiquetas": [
+        "Grasa y poros",
+        "Protección solar"
+      ]
     },
     {
       "id": "p1333",
@@ -14381,7 +15187,11 @@
       "marca": "Tocobo",
       "descripcion": "Protector solar en barra SPF50+ PA++++ resistente al agua, al sudor y a la humedad, ideal para actividades al aire libre. Su fórmula en polvo absorbe sudor y grasa con un acabado mate, ligero y no pegajoso. Vegano y apto para todo tipo de piel. Ingredientes claves: Vitamina E, centella asiática, óxido de zinc.",
       "imagen": "img/skincare/TOCOBO67.png",
-      "agotado": false
+      "agotado": false,
+      "etiquetas": [
+        "Grasa y poros",
+        "Protección solar"
+      ]
     },
     {
       "id": "p1334",
@@ -14393,7 +15203,12 @@
       "marca": "Tocobo",
       "descripcion": "Un protector solar en barra que no solo protege tu piel de los daños causados por los rayos UVA y UVB con FPS50+ PA++++, sino que también la calma y controla la producción de sebo gracias a sus complejos herbales. Su aplicación suave y fácil te permite retocar tu protección solar durante el día.",
       "imagen": "img/skincare/TOCOBO39.webp",
-      "agotado": false
+      "agotado": false,
+      "etiquetas": [
+        "Grasa y poros",
+        "Calmante",
+        "Protección solar"
+      ]
     },
     {
       "id": "p1335",
@@ -14405,7 +15220,11 @@
       "marca": "Tocobo",
       "descripcion": "El Tocobo Cica Cooling Sun Stick ofrece protección solar mineral SPF50+ PA++++ en un formato en barra de rápida aplicación. Combina óxido de zinc y dióxido de titanio micronizados para brindar cobertura de amplio espectro, mientras un complejo de centella asiática y mentol natural proporciona efecto refrescante inmediato. Ingredientes claves: Extracto de té verde, niacinamida, extracto de centella, ácido hialurónico. CICA COOLING SUN STICK MINI (Barra solar refrescante mini)",
       "imagen": "img/skincare/TOCOBO38.webp",
-      "agotado": false
+      "agotado": false,
+      "etiquetas": [
+        "Calmante",
+        "Protección solar"
+      ]
     },
     {
       "id": "p1336",
@@ -14463,7 +15282,10 @@
       "marca": "Anua",
       "descripcion": "Parches antiacné ultrafinos que ocultan y curan las imperfecciones, una vez aplicado, el parche protege las heridas de las bacterias mientras absorbe el exceso de sebo. También contiene Ceramida NP y extracto de centella para minimizar la irritación y ayudar a mantener la función de barrera de la piel. Contiene 75 parches. Ingredientes claves: Extracto de hoja de aloe, extracto de centella asiática, ceramida.",
       "imagen": "img/skincare/ANUA9.webp",
-      "agotado": false
+      "agotado": false,
+      "etiquetas": [
+        "Granitos"
+      ]
     },
     {
       "id": "p1341",
@@ -14475,7 +15297,11 @@
       "marca": "Anua",
       "descripcion": "Heartleaf succinic moisture Peach 70% niacinamide serum (serum niacinamida al 70% de melocotón) Suero enriquecido con un 70% de extracto de durazno y niacinamida. Este suero hidratante y aclarante es perfecto para mejorar el tono y la luminosidad de la piel. Ideal para pieles con manchas y sin firmeza. Ingredientes claves: Niacinamida, agua salvado de arroz, pantenol, ceramida, ácido hialurónico.",
       "imagen": "img/skincare/ANUA6.webp",
-      "agotado": false
+      "agotado": false,
+      "etiquetas": [
+        "Manchas",
+        "Luminosidad"
+      ]
     },
     {
       "id": "p1342",
@@ -14487,7 +15313,11 @@
       "marca": "Arencia",
       "descripcion": "Booster con función iluminadora y de mejora de arrugas, enfocado en arrugas y firmeza. Se extiende de forma uniforme sobre la piel; suspender si aparece enrojecimiento o irritación y no aplicar sobre heridas. Para todo tipo de piel. Ingredientes claves: Retinal (200 ppm), niacinamida, adenosina, ceramida NP, centella asiática, pantenol, péptidos.",
       "imagen": "img/skincare/AREN-07.webp",
-      "agotado": false
+      "agotado": false,
+      "etiquetas": [
+        "Antiedad",
+        "Luminosidad"
+      ]
     },
     {
       "id": "p1343",
@@ -16082,7 +16912,11 @@
       "marca": "Beauty of Joseon",
       "descripcion": "Revive Eye Serum : Ginseng + Retinal (Suero revitalizante para ojos: ginseng y retinal) Sérum para el contorno de ojos que hidrata profundamente sin dejar una sensación pesada. Con una fórmula rica en ingredientes beneficiosos para la piel. Mantiene tu piel hidratada e iluminada con la vitamina E. Ingredientes claves: ácido hialurónico, ceramidas, niacinamida, extracto de ginseng, retinal.",
       "imagen": "img/skincare/BEAUTY3.jpg",
-      "agotado": false
+      "agotado": false,
+      "etiquetas": [
+        "Hidratación",
+        "Ojeras y contorno"
+      ]
     },
     {
       "id": "p1475",
@@ -16094,7 +16928,11 @@
       "marca": "Medicube",
       "descripcion": "Ampolla antienvejecimiento enriquecida con PDRN de salmón, complejo de colágeno de salmón y péptidos mejora la elasticidad de la piel, atenúa las imperfecciones y reduce la pigmentación de melanina. La ampolla es hipoalergénica y segura para usar en pieles sensibles. Ingredientes claves: Ácido acrílico, extracto de cúrcuma, colágeno hidrolizado, péptidos.",
       "imagen": "img/skincare/MEDICUBE18.webp",
-      "agotado": false
+      "agotado": false,
+      "etiquetas": [
+        "Manchas",
+        "Antiedad"
+      ]
     },
     {
       "id": "p1476",
@@ -16106,7 +16944,10 @@
       "marca": "Tocobo",
       "descripcion": "Ultra ligero y cómodo, este protector solar con textura refrescante de suero hidrata tu piel y la protege de los rayos UVA y UVB con FPS50+ PA++++. Es indetectable sobre la piel y se absorbe fácilmente, así que no debes preocuparte por residuos blancos o grasosos. Ingredientes claves: Niacinamida, extracto de algodón, extracto de flor y corteza.",
       "imagen": "img/skincare/TOCOBO33.jpg",
-      "agotado": false
+      "agotado": false,
+      "etiquetas": [
+        "Protección solar"
+      ]
     }
   ]
 }
