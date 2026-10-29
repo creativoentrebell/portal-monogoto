@@ -336,6 +336,25 @@
   .pswatches img{width:44px;height:44px;border-radius:11px;border:1.5px solid var(--borde);cursor:pointer;object-fit:cover;background:#fff;transition:border-color .15s}
   .pswatches img:hover,.pswatches img.sel{border-color:var(--tinta)}
   .pdesc{font-size:.93rem;line-height:1.55;color:var(--tinta)}
+  /* Ficha: frase, ingredientes y advertencia */
+  .presumen{font-size:1rem;font-weight:500;line-height:1.45;color:var(--oscuro)}
+  .ping{border:1px solid var(--borde);border-radius:14px;overflow:hidden}
+  .ping-h,.ping-r{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);gap:12px;padding:9px 14px}
+  .ping-h{background:var(--crema-claro);font-size:.66rem;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--tinta)}
+  .ping-r{border-top:1px solid var(--borde);font-size:.84rem;line-height:1.35;color:#4a3f34}
+  .ping-r b{font-weight:600;color:var(--oscuro)}
+  .pwarn{display:flex;gap:10px;align-items:flex-start;background:#fff4e0;border:1px solid #f0d9a8;border-radius:14px;padding:10px 14px;
+    font-size:.84rem;line-height:1.4;color:#6b4a12}
+  .pwarn svg{width:18px;height:18px;flex:0 0 18px;margin-top:1px}
+  .pdesc-det summary{cursor:pointer;font-size:.85rem;font-weight:600;color:var(--tinta);list-style:none;display:flex;align-items:center;gap:6px}
+  .pdesc-det summary::-webkit-details-marker{display:none}
+  .pdesc-det summary::after{content:'+';font-size:1rem;line-height:1}
+  .pdesc-det[open] summary::after{content:'−'}
+  .pdesc-det p{margin-top:8px}
+  /* Descripción de la marca al filtrarla */
+  .marca-desc{font-size:.88rem;line-height:1.5;color:#4a3f34;background:var(--crema-claro);border-radius:14px;padding:10px 14px;margin-top:10px;max-width:640px}
+  .marca-desc b{font-weight:600;color:var(--oscuro)}
+  @media(max-width:899px){.marca-desc{flex:1 1 100%;max-width:none;margin-top:6px}}
   .pprice{font-family:var(--body);font-weight:600;font-size:1.7rem;color:var(--tinta);margin-top:auto}
 
   /* También te puede interesar */
@@ -559,7 +578,323 @@
     .mode-btn svg{width:8px;height:8px}
   }
 
+
+  /* ============ Análisis facial (banner + encuesta + rutina) ============ */
+  .af-banner{display:flex;align-items:center;gap:16px;width:100%;background:var(--crema-claro);border:1px solid var(--crema);
+    border-radius:var(--radius);padding:12px 14px 12px 12px;cursor:pointer;text-align:left;font-family:var(--body);color:var(--oscuro);
+    transition:border-color .15s,box-shadow .15s}
+  .af-banner:hover{border-color:var(--arena);box-shadow:0 8px 20px rgba(111,92,72,.12)}
+  .af-banner-ico{width:54px;height:54px;flex:0 0 54px;border-radius:16px;background:#fff;display:flex;align-items:center;justify-content:center;color:var(--tinta)}
+  .af-banner-ico svg{width:28px;height:28px}
+  .af-banner-txt{flex:1;min-width:0;display:flex;flex-direction:column;gap:2px}
+  .af-banner-t{font-weight:600;font-size:1.05rem}
+  .af-banner-s{font-weight:400;font-size:.86rem;color:#5a4b3c}
+  .af-banner-s .corto{display:none}
+  .af-banner-cta{background:var(--tinta);color:#fff;font-weight:600;font-size:.86rem;padding:12px 18px;border-radius:999px;
+    display:flex;align-items:center;gap:8px;white-space:nowrap;flex-shrink:0}
+  .af-banner-cta svg{width:16px;height:16px}
+
+  .af-overlay{position:fixed;inset:0;background:rgba(47,38,29,.45);display:none;align-items:center;justify-content:center;z-index:95;padding:20px}
+  .af-overlay.open{display:flex}
+  .af-modal{background:#fff;border-radius:26px;width:100%;max-width:1120px;height:min(820px,calc(100vh - 40px));
+    display:flex;flex-direction:column;overflow:hidden;box-shadow:0 24px 60px rgba(47,38,29,.25);color:var(--oscuro)}
+  .af-top{height:60px;flex:0 0 auto;display:flex;align-items:center;justify-content:space-between;padding:0 12px 0 24px;border-bottom:1px solid var(--borde)}
+  .af-top-l{display:flex;align-items:center;gap:12px;min-width:0}
+  .af-top-l img{height:20px;display:block}
+  .af-top-l .sep{width:1px;height:20px;background:#e3ddd5}
+  .af-top-l b{font-weight:600;font-size:.95rem;color:#4a3f34;white-space:nowrap}
+  .af-top-r{display:flex;align-items:center;gap:2px}
+  .af-icon-btn{width:44px;height:44px;border:none;background:none;border-radius:50%;display:flex;align-items:center;justify-content:center;
+    cursor:pointer;color:#4a3f34}
+  .af-icon-btn:hover{background:var(--crema-claro)}
+  .af-icon-btn svg{width:20px;height:20px}
+  .af-prog{display:none}
+  .af-body{flex:1;min-height:0;display:flex}
+  .af-side{width:320px;flex:0 0 320px;background:var(--tinta);color:#fff;padding:34px 30px;display:flex;flex-direction:column;gap:26px;overflow:auto}
+  .af-side.guia{width:400px;flex-basis:400px;background:var(--crema-claro);color:var(--oscuro);padding:0;gap:0}
+  .af-kicker{font-size:.72rem;letter-spacing:.1em;font-weight:600;color:var(--crema);text-transform:uppercase}
+  .af-side-t{font-weight:600;font-size:1.75rem;line-height:1.12;margin-top:8px}
+  .af-steps{list-style:none;display:flex;flex-direction:column;gap:14px}
+  .af-steps li{display:flex;align-items:center;gap:12px;font-size:.95rem;color:var(--crema)}
+  .af-steps li span{width:28px;height:28px;flex:0 0 28px;border-radius:50%;border:1.5px solid var(--crema);display:flex;align-items:center;
+    justify-content:center;font-size:.8rem;font-weight:600}
+  .af-steps li.hecho span{background:var(--crema);color:var(--cafe)}
+  .af-steps li.actual{color:#fff;font-weight:600}
+  .af-steps li.actual span{background:#fff;color:var(--tinta);border-color:#fff}
+  .af-side-note{margin-top:auto;font-size:.8rem;line-height:1.45;color:var(--crema)}
+  .af-main{flex:1;min-width:0;display:flex;flex-direction:column;padding:32px 44px 20px}
+  .af-content{flex:1;min-height:0;overflow-y:auto;padding:2px}
+  .af-content:focus{outline:none}
+  .af-nav{display:flex;justify-content:space-between;align-items:center;padding-top:16px;border-top:1px solid var(--borde);margin-top:14px}
+  .af-back{border:none;background:none;font-family:var(--body);font-weight:600;font-size:.95rem;color:#4a3f34;display:flex;align-items:center;
+    gap:6px;padding:12px 4px;cursor:pointer}
+  .af-back svg,.af-next svg{width:16px;height:16px}
+  .af-next{border:none;background:var(--tinta);color:#fff;border-radius:999px;padding:14px 24px;font-family:var(--body);font-weight:600;
+    font-size:.95rem;display:flex;align-items:center;gap:8px;cursor:pointer}
+  .af-next:disabled{background:#b8aa9b;cursor:not-allowed}
+
+  .af-head{margin-bottom:22px;display:flex;justify-content:space-between;align-items:flex-end;gap:16px}
+  .af-paso{font-size:.72rem;letter-spacing:.1em;font-weight:600;color:var(--tinta);margin-bottom:6px;text-transform:uppercase}
+  .af-h{font-weight:600;font-size:1.7rem;line-height:1.15;color:var(--oscuro)}
+  .af-h:focus{outline:none}
+  .af-sub{font-size:.95rem;color:#4a3f34;margin-top:6px;font-weight:400;line-height:1.45}
+  .af-count{font-size:.85rem;font-weight:600;color:var(--tinta);background:#f6eee4;padding:6px 12px;border-radius:999px;white-space:nowrap}
+  .af-grid2{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+  .af-grid3{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+  .af-opt{position:relative;display:flex;flex-direction:column;justify-content:center;gap:4px;padding:15px 46px 15px 18px;
+    border:2px solid var(--borde);border-radius:18px;background:#fff;text-align:left;font-family:var(--body);color:var(--oscuro);
+    cursor:pointer;min-height:56px;transition:border-color .12s,background .12s}
+  .af-opt:hover{border-color:var(--arena)}
+  .af-opt[aria-pressed="true"]{border-color:var(--tinta);background:#f6eee4}
+  .af-opt[aria-pressed="true"]::after{content:'';position:absolute;right:14px;top:50%;margin-top:-12px;width:24px;height:24px;border-radius:50%;
+    background:var(--tinta) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M5 12.5l4.5 4.5L19 7.5'/%3E%3C/svg%3E") center/14px no-repeat}
+  .af-opt.alto::after{top:14px;margin-top:0}
+  .af-opt:disabled{opacity:.5;cursor:not-allowed}
+  .af-opt-t{font-weight:600;font-size:1.02rem}
+  .af-opt-d{font-size:.88rem;color:#4a3f34;font-weight:400;line-height:1.4}
+  .af-opt.alto{min-height:92px;justify-content:flex-start}
+  .af-opt.nivel{justify-content:flex-start;min-height:170px}
+  .af-opt-n{font-size:.75rem;letter-spacing:.06em;font-weight:600;color:var(--tinta)}
+  .af-q{display:flex;flex-direction:column;gap:10px;margin-bottom:20px}
+  .af-q-t{font-weight:600;font-size:1rem}
+  .af-pills{display:flex;flex-wrap:wrap;gap:8px}
+  .af-pill{border:2px solid #e3ddd5;background:#fff;border-radius:999px;padding:10px 16px;font-family:var(--body);font-size:.9rem;color:var(--oscuro);cursor:pointer}
+  .af-pill[aria-pressed="true"]{background:var(--tinta);border-color:var(--tinta);color:#fff;font-weight:600}
+  .af-aviso{background:#f6eee4;border-radius:16px;padding:14px 18px;font-size:.95rem;line-height:1.45}
+  .af-aviso b{font-weight:600}
+  .af-intro{display:flex;flex-direction:column;gap:22px;max-width:580px}
+  .af-intro p{font-size:1.02rem;line-height:1.55;color:#4a3f34;font-weight:400}
+  .af-intro-card{background:var(--fondo);border:1px solid var(--borde);border-radius:18px;padding:16px;display:flex;flex-direction:column;gap:10px;font-weight:600;font-size:.95rem}
+  .af-intro-card svg{width:26px;height:26px;color:var(--tinta)}
+  .af-legal{font-size:.82rem;line-height:1.5;color:#6b5f53}
+  .af-fila{margin-bottom:22px}
+  .af-fila-t{font-weight:600;font-size:1.05rem;margin-bottom:10px}
+  .af-fotos{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;max-width:560px}
+  .af-foto{border:2px solid var(--borde);border-radius:16px;background:#fff;padding:7px 7px 10px;display:flex;flex-direction:column;align-items:center;
+    gap:8px;cursor:pointer;font-family:var(--body);font-weight:600;font-size:.9rem;color:var(--oscuro)}
+  .af-foto:hover{border-color:var(--arena)}
+  .af-foto img{width:100%;aspect-ratio:3/2;object-fit:cover;border-radius:10px;display:block;background:var(--crema-claro)}
+  .af-foto[aria-pressed="true"]{border-color:var(--tinta);background:#f6eee4}
+  .af-link{background:none;border:none;color:var(--tinta);font-weight:600;text-decoration:underline;text-underline-offset:3px;
+    font-family:var(--body);font-size:.9rem;cursor:pointer;padding:6px 0}
+  .af-solo-movil{display:none}
+
+  /* Guía del rostro */
+  .af-guia{position:relative;width:100%;aspect-ratio:1184/1328;background:#e9dccb;overflow:hidden;flex-shrink:0}
+  .af-guia img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block}
+  .af-g-line{position:absolute;height:1.5px;background:rgba(255,255,255,.92);pointer-events:none}
+  .af-g-dot{position:absolute;width:18px;height:18px;margin:-9px 0 0 -9px;border-radius:50%;border:2px solid #fff;pointer-events:none}
+  .af-g-dot.on{width:22px;height:22px;margin:-11px 0 0 -11px;background:var(--tinta);border:3px solid #fff;box-shadow:0 0 0 5px rgba(111,92,72,.35)}
+  .af-g-pill{position:absolute;white-space:nowrap;font-size:.72rem;font-weight:600;padding:4px 10px;border-radius:999px;background:#fff;
+    color:var(--cafe);box-shadow:0 1px 4px rgba(47,38,29,.18);pointer-events:none}
+  .af-g-pill.on{background:var(--tinta);color:#fff}
+  .af-guia-nota{padding:14px 18px 18px;font-size:.82rem;line-height:1.5}
+  .af-side.guia .af-guia-nota{padding:16px 22px 8px}
+  .af-guia-lista{list-style:none;padding:0 22px;display:flex;flex-direction:column;gap:6px;font-size:.8rem;line-height:1.4;color:#4a3f34}
+  .af-guia-lista li{position:relative;padding-left:14px}
+  .af-guia-lista li::before{content:'';position:absolute;left:0;top:.5em;width:6px;height:6px;border-radius:50%;background:var(--arena)}
+  .af-guia-lista b{font-weight:600;color:var(--oscuro)}
+  .af-guia-lista li.on::before{background:var(--tinta);box-shadow:0 0 0 3px rgba(111,92,72,.2)}
+  .af-guia-lista li.on b{color:var(--tinta)}
+  .af-guia-pie{margin:12px 22px 20px;padding-top:10px;border-top:1px solid var(--crema);font-size:.78rem;line-height:1.45;color:#6b5f53}
+  .af-guia-nota b{font-weight:600}
+  .af-guia-def{display:flex;flex-direction:column;gap:6px;padding:4px 2px 14px;font-size:.88rem;line-height:1.4;color:#4a3f34}
+  .af-guia-def b{font-weight:600;color:var(--oscuro)}
+
+  /* Resultado */
+  .af-body.res .af-side,.af-body.res .af-nav{display:none}
+  .af-body.res .af-main{padding:0;background:var(--fondo)}
+  .af-body.res .af-content{display:flex;flex-direction:column;padding:0;overflow:hidden}
+  .af-res-head{padding:22px 32px 0;display:flex;flex-direction:column;gap:14px}
+  .af-res-top{display:flex;justify-content:space-between;align-items:flex-start;gap:16px}
+  .af-chips{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}
+  .af-chip{font-size:.8rem;background:var(--crema-claro);color:var(--cafe);padding:6px 12px;border-radius:999px}
+  .af-btn2{border:1.5px solid var(--tinta);background:#fff;color:var(--tinta);border-radius:999px;padding:11px 18px;font-family:var(--body);
+    font-weight:600;font-size:.88rem;cursor:pointer;white-space:nowrap}
+  .af-tabs{display:flex;gap:6px;border-bottom:1px solid #e3ddd5}
+  .af-tab{display:flex;align-items:center;gap:8px;border:none;background:none;font-family:var(--body);font-size:.95rem;padding:12px 16px;
+    color:#6b5f53;border-bottom:3px solid transparent;margin-bottom:-1px;cursor:pointer}
+  .af-tab svg{width:18px;height:18px}
+  .af-tab[aria-selected="true"]{color:var(--oscuro);font-weight:600;border-bottom-color:var(--tinta)}
+  .af-cards{flex:1;min-height:0;overflow:auto;display:flex;gap:12px;padding:18px 32px;align-items:flex-start}
+  .af-card{width:200px;flex:0 0 200px;background:#fff;border:1px solid var(--borde);border-radius:20px;padding:12px;display:flex;flex-direction:column;gap:8px}
+  .af-card-img{position:relative;height:140px;border-radius:14px;background:#fff;border:1px solid var(--borde);display:flex;align-items:center;
+    justify-content:center;overflow:hidden;cursor:pointer;padding:0;width:100%}
+  .af-card-img img{width:100%;height:100%;object-fit:contain}
+  .af-card-img .noimg{font-weight:600;font-size:2rem;color:var(--crema)}
+  .af-card-best{position:absolute;top:8px;left:8px;background:var(--cafe);color:#fff;font-size:.6rem;font-weight:600;letter-spacing:.05em;
+    padding:4px 8px;border-radius:999px;text-transform:uppercase}
+  .af-card-info{display:flex;flex-direction:column;gap:5px;min-width:0}
+  .af-card-paso{font-size:.68rem;letter-spacing:.08em;font-weight:600;color:var(--tinta);text-transform:uppercase}
+  .af-card-marca{font-size:.68rem;letter-spacing:.08em;color:#6b5f53;text-transform:uppercase}
+  .af-card-n{font-size:.88rem;line-height:1.3;font-weight:400;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+  .af-card-p{font-weight:600;font-size:1.05rem;color:var(--tinta)}
+  .af-card-ing{font-size:.75rem;line-height:1.35;color:#4a3f34}
+  .af-card-ing b{font-weight:600}
+  .af-card-warn{display:flex;gap:6px;align-items:flex-start;font-size:.72rem;line-height:1.35;color:#6b4a12;background:#fff4e0;border-radius:8px;padding:6px 8px}
+  .af-card-warn svg{width:13px;height:13px;flex:0 0 13px;margin-top:1px}
+  .af-para{align-self:flex-start;font-size:.72rem;background:#f6eee4;color:var(--cafe);padding:4px 10px;border-radius:999px}
+  .af-freq{font-size:.75rem;color:#6b5f53}
+  .af-alts{display:flex;flex-direction:column;gap:6px;border-top:1px solid var(--borde);padding-top:8px}
+  .af-alt{display:flex;justify-content:space-between;gap:8px;text-align:left;border:1px solid var(--borde);background:var(--fondo);border-radius:10px;
+    padding:8px 10px;font-family:var(--body);font-size:.76rem;color:var(--oscuro);cursor:pointer;line-height:1.3}
+  .af-alt:hover{border-color:var(--arena)}
+  .af-alt span:last-child{font-weight:600;color:var(--tinta);white-space:nowrap}
+  .af-res-foot{background:#fff;border-top:1px solid var(--borde);padding:14px 32px;display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap}
+  .af-total{font-weight:600;font-size:1rem}
+  .af-disc{font-size:.75rem;color:#6b5f53;margin-top:2px}
+  .af-btns{display:flex;gap:8px;flex-wrap:wrap}
+  .af-vacio{padding:30px 32px;font-size:.95rem;color:#4a3f34}
+
+  @media(max-width:700px){
+    .af-banner{gap:12px;padding:10px 12px 10px 10px;border-radius:18px}
+    .af-banner-ico{width:44px;height:44px;flex-basis:44px;border-radius:13px}
+    .af-banner-ico svg{width:24px;height:24px}
+    .af-banner-t{font-size:.95rem}
+    .af-banner-s{font-size:.78rem}
+    .af-banner-s .largo{display:none}
+    .af-banner-s .corto{display:inline}
+    .af-banner-cta{width:36px;height:36px;padding:0;justify-content:center}
+    .af-banner-cta span{display:none}
+    .af-overlay{padding:0}
+    .af-modal{height:100%;max-height:none;border-radius:0}
+    .af-top{height:56px;padding:0 6px 0 16px}
+    .af-top-l img,.af-top-l .sep{display:none}
+    .af-side{display:none!important}
+    .af-prog{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:4px;padding:12px 20px 0}
+    .af-prog span{height:4px;border-radius:999px;background:#e3ddd5}
+    .af-prog span.on{background:var(--tinta)}
+    .af-main{padding:16px 20px 12px}
+    .af-head{flex-direction:column;align-items:flex-start;gap:8px;margin-bottom:16px}
+    .af-h{font-size:1.35rem}
+    .af-sub{font-size:.9rem}
+    .af-grid2,.af-grid3{grid-template-columns:minmax(0,1fr);gap:8px}
+    .af-opt{padding:12px 44px 12px 14px;border-radius:14px}
+    .af-opt.alto,.af-opt.nivel{min-height:0}
+    .af-opt.alto::after{top:50%;margin-top:-12px}
+    .af-fotos{gap:8px}
+    .af-foto{padding:5px 5px 8px;font-size:.8rem;border-radius:12px}
+    .af-solo-movil{display:inline-block}
+    .af-res-head{padding:16px 16px 0}
+    .af-res-top{flex-direction:column;gap:10px}
+    .af-tab{flex:1;justify-content:center;padding:12px 8px}
+    .af-cards{flex-direction:column;align-items:stretch;padding:14px 16px;gap:10px}
+    .af-card{width:auto;flex:0 0 auto;flex-direction:row;flex-wrap:wrap;gap:12px;padding:10px}
+    .af-card-img{width:84px;height:84px;flex:0 0 84px;border-radius:12px}
+    .af-card-best{top:4px;left:4px;font-size:.5rem;padding:3px 5px}
+    .af-card-info{flex:1}
+    .af-alts{flex:1 1 100%}
+    .af-res-foot{padding:12px 16px 16px;flex-direction:column;align-items:stretch;gap:10px}
+    .af-btns{flex-direction:column}
+    .af-btns .af-next{justify-content:center}
+  }
+
+  /* ============ Bienvenida (primera visita) ============ */
+  #bvOverlay{-webkit-backdrop-filter:blur(4px);backdrop-filter:blur(4px)}
+  .bv-modal{background:#fff;border-radius:26px;width:100%;max-width:460px;padding:30px 28px 24px;box-shadow:0 24px 60px rgba(47,38,29,.25);
+    color:var(--oscuro);max-height:calc(100vh - 40px);overflow:auto}
+  .bv-logo{height:26px;display:block;margin-bottom:16px}
+  .bv-h{font-weight:600;font-size:1.35rem;line-height:1.2}
+  .bv-sub{font-size:.9rem;color:#4a3f34;margin-top:4px;font-weight:400}
+  .bv-q{font-weight:600;font-size:.95rem;margin:20px 0 10px}
+  .bv-opts{display:flex;flex-direction:column;gap:10px}
+  .bv-opt{position:relative;display:flex;flex-direction:column;gap:3px;text-align:left;padding:14px 46px 14px 16px;border:2px solid var(--borde);
+    border-radius:16px;background:#fff;font-family:var(--body);color:var(--oscuro);cursor:pointer}
+  .bv-opt:hover{border-color:var(--arena)}
+  .bv-opt b{font-weight:600;font-size:1rem}
+  .bv-opt span{font-size:.84rem;color:#4a3f34;font-weight:400;line-height:1.35}
+  .bv-opt[aria-pressed="true"]{border-color:var(--tinta);background:#f6eee4}
+  .bv-opt[aria-pressed="true"]::after{content:'';position:absolute;right:14px;top:50%;margin-top:-11px;width:22px;height:22px;border-radius:50%;
+    background:var(--tinta) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M5 12.5l4.5 4.5L19 7.5'/%3E%3C/svg%3E") center/13px no-repeat}
+  .bv-row{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-top:18px;padding-top:16px;border-top:1px solid var(--borde)}
+  .bv-row-t{font-size:.88rem;font-weight:500;line-height:1.35}
+  .bv-seg{display:flex;border:1.5px solid var(--arena);border-radius:999px;overflow:hidden;flex-shrink:0}
+  .bv-seg button{border:none;background:#fff;font-family:var(--body);font-size:.82rem;font-weight:600;color:var(--tinta);padding:9px 16px;cursor:pointer;min-width:52px}
+  .bv-seg button[aria-pressed="true"]{background:var(--tinta);color:#fff}
+  .bv-go{width:100%;margin-top:20px;border:none;background:var(--tinta);color:#fff;border-radius:999px;padding:15px;font-family:var(--body);
+    font-weight:600;font-size:.95rem;cursor:pointer}
+  .bv-nota{font-size:.75rem;color:#6b5f53;text-align:center;margin-top:10px}
+
   @media(prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
+
+  /* Horario (mañana / noche) en la ficha */
+  .pfacts{display:flex;flex-wrap:wrap;gap:6px}
+  .pfact{display:inline-flex;align-items:center;gap:6px;border:1px solid var(--arena);border-radius:8px;padding:4px 10px;
+    font-size:.8rem;color:var(--oscuro);background:#fff}
+  .pfact svg{width:15px;height:15px;color:var(--tinta)}
+  .pfact b{font-weight:600}
+  /* Opciones parecidas */
+  .psim{border-top:1px solid var(--borde);padding:20px 24px 22px;background:#fcf8f3}
+  .psim.agot{background:#fbf3e8}
+  .psim-head{display:flex;align-items:baseline;justify-content:space-between;gap:12px;margin-bottom:14px;flex-wrap:wrap}
+  .psim-head h3{font-size:1.05rem;font-weight:600;color:var(--oscuro)}
+  .psim-head p{font-size:.78rem;color:#8a7a6a}
+  .psim-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+  .sim{border:1px solid var(--borde);border-radius:16px;background:#fff;padding:12px;display:flex;flex-direction:column;gap:8px;
+    cursor:pointer;text-align:left;font-family:var(--body);color:inherit}
+  .sim:hover{border-color:var(--arena)}
+  .sim-top{display:flex;gap:10px;align-items:flex-start}
+  .sim-rank{font-size:1.1rem;font-weight:600;color:var(--tinta);min-width:14px;padding-top:2px}
+  .sim-img{width:64px;height:64px;flex:0 0 64px;border-radius:12px;border:1px solid var(--borde);overflow:hidden;display:flex;align-items:center;justify-content:center;background:#fff}
+  .sim-img img{width:100%;height:100%;object-fit:contain}
+  .sim-img .noimg{font-weight:600;font-size:1.4rem;color:var(--crema)}
+  .sim-t{min-width:0;display:flex;flex-direction:column;gap:2px}
+  .sim-marca{font-size:.62rem;font-weight:600;letter-spacing:.07em;text-transform:uppercase;color:var(--tinta)}
+  .sim-n{font-size:.84rem;line-height:1.3;color:var(--oscuro);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+  .sim-p{font-size:.95rem;font-weight:600;color:var(--tinta)}
+  .sim-why{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:3px}
+  .sim-why li{font-size:.76rem;line-height:1.35;color:#5d5045;padding-left:13px;position:relative}
+  .sim-why li::before{content:'';position:absolute;left:2px;top:.5em;width:5px;height:5px;border-radius:50%;background:var(--tinta)}
+  .sim-why li.eco{color:#3f6b3a;font-weight:600}
+  .sim-why li.eco::before{background:#3f6b3a}
+  .sim-ojo{font-size:.74rem;line-height:1.35;background:#fff4e0;border:1px solid #f0d9a8;border-radius:10px;padding:6px 9px;color:#7a5512}
+  .sim-ver{margin-top:auto;font-size:.8rem;font-weight:600;color:var(--tinta);text-decoration:underline;text-underline-offset:3px}
+  .p-agotado-msg button{display:block;margin:6px auto 0;background:none;border:none;font-family:var(--body);font-size:.82rem;font-weight:600;
+    color:var(--tinta);text-decoration:underline;text-underline-offset:3px;cursor:pointer}
+  /* Rutina con una sola marca */
+  .af-marcas{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin-top:12px}
+  .af-seg{display:inline-flex;border:1px solid var(--arena);border-radius:999px;padding:3px;background:#fff}
+  .af-seg button{border:none;background:none;border-radius:999px;padding:6px 14px;font-family:var(--body);font-size:.8rem;font-weight:600;color:var(--tinta);cursor:pointer}
+  .af-seg button[aria-pressed="true"]{background:var(--tinta);color:#fff}
+  .af-mchip{border:1px solid var(--arena);background:#fff;border-radius:999px;padding:6px 12px;font-family:var(--body);font-size:.78rem;color:var(--oscuro);cursor:pointer}
+  .af-mchip small{color:#8a7a6a;font-size:.72rem}
+  .af-mchip[aria-pressed="true"]{border-color:var(--tinta);background:#f6eee4;font-weight:600}
+  .af-card-otra{font-size:.72rem;line-height:1.35;color:#8a7a6a;font-style:italic}
+  @media (max-width:760px){
+    .psim{padding:16px 16px 18px}
+    .psim-grid{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;gap:10px;margin:0 -16px;padding:0 16px 4px}
+    .sim{flex:0 0 78%;scroll-snap-align:start}
+    .af-marcas{flex-wrap:nowrap;overflow-x:auto;margin-right:-16px;padding-right:16px}
+    .af-mchip,.af-seg{flex:0 0 auto}
+  }
+
+  /* Términos y tratamiento de datos */
+  .af-acepta{display:flex;gap:12px;align-items:flex-start;background:var(--fondo);border:1px solid var(--borde);border-radius:16px;padding:14px 16px;cursor:pointer}
+  .af-acepta input{appearance:none;-webkit-appearance:none;flex:0 0 22px;width:22px;height:22px;margin:1px 0 0;border:1.8px solid var(--tinta);border-radius:6px;
+    background:#fff;cursor:pointer;display:grid;place-content:center}
+  .af-acepta input:checked{background:var(--tinta)}
+  .af-acepta input:checked::after{content:'';width:6px;height:11px;border:solid #fff;border-width:0 2px 2px 0;transform:translateY(-1px) rotate(45deg)}
+  .af-acepta input:focus-visible{outline:2px solid var(--tinta);outline-offset:2px}
+  .af-acepta span{font-size:.9rem;line-height:1.5;color:#4a3f34}
+  .af-acepta a,.af-acepta u{color:var(--oscuro);font-weight:600;text-underline-offset:3px}
+  /* Tipo de piel con foto */
+  .af-tipos{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+  .af-opt.conimg{padding:8px 8px 14px;justify-content:flex-start;gap:3px}
+  .af-opt.conimg .af-tipo-img{width:100%;aspect-ratio:3/2;border-radius:10px;overflow:hidden;background:var(--crema-claro);margin-bottom:8px;
+    display:flex;align-items:center;justify-content:center;color:var(--tinta)}
+  .af-opt.conimg .af-tipo-img img{width:100%;height:100%;object-fit:cover;display:block}
+  .af-opt.conimg .af-tipo-img svg{width:44px;height:44px}
+  .af-opt.conimg .af-opt-t,.af-opt.conimg .af-opt-d{padding:0 6px}
+  .af-opt.conimg::after{top:16px;right:16px;margin-top:0}
+  @media (max-width:760px){
+    .af-tipos{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+    .af-opt.conimg{padding:6px 6px 10px}
+    .af-opt.conimg .af-opt-t{font-size:.95rem}
+    .af-opt.conimg .af-opt-d{font-size:.8rem}
+    .af-opt.conimg::after{top:12px;right:12px;margin-top:0}
+    .af-acepta{padding:12px 14px}
+    .af-acepta span{font-size:.85rem}
+  }
 </style>
 </head>
 <body>
@@ -581,7 +916,7 @@
     </button>
     <form class="search-wrap" id="searchForm" role="search" autocomplete="off">
       <label for="search" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)">Buscar</label>
-      <input type="search" id="search" placeholder="Buscar producto, marca o referencia…" autocomplete="off"
+      <input type="search" id="search" placeholder="Buscar producto, marca, ingrediente o necesidad…" autocomplete="off"
         role="combobox" aria-expanded="false" aria-controls="sugBox" aria-autocomplete="list">
       <button type="button" class="search-clear" id="searchClear" aria-label="Borrar búsqueda">×</button>
       <button type="submit" class="search-btn" aria-label="Buscar">
@@ -607,6 +942,7 @@
       <nav class="crumb" id="crumb" aria-label="Ruta"></nav>
       <h1 class="section-title" id="title">Todos los productos</h1>
       <div class="section-count" id="count"></div>
+      <p class="marca-desc" id="marcaDesc" style="display:none"></p>
     </div>
 
     <aside class="filters" id="filters" aria-label="Filtros">
@@ -689,6 +1025,19 @@
         </label>
       </div>
 
+      <button type="button" class="af-banner" id="afBanner" style="display:none">
+        <span class="af-banner-ico" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8V5a2 2 0 0 1 2-2h3M16 3h3a2 2 0 0 1 2 2v3M21 16v3a2 2 0 0 1-2 2h-3M8 21H5a2 2 0 0 1-2-2v-3"/><path d="M9 10h.01M15 10h.01M9.5 15a3.5 3.5 0 0 0 5 0"/></svg>
+        </span>
+        <span class="af-banner-txt">
+          <span class="af-banner-t">Haz tu análisis facial y descubre tu rutina ideal</span>
+          <span class="af-banner-s"><span class="largo">Responde 5 preguntas y te recomendamos una rutina de skincare con productos del catálogo. Toma 1 minuto.</span><span class="corto">5 preguntas y te armamos tu rutina</span></span>
+        </span>
+        <span class="af-banner-cta"><span>Empezar análisis</span>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </span>
+      </button>
+
       <section class="destacados" id="destacadosWrap" style="display:none" aria-label="Más vendidos de Skincare">
         <img class="goto" src="img/mascota.png" alt="" aria-hidden="true" onerror="this.remove()">
         <div class="destacados-head">
@@ -760,7 +1109,11 @@
         <div class="pref" id="pRef"></div>
         <div class="pcat" id="pCat"></div>
         <div class="tags" id="pTags"></div>
+        <div class="pfacts" id="pFacts" style="display:none"></div>
         <div class="pswatches" id="pSwatches"></div>
+        <div class="presumen" id="pResumen"></div>
+        <div class="ping" id="pIng"></div>
+        <div class="pwarn" id="pWarn"></div>
         <div class="pdesc" id="pDesc"></div>
         <div class="pprice" id="pPrice"></div>
 
@@ -785,9 +1138,16 @@
           </div>
           <button class="btn primary btn-add" id="btnAgregar">Agregar al pedido</button>
         </div>
-        <div class="p-agotado-msg" id="pAgotadoMsg" style="display:none">Este producto está agotado.</div>
+        <div class="p-agotado-msg" id="pAgotadoMsg" style="display:none">Este producto está agotado.<button type="button" id="pVerSim" style="display:none">Ver opciones parecidas ↓</button></div>
       </div>
     </div>
+    <section class="psim" id="pSim" style="display:none" aria-labelledby="pSimH">
+      <div class="psim-head">
+        <h3 id="pSimH">Te puede servir en su lugar</h3>
+        <p>De la más parecida a la menos parecida</p>
+      </div>
+      <div class="psim-grid" id="pSimGrid"></div>
+    </section>
     <section class="prel" id="pRel" style="display:none" aria-label="También te puede interesar">
       <div class="prel-head">
         <h3>También te puede interesar</h3>
@@ -869,6 +1229,66 @@
   </div>
 </div>
 
+<!-- Análisis facial -->
+<div class="af-overlay" id="afOverlay" role="dialog" aria-modal="true" aria-label="Análisis facial">
+  <div class="af-modal">
+    <div class="af-top">
+      <div class="af-top-l">
+        <img src="img/logo.png" alt="monogoto" onerror="this.remove()">
+        <span class="sep" aria-hidden="true"></span>
+        <b>Análisis facial</b>
+      </div>
+      <div class="af-top-r">
+        <button type="button" class="af-icon-btn" id="afReiniciar" aria-label="Empezar de nuevo" title="Empezar de nuevo">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12a8 8 0 1 0 2.4-5.7"/><path d="M4 4v4h4"/></svg>
+        </button>
+        <button type="button" class="af-icon-btn" id="afCerrar" aria-label="Cerrar análisis facial">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg>
+        </button>
+      </div>
+    </div>
+    <div class="af-prog" id="afProg" aria-hidden="true"></div>
+    <div class="af-body" id="afBody">
+      <aside class="af-side" id="afSide"></aside>
+      <div class="af-main">
+        <div class="af-content" id="afContent" tabindex="-1"></div>
+        <div class="af-nav" id="afNav">
+          <button type="button" class="af-back" id="afAtras">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 12H5M11 6l-6 6 6 6"/></svg>
+            Atrás
+          </button>
+          <button type="button" class="af-next" id="afSiguiente">
+            <span id="afSiguienteTxt">Siguiente</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Bienvenida: modo de compra y agotados (solo la primera visita) -->
+<div class="overlay" id="bvOverlay" role="dialog" aria-modal="true" aria-labelledby="bvTitulo">
+  <div class="bv-modal">
+    <img class="bv-logo" src="img/logo.png" alt="monogoto" onerror="this.remove()">
+    <h2 class="bv-h" id="bvTitulo">Te damos la bienvenida</h2>
+    <div class="bv-q" id="bvQ1">¿Cómo vas a comprar?</div>
+    <div class="bv-opts" role="group" aria-labelledby="bvQ1">
+      <button type="button" class="bv-opt" data-bv="detal" aria-pressed="true"><b>Compra personal</b><span>Ves los precios al detal.</span></button>
+      <button type="button" class="bv-opt" data-bv="mayorista" aria-pressed="false"><b>Soy mayorista</b><span>Necesitas el PIN que te da tu asesora.</span></button>
+    </div>
+    <div class="bv-row">
+      <span class="bv-row-t" id="bvQ2">¿Quieres ver también los productos agotados?</span>
+      <div class="bv-seg" role="group" aria-labelledby="bvQ2">
+        <button type="button" data-bvag="1" aria-pressed="false">Sí</button>
+        <button type="button" data-bvag="0" aria-pressed="true">No</button>
+      </div>
+    </div>
+    <button type="button" class="bv-go" id="bvGo">Ver catálogo</button>
+    <p class="bv-nota">Puedes cambiar esto cuando quieras desde el catálogo.</p>
+  </div>
+</div>
+
 <script>
 const PIN_DETAL = '121212';
 const PIN_MAYORISTA = '000000';
@@ -877,7 +1297,7 @@ const POR_PAGINA = 48;
 const MARCAS_VISIBLES = 8;
 const MAX_VISTOS = 12;
 
-let productos = [], mayorista = null;
+let productos = [], mayorista = null, marcasInfo = {};
 /* Detal es libre y es el modo por defecto; solo Mayorista pide PIN */
 let modo = localStorage.getItem('mg_modo') === 'mayorista' ? 'mayorista' : 'detal';
 let cat = 'Todos', sub = 'Todas', q = '';
@@ -905,6 +1325,7 @@ let datosCliente = { nombre: '', cedula: '', direccion: '', ciudad: '', telefono
 const $ = id => document.getElementById(id);
 const fmt = n => '$' + Number(n).toLocaleString('es-CO');
 const esc = s => String(s == null ? '' : s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const ICONO_AVISO = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l10 18H2z"/><path d="M12 10v4M12 17.5v.5"/></svg>';
 const ICON_X = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg>';
 const ICON_LUPA = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>';
 
@@ -926,15 +1347,20 @@ function actualizarContadorHeader(){
 async function cargar(){
   try{
     const r = await fetch('monogoto_productos.json');
-    productos = (await r.json()).productos;
+    const datos = await r.json();
+    productos = datos.productos;
+    marcasInfo = datos.marcas || {};
   }catch(e){
     $('grid').innerHTML = '<div class="nr-box"><div class="nr-txt"><h2>No se pudo cargar el catálogo.</h2><ul><li>Intenta recargar la página.</li></ul></div></div>';
     return;
   }
   productos.forEach(prepararProducto);
+  const agGuardado = lsGet('mg_agotados', null);
+  if(agGuardado !== null){ verAgotados = !!agGuardado; $('toggleAgotados').checked = verAgotados; }
   if(modo === 'mayorista') await cargarMayorista();
   actualizarOrdenPorModo(); pintarCats(); render(); actualizarChip();
   abrirDesdeEnlace();
+  mostrarBienvenida();
 }
 async function cargarMayorista(){
   if(mayorista) return true;
@@ -958,6 +1384,17 @@ function prepararProducto(p){
   p._txt = normTxt(p.nombre + ' ' + (p.marca || '') + ' ' + (p.subcategoria || ''));
   p._words = [...new Set(p._txt.split(/[^a-z0-9ñ]+/).filter(w => w.length >= 3))];
   p._ref = normRef(p.referencia);
+  /* Segundo nivel: ficha de skincare (ingredientes, para qué es, tipo de piel, paso, resumen) */
+  const tipos = Array.isArray(p.tiposPiel) ? p.tiposPiel.map(t => t === 'Todas' ? 'todo tipo de piel' : 'piel ' + t) : [];
+  const momento = p.momento === 'ambos' ? 'manana noche dia' : p.momento === 'noche' ? 'noche' : p.momento ? 'manana dia' : '';
+  p._txt2 = normTxt([
+    ...(Array.isArray(p.ingredientes) ? p.ingredientes.map(i => i.nombre) : []),
+    ...(Array.isArray(p.etiquetas) ? p.etiquetas : []), ...tipos,
+    p.paso || '', momento, p.resumen || '', p.categoria || ''
+  ].join(' '));
+  p._words2 = [...new Set(p._txt2.split(/[^a-z0-9ñ]+/).filter(w => w.length >= 4))];
+  /* Tercer nivel: descripción larga */
+  p._txt3 = normTxt(p.descripcion || '');
 }
 function distancia(a, b, max){
   if(Math.abs(a.length - b.length) > max) return max + 1;
@@ -987,18 +1424,42 @@ function palabraParecida(w, words){
   }
   return false;
 }
+/* Palabras que la gente escribe y cómo aparecen en las fichas */
+const BUSQ_SINONIMOS = {
+  acne: ['granitos', 'acne'], espinillas: ['granitos', 'espinillas'], barros: ['granitos'], granos: ['granitos'], granito: ['granitos'],
+  arrugas: ['antiedad', 'arrugas'], lineas: ['antiedad', 'lineas'], firmeza: ['antiedad', 'firmeza'], envejecimiento: ['antiedad'],
+  melasma: ['manchas', 'melasma'], mancha: ['manchas'], rojeces: ['calmante', 'rojeces', 'rojez'], rojez: ['calmante', 'rojez'],
+  irritacion: ['calmante', 'irritacion'], bloqueador: ['protector solar', 'bloqueador'], spf: ['protector solar', 'spf'],
+  hidratar: ['hidratacion', 'hidrata'], hidratante: ['hidratacion', 'hidratante'], resequedad: ['piel seca', 'resequedad'],
+  brillo: ['grasa', 'brillo'], grasosa: ['grasa'], poro: ['poros'], ojera: ['ojeras'], bolsas: ['ojeras', 'contorno'],
+  opaca: ['luminosidad', 'opaca'], luminosa: ['luminosidad'], vitamina: ['vitamina'], retinoide: ['retin'], retinol: ['retin']
+};
+/* Palabras de relleno que no deben exigirse en la ficha */
+const BUSQ_VACIAS = new Set(['para', 'de', 'del', 'la', 'el', 'los', 'las', 'con', 'y', 'mi', 'que', 'en', 'un', 'una', 'por', 'a', 'al', 'o']);
 function prepararBusqueda(texto){
   const t = String(texto || '').trim();
-  return { t: t.toLowerCase(), ref: normRef(t), palabras: normTxt(t).split(' ').filter(Boolean), cache: new Map() };
+  const palabras = normTxt(t).split(' ').filter(Boolean);
+  return { t: t.toLowerCase(), ref: normRef(t), palabras, utiles: palabras.filter(w => !BUSQ_VACIAS.has(w)), cache: new Map() };
 }
-/* 3 = referencia · 2 = todas las palabras exactas · 1 = parecidas · 0 = no coincide */
+function enFicha(w, txt){
+  if(txt.includes(w)) return true;
+  const sin = BUSQ_SINONIMOS[w];
+  return !!sin && sin.some(x => txt.includes(x));
+}
+/* 3 = referencia · 2 = todas las palabras en nombre/marca · 1 = parecidas en nombre/marca
+   0.9 = encontradas en la ficha (ingrediente, para qué es, tipo de piel…) · 0.7 = parecidas en la ficha
+   0.4 = encontradas en la descripción · 0 = no coincide */
 function puntaje(p, info){
   if(!info.palabras.length && !info.ref) return 0;
   if(info.cache.has(p.id)) return info.cache.get(p.id);
   let s = 0;
+  const u = info.utiles.length ? info.utiles : info.palabras;
   if(String(p.referencia).toLowerCase().includes(info.t) || (info.ref.length >= 2 && p._ref.includes(info.ref))) s = 3;
   else if(info.palabras.length && info.palabras.every(w => p._txt.includes(w))) s = 2;
   else if(info.palabras.length && info.palabras.every(w => p._txt.includes(w) || palabraParecida(w, p._words))) s = 1;
+  else if(u.length && p._txt2 && u.every(w => p._txt.includes(w) || enFicha(w, p._txt2))) s = 0.9;
+  else if(u.length && p._txt2 && u.every(w => p._txt.includes(w) || enFicha(w, p._txt2) || palabraParecida(w, p._words2) || palabraParecida(w, p._words))) s = 0.7;
+  else if(u.length && u.every(w => w.length >= 3) && u.every(w => p._txt.includes(w) || (p._txt2 && enFicha(w, p._txt2)) || enFicha(w, p._txt3))) s = 0.4;
   info.cache.set(p.id, s);
   return s;
 }
@@ -1446,6 +1907,9 @@ function render(){
   $('title').textContent = q ? `“${q}”` : sub !== 'Todas' ? sub : cat === 'Todos' ? 'Todos los productos' : cat;
   $('count').textContent = list.length.toLocaleString('es-CO') + (list.length === 1 ? ' resultado' : ' resultados') +
     (modo === 'mayorista' ? ' · precios mayoristas' : modo === 'detal' ? ' · precios detal' : '');
+  const mDesc = marcaSel !== 'todas' && marcasInfo[marcaSel];
+  $('marcaDesc').innerHTML = mDesc ? `<b>${esc(marcaSel)}.</b> ${esc(mDesc)}` : '';
+  $('marcaDesc').style.display = mDesc ? '' : 'none';
 
   pintarChips();
 
@@ -1457,6 +1921,7 @@ function render(){
   if(!list.length) pintarSinResultados();
   pintarPaginas(totalPaginas);
   renderDestacados();
+  renderBannerAF();
   renderVistos();
 
   // celular: contador del botón Filtrar y del panel
@@ -1502,9 +1967,102 @@ function actualizarPrecioModal(){
   else $('pPrice').textContent = fmt(valor);
 }
 
+
+/* ---------- Opciones parecidas (mismo paso de la rutina) ----------
+   Se calculan solas con la ficha: paso, para qué es, tipo de piel e ingredientes.
+   Agotado → "Te puede servir en su lugar" (cualquier marca).
+   Disponible → "Opciones parecidas de otras marcas". */
+const ACTIVOS = [
+  ['niacinamida', /niacinam/], ['retinoides', /retin|bakuchiol/], ['vitamina C', /vitamina c|ascorb/],
+  ['ácido hialurónico', /hialur/], ['centella', /centella|cica|madecas|asiatic/], ['ceramidas', /ceramid/],
+  ['PDRN', /pdrn|salmon/], ['péptidos', /peptid/], ['colágeno', /colagen/], ['ácido salicílico', /salicil|\bbha\b/],
+  ['AHA', /glicol|lactic|\baha\b|mandel/], ['PHA', /\bpha\b|gluconolact/], ['árbol de té', /arbol de te/],
+  ['ácido azelaico', /azelai/], ['ácido kójico', /kojic/], ['ácido tranexámico', /tranex|\btxa\b/], ['arbutina', /arbutin/],
+  ['glutatión', /glutati/], ['heartleaf', /heartleaf|corazon/], ['arroz', /arroz/], ['propóleo', /propoleo/],
+  ['baba de caracol', /caracol|mucina/], ['pantenol', /pantenol|vitamina b5/], ['escualano', /escuala/], ['exosomas', /exosom/],
+  ['microagujas', /microaguja|espicula/], ['ginseng', /ginseng/], ['aloe', /aloe/], ['adenosina', /adenosin/],
+  ['té verde', /te verde/], ['azuleno', /azuleno/], ['vitamina E', /vitamina e\b|tocofer/], ['alantoína', /alantoin/],
+  ['cúrcuma', /curcuma/], ['probióticos', /probiot|lactobac|bifida|ferment/], ['calamina', /calamin/], ['arcilla', /arcilla|barro/]
+];
+function activosDe(p){
+  if(p._act) return p._act;
+  const t = normTxt((Array.isArray(p.ingredientes) ? p.ingredientes.map(i => i.nombre) : []).join(' | '));
+  p._act = new Set(ACTIVOS.filter(([, re]) => re.test(t)).map(([n]) => n));
+  return p._act;
+}
+const NOMBRE_PASO_SIM = { 'Serum': 'sérum', 'Hidratante': 'hidratante', 'Contorno de ojos': 'contorno de ojos', 'Protector solar': 'protector solar',
+  'Aceite limpiador': 'aceite limpiador', 'Limpiador': 'limpiador', 'Tónico': 'tónico', 'Esencia': 'esencia', 'Exfoliante': 'exfoliante',
+  'Mascarilla': 'mascarilla', 'Tratamiento puntual': 'tratamiento puntual' };
+function similares(p){
+  if(!p.paso) return [];
+  const precioP = precioOrden(p);
+  const etP = new Set(Array.isArray(p.etiquetas) ? p.etiquetas : []);
+  const tpP = Array.isArray(p.tiposPiel) ? p.tiposPiel : [];
+  const actP = activosDe(p);
+  return disponiblesEnModo()
+    .filter(x => x.id !== p.id && x.paso === p.paso && !x.agotado && (p.agotado || x.marca !== p.marca))
+    .filter(x => { const v = precioOrden(x); return typeof v === 'number' && v > 0; })
+    .map(x => {
+      let s = 0;
+      const comunes = (Array.isArray(x.etiquetas) ? x.etiquetas : []).filter(e => etP.has(e));
+      s += comunes.length * 3;
+      const tpX = Array.isArray(x.tiposPiel) ? x.tiposPiel : [];
+      if(tpP.length && tpX.length){
+        if(tpP.includes('Todas') || tpX.includes('Todas') || tpX.some(t => tpP.includes(t))) s += 2; else s -= 2;
+      }
+      const act = [...activosDe(x)].filter(a => actP.has(a));
+      s += Math.min(act.length, 3) * 2;
+      if(x.momento === p.momento) s += 1;
+      const ojo = [];
+      if(x.momento === 'noche' && p.momento !== 'noche'){ s -= 1; ojo.push('Es solo de noche.'); }
+      if(x.momento === 'mañana' && p.momento !== 'mañana'){ s -= 1; ojo.push('Es solo de día.'); }
+      if(x.advertencia && !p.advertencia){ s -= 3; ojo.push(afAvisoCorto(x.advertencia) + '.'); }
+      if(x.masVendido) s += 1;
+      if(!x.imagen) s -= 1;
+      const v = precioOrden(x);
+      if(typeof precioP === 'number' && precioP > 0 && Math.abs(v - precioP) / precioP <= 0.3) s += 0.5;
+      const por = ['Mismo paso: ' + (NOMBRE_PASO_SIM[p.paso] || p.paso.toLowerCase())];
+      if(comunes.length) por.push('También para: ' + comunes.slice(0, 3).join(', ').toLowerCase());
+      if(act.length) por.push('Comparte: ' + act.slice(0, 3).join(', '));
+      let eco = null;
+      if(typeof precioP === 'number' && precioP > 0 && v < precioP * 0.95) eco = fmt(precioP - v) + ' más económico';
+      return { x, s, por, ojo, eco, afin: comunes.length + act.length };
+    })
+    .filter(c => c.afin > 0 && c.s > 2)
+    .sort((a, b) => b.s - a.s || precioOrden(a.x) - precioOrden(b.x))
+    .slice(0, 3);
+}
+function pintarSimilares(p){
+  const sim = similares(p);
+  $('pVerSim').style.display = (p.agotado && sim.length) ? '' : 'none';
+  if(!sim.length){ $('pSim').style.display = 'none'; return []; }
+  $('pSim').style.display = 'block';
+  $('pSim').classList.toggle('agot', !!p.agotado);
+  $('pSimH').textContent = p.agotado ? 'Te puede servir en su lugar' : 'Opciones parecidas de otras marcas';
+  $('pSimGrid').innerHTML = sim.map((c, i) => {
+    const x = c.x;
+    return `<button type="button" class="sim" data-id="${x.id}">
+      <span class="sim-top">
+        <span class="sim-rank">${i + 1}</span>
+        <span class="sim-img">${x.imagen ? `<img src="${x.imagen}" alt="" loading="lazy" onerror="this.outerHTML='<span class=noimg>m</span>'">` : '<span class="noimg">m</span>'}</span>
+        <span class="sim-t">
+          ${x.marca && x.marca !== 'Otras' ? `<span class="sim-marca">${esc(x.marca)}</span>` : ''}
+          <span class="sim-n">${esc(x.nombre)}</span>
+          <span class="sim-p">${precioTexto(x)}</span>
+        </span>
+      </span>
+      <ul class="sim-why">${c.por.map(w => `<li>${esc(w)}</li>`).join('')}${c.eco ? `<li class="eco">${esc(c.eco)}</li>` : ''}</ul>
+      ${c.ojo.length ? `<span class="sim-ojo"><b>Ojo:</b> ${esc(c.ojo.join(' '))}</span>` : ''}
+      <span class="sim-ver">Ver producto</span>
+    </button>`;
+  }).join('');
+  $('pSimGrid').querySelectorAll('.sim').forEach(b => b.onclick = () => abrirProducto(b.dataset.id));
+  return sim.map(c => c.x.id);
+}
+
 /* También te puede interesar: primero la misma marca, luego la misma subcategoría */
-function relacionados(p){
-  const pool = disponiblesEnModo().filter(x => x.id !== p.id);
+function relacionados(p, excluir = []){
+  const pool = disponiblesEnModo().filter(x => x.id !== p.id && !excluir.includes(x.id));
   const peso = x => (x.agotado ? 10 : 0) - (x.masVendido ? 2 : 0) - (x.nuevo ? 1 : 0);
   const porPeso = arr => arr.map((x,i) => [x,i]).sort((a,b) => peso(a[0]) - peso(b[0]) || a[1] - b[1]).map(x => x[0]);
   const conMarca = p.marca && p.marca !== 'Otras';
@@ -1516,8 +2074,8 @@ function relacionados(p){
   mismaMarca.slice(2).forEach(x => { if(salida.length < 4) salida.push([x, 'Misma marca']); });
   return salida;
 }
-function pintarRelacionados(p){
-  const rel = relacionados(p);
+function pintarRelacionados(p, excluir){
+  const rel = relacionados(p, excluir);
   if(!rel.length){ $('pRel').style.display = 'none'; return; }
   $('pRel').style.display = 'block';
   $('pRelGrid').innerHTML = rel.map(([x, why]) => {
@@ -1583,13 +2141,32 @@ function abrirProducto(id, opciones = {}){
   const et = Array.isArray(p.etiquetas) ? p.etiquetas.filter(Boolean) : [];
   $('pTags').innerHTML = et.map(t => `<span class="tag">${esc(t)}</span>`).join('');
   $('pTags').style.display = et.length ? '' : 'none';
+  const HORARIO = { 'ambos': [AF.ICON_SOL + AF.ICON_LUNA, 'mañana y noche'], 'mañana': [AF.ICON_SOL, 'solo de día'], 'noche': [AF.ICON_LUNA, 'solo de noche'] };
+  const hor = HORARIO[p.momento];
+  $('pFacts').innerHTML = hor ? `<span class="pfact">${hor[0]}<span>Horario: <b>${hor[1]}</b></span></span>` : '';
+  $('pFacts').style.display = hor ? '' : 'none';
   $('pSwatches').innerHTML = fotos.length > 1
     ? fotos.map((f,i) => `<img src="${f}" class="${i===0?'sel':''}" loading="lazy">`).join('') : '';
   $('pSwatches').querySelectorAll('img').forEach(t => t.onclick = () => {
     $('pImg').innerHTML = `<img src="${t.src}" alt="${esc(p.nombre)}">`;
     $('pSwatches').querySelectorAll('img').forEach(x => x.classList.toggle('sel', x === t));
   });
-  $('pDesc').textContent = p.descripcion || '';
+  $('pResumen').textContent = p.resumen || '';
+  $('pResumen').style.display = p.resumen ? '' : 'none';
+  const ings = Array.isArray(p.ingredientes) ? p.ingredientes : [];
+  $('pIng').innerHTML = ings.length
+    ? '<div class="ping-h"><span>Ingrediente</span><span>¿Para qué sirve?</span></div>' +
+      ings.map(i => `<div class="ping-r"><b>${esc(i.nombre)}</b><span>${esc(i.funcion)}</span></div>`).join('')
+    : '';
+  $('pIng').style.display = ings.length ? '' : 'none';
+  $('pWarn').innerHTML = p.advertencia ? ICONO_AVISO + `<span>${esc(p.advertencia)}</span>` : '';
+  $('pWarn').style.display = p.advertencia ? '' : 'none';
+  // Con ficha, la descripción larga queda plegada para no repetir información
+  if(p.descripcion && (p.resumen || ings.length)){
+    $('pDesc').innerHTML = `<details class="pdesc-det"><summary>Descripción completa</summary><p>${esc(p.descripcion)}</p></details>`;
+  } else {
+    $('pDesc').textContent = p.descripcion || '';
+  }
   $('pDesc').style.display = p.descripcion ? 'block' : 'none';
 
   if(p.variantes && p.variantes.length){
@@ -1613,12 +2190,15 @@ function abrirProducto(id, opciones = {}){
     $('pAddBlock').style.display = 'flex';
     $('pAgotadoMsg').style.display = 'none';
   }
-  pintarRelacionados(p);
+  pintarRelacionados(p, pintarSimilares(p));
 
   $('prodOverlay').classList.add('open');
   document.querySelector('.pmodal').scrollTop = 0;
   renderVistos();
 }
+document.addEventListener('click', e => {
+  if(e.target && e.target.id === 'pVerSim') $('pSim').scrollIntoView({ behavior: 'smooth', block: 'start' });
+});
 function ocultarProducto(){
   $('prodOverlay').classList.remove('open');
   productoActual = null;
@@ -1855,6 +2435,12 @@ function generarMensajeWhatsApp(){
   msg += `• Ciudad: ${datosCliente.ciudad}\n`;
   msg += `• Teléfono: ${datosCliente.telefono}\n`;
   msg += `━━━━━━━━━━━━━━━━━━━\n\n`;
+  const analisis = carrito.some(it => it.rutina) ? lsGet('mg_analisis', null) : null;
+  if(analisis && Array.isArray(analisis.lineas)){
+    msg += `*Análisis facial*\n`;
+    analisis.lineas.forEach(l => { msg += `• ${l}\n`; });
+    msg += `━━━━━━━━━━━━━━━━━━━\n\n`;
+  }
   carrito.forEach((it, i) => {
     msg += `*${i + 1}. ${it.nombre}*\n`;
     msg += `- Ref: ${it.referencia}\n`;
@@ -2073,6 +2659,579 @@ $('searchForm').addEventListener('submit', e => {
   subirAResultados();
 });
 $('searchClear').onclick = () => { fijarBusqueda(''); cerrarSugerencias(); aplicar(); $('search').focus(); };
+
+/* ==================== Análisis facial ====================
+   Encuesta → rutina de skincare con productos del catálogo.
+   Usa los campos opcionales de monogoto_productos.json:
+   paso (Limpiador, Tónico, Serum…), momento (mañana | noche | ambos),
+   tiposPiel (Normal, Seca, Grasa, Mixta, Sensible o Todas) y etiquetas.
+   Solo recomienda productos con "paso", disponibles, con precio y en el modo activo. */
+const AF_IMG = 'img/analisis/';
+const AF_ICONO_DUDA = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M9.5 9.3a2.6 2.6 0 0 1 5 .9c0 1.7-2.5 2.3-2.5 3.8"/><circle cx="12" cy="17" r=".6" fill="currentColor"/></svg>';
+/* Enlace a los términos y condiciones (si queda vacío, el texto se muestra sin enlace) */
+const AF_TERMINOS_URL = '';
+/* Casilla de términos y tratamiento de datos: false = oculta (pendiente de aprobación), true = se pide antes de comenzar */
+const AF_PEDIR_TERMINOS = false;
+const AF = {
+  TIPOS: [
+    { id: 'normal', t: 'Normal', d: 'Equilibrada: ni tirante ni brillante.' },
+    { id: 'seca', t: 'Seca', d: 'Se siente tirante y a veces se descama.' },
+    { id: 'grasa', t: 'Grasa', d: 'Brilla, tiene poros visibles y tiende a granitos.' },
+    { id: 'mixta', t: 'Mixta', d: 'Zona T grasa; mejillas normales o secas.' },
+    { id: 'sensible', t: 'Sensible', d: 'Se enrojece, arde o pica con facilidad.' },
+    { id: 'nose', t: 'No estoy segura', d: 'Te ayudamos con 3 preguntas rápidas.' }
+  ],
+  TIPO_NOMBRE: { normal: 'Normal', seca: 'Seca', grasa: 'Grasa', mixta: 'Mixta', sensible: 'Sensible' },
+  PREOC: [
+    { id: 'granitos', t: 'Granitos e imperfecciones', e: 'Granitos' },
+    { id: 'poros', t: 'Brillo y poros visibles', e: 'Grasa y poros' },
+    { id: 'manchas', t: 'Manchas y tono desigual', e: 'Manchas' },
+    { id: 'deshidratacion', t: 'Falta de hidratación', e: 'Hidratación' },
+    { id: 'resequedad', t: 'Resequedad y descamación', e: 'Piel seca' },
+    { id: 'rojez', t: 'Rojez e irritación', e: 'Calmante' },
+    { id: 'lineas', t: 'Líneas de expresión y firmeza', e: 'Antiedad' },
+    { id: 'opaca', t: 'Piel opaca, sin brillo', e: 'Luminosidad' },
+    { id: 'ojeras', t: 'Ojeras y bolsas', e: 'Ojeras y contorno' },
+    { id: 'textura', t: 'Textura áspera', e: 'Exfoliación' }
+  ],
+  FOTOS: { manchas: 'Manchas', granitos: 'Granitos', lineas: 'Líneas de expresión', ojeras: 'Ojeras' },
+  GRADOS: ['Leve', 'Moderada', 'Marcada'],
+  EDADES: [
+    { id: '<25', t: 'Menos de 25' }, { id: '25-34', t: '25 a 34' }, { id: '35-44', t: '35 a 44' },
+    { id: '45+', t: '45 o más' }, { id: 'nd', t: 'Prefiero no decirlo' }
+  ],
+  NIVELES: [
+    { id: 'basica', t: 'Básica', n: '3 pasos', d: 'Limpiar, hidratar y proteger. Ideal si estás empezando.' },
+    { id: 'completa', t: 'Completa', n: '5 pasos', d: 'Suma tónico y serum para tratar lo que te preocupa.' },
+    { id: 'coreana', t: 'Coreana', n: '7 pasos o más', d: 'Doble limpieza, esencia, serum y mascarilla semanal.' }
+  ],
+  NOSE: [
+    { k: 'q1', t: '¿Cómo se siente tu piel dos horas después de lavarla?', ops: [
+      { id: 'seca', t: 'Tirante o áspera' }, { id: 'normal', t: 'Cómoda, sin brillo' },
+      { id: 'mixta', t: 'Brillante solo en frente y nariz' }, { id: 'grasa', t: 'Brillante en toda la cara' }] },
+    { k: 'q2', t: 'Cuando pruebas un producto nuevo…', ops: [
+      { id: 'no', t: 'Casi nunca reacciona' }, { id: 'si', t: 'A veces se enrojece, arde o pica' }] },
+    { k: 'q3', t: '¿Cómo ves tus poros?', ops: [
+      { id: 'no', t: 'Casi no se notan' }, { id: 'zonaT', t: 'Se notan en la zona T' }, { id: 'todo', t: 'Se notan en toda la cara' }] }
+  ],
+  /* Puntos de la guía en % de la foto (1184 × 1328). L = etiqueta a la izquierda, R = a la derecha */
+  GUIA: [
+    { id: 'ojeras', t: 'Ojeras', x: 32.9, y: 35.6, lado: 'L', def: 'sombra oscura o bolsa debajo del ojo.' },
+    { id: 'rojez', t: 'Rojez', x: 27.9, y: 43.7, lado: 'L', def: 'zonas rojas que arden o pican.' },
+    { id: 'manchas', t: 'Manchas', x: 28.7, y: 55.9, lado: 'L', def: 'marcas más oscuras que el resto de la piel.' },
+    { id: 'granitos', t: 'Granitos', x: 39.7, y: 65.5, lado: 'L', def: 'brotes rojos o con punta blanca.' },
+    { id: 'textura', t: 'Textura áspera', x: 49.0, y: 21.8, lado: 'R', def: 'la piel se siente rugosa al tacto.' },
+    { id: 'lineas', t: 'Líneas de expresión', x: 64.2, y: 38.0, lado: 'R', def: 'arrugas finas alrededor de ojos y boca.' },
+    { id: 'poros', t: 'Brillo y poros', x: 56.2, y: 46.1, lado: 'R', def: 'brillo en frente y nariz, poros abiertos.' }
+  ],
+  PASOS_LADO: ['Tipo de piel', 'Lo que te preocupa', 'Intensidad', 'Edad', 'Tu rutina'],
+  NOMBRE_PASO: { 'Tratamiento puntual': 'Tratamiento de granitos' },
+  ICON_SOL: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M2 12h2M20 12h2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>',
+  ICON_LUNA: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20 14.5A8 8 0 0 1 9.5 4 8 8 0 1 0 20 14.5z"/></svg>'
+};
+
+function afNuevo(){ return { acepta: !!lsGet('mg_terminos', false), marca: null, paso: 'inicio', tipo: null, nose: {}, preoc: [], intens: {}, edad: null, nivel: null, tab: 'manana', guia: false, cambios: {}, abiertas: {} }; }
+let af = afNuevo();
+
+function afTipo(){
+  if(af.tipo !== 'nose') return af.tipo;
+  const n = af.nose;
+  if(!n.q1 || !n.q2 || !n.q3) return null;
+  if(n.q2 === 'si') return 'sensible';
+  if(n.q3 === 'todo' && n.q1 !== 'seca') return 'grasa';
+  if(n.q1 === 'normal' && n.q3 === 'zonaT') return 'mixta';
+  return n.q1;
+}
+function afConFotos(){ return af.preoc.filter(id => AF.FOTOS[id]); }
+function afOrden(){
+  return ['inicio', 'tipo', af.tipo === 'nose' ? 'nose' : null, 'preocupaciones',
+    afConFotos().length ? 'intensidad' : null, 'edad', 'rutina', 'resultado'].filter(Boolean);
+}
+function afPuedeSeguir(){
+  if(af.paso === 'inicio') return !AF_PEDIR_TERMINOS || !!af.acepta;
+  if(af.paso === 'tipo') return !!af.tipo;
+  if(af.paso === 'nose') return !!afTipo();
+  if(af.paso === 'preocupaciones') return af.preoc.length > 0;
+  if(af.paso === 'rutina') return !!af.nivel;
+  return true;
+}
+function afMover(dir){
+  if(dir > 0 && !afPuedeSeguir()) return;
+  const o = afOrden();
+  const i = o.indexOf(af.paso);
+  af.paso = o[Math.max(0, Math.min(o.length - 1, i + dir))];
+  af.guia = false;
+  afRender(true);
+}
+
+/* ---------- motor de recomendación ---------- */
+function afPrecio(p){ const v = precioOrden(p); return typeof v === 'number' && v > 0 ? v : null; }
+function afObjetivos(){
+  const w = {};
+  const sumar = (e, n) => { w[e] = (w[e] || 0) + n; };
+  af.preoc.forEach(id => {
+    const pr = AF.PREOC.find(x => x.id === id);
+    sumar(pr.e, 3 + (af.intens[id] || 0));
+    if(id === 'rojez') sumar('Piel sensible', 1);
+  });
+  const t = afTipo();
+  if(t === 'seca'){ sumar('Piel seca', 2); sumar('Hidratación', 1); }
+  if(t === 'grasa') sumar('Grasa y poros', 2);
+  if(t === 'mixta'){ sumar('Grasa y poros', 1); sumar('Hidratación', 1); }
+  if(t === 'sensible'){ sumar('Piel sensible', 2); sumar('Calmante', 2); }
+  if(t === 'normal') sumar('Hidratación', 1);
+  if(af.edad === '35-44') sumar('Antiedad', 1);
+  if(af.edad === '45+') sumar('Antiedad', 2);
+  return w;
+}
+const AF_FUERTE = /retin|glycol|salicyl|\bbha\b|\baha\b|peel/i;
+/* Activo fuerte = el producto trae advertencia de uso (vitamina A, ácidos exfoliantes o microagujas) */
+function afEsExfoliante(p){ return !!p.advertencia; }
+function afPuntaje(p, w){
+  const et = Array.isArray(p.etiquetas) ? p.etiquetas : [];
+  let s = 0;
+  et.forEach(e => { if(w[e]) s += w[e]; });
+  const t = afTipo();
+  if(t && Array.isArray(p.tiposPiel) && p.tiposPiel.length){
+    if(p.tiposPiel.includes('Todas') || p.tiposPiel.includes(AF.TIPO_NOMBRE[t])) s += 2;
+    else s -= 3;
+  }
+  if(t === 'sensible' && p.paso !== 'Exfoliante' && p.advertencia) s -= 2;
+  if(p.masVendido) s += 1.5;
+  if(!p.imagen) s -= 2;
+  return s;
+}
+function afMotivo(p, w){
+  const et = (Array.isArray(p.etiquetas) ? p.etiquetas : []).filter(e => w[e]).sort((a, b) => w[b] - w[a]);
+  if(et.length) return et.slice(0, 2).join(' · ');
+  const t = afTipo();
+  if(t && Array.isArray(p.tiposPiel) && (p.tiposPiel.includes('Todas') || p.tiposPiel.includes(AF.TIPO_NOMBRE[t]))) return 'Piel ' + AF.TIPO_NOMBRE[t].toLowerCase();
+  return 'Tu rutina';
+}
+function afCandidatos(paso, tab, w){
+  return disponiblesEnModo()
+    .filter(p => p.paso === paso && !p.agotado && afPrecio(p) !== null &&
+      (tab === 'manana' ? p.momento !== 'noche' : p.momento !== 'mañana'))
+    .map(p => ({ p, s: afPuntaje(p, w) + (tab === 'noche' && p.momento === 'noche' && paso === 'Serum' ? 1 : 0) }))
+    .sort((a, b) => b.s - a.s || afPrecio(a.p) - afPrecio(b.p));
+}
+function afPasosDe(tab){
+  const nivel = af.nivel || 'completa';
+  const M = {
+    manana: { basica: ['Limpiador', 'Hidratante', 'Protector solar'],
+              completa: ['Limpiador', 'Tónico', 'Serum', 'Hidratante', 'Protector solar'],
+              coreana: ['Limpiador', 'Tónico', 'Esencia', 'Serum', 'Hidratante', 'Protector solar'] },
+    noche:  { basica: ['Limpiador', 'Hidratante'],
+              completa: ['Limpiador', 'Tónico', 'Serum', 'Hidratante'],
+              coreana: ['Aceite limpiador', 'Limpiador', 'Tónico', 'Esencia', 'Serum', 'Hidratante', 'Mascarilla'] }
+  };
+  const l = M[tab][nivel].slice();
+  if(nivel !== 'basica'){
+    if(af.preoc.includes('ojeras') || af.preoc.includes('lineas')) l.splice(l.indexOf('Hidratante'), 0, 'Contorno de ojos');
+    if(tab === 'noche' && af.preoc.includes('textura')) l.splice(l.indexOf('Limpiador') + 1, 0, 'Exfoliante');
+    if(tab === 'noche' && af.preoc.includes('granitos')) l.push('Tratamiento puntual');
+  }
+  return l;
+}
+function afFrecuencia(paso, tab){
+  if(paso === 'Exfoliante') return '2 o 3 noches por semana';
+  if(paso === 'Mascarilla') return '1 o 2 veces por semana';
+  if(paso === 'Tratamiento puntual') return 'Solo sobre el granito';
+  if(paso === 'Protector solar') return 'Último paso de la mañana';
+  return tab === 'manana' ? 'Cada mañana' : 'Cada noche';
+}
+/* Se eligen primero los pasos que más tratan (serum, contorno…) y cada preocupación ya cubierta
+   pierde peso en los pasos siguientes: así la rutina reparte las preocupaciones en vez de repetir una sola.
+   La noche arranca sabiendo qué trató el serum de la mañana. */
+const AF_PRIORIDAD = ['Exfoliante', 'Serum', 'Contorno de ojos', 'Tratamiento puntual', 'Hidratante', 'Esencia', 'Tónico',
+  'Mascarilla', 'Protector solar', 'Limpiador', 'Aceite limpiador'];
+function afRutina(tab){
+  const base = afObjetivos();
+  const deTrato = new Set(af.preoc.map(id => AF.PREOC.find(x => x.id === id).e));
+  const cubiertas = {};
+  const cubrir = p => (p.etiquetas || []).forEach(e => { if(deTrato.has(e)) cubiertas[e] = (cubiertas[e] || 0) + 1; });
+  if(tab === 'noche'){
+    const sm = afRutina('manana').find(x => x.paso === 'Serum');
+    if(sm) cubrir(sm.p);
+  }
+  const pasos = afPasosDe(tab);
+  const usados = new Set(), elegidos = {};
+  let exfolia = false;
+  pasos.slice().sort((a, b) => AF_PRIORIDAD.indexOf(a) - AF_PRIORIDAD.indexOf(b)).forEach(paso => {
+    const w = Object.assign({}, base);
+    deTrato.forEach(e => { if(w[e]) w[e] = w[e] / (1 + 1.5 * (cubiertas[e] || 0)); });
+    const k = tab + '|' + paso;
+    let cands = afCandidatos(paso, tab, w).filter(c => !usados.has(c.p.id));
+    if(!cands.length) return;
+    /* Rutina de una sola marca: si la marca no tiene ese paso disponible, se completa con otra */
+    let otraMarca = false;
+    if(af.marca){
+      const deMarca = cands.filter(c => c.p.marca === af.marca);
+      if(deMarca.length) cands = deMarca; else otraMarca = true;
+    }
+    /* Un solo producto exfoliante o con ácidos fuertes por rutina */
+    if(exfolia){
+      cands = cands.map(c => ({ p: c.p, s: c.s - (afEsExfoliante(c.p) ? 8 : 0) }))
+        .sort((a, b) => b.s - a.s || afPrecio(a.p) - afPrecio(b.p));
+    }
+    const elegido = cands.find(c => c.p.id === af.cambios[k]) || cands[0];
+    usados.add(elegido.p.id);
+    if(afEsExfoliante(elegido.p)) exfolia = true;
+    cubrir(elegido.p);
+    elegidos[paso] = { k, paso, tab, otraMarca, p: elegido.p, motivo: afMotivo(elegido.p, base), freq: afFrecuencia(paso, tab),
+      alts: cands.filter(c => c.p.id !== elegido.p.id).slice(0, 3).map(c => c.p) };
+  });
+  return pasos.filter(p => elegidos[p]).map(p => elegidos[p]);
+}
+/* Marcas que pueden armar casi toda la rutina con productos disponibles */
+function afMarcasPosibles(){
+  const guardada = af.marca;
+  af.marca = null;
+  const total = new Set(afRutina('manana').concat(afRutina('noche')).map(x => x.tab + x.paso)).size;
+  const marcas = [...new Set(disponiblesEnModo().filter(p => p.paso && !p.agotado && p.marca && p.marca !== 'Otras').map(p => p.marca))];
+  const res = marcas.map(m => {
+    af.marca = m;
+    const r = afRutina('manana').concat(afRutina('noche'));
+    return { m, n: r.filter(x => !x.otraMarca).length, t: r.length };
+  }).filter(x => x.n >= 3 && x.n >= Math.ceil(x.t * 0.5))
+    .sort((a, b) => b.n / b.t - a.n / a.t || b.n - a.n);
+  af.marca = guardada;
+  return { lista: res.slice(0, 6), total };
+}
+function afPerfil(){
+  const lineas = [];
+  const t = afTipo();
+  if(t) lineas.push('Piel: ' + AF.TIPO_NOMBRE[t].toLowerCase());
+  if(af.preoc.length) lineas.push('Le preocupa: ' + af.preoc.map(id => AF.PREOC.find(x => x.id === id).t.toLowerCase()).join(', '));
+  const ints = afConFotos().filter(id => af.intens[id] !== undefined).map(id => AF.FOTOS[id] + ': ' + AF.GRADOS[af.intens[id]].toLowerCase());
+  if(ints.length) lineas.push(ints.join(' · '));
+  const e = AF.EDADES.find(x => x.id === af.edad);
+  if(e && e.id !== 'nd') lineas.push('Edad: ' + e.t.toLowerCase());
+  const n = AF.NIVELES.find(x => x.id === (af.nivel || 'completa'));
+  lineas.push('Rutina: ' + n.t.toLowerCase() + (af.marca ? ' · una sola marca: ' + af.marca : ''));
+  return lineas;
+}
+
+/* ---------- pintar ---------- */
+function afOpt(pressed, inner, attrs, clase){
+  return `<button type="button" class="af-opt ${clase || ''}" aria-pressed="${pressed}" ${attrs}>${inner}</button>`;
+}
+function afCabecera(kicker, titulo, sub, derecha){
+  return `<div class="af-head"><div>${kicker ? `<div class="af-paso">${kicker}</div>` : ''}
+    <h2 class="af-h" tabindex="-1">${titulo}</h2>${sub ? `<p class="af-sub">${sub}</p>` : ''}</div>${derecha || ''}</div>`;
+}
+function afGuiaHTML(){
+  const pts = AF.GUIA.map(g => {
+    const on = af.preoc.includes(g.id) ? ' on' : '';
+    const L = g.lado === 'L';
+    const linea = L ? `left:2%;width:calc(${g.x - 2}% - 9px)` : `left:calc(${g.x}% + 9px);right:2%`;
+    const pill = L ? `left:2%;top:calc(${g.y}% + 8px)` : `right:2%;top:calc(${g.y}% - 32px)`;
+    return `<span class="af-g-line" style="top:${g.y}%;${linea}"></span>
+      <span class="af-g-dot${on}" style="left:${g.x}%;top:${g.y}%"></span>
+      <span class="af-g-pill${on}" style="${pill}">${g.t}</span>`;
+  }).join('');
+  return `<div class="af-guia"><img src="${AF_IMG}guia-rostro.webp" alt="Rostro de referencia con la zona de cada preocupación" onerror="this.remove()">${pts}</div>`;
+}
+const AF_GUIA_NOTA = '<b>¿No sabes cuál es cuál?</b> Así se ve cada una en el rostro. La falta de hidratación, la resequedad y la piel opaca se notan en toda la cara.';
+
+function afPintarLado(){
+  const side = $('afSide');
+  if(af.paso === 'preocupaciones'){
+    side.className = 'af-side guia';
+    side.innerHTML = afGuiaHTML() +
+      `<div class="af-guia-nota"><b>¿No sabes cuál es cuál?</b> Así se ve cada una en el rostro:</div>
+      <ul class="af-guia-lista">${AF.GUIA.map(g =>
+        `<li class="${af.preoc.includes(g.id) ? 'on' : ''}"><b>${g.t}:</b> ${g.def}</li>`).join('')}</ul>
+      <div class="af-guia-pie">La falta de hidratación, la resequedad y la piel opaca se notan en toda la cara.</div>`;
+    return;
+  }
+  side.className = 'af-side';
+  const idx = { inicio: -1, tipo: 0, nose: 0, preocupaciones: 1, intensidad: 2, edad: 3, rutina: 4 }[af.paso];
+  side.innerHTML = `<div><div class="af-kicker">Tu rutina en 1 minuto</div><div class="af-side-t">Encontremos lo que tu piel necesita</div></div>
+    <ol class="af-steps">${AF.PASOS_LADO.map((l, i) =>
+      `<li class="${i === idx ? 'actual' : i < idx ? 'hecho' : ''}"><span>${i + 1}</span>${l}</li>`).join('')}</ol>
+    <div class="af-side-note">No te pedimos fotos. Tus respuestas se usan para armar tu rutina.</div>`;
+}
+function afPintarProgreso(){
+  const idx = { inicio: -1, tipo: 0, nose: 0, preocupaciones: 1, intensidad: 2, edad: 3, rutina: 4, resultado: 5 }[af.paso];
+  $('afProg').innerHTML = AF.PASOS_LADO.map((_, i) => `<span class="${i <= idx ? 'on' : ''}"></span>`).join('');
+  $('afProg').style.visibility = (af.paso === 'inicio' || af.paso === 'resultado') ? 'hidden' : '';
+}
+
+function afContenido(){
+  const total = afOrden().length - 2; // sin inicio ni resultado
+  const num = afOrden().indexOf(af.paso);
+  const kicker = num > 0 ? `Paso ${Math.min(num, total)} de ${total}` : '';
+  switch(af.paso){
+    case 'inicio':
+      return `<div class="af-intro">
+        <h2 class="af-h" tabindex="-1">Haz tu análisis facial</h2>
+        <p>Responde unas preguntas sobre tu piel y te recomendamos una rutina de skincare, paso a paso, con productos del catálogo Monogoto. Puedes agregarla completa a tu pedido.</p>
+        <div class="af-grid3">
+          <div class="af-intro-card"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3c3 4 6 7 6 10.5A6 6 0 0 1 6 13.5C6 10 9 7 12 3z"/></svg>Tu tipo de piel</div>
+          <div class="af-intro-card"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="M20 20l-4.2-4.2"/></svg>Lo que te preocupa</div>
+          <div class="af-intro-card"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 6h12M8 12h12M8 18h12"/><circle cx="4" cy="6" r="1"/><circle cx="4" cy="12" r="1"/><circle cx="4" cy="18" r="1"/></svg>Cuántos pasos quieres</div>
+        </div>
+        ${AF_PEDIR_TERMINOS ? `<label class="af-acepta"><input type="checkbox" id="afAcepta" ${af.acepta ? 'checked' : ''}>
+          <span>Declaro estar de acuerdo con los ${AF_TERMINOS_URL
+            ? `<a href="${AF_TERMINOS_URL}" target="_blank" rel="noopener">términos y condiciones</a>`
+            : '<u>términos y condiciones</u>'} y autorizo el tratamiento de mis datos personales para fines publicitarios.</span></label>` : ''}
+        <p class="af-legal">Es una recomendación de rutina según tus respuestas, no un diagnóstico. Si tienes una condición en la piel, consulta a tu dermatólogo.</p>
+      </div>`;
+    case 'tipo':
+      return afCabecera(kicker, '¿Cómo es tu piel?', 'Escoge la que más se parezca a tu piel en un día normal.') +
+        `<div class="af-tipos">${AF.TIPOS.map(o => afOpt(af.tipo === o.id,
+          `<span class="af-tipo-img">${o.id === 'nose' ? AF_ICONO_DUDA
+            : `<img src="${AF_IMG}piel-${o.id}.webp" alt="Ejemplo de piel ${o.t.toLowerCase()}" loading="lazy" onerror="this.remove()">`}</span>` +
+          `<span class="af-opt-t">${o.t}</span><span class="af-opt-d">${o.d}</span>`, `data-af="tipo" data-v="${o.id}"`, 'conimg')).join('')}</div>`;
+    case 'nose': {
+      const r = afTipo();
+      return afCabecera(kicker, 'Averigüemos tu tipo de piel', 'Tres preguntas rápidas y te decimos cuál parece ser.') +
+        AF.NOSE.map(q => `<div class="af-q"><div class="af-q-t">${q.t}</div><div class="af-pills">${q.ops.map(o =>
+          `<button type="button" class="af-pill" aria-pressed="${af.nose[q.k] === o.id}" data-af="nose" data-k="${q.k}" data-v="${o.id}">${o.t}</button>`).join('')}</div></div>`).join('') +
+        (r ? `<div class="af-aviso">Tu piel parece: <b>${AF.TIPO_NOMBRE[r].toLowerCase()}</b>. Si no te convence, vuelve y escoge otra.</div>` : '');
+    }
+    case 'preocupaciones':
+      if(af.guia){
+        return `<div class="af-head"><div><h2 class="af-h" tabindex="-1">¿Cuál es cuál?</h2></div></div>${afGuiaHTML()}
+          <div class="af-guia-def" style="margin-top:12px">${AF.GUIA.map(g => `<div><b>${g.t}:</b> ${g.def}</div>`).join('')}
+          <div>La falta de hidratación, la resequedad y la piel opaca se notan en toda la cara.</div></div>
+          <button type="button" class="af-btn2" data-af="guia" data-v="0">Volver a la pregunta</button>`;
+      }
+      return afCabecera(kicker, '¿Qué es lo que más te preocupa?',
+        `Escoge hasta 3. Así priorizamos los productos de tu rutina. <button type="button" class="af-link af-solo-movil" data-af="guia" data-v="1">¿No sabes cuál es cuál?</button>`,
+        `<span class="af-count">${af.preoc.length} de 3</span>`) +
+        `<div class="af-grid2">${AF.PREOC.map(o => {
+          const sel = af.preoc.includes(o.id);
+          return afOpt(sel, `<span class="af-opt-t" style="font-weight:500">${o.t}</span>`,
+            `data-af="preoc" data-v="${o.id}" ${!sel && af.preoc.length >= 3 ? 'disabled' : ''}`);
+        }).join('')}</div>`;
+    case 'intensidad':
+      return afCabecera(kicker, '¿Cuál se parece más a tu piel?', 'Escoge la foto más parecida. Si es marcada, le damos más peso en tu rutina.') +
+        afConFotos().map(id => `<div class="af-fila"><div class="af-fila-t">${AF.FOTOS[id]}</div><div class="af-fotos">${AF.GRADOS.map((g, gi) =>
+          `<button type="button" class="af-foto" aria-pressed="${af.intens[id] === gi}" data-af="intens" data-k="${id}" data-v="${gi}">
+            <img src="${AF_IMG}${id}-${gi + 1}.webp" alt="${AF.FOTOS[id]} ${g.toLowerCase()}, foto de ejemplo" loading="lazy">${g}</button>`).join('')}</div></div>`).join('');
+    case 'edad':
+      return afCabecera(kicker, '¿Cuál es tu edad?', 'Opcional. Nos ayuda a saber si sumamos productos antiedad.') +
+        `<div style="display:flex;flex-direction:column;gap:10px;max-width:460px">${AF.EDADES.map(o =>
+          afOpt(af.edad === o.id, `<span class="af-opt-t" style="font-weight:500">${o.t}</span>`, `data-af="edad" data-v="${o.id}"`)).join('')}</div>`;
+    case 'rutina':
+      return afCabecera(kicker, '¿Qué tan completa quieres tu rutina?', 'Puedes empezar básica y sumar pasos después.') +
+        `<div class="af-grid3">${AF.NIVELES.map(o => afOpt(af.nivel === o.id,
+          `<span class="af-opt-n">${o.n.toUpperCase()}</span><span class="af-opt-t" style="font-size:1.2rem">${o.t}</span><span class="af-opt-d">${o.d}</span>`,
+          `data-af="nivel" data-v="${o.id}"`, 'nivel alto')).join('')}</div>`;
+    case 'resultado':
+      return afResultadoHTML();
+  }
+  return '';
+}
+
+function afTarjeta(x){
+  const p = x.p;
+  const abierta = !!af.abiertas[x.k];
+  return `<div class="af-card">
+    <button type="button" class="af-card-img" data-af="ver" data-v="${p.id}" aria-label="Ver ${esc(p.nombre)}">
+      ${p.imagen ? `<img src="${p.imagen}" alt="" loading="lazy" onerror="this.outerHTML='<span class=noimg>m</span>'">` : '<span class="noimg">m</span>'}
+      ${p.masVendido ? '<span class="af-card-best">Más vendido</span>' : ''}
+    </button>
+    <div class="af-card-info">
+      <div class="af-card-paso">Paso ${x.n} · ${AF.NOMBRE_PASO[x.paso] || x.paso}</div>
+      ${p.marca && p.marca !== 'Otras' ? `<div class="af-card-marca">${esc(p.marca)}</div>` : ''}
+      <div class="af-card-n">${esc(p.nombre)}</div>
+      ${x.otraMarca ? `<div class="af-card-otra">${esc(af.marca)} no tiene este paso disponible, por eso va de otra marca</div>` : ''}
+      <div class="af-card-p">${precioTexto(p)}</div>
+      <span class="af-para">Para: ${esc(x.motivo)}</span>
+      ${Array.isArray(p.ingredientes) && p.ingredientes.length ? `<div class="af-card-ing">Con <b>${esc(p.ingredientes.slice(0, 2).map(i => i.nombre).join(' + '))}</b></div>` : ''}
+      <div class="af-freq">${x.freq}</div>
+      ${p.advertencia ? `<div class="af-card-warn">${ICONO_AVISO}<span>${esc(afAvisoCorto(p.advertencia))}</span></div>` : ''}
+      ${x.alts.length ? `<button type="button" class="af-link" style="align-self:flex-start;font-size:.82rem" data-af="alts" data-v="${x.k}" aria-expanded="${abierta}">${abierta ? 'Ocultar opciones' : 'Ver otras opciones (' + x.alts.length + ')'}</button>` : ''}
+    </div>
+    ${abierta ? `<div class="af-alts">${x.alts.map(a =>
+      `<button type="button" class="af-alt" data-af="cambiar" data-k="${x.k}" data-v="${a.id}"><span>${esc(a.nombre)}</span><span>${precioTexto(a)}</span></button>`).join('')}</div>` : ''}
+  </div>`;
+}
+function afAvisoCorto(a){
+  if(/^Lleva vitamina A/.test(a)) return 'Vitamina A: solo de noche y con protector al día siguiente';
+  if(/^Exfolia/.test(a)) return 'Exfoliante: de noche, día de por medio';
+  if(/^Lleva microagujas/.test(a)) return 'Microagujas: empieza 2 o 3 veces por semana';
+  return a;
+}
+function afMarcasHTML(){
+  const { lista } = afMarcasPosibles();
+  if(!lista.length && !af.marca) return '';
+  if(af.marca && !lista.some(x => x.m === af.marca)) af.marca = null;
+  return `<div class="af-marcas">
+    <div class="af-seg" role="group" aria-label="Marcas de la rutina">
+      <button type="button" data-af="marca" data-v="" aria-pressed="${!af.marca}">Mezclar marcas</button>
+      <button type="button" data-af="marca" data-v="${esc(lista.length ? lista[0].m : '')}" aria-pressed="${!!af.marca}">Una sola marca</button>
+    </div>
+    ${af.marca ? lista.map(x => `<button type="button" class="af-mchip" data-af="marca" data-v="${esc(x.m)}" aria-pressed="${x.m === af.marca}">${esc(x.m)} <small>${x.n} de ${x.t} pasos</small></button>`).join('') : ''}
+  </div>`;
+}
+function afSumar(lista){ return lista.reduce((t, x) => t + (afPrecio(x.p) || 0), 0); }
+function afResultadoHTML(){
+  const r = afRutina(af.tab);
+  r.forEach((x, i) => x.n = i + 1);
+  const chips = [];
+  if(afTipo()) chips.push('Piel ' + AF.TIPO_NOMBRE[afTipo()].toLowerCase());
+  af.preoc.forEach(id => chips.push(AF.PREOC.find(x => x.id === id).e));
+  chips.push('Rutina ' + AF.NIVELES.find(x => x.id === (af.nivel || 'completa')).t.toLowerCase());
+  const ed = AF.EDADES.find(x => x.id === af.edad);
+  if(ed && ed.id !== 'nd') chips.push(ed.t + ' años');
+  const unicos = new Map();
+  afRutina('manana').concat(afRutina('noche')).forEach(x => unicos.set(x.p.id, x));
+  const nTab = r.length, nTodos = unicos.size;
+  return `<div class="af-res-head">
+      <div class="af-res-top">
+        <div><h2 class="af-h" tabindex="-1">Tu rutina recomendada</h2>
+          <div class="af-chips">${chips.map(c => `<span class="af-chip">${esc(c)}</span>`).join('')}</div></div>
+        <button type="button" class="af-btn2" data-af="editar">Cambiar respuestas</button>
+      </div>
+      ${afMarcasHTML()}
+      <div class="af-tabs" role="tablist">
+        <button type="button" class="af-tab" role="tab" aria-selected="${af.tab === 'manana'}" data-af="tab" data-v="manana">${AF.ICON_SOL}Por la mañana</button>
+        <button type="button" class="af-tab" role="tab" aria-selected="${af.tab === 'noche'}" data-af="tab" data-v="noche">${AF.ICON_LUNA}Por la noche</button>
+      </div>
+    </div>
+    ${r.length ? `<div class="af-cards">${r.map(afTarjeta).join('')}</div>`
+      : `<div class="af-vacio">No encontramos productos disponibles para esta rutina en este momento. Escríbele a tu asesora y te ayudamos a armarla.</div>`}
+    <div class="af-res-foot">
+      <div><div class="af-total">${af.tab === 'manana' ? 'Mañana' : 'Noche'}: ${nTab} producto${nTab === 1 ? '' : 's'} · ${fmt(afSumar(r))}</div>
+        <div class="af-disc">Es una sugerencia según tus respuestas, no un diagnóstico. Mañana y noche: ${nTodos} productos · ${fmt(afSumar([...unicos.values()]))}</div></div>
+      <div class="af-btns">
+        <button type="button" class="af-btn2" data-af="agregar" data-v="tab" ${nTab ? '' : 'disabled'}>Agregar solo la de ${af.tab === 'manana' ? 'mañana' : 'noche'}</button>
+        <button type="button" class="af-next" data-af="agregar" data-v="todo" ${nTodos ? '' : 'disabled'}>Agregar mañana y noche al pedido</button>
+      </div>
+    </div>`;
+}
+
+function afRender(enfocar){
+  $('afBody').classList.toggle('res', af.paso === 'resultado');
+  afPintarProgreso();
+  if(af.paso !== 'resultado') afPintarLado();
+  $('afContent').innerHTML = afContenido();
+  $('afContent').scrollTop = 0;
+  const cards = $('afContent').querySelector('.af-cards');
+  if(cards) cards.scrollLeft = 0;
+  $('afAtras').style.visibility = af.paso === 'inicio' ? 'hidden' : '';
+  const sig = af.paso === 'inicio' ? 'Comenzar' : af.paso === 'rutina' ? 'Ver mi rutina' : (af.paso === 'edad' && !af.edad) ? 'Saltar' : 'Siguiente';
+  $('afSiguienteTxt').textContent = sig;
+  $('afSiguiente').disabled = !afPuedeSeguir();
+  if(enfocar){ const h = $('afContent').querySelector('.af-h'); if(h) h.focus({ preventScroll: true }); }
+}
+
+/* ---------- acciones ---------- */
+function afAgregar(cuales){
+  const lista = cuales === 'todo' ? afRutina('manana').concat(afRutina('noche')) : afRutina(af.tab);
+  const ids = [...new Set(lista.map(x => x.p.id))];
+  ids.forEach(id => {
+    const p = productos.find(x => x.id === id);
+    if(!p || p.agotado) return;
+    const key = p.id + '::::';
+    const existente = carrito.find(it => it.key === key);
+    if(existente){ existente.rutina = true; return; }
+    carrito.push({ key, id: p.id, referencia: p.referencia, nombre: p.nombre,
+      imagen: p.imagen || (p.colores && p.colores[0]) || null,
+      variante: null, varianteLabel: null, varianteObj: null, nota: null, cantidad: 1, rutina: true });
+  });
+  lsSet('mg_analisis', { lineas: afPerfil(), fecha: new Date().toISOString().slice(0, 10) });
+  guardarCarrito();
+  afCerrar();
+  abrirCarrito();
+}
+$('afContent').addEventListener('click', e => {
+  const b = e.target.closest('[data-af]');
+  if(!b || b.disabled) return;
+  const v = b.dataset.v, k = b.dataset.k;
+  switch(b.dataset.af){
+    case 'tipo': af.tipo = v; break;
+    case 'nose': af.nose[k] = v; break;
+    case 'preoc':
+      if(af.preoc.includes(v)) af.preoc = af.preoc.filter(x => x !== v);
+      else if(af.preoc.length < 3) af.preoc.push(v);
+      Object.keys(af.intens).forEach(id => { if(!af.preoc.includes(id)) delete af.intens[id]; });
+      break;
+    case 'guia': af.guia = v === '1'; afRender(true); return;
+    case 'intens': af.intens[k] = +v; break;
+    case 'edad': af.edad = af.edad === v ? null : v; break;
+    case 'nivel': af.nivel = v; break;
+    case 'tab': af.tab = v; afRender(false); return;
+    case 'marca': af.marca = v || null; af.cambios = {}; af.abiertas = {}; afRender(false); return;
+    case 'alts': af.abiertas[v] = !af.abiertas[v]; break;
+    case 'cambiar': af.cambios[k] = v; af.abiertas[k] = false; break;
+    case 'ver': abrirProducto(v); return;
+    case 'editar': af.paso = 'tipo'; afRender(true); return;
+    case 'agregar': afAgregar(v); return;
+  }
+  const scroll = $('afContent').scrollTop;
+  const cards = $('afContent').querySelector('.af-cards');
+  const cx = cards ? cards.scrollLeft : 0, cy = cards ? cards.scrollTop : 0;
+  afRender(false);
+  $('afContent').scrollTop = scroll;
+  const c2 = $('afContent').querySelector('.af-cards');
+  if(c2){ c2.scrollLeft = cx; c2.scrollTop = cy; }
+});
+function afAbrir(){
+  $('afOverlay').classList.add('open');
+  document.body.style.overflow = 'hidden';
+  afRender(true);
+}
+function afCerrar(){
+  $('afOverlay').classList.remove('open');
+  document.body.style.overflow = '';
+}
+$('afBanner').onclick = afAbrir;
+$('afCerrar').onclick = afCerrar;
+$('afReiniciar').onclick = () => { af = afNuevo(); afRender(true); };
+$('afAtras').onclick = () => afMover(-1);
+$('afSiguiente').onclick = () => afMover(1);
+$('afContent').addEventListener('change', e => {
+  if(e.target.id !== 'afAcepta') return;
+  af.acepta = e.target.checked;
+  lsSet('mg_terminos', af.acepta);
+  $('afSiguiente').disabled = !afPuedeSeguir();
+});
+$('afOverlay').addEventListener('click', e => { if(e.target === $('afOverlay')) afCerrar(); });
+window.addEventListener('keydown', e => {
+  if(e.key === 'Escape' && $('afOverlay').classList.contains('open') && !$('prodOverlay').classList.contains('open') &&
+     !$('cartOverlay').classList.contains('open')) afCerrar();
+}, true);
+/* El banner sigue la misma regla que "Más vendidos": sin búsqueda ni filtros, primera página */
+function renderBannerAF(){
+  const ok = ['Todos', 'Skincare', 'Cuidado Facial'].includes(cat) && !q && pagina === 1 && sub === 'Todas' &&
+    marcaSel === 'todas' && !soloNuevos && !soloPromo && !hayRangoPrecio();
+  $('afBanner').style.display = ok ? '' : 'none';
+}
+
+/* ---------- Bienvenida: se muestra solo en la primera visita (o con ?bienvenida en la dirección) ---------- */
+let bvModo = 'detal', bvAgotados = false;
+function bvPintar(){
+  document.querySelectorAll('[data-bv]').forEach(b => b.setAttribute('aria-pressed', b.dataset.bv === bvModo));
+  document.querySelectorAll('[data-bvag]').forEach(b => b.setAttribute('aria-pressed', (b.dataset.bvag === '1') === bvAgotados));
+  $('bvGo').textContent = bvModo === 'mayorista' ? 'Continuar e ingresar PIN' : 'Ver catálogo';
+}
+function mostrarBienvenida(){
+  const forzar = /[?&]bienvenida\b/.test(location.search);
+  if(!forzar && (lsGet('mg_bienvenida', null) || idDelEnlace())) return;
+  bvModo = modo === 'mayorista' ? 'mayorista' : 'detal';
+  bvAgotados = false;
+  bvPintar();
+  $('bvOverlay').classList.add('open');
+}
+function cerrarBienvenida(aplicarRespuestas){
+  $('bvOverlay').classList.remove('open');
+  lsSet('mg_bienvenida', 1);
+  if(!aplicarRespuestas) return;
+  lsSet('mg_agotados', bvAgotados);
+  verAgotados = bvAgotados; $('toggleAgotados').checked = bvAgotados;
+  aplicar();
+  if(bvModo !== modo) setMode(bvModo);   // mayorista abre la ventana del PIN
+}
+document.querySelectorAll('[data-bv]').forEach(b => b.onclick = () => { bvModo = b.dataset.bv; bvPintar(); });
+document.querySelectorAll('[data-bvag]').forEach(b => b.onclick = () => { bvAgotados = b.dataset.bvag === '1'; bvPintar(); });
+$('bvGo').onclick = () => cerrarBienvenida(true);
+$('bvOverlay').onclick = e => { if(e.target === $('bvOverlay')) cerrarBienvenida(false); };
+window.addEventListener('keydown', e => { if(e.key === 'Escape' && $('bvOverlay').classList.contains('open')) cerrarBienvenida(false); }, true);
 
 cargarCarritoLS();
 actualizarContadorHeader();
