@@ -70,7 +70,7 @@
       "id": "p0012",
       "nombre": "Acondicionador Milagros de Romero X450ML",
       "referencia": "30",
-      "precio": 32900,
+      "precio": 33900,
       "categoria": "Línea Capilar",
       "subcategoria": "Acondicionadores",
       "imagen": "img/capilar/30.webp",
@@ -239,7 +239,7 @@
       "categoria": "Línea Capilar",
       "subcategoria": "Aceites y serums capilares",
       "imagen": "img/capilar/11-2.jpg",
-      "agotado": false,
+      "agotado": true,
       "marca": "La Poción"
     },
     {
@@ -294,7 +294,7 @@
       "categoria": "Línea Capilar",
       "subcategoria": "Mascarillas y tratamientos",
       "imagen": "img/capilar/6.jpg",
-      "agotado": false,
+      "agotado": true,
       "marca": "La Poción"
     },
     {
@@ -646,13 +646,12 @@
       "id": "p0074",
       "nombre": "Loreal Absolut Repair Molecular Liq Treat 250ML",
       "referencia": "LR-E4033601",
-      "precio": 140000,
+      "precio": 149900,
       "categoria": "Línea Capilar",
       "subcategoria": "Mascarillas y tratamientos",
       "imagen": "img/capilar/LR-E4033601.webp",
       "agotado": false,
-      "marca": "L'Oréal",
-      "nuevo": true
+      "marca": "L'Oréal"
     },
     {
       "id": "p0075",
@@ -765,20 +764,18 @@
       "subcategoria": "Mascarillas y tratamientos",
       "imagen": "img/capilar/LR-E3827001.webp",
       "agotado": false,
-      "marca": "L'Oréal",
-      "nuevo": true
+      "marca": "L'Oréal"
     },
     {
       "id": "p0080",
       "nombre": "Loreal Lev-In Absolut Repair Molecular 100ML",
       "referencia": "LR-E4033401",
-      "precio": 124000,
+      "precio": 132000,
       "categoria": "Línea Capilar",
       "subcategoria": "Acondicionadores",
       "imagen": "img/capilar/LR-E4033401.jpg",
       "agotado": false,
-      "marca": "L'Oréal",
-      "nuevo": true
+      "marca": "L'Oréal"
     },
     {
       "id": "p0081",
@@ -789,8 +786,7 @@
       "subcategoria": "Mascarillas y tratamientos",
       "imagen": "img/capilar/LR-E571802.jpg",
       "agotado": false,
-      "marca": "L'Oréal",
-      "nuevo": true
+      "marca": "L'Oréal"
     },
     {
       "id": "p0082",
@@ -833,7 +829,7 @@
       "categoria": "Línea Capilar",
       "subcategoria": "Mascarillas y tratamientos",
       "imagen": null,
-      "agotado": false,
+      "agotado": true,
       "marca": "Otras"
     },
     {
@@ -855,7 +851,7 @@
       "categoria": "Línea Capilar",
       "subcategoria": "Mascarillas y tratamientos",
       "imagen": "img/capilar/PODERH8.jpg",
-      "agotado": false,
+      "agotado": true,
       "marca": "Otras"
     },
     {
@@ -1037,7 +1033,8 @@
       "subcategoria": "Perfumes capilares",
       "imagen": "img/capilar/9.jpg",
       "agotado": false,
-      "marca": "La Poción"
+      "marca": "La Poción",
+      "nuevo": true
     },
     {
       "id": "p0112",
@@ -1102,7 +1099,7 @@
       "categoria": "Línea Capilar",
       "subcategoria": "Mascarillas y tratamientos",
       "imagen": "img/capilar/10249-1.jpg",
-      "agotado": false,
+      "agotado": true,
       "marca": "Ponto"
     },
     {
@@ -1257,7 +1254,8 @@
       "subcategoria": "Mascarillas y tratamientos",
       "imagen": "img/capilar/10096.webp",
       "agotado": false,
-      "marca": "Ponto"
+      "marca": "Ponto",
+      "nuevo": true
     },
     {
       "id": "p0132",
@@ -1300,7 +1298,7 @@
       "categoria": "Línea Capilar",
       "subcategoria": "Mascarillas y tratamientos",
       "imagen": "img/capilar/22-1.webp",
-      "agotado": false,
+      "agotado": true,
       "marca": "Milagros"
     },
     {
@@ -1311,7 +1309,7 @@
       "categoria": "Línea Capilar",
       "subcategoria": "Mascarillas y tratamientos",
       "imagen": "img/capilar/22-2.webp",
-      "agotado": false,
+      "agotado": true,
       "marca": "Milagros"
     },
     {
@@ -1322,7 +1320,7 @@
       "categoria": "Línea Capilar",
       "subcategoria": "Mascarillas y tratamientos",
       "imagen": "img/capilar/POCION7.jpg",
-      "agotado": false,
+      "agotado": true,
       "marca": "La Poción"
     },
     {
@@ -1343,9 +1341,10 @@
       "precio": 20000,
       "categoria": "Línea Capilar",
       "subcategoria": "Cremas para peinar y estilizado",
-      "imagen": "img/capilar/RITUAL7.jpg",
-      "agotado": true,
-      "marca": "Ritual Botánico"
+      "imagen": "img/capilar/RITUAL7.webp",
+      "agotado": false,
+      "marca": "Ritual Botánico",
+      "nuevo": true
     },
     {
       "id": "p0142",
@@ -1578,7 +1577,7 @@
       "categoria": "Línea Capilar",
       "subcategoria": "Shampoos",
       "imagen": "img/capilar/PODERH1.png",
-      "agotado": false,
+      "agotado": true,
       "marca": "Otras"
     },
     {
@@ -1600,7 +1599,7 @@
       "categoria": "Línea Capilar",
       "subcategoria": "Shampoos",
       "imagen": "img/capilar/PODERH2.webp",
-      "agotado": false,
+      "agotado": true,
       "marca": "Otras"
     },
     {
@@ -1677,7 +1676,7 @@
       "categoria": "Línea Capilar",
       "subcategoria": "Shampoos",
       "imagen": "img/capilar/MILAGROS9.jpg",
-      "agotado": false,
+      "agotado": true,
       "marca": "Milagros"
     },
     {
@@ -1807,7 +1806,7 @@
       "categoria": "Línea Capilar",
       "subcategoria": "Mascarillas y tratamientos",
       "imagen": "img/capilar/CLICKHAIR14.jpg",
-      "agotado": false,
+      "agotado": true,
       "marca": "Click Hair"
     },
     {
@@ -1840,7 +1839,7 @@
       "categoria": "Línea Capilar",
       "subcategoria": "Mascarillas y tratamientos",
       "imagen": null,
-      "agotado": false,
+      "agotado": true,
       "marca": "Otras"
     },
     {
@@ -1851,7 +1850,7 @@
       "categoria": "Línea Capilar",
       "subcategoria": "Mascarillas y tratamientos",
       "imagen": null,
-      "agotado": false,
+      "agotado": true,
       "marca": "Otras"
     },
     {
@@ -1862,7 +1861,7 @@
       "categoria": "Línea Capilar",
       "subcategoria": "Mascarillas y tratamientos",
       "imagen": null,
-      "agotado": false,
+      "agotado": true,
       "marca": "Otras"
     },
     {
@@ -1884,7 +1883,7 @@
       "categoria": "Línea Capilar",
       "subcategoria": "Mascarillas y tratamientos",
       "imagen": "img/capilar/PODERH10.jpg",
-      "agotado": false,
+      "agotado": true,
       "marca": "Otras"
     },
     {
@@ -1895,7 +1894,7 @@
       "categoria": "Línea Capilar",
       "subcategoria": "Mascarillas y tratamientos",
       "imagen": "img/capilar/3.jpg",
-      "agotado": false,
+      "agotado": true,
       "marca": "La Poción"
     },
     {
@@ -2060,7 +2059,7 @@
       "categoria": "Línea Capilar",
       "subcategoria": "Acondicionadores",
       "imagen": "img/capilar/PB0099439.jpg",
-      "agotado": false,
+      "agotado": true,
       "marca": "Wella"
     },
     {
@@ -15262,12 +15261,13 @@
       "id": "p0958",
       "nombre": "Australian Gold Instant Bronzer 4 Spray 237ML",
       "referencia": "AUST-01",
-      "precio": 48000,
+      "precio": 55000,
       "categoria": "Cuidado Personal",
       "subcategoria": "Bronceado y exfoliantes",
-      "imagen": "img/personal/AUST-01.webp",
+      "imagen": "img/personal/AUST-01.jpg",
       "agotado": false,
-      "marca": "Australian Gold"
+      "marca": "Australian Gold",
+      "nuevo": true
     },
     {
       "id": "p0961",
@@ -15805,7 +15805,7 @@
       "categoria": "Importados",
       "subcategoria": "Cuidado de labios",
       "imagen": "img/importados/CARMEX1.webp",
-      "agotado": false,
+      "agotado": true,
       "marca": "Carmex"
     },
     {
@@ -15893,7 +15893,7 @@
       "categoria": "Importados",
       "subcategoria": "Corporal e higiene",
       "imagen": "img/importados/DOVE-03.webp",
-      "agotado": false,
+      "agotado": true,
       "marca": "Dove"
     },
     {
@@ -15915,7 +15915,7 @@
       "categoria": "Importados",
       "subcategoria": "Corporal e higiene",
       "imagen": "img/importados/DOVE-05.webp",
-      "agotado": false,
+      "agotado": true,
       "marca": "Dove"
     },
     {
@@ -16289,18 +16289,18 @@
       "categoria": "Importados",
       "subcategoria": "Corporal e higiene",
       "imagen": "img/importados/VASE-08.webp",
-      "agotado": false,
+      "agotado": true,
       "marca": "Vaseline"
     },
     {
       "id": "p1060",
       "nombre": "Vaseline Lip Therapy Jelly Rosy Ind",
       "referencia": "VASE-18",
-      "precio": 25000,
+      "precio": 19000,
       "categoria": "Importados",
       "subcategoria": "Cuidado de labios",
       "imagen": "img/importados/VASE-18.webp",
-      "agotado": false,
+      "agotado": true,
       "marca": "Vaseline"
     },
     {
@@ -16322,7 +16322,7 @@
       "categoria": "Importados",
       "subcategoria": "Corporal e higiene",
       "imagen": "img/importados/VASE-28.jpeg",
-      "agotado": false,
+      "agotado": true,
       "marca": "Vaseline"
     },
     {
@@ -16421,7 +16421,7 @@
       "categoria": "DU Belleza",
       "subcategoria": "Brochas y pinceles",
       "imagen": "img/dubelleza/BL12_1.png",
-      "agotado": false,
+      "agotado": true,
       "marca": "Otras",
       "colores": [
         "img/dubelleza/BL12_1.png",
@@ -16634,7 +16634,7 @@
       "categoria": "DU Belleza",
       "subcategoria": "Cepillos y peinillas",
       "imagen": "img/dubelleza/Cep3116.jpg",
-      "agotado": false,
+      "agotado": true,
       "marca": "Otras"
     },
     {
@@ -16656,7 +16656,7 @@
       "categoria": "DU Belleza",
       "subcategoria": "Cepillos y peinillas",
       "imagen": "img/dubelleza/CEP4102.webp",
-      "agotado": false,
+      "agotado": true,
       "marca": "Otras"
     },
     {
@@ -16667,7 +16667,7 @@
       "categoria": "DU Belleza",
       "subcategoria": "Cepillos y peinillas",
       "imagen": "img/dubelleza/CEP4104.webp",
-      "agotado": false,
+      "agotado": true,
       "marca": "Otras"
     },
     {
@@ -16739,7 +16739,7 @@
       "categoria": "DU Belleza",
       "subcategoria": "Cepillos y peinillas",
       "imagen": null,
-      "agotado": false,
+      "agotado": true,
       "marca": "Otras"
     },
     {
@@ -16941,7 +16941,7 @@
       "categoria": "DU Belleza",
       "subcategoria": "Herramientas y accesorios",
       "imagen": "img/dubelleza/COLETTE1 CAJA.webp",
-      "agotado": false,
+      "agotado": true,
       "marca": "Otras"
     },
     {
@@ -17195,7 +17195,7 @@
       "categoria": "DU Belleza",
       "subcategoria": "Herramientas y accesorios",
       "imagen": "img/dubelleza/E101 CORAL.webp",
-      "agotado": false,
+      "agotado": true,
       "marca": "Otras",
       "colores": [
         "img/dubelleza/E101 MORADO.webp",
@@ -17276,7 +17276,7 @@
       "categoria": "DU Belleza",
       "subcategoria": "Herramientas y accesorios",
       "imagen": "img/dubelleza/E99 DORADO.webp",
-      "agotado": false,
+      "agotado": true,
       "marca": "Otras",
       "colores": [
         "img/dubelleza/E99 ORO ROSA.webp"
@@ -18026,7 +18026,7 @@
       "categoria": "DU Belleza",
       "subcategoria": "Brochas y pinceles",
       "imagen": "img/dubelleza/PL30_1.png",
-      "agotado": false,
+      "agotado": true,
       "marca": "Otras",
       "colores": [
         "img/dubelleza/PL30_1.png",
@@ -18071,7 +18071,7 @@
       "categoria": "DU Belleza",
       "subcategoria": "Brochas y pinceles",
       "imagen": "img/dubelleza/PL33_1.png",
-      "agotado": false,
+      "agotado": true,
       "marca": "Otras",
       "colores": [
         "img/dubelleza/PL33_1.png",
@@ -18393,8 +18393,7 @@
       "subcategoria": "Corporal e higiene",
       "marca": "Sol de Janeiro",
       "imagen": "img/importados/SOLDEJANEIRO06.webp",
-      "agotado": false,
-      "nuevo": true
+      "agotado": false
     },
     {
       "id": "p1222",
@@ -18405,8 +18404,7 @@
       "subcategoria": "Cremas corporales",
       "marca": "Bio-Oil",
       "imagen": "img/personal/PB0027802.jpg",
-      "agotado": false,
-      "nuevo": true
+      "agotado": false
     },
     {
       "id": "p1223",
@@ -18417,8 +18415,7 @@
       "subcategoria": "Cremas corporales",
       "marca": "Bio-Oil",
       "imagen": "img/personal/PB0082954.webp",
-      "agotado": false,
-      "nuevo": true
+      "agotado": false
     },
     {
       "id": "p1224",
@@ -18429,8 +18426,7 @@
       "subcategoria": "Cremas corporales",
       "marca": "Bio-Oil",
       "imagen": "img/personal/PB0087519.webp",
-      "agotado": false,
-      "nuevo": true
+      "agotado": false
     },
     {
       "id": "p1225",
@@ -18441,8 +18437,7 @@
       "subcategoria": "Corporal e higiene",
       "marca": "Vaseline",
       "imagen": "img/importados/VASE10.jpg",
-      "agotado": false,
-      "nuevo": true
+      "agotado": true
     },
     {
       "id": "p1226",
@@ -18453,8 +18448,7 @@
       "subcategoria": "Corporal e higiene",
       "marca": "Vaseline",
       "imagen": "img/importados/VASE-31.png",
-      "agotado": false,
-      "nuevo": true
+      "agotado": true
     },
     {
       "id": "p1227",
@@ -18465,8 +18459,7 @@
       "subcategoria": "Corporal e higiene",
       "marca": "Vaseline",
       "imagen": "img/importados/VASE17.jpg",
-      "agotado": false,
-      "nuevo": true
+      "agotado": false
     },
     {
       "id": "p1228",
@@ -18477,8 +18470,7 @@
       "subcategoria": "Corporal e higiene",
       "marca": "Vaseline",
       "imagen": "img/importados/VASE-20.jpg",
-      "agotado": false,
-      "nuevo": true
+      "agotado": false
     },
     {
       "id": "p1229",
@@ -18489,8 +18481,7 @@
       "subcategoria": "Corporal e higiene",
       "marca": "eos",
       "imagen": "img/importados/EOS-21.jpg",
-      "agotado": false,
-      "nuevo": true
+      "agotado": false
     },
     {
       "id": "p1230",
@@ -18501,8 +18492,7 @@
       "subcategoria": "Corporal e higiene",
       "marca": "eos",
       "imagen": "img/importados/EOS-10.jpg",
-      "agotado": false,
-      "nuevo": true
+      "agotado": true
     },
     {
       "id": "p1231",
@@ -18513,8 +18503,7 @@
       "subcategoria": "Corporal e higiene",
       "marca": "The Ordinary",
       "imagen": "img/importados/ORD12.webp",
-      "agotado": false,
-      "nuevo": true
+      "agotado": false
     },
     {
       "id": "p1232",
@@ -18525,8 +18514,7 @@
       "subcategoria": "Cuidado de labios",
       "marca": "Vaseline",
       "imagen": "img/importados/VASE-19.jpg",
-      "agotado": false,
-      "nuevo": true
+      "agotado": true
     },
     {
       "id": "p1233",
@@ -18538,7 +18526,6 @@
       "marca": "Kahi",
       "imagen": "img/importados/KAHI-01.jpg",
       "agotado": false,
-      "nuevo": true,
       "masVendido": true,
       "etiquetas": [
         "Antiedad",
@@ -18580,7 +18567,6 @@
       "marca": "Nida",
       "imagen": "img/skincare/NIDA-01.webp",
       "agotado": false,
-      "nuevo": true,
       "etiquetas": [
         "Hidratación",
         "Antiedad",
@@ -18622,7 +18608,6 @@
       "descripcion": "Ampolla reafirmante de textura rica y rápida absorción que ayuda con la flacidez, las arrugas, las líneas finas y la pérdida de elasticidad, dejando un acabado luminoso. Para todo tipo de piel. Ingredientes claves: Agua y péptidos de seda, colágeno hidrolizado, elastina, complejo de péptidos, ácido hialurónico, niacinamida, centella asiática.",
       "imagen": "img/skincare/SUNGBOON-01.jpg",
       "agotado": false,
-      "nuevo": true,
       "etiquetas": [
         "Antiedad",
         "Luminosidad",
@@ -18662,8 +18647,7 @@
       "subcategoria": "Corporal e higiene",
       "marca": "Laneige",
       "imagen": "img/importados/LANE12.webp",
-      "agotado": false,
-      "nuevo": true
+      "agotado": false
     },
     {
       "id": "p1237",
@@ -18674,8 +18658,7 @@
       "subcategoria": "Corporal e higiene",
       "marca": "Laneige",
       "imagen": "img/importados/LANE14.webp",
-      "agotado": false,
-      "nuevo": true
+      "agotado": false
     },
     {
       "id": "p1238",
@@ -18686,8 +18669,7 @@
       "subcategoria": "Cremas e hidratantes",
       "marca": "Dong-A",
       "imagen": "img/skincare/DONG-01.webp",
-      "agotado": false,
-      "nuevo": true
+      "agotado": false
     },
     {
       "id": "p1239",
@@ -18698,8 +18680,7 @@
       "subcategoria": "Corporal e higiene",
       "marca": "Otras",
       "imagen": "img/importados/JC-04.webp",
-      "agotado": false,
-      "nuevo": true
+      "agotado": false
     },
     {
       "id": "p1240",
@@ -18710,8 +18691,7 @@
       "subcategoria": "Corporal e higiene",
       "marca": "Otras",
       "imagen": "img/importados/JC-07.jpg",
-      "agotado": false,
-      "nuevo": true
+      "agotado": false
     },
     {
       "id": "p1241",
@@ -18722,8 +18702,7 @@
       "subcategoria": "Corporal e higiene",
       "marca": "Shiseido",
       "imagen": "img/importados/SHISHEIDO-01.webp",
-      "agotado": false,
-      "nuevo": true
+      "agotado": false
     },
     {
       "id": "p1242",
@@ -18734,8 +18713,7 @@
       "subcategoria": "Corporal e higiene",
       "marca": "Otras",
       "imagen": "img/importados/JC-08.jpg",
-      "agotado": false,
-      "nuevo": true
+      "agotado": false
     },
     {
       "id": "p1243",
@@ -18746,8 +18724,7 @@
       "subcategoria": "Cremas e hidratantes",
       "marca": "Medicube",
       "imagen": "img/skincare/MEDICUBE104.jpg",
-      "agotado": false,
-      "nuevo": true
+      "agotado": false
     },
     {
       "id": "p1244",
@@ -18758,8 +18735,7 @@
       "subcategoria": "Corporal e higiene",
       "marca": "Sol de Janeiro",
       "imagen": "img/importados/SOLDEJANEIRO07.webp",
-      "agotado": true,
-      "nuevo": true
+      "agotado": true
     },
     {
       "id": "p1245",
@@ -18770,8 +18746,7 @@
       "subcategoria": "Corporal e higiene",
       "marca": "Sol de Janeiro",
       "imagen": "img/importados/SOLDEJANEIRO05.webp",
-      "agotado": false,
-      "nuevo": true
+      "agotado": false
     },
     {
       "id": "p1246",
@@ -18782,8 +18757,7 @@
       "subcategoria": "Corporal e higiene",
       "marca": "Sol de Janeiro",
       "imagen": "img/importados/SOLDEJANEIRO04.webp",
-      "agotado": false,
-      "nuevo": true
+      "agotado": false
     },
     {
       "id": "p1247",
@@ -18794,8 +18768,7 @@
       "subcategoria": "Corporal e higiene",
       "marca": "Sol de Janeiro",
       "imagen": "img/importados/SOLDEJANEIRO1.jpg",
-      "agotado": false,
-      "nuevo": true
+      "agotado": true
     },
     {
       "id": "p1248",
@@ -18806,8 +18779,7 @@
       "subcategoria": "Corporal e higiene",
       "marca": "Sol de Janeiro",
       "imagen": "img/importados/SOLDEJANEIRO2.jpg",
-      "agotado": false,
-      "nuevo": true
+      "agotado": false
     },
     {
       "id": "p1249",
@@ -18818,8 +18790,7 @@
       "subcategoria": "Shampoos",
       "marca": "Wella",
       "imagen": "img/capilar/PB0093406.webp",
-      "agotado": false,
-      "nuevo": true
+      "agotado": false
     },
     {
       "id": "p1250",
@@ -18830,8 +18801,7 @@
       "subcategoria": "Acondicionadores",
       "marca": "Wella",
       "imagen": "img/capilar/PB0093187.webp",
-      "agotado": false,
-      "nuevo": true
+      "agotado": false
     },
     {
       "id": "p1251",
@@ -18842,8 +18812,7 @@
       "subcategoria": "Mascarillas y tratamientos",
       "marca": "Wella",
       "imagen": "img/capilar/PB0093403.jpg",
-      "agotado": false,
-      "nuevo": true
+      "agotado": false
     },
     {
       "id": "p1252",
@@ -18854,8 +18823,7 @@
       "subcategoria": "Aceites y serums capilares",
       "marca": "Wella",
       "imagen": "img/capilar/PB0095291.jpg",
-      "agotado": false,
-      "nuevo": true
+      "agotado": false
     },
     {
       "id": "p1253",
@@ -18866,8 +18834,7 @@
       "subcategoria": "Corporal e higiene",
       "marca": "Sol de Janeiro",
       "imagen": "img/importados/SOLDEJANEIRO3.webp",
-      "agotado": false,
-      "nuevo": true
+      "agotado": false
     },
     {
       "id": "p1254",
@@ -18878,8 +18845,7 @@
       "subcategoria": "Corporal e higiene",
       "marca": "Sol de Janeiro",
       "imagen": "img/importados/SOLDEJANEIRO08.webp",
-      "agotado": true,
-      "nuevo": true
+      "agotado": true
     },
     {
       "id": "p1255",
@@ -18890,8 +18856,7 @@
       "subcategoria": "Corporal e higiene",
       "marca": "Sol de Janeiro",
       "imagen": "img/importados/SOLDEJANEIRO09.jpg",
-      "agotado": false,
-      "nuevo": true
+      "agotado": false
     },
     {
       "id": "p1256",
@@ -18902,8 +18867,7 @@
       "subcategoria": "Corporal e higiene",
       "marca": "Sol de Janeiro",
       "imagen": "img/importados/SOLDEJANEIRO10.webp",
-      "agotado": true,
-      "nuevo": true
+      "agotado": false
     },
     {
       "id": "p1257",
@@ -18914,8 +18878,7 @@
       "subcategoria": "Corporal e higiene",
       "marca": "Sol de Janeiro",
       "imagen": "img/importados/SOLDEJANEIRO11.webp",
-      "agotado": false,
-      "nuevo": true
+      "agotado": false
     },
     {
       "id": "p1258",
@@ -18926,8 +18889,7 @@
       "subcategoria": "Corporal e higiene",
       "marca": "Dove",
       "imagen": "img/importados/DOVE-14.jpg",
-      "agotado": false,
-      "nuevo": true
+      "agotado": false
     },
     {
       "id": "p1259",
@@ -18938,8 +18900,7 @@
       "subcategoria": "Corporal e higiene",
       "marca": "Dove",
       "imagen": "img/importados/DOVE-15.webp",
-      "agotado": false,
-      "nuevo": true
+      "agotado": true
     },
     {
       "id": "p1260",
@@ -18950,14 +18911,13 @@
       "subcategoria": "Corporal e higiene",
       "marca": "Dove",
       "imagen": "img/importados/DOVE-16.webp",
-      "agotado": false,
-      "nuevo": true
+      "agotado": false
     },
     {
       "id": "p1261",
       "nombre": "Tratamiento Capilar Fino 240ML",
       "referencia": "FINO01",
-      "precio": 99000,
+      "precio": 80000,
       "categoria": "Importados",
       "subcategoria": "Cuidado capilar",
       "marca": "Fino",
@@ -18974,8 +18934,7 @@
       "subcategoria": "Cuidado capilar",
       "marca": "Fino",
       "imagen": "img/importados/FINO02.jpg",
-      "agotado": true,
-      "nuevo": true
+      "agotado": true
     },
     {
       "id": "p1263",
@@ -18986,8 +18945,7 @@
       "subcategoria": "Bienestar y suplementos",
       "marca": "Soma",
       "imagen": "img/personal/SOMA01.webp",
-      "agotado": true,
-      "nuevo": true
+      "agotado": true
     },
     {
       "id": "p1264",
@@ -18998,8 +18956,7 @@
       "subcategoria": "Bienestar y suplementos",
       "marca": "Soma",
       "imagen": "img/personal/SOMA02.webp",
-      "agotado": true,
-      "nuevo": true
+      "agotado": true
     },
     {
       "id": "p1265",
@@ -19010,8 +18967,7 @@
       "subcategoria": "Cremas corporales",
       "marca": "Candela",
       "imagen": "img/personal/CANDE-01.jpg",
-      "agotado": true,
-      "nuevo": true
+      "agotado": true
     },
     {
       "id": "p1266",
@@ -19022,8 +18978,7 @@
       "subcategoria": "Mascarillas y tratamientos",
       "marca": "L'Oréal",
       "imagen": "img/capilar/LR-E3848301.jpg",
-      "agotado": false,
-      "nuevo": true
+      "agotado": false
     },
     {
       "id": "p1267",
@@ -19034,8 +18989,7 @@
       "subcategoria": "Shampoos",
       "marca": "L'Oréal",
       "imagen": "img/capilar/LR-E3886001.jpg",
-      "agotado": false,
-      "nuevo": true
+      "agotado": false
     },
     {
       "id": "p1268",
@@ -19046,8 +19000,7 @@
       "subcategoria": "Mascarillas y tratamientos",
       "marca": "L'Oréal",
       "imagen": "img/capilar/LR-E4565500.webp",
-      "agotado": false,
-      "nuevo": true
+      "agotado": false
     },
     {
       "id": "p1269",
@@ -19058,8 +19011,7 @@
       "subcategoria": "Aceites y serums capilares",
       "marca": "L'Oréal",
       "imagen": "img/capilar/LR-E4564700.webp",
-      "agotado": false,
-      "nuevo": true
+      "agotado": false
     },
     {
       "id": "p1270",
@@ -19070,8 +19022,7 @@
       "subcategoria": "Cremas para peinar y estilizado",
       "marca": "L'Oréal",
       "imagen": "img/capilar/LR-E4563900.webp",
-      "agotado": false,
-      "nuevo": true
+      "agotado": false
     },
     {
       "id": "p1271",
@@ -19082,8 +19033,7 @@
       "subcategoria": "Shampoos",
       "marca": "L'Oréal",
       "imagen": "img/capilar/LR-E4566100.jpg",
-      "agotado": false,
-      "nuevo": true
+      "agotado": false
     },
     {
       "id": "p1272",
@@ -19094,8 +19044,7 @@
       "subcategoria": "Acondicionadores",
       "marca": "L'Oréal",
       "imagen": "img/capilar/LR-E3567903.webp",
-      "agotado": false,
-      "nuevo": true
+      "agotado": false
     },
     {
       "id": "p1273",
@@ -19106,8 +19055,7 @@
       "subcategoria": "Shampoos",
       "marca": "L'Oréal",
       "imagen": "img/capilar/LR-E3566001.webp",
-      "agotado": false,
-      "nuevo": true
+      "agotado": false
     },
     {
       "id": "p1274",
@@ -19118,8 +19066,7 @@
       "subcategoria": "Cremas para peinar y estilizado",
       "marca": "L'Oréal",
       "imagen": "img/capilar/LR-E3826201.webp",
-      "agotado": false,
-      "nuevo": true
+      "agotado": false
     },
     {
       "id": "p1275",
@@ -19130,8 +19077,7 @@
       "subcategoria": "Shampoos",
       "marca": "L'Oréal",
       "imagen": "img/capilar/LR-E354802.webp",
-      "agotado": false,
-      "nuevo": true
+      "agotado": false
     },
     {
       "id": "p1276",
@@ -19142,8 +19088,7 @@
       "subcategoria": "Aceites y serums capilares",
       "marca": "L'Oréal",
       "imagen": "img/capilar/LR-E3574501.jpg",
-      "agotado": false,
-      "nuevo": true
+      "agotado": false
     },
     {
       "id": "p1277",
@@ -19154,8 +19099,7 @@
       "subcategoria": "Acondicionadores",
       "marca": "L'Oréal",
       "imagen": "img/capilar/LR-E357801.jpg",
-      "agotado": false,
-      "nuevo": true
+      "agotado": false
     },
     {
       "id": "p1278",
@@ -19166,8 +19110,7 @@
       "subcategoria": "Mascarillas y tratamientos",
       "marca": "L'Oréal",
       "imagen": "img/capilar/LR-E3557702.jpg",
-      "agotado": false,
-      "nuevo": true
+      "agotado": false
     },
     {
       "id": "p1279",
@@ -19178,8 +19121,7 @@
       "subcategoria": "Shampoos",
       "marca": "L'Oréal",
       "imagen": "img/capilar/LR-E3547402.png",
-      "agotado": false,
-      "nuevo": true
+      "agotado": false
     },
     {
       "id": "p1280",
@@ -19190,8 +19132,7 @@
       "subcategoria": "Shampoos",
       "marca": "L'Oréal",
       "imagen": "img/capilar/LR-E3557703.jpg",
-      "agotado": false,
-      "nuevo": true
+      "agotado": false
     },
     {
       "id": "p1281",
@@ -19202,8 +19143,7 @@
       "subcategoria": "Shampoos",
       "marca": "L'Oréal",
       "imagen": "img/capilar/LR-E4033800.webp",
-      "agotado": false,
-      "nuevo": true
+      "agotado": false
     },
     {
       "id": "p1282",
@@ -19242,8 +19182,7 @@
       "subcategoria": "Perfumes capilares",
       "marca": "Click Hair",
       "imagen": "img/capilar/CLICKHAIR35.webp",
-      "agotado": false,
-      "nuevo": true
+      "agotado": false
     },
     {
       "id": "p1285",
@@ -19254,8 +19193,7 @@
       "subcategoria": "Perfumes capilares",
       "marca": "Click Hair",
       "imagen": "img/capilar/CLICKHAIR34.webp",
-      "agotado": false,
-      "nuevo": true
+      "agotado": false
     },
     {
       "id": "p1286",
@@ -19266,8 +19204,7 @@
       "subcategoria": "Perfumes capilares",
       "marca": "Click Hair",
       "imagen": "img/capilar/CLICKHAIR36.webp",
-      "agotado": false,
-      "nuevo": true
+      "agotado": false
     },
     {
       "id": "p1287",
@@ -19289,7 +19226,7 @@
       "subcategoria": "Perfumes capilares",
       "marca": "Click Hair",
       "imagen": "img/capilar/CLICKHAIR30.jpg",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p1289",
@@ -19311,8 +19248,7 @@
       "subcategoria": "Shampoos",
       "marca": "Click Hair",
       "imagen": "img/capilar/CLICKHAIR19.webp",
-      "agotado": false,
-      "nuevo": true
+      "agotado": false
     },
     {
       "id": "p1291",
@@ -19323,8 +19259,7 @@
       "subcategoria": "Mascarillas y tratamientos",
       "marca": "Click Hair",
       "imagen": "img/capilar/14851.webp",
-      "agotado": false,
-      "nuevo": true
+      "agotado": false
     },
     {
       "id": "p1292",
@@ -19346,8 +19281,7 @@
       "subcategoria": "Shampoos",
       "marca": "Milagros",
       "imagen": "img/capilar/27.webp",
-      "agotado": false,
-      "nuevo": true
+      "agotado": false
     },
     {
       "id": "p1294",
@@ -19391,7 +19325,7 @@
       "subcategoria": "Mascarillas y tratamientos",
       "marca": "Milagros",
       "imagen": "img/capilar/34.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p1298",
@@ -19413,7 +19347,8 @@
       "subcategoria": "Mascarillas y tratamientos",
       "marca": "Ritual Botánico",
       "imagen": "img/capilar/RITUAL4.webp",
-      "agotado": true
+      "agotado": false,
+      "nuevo": true
     },
     {
       "id": "p1300",
@@ -19424,8 +19359,7 @@
       "subcategoria": "Acondicionadores",
       "marca": "Ritual Botánico",
       "imagen": "img/capilar/RITUAL15.webp",
-      "agotado": false,
-      "nuevo": true
+      "agotado": false
     },
     {
       "id": "p1301",
@@ -19436,8 +19370,7 @@
       "subcategoria": "Shampoos",
       "marca": "Ritual Botánico",
       "imagen": "img/capilar/RITUAL14.webp",
-      "agotado": false,
-      "nuevo": true
+      "agotado": false
     },
     {
       "id": "p1302",
@@ -19459,7 +19392,8 @@
       "subcategoria": "Mascarillas y tratamientos",
       "marca": "Ritual Botánico",
       "imagen": "img/capilar/RITUAL6.webp",
-      "agotado": true
+      "agotado": false,
+      "nuevo": true
     },
     {
       "id": "p1304",
@@ -19476,13 +19410,12 @@
       "id": "p1305",
       "nombre": "Loreal Mascarilla Absolut Repair Molecular 250ML",
       "referencia": "LR-E417300",
-      "precio": 139900,
+      "precio": 142900,
       "categoria": "Línea Capilar",
       "subcategoria": "Mascarillas y tratamientos",
       "marca": "L'Oréal",
       "imagen": "img/capilar/LR-E417300.jpg",
-      "agotado": false,
-      "nuevo": true
+      "agotado": false
     },
     {
       "id": "p1306",
@@ -19494,7 +19427,6 @@
       "marca": "Nida",
       "imagen": "img/skincare/NIDA-03.webp",
       "agotado": false,
-      "nuevo": true,
       "etiquetas": [
         "Grasa y poros",
         "Calmante"
@@ -19522,8 +19454,7 @@
       "marca": "Medicube",
       "descripcion": "Bruma perfumada para cabello y cuerpo con aroma gourmand de vainilla cremosa, coco y pistacho, sobre un fondo de caramelo y sándalo. Refresca, hidrata y suaviza piel y cabello sin dejar residuo pegajoso ni graso. Ingredientes claves: Ácido kójico, niacinamida, 7 tipos de ácido hialurónico.",
       "imagen": "img/skincare/MEDICUBE106.webp",
-      "agotado": false,
-      "nuevo": true
+      "agotado": false
     },
     {
       "id": "p1308",
@@ -19536,7 +19467,6 @@
       "descripcion": "Parches de hidrogel rosados para el contorno de ojos que ayudan a reducir la apariencia de hinchazón, ojeras, resequedad y líneas finas. Se dejan 15 a 20 minutos; refrigerarlos antes da un efecto más refrescante. También se pueden usar en frente, líneas de expresión y cuello. Ingredientes claves: PDRN de salmón, colágeno, NAD, niacinamida, ácido hialurónico.",
       "imagen": null,
       "agotado": false,
-      "nuevo": true,
       "etiquetas": [
         "Antiedad",
         "Ojeras y contorno"
@@ -19553,7 +19483,6 @@
       "descripcion": "Par de parches de hidrogel rosados para el contorno de ojos que ayudan a reducir la apariencia de hinchazón, ojeras, resequedad y líneas finas. Se dejan 15 a 20 minutos; refrigerarlos antes da un efecto más refrescante. Ingredientes claves: PDRN de salmón, colágeno, NAD, niacinamida, ácido hialurónico.",
       "imagen": null,
       "agotado": false,
-      "nuevo": true,
       "etiquetas": [
         "Ojeras y contorno",
         "Antiedad"
@@ -19588,8 +19517,7 @@
       "subcategoria": "Cremas e hidratantes",
       "marca": "Dr. Althea",
       "imagen": "img/skincare/DR-ALTHEA27.webp",
-      "agotado": false,
-      "nuevo": true
+      "agotado": false
     },
     {
       "id": "p1311",
@@ -19601,7 +19529,6 @@
       "marca": "Dr. Althea",
       "imagen": "img/skincare/DR-ALTHEA21.webp",
       "agotado": false,
-      "nuevo": true,
       "etiquetas": [
         "Granitos",
         "Calmante",
@@ -19682,7 +19609,6 @@
       "descripcion": "Bálsamo multiusos en barra, ligero y no pegajoso, para rostro, labios y zonas secas del cuerpo. Ayuda a hidratar, iluminar y mejorar la elasticidad y las arrugas, con un acabado luminoso. Ideal para llevar en el bolso y reaplicar. Vegano. Ingredientes claves: Colágeno vegano, ceramida, manteca de karité, vitamina C, glutatión, trufa blanca con vitamina E.",
       "imagen": "img/skincare/D-ALBA11.jpg",
       "agotado": false,
-      "nuevo": true,
       "etiquetas": [
         "Hidratación",
         "Antiedad",
@@ -19793,8 +19719,7 @@
       "marca": "d'Alba",
       "descripcion": "Fijador de maquillaje en spray con textura de sérum que hidrata la piel mientras ayuda a mantener el maquillaje fresco durante todo el día. Ingredientes claves: Manteca de cacao, extracto de flor de manzanilla, extracto de jalea real.",
       "imagen": "img/skincare/D-ALBA15.jpg",
-      "agotado": false,
-      "nuevo": true
+      "agotado": false
     },
     {
       "id": "p1317",
@@ -19807,7 +19732,6 @@
       "descripcion": "Sérum en bruma bifásico (sérum y aceite) de rociado fino que hidrata, aporta luminosidad y refresca la piel apagada, dejando un acabado jugoso. Se puede usar sobre el maquillaje o en cualquier momento del día. Ingredientes claves: Extracto de trufa blanca, aceites de macadamia, aguacate y rosa mosqueta, ácido hialurónico, adenosina.",
       "imagen": "img/skincare/D-ALBA16.webp",
       "agotado": false,
-      "nuevo": true,
       "etiquetas": [
         "Hidratación",
         "Luminosidad"
@@ -19850,7 +19774,6 @@
       "descripcion": "Sérum en spray de base oleosa que calma la irritación y el enrojecimiento, hidrata y deja la piel fresca y luminosa, sin residuo. Para piel sensible, enrojecida o irritada; no comedogénico. Ingredientes claves: Trufa blanca con vitamina E (Trufferol), mezcla de aceites florales, Aquaxyl.",
       "imagen": "img/skincare/D-ALBA17.webp",
       "agotado": false,
-      "nuevo": true,
       "etiquetas": [
         "Calmante",
         "Hidratación",
@@ -19889,8 +19812,7 @@
       "marca": "d'Alba",
       "descripcion": "Sérum capilar bifásico (esencia hidratante y aceite nutritivo) que nutre el cabello seco y dañado, controla el frizz y deja un acabado sedoso y brillante, con aroma floral frutal de rosa y fresia. Agitar antes de usar. Vegano. Ingredientes claves: Trufa blanca con vitamina E, extracto de seda, queratina hidrolizada, mezcla de 9 aceites, complejo de aminoácidos.",
       "imagen": "img/skincare/D-ALBA18.webp",
-      "agotado": false,
-      "nuevo": true
+      "agotado": false
     },
     {
       "id": "p1320",
@@ -19901,8 +19823,7 @@
       "subcategoria": "Cremas e hidratantes",
       "marca": "Nineless",
       "imagen": "img/skincare/NINE07.jpg",
-      "agotado": false,
-      "nuevo": true
+      "agotado": false
     },
     {
       "id": "p1321",
@@ -20627,8 +20548,7 @@
       "subcategoria": "Corporal e higiene",
       "marca": "eos",
       "imagen": "img/importados/EOS-26.jpg",
-      "agotado": false,
-      "nuevo": true
+      "agotado": true
     },
     {
       "id": "p1345",
@@ -20639,8 +20559,7 @@
       "subcategoria": "Corporal e higiene",
       "marca": "eos",
       "imagen": "img/importados/EOS-23.webp",
-      "agotado": false,
-      "nuevo": true
+      "agotado": false
     },
     {
       "id": "p1346",
@@ -20651,8 +20570,7 @@
       "subcategoria": "Corporal e higiene",
       "marca": "eos",
       "imagen": "img/importados/EOS-24.png",
-      "agotado": false,
-      "nuevo": true
+      "agotado": false
     },
     {
       "id": "p1347",
@@ -20707,8 +20625,7 @@
       "subcategoria": "Corporal e higiene",
       "marca": "Sol de Janeiro",
       "imagen": "img/importados/SOLDEJANEIRO16.webp",
-      "agotado": false,
-      "nuevo": true
+      "agotado": false
     },
     {
       "id": "p1352",
@@ -20719,8 +20636,7 @@
       "subcategoria": "Corporal e higiene",
       "marca": "Sol de Janeiro",
       "imagen": "img/importados/SOLDEJANEIRO15.webp",
-      "agotado": false,
-      "nuevo": true
+      "agotado": false
     },
     {
       "id": "p1353",
@@ -20731,7 +20647,7 @@
       "subcategoria": "Cuidado de labios",
       "marca": "Vaseline",
       "imagen": "img/importados/VASE-05.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p1354",
@@ -20742,8 +20658,7 @@
       "subcategoria": "Vitaminas y gomas",
       "marca": "Otras",
       "imagen": "img/importados/VITA45.jpg",
-      "agotado": false,
-      "nuevo": true
+      "agotado": false
     },
     {
       "id": "p1355",
@@ -20754,8 +20669,7 @@
       "subcategoria": "Vitaminas y gomas",
       "marca": "Otras",
       "imagen": "img/importados/VITA46.jpg",
-      "agotado": false,
-      "nuevo": true
+      "agotado": false
     },
     {
       "id": "p1356",
@@ -20766,8 +20680,7 @@
       "subcategoria": "Vitaminas y gomas",
       "marca": "Now",
       "imagen": "img/importados/VITA26.jpg",
-      "agotado": false,
-      "nuevo": true
+      "agotado": false
     },
     {
       "id": "p1357",
@@ -20778,8 +20691,7 @@
       "subcategoria": "Higiene y otros",
       "marca": "Lea",
       "imagen": "img/personal/LEA01.webp",
-      "agotado": false,
-      "nuevo": true
+      "agotado": false
     },
     {
       "id": "p1358",
@@ -20790,8 +20702,7 @@
       "subcategoria": "Higiene y otros",
       "marca": "Summer's Eve",
       "imagen": "img/personal/SUMMER01.png",
-      "agotado": false,
-      "nuevo": true
+      "agotado": false
     },
     {
       "id": "p1359",
@@ -20802,8 +20713,7 @@
       "subcategoria": "Higiene y otros",
       "marca": "Vive Beauty",
       "imagen": "img/personal/VIVE57.webp",
-      "agotado": false,
-      "nuevo": true
+      "agotado": false
     },
     {
       "id": "p1360",
@@ -20814,8 +20724,7 @@
       "subcategoria": "Bronceado y exfoliantes",
       "marca": "Vive Beauty",
       "imagen": "img/personal/VIVE52.webp",
-      "agotado": true,
-      "nuevo": true
+      "agotado": true
     },
     {
       "id": "p1361",
@@ -20826,8 +20735,7 @@
       "subcategoria": "Cremas corporales",
       "marca": "Vive Beauty",
       "imagen": "img/personal/VIVE53.webp",
-      "agotado": true,
-      "nuevo": true
+      "agotado": true
     },
     {
       "id": "p1362",
@@ -20838,8 +20746,7 @@
       "subcategoria": "Higiene y otros",
       "marca": "Vive Beauty",
       "imagen": "img/personal/VIVE50.webp",
-      "agotado": true,
-      "nuevo": true
+      "agotado": true
     },
     {
       "id": "p1363",
@@ -20850,8 +20757,7 @@
       "subcategoria": "Cremas corporales",
       "marca": "Vive Beauty",
       "imagen": "img/personal/VIVE51.webp",
-      "agotado": false,
-      "nuevo": true
+      "agotado": false
     },
     {
       "id": "p1364",
@@ -20874,7 +20780,6 @@
       "marca": "Girly",
       "imagen": "img/facial/GIRLY-10.jpg",
       "agotado": false,
-      "nuevo": true,
       "etiquetas": [
         "Hidratación",
         "Calmante"
@@ -20902,7 +20807,6 @@
       "marca": "Girly",
       "imagen": "img/facial/GIRLY-06.jpg",
       "agotado": false,
-      "nuevo": true,
       "etiquetas": [
         "Hidratación",
         "Calmante"
@@ -20930,7 +20834,6 @@
       "marca": "Girly",
       "imagen": "img/facial/GIRLY-08.jpg",
       "agotado": false,
-      "nuevo": true,
       "etiquetas": [
         "Hidratación",
         "Calmante"
@@ -20958,7 +20861,6 @@
       "marca": "Girly",
       "imagen": "img/facial/GIRLY-07.webp",
       "agotado": false,
-      "nuevo": true,
       "etiquetas": [
         "Ojeras y contorno",
         "Hidratación"
@@ -21043,8 +20945,7 @@
       "subcategoria": "Ojos y cejas",
       "marca": "Anik",
       "imagen": "img/makeup/CA2481.webp",
-      "agotado": false,
-      "nuevo": true
+      "agotado": false
     },
     {
       "id": "p1372",
@@ -21055,8 +20956,7 @@
       "subcategoria": "Perfumes capilares",
       "marca": "Milagros",
       "imagen": "img/capilar/26-3.jpg",
-      "agotado": false,
-      "nuevo": true
+      "agotado": false
     },
     {
       "id": "p1373",
@@ -21067,8 +20967,7 @@
       "subcategoria": "Perfumes capilares",
       "marca": "Milagros",
       "imagen": "img/capilar/25-1.webp",
-      "agotado": false,
-      "nuevo": true
+      "agotado": false
     },
     {
       "id": "p1374",
@@ -21079,8 +20978,7 @@
       "subcategoria": "Mascarillas y tratamientos",
       "marca": "Alfaparf",
       "imagen": "img/capilar/PF019471.webp",
-      "agotado": false,
-      "nuevo": true
+      "agotado": false
     },
     {
       "id": "p1375",
@@ -21091,8 +20989,7 @@
       "subcategoria": "Cremas para peinar y estilizado",
       "marca": "Alfaparf",
       "imagen": "img/capilar/PF023359.webp",
-      "agotado": false,
-      "nuevo": true
+      "agotado": false
     },
     {
       "id": "p1376",
@@ -21103,8 +21000,7 @@
       "subcategoria": "Cremas para peinar y estilizado",
       "marca": "Alfaparf",
       "imagen": "img/capilar/PF029700.jpg",
-      "agotado": false,
-      "nuevo": true
+      "agotado": false
     },
     {
       "id": "p1377",
@@ -21115,8 +21011,7 @@
       "subcategoria": "Cremas para peinar y estilizado",
       "marca": "Alfaparf",
       "imagen": "img/capilar/PF023362.jpg",
-      "agotado": false,
-      "nuevo": true
+      "agotado": false
     },
     {
       "id": "p1378",
@@ -21127,8 +21022,7 @@
       "subcategoria": "Cremas para peinar y estilizado",
       "marca": "Alfaparf",
       "imagen": "img/capilar/PF029703.webp",
-      "agotado": false,
-      "nuevo": true
+      "agotado": false
     },
     {
       "id": "p1379",
@@ -21139,8 +21033,7 @@
       "subcategoria": "Labios",
       "marca": "Bloomshell",
       "imagen": "img/makeup/16514.jpeg",
-      "agotado": false,
-      "nuevo": true
+      "agotado": false
     },
     {
       "id": "p1380",
@@ -21151,8 +21044,7 @@
       "subcategoria": "Labios",
       "marca": "Majikal",
       "imagen": "img/makeup/MAJIKAL-12.jpg",
-      "agotado": false,
-      "nuevo": true
+      "agotado": false
     },
     {
       "id": "p1381",
@@ -21163,8 +21055,7 @@
       "subcategoria": "Labios",
       "marca": "Majikal",
       "imagen": "img/makeup/MAJIKAL-13.jpg",
-      "agotado": false,
-      "nuevo": true
+      "agotado": false
     },
     {
       "id": "p1382",
@@ -21175,8 +21066,7 @@
       "subcategoria": "Labios",
       "marca": "Majikal",
       "imagen": "img/makeup/MAJIKAL-14.jpg",
-      "agotado": false,
-      "nuevo": true
+      "agotado": false
     },
     {
       "id": "p1383",
@@ -21187,8 +21077,7 @@
       "subcategoria": "Labios",
       "marca": "Majikal",
       "imagen": "img/makeup/MAJIKAL-15.jpg",
-      "agotado": false,
-      "nuevo": true
+      "agotado": false
     },
     {
       "id": "p1384",
@@ -21199,8 +21088,7 @@
       "subcategoria": "Labios",
       "marca": "Majikal",
       "imagen": "img/makeup/MAJIKAL-16.jpg",
-      "agotado": false,
-      "nuevo": true
+      "agotado": false
     },
     {
       "id": "p1385",
@@ -21211,8 +21099,7 @@
       "subcategoria": "Polvos y rubores",
       "marca": "Bloomshell",
       "imagen": "img/makeup/11812.webp",
-      "agotado": false,
-      "nuevo": true
+      "agotado": false
     },
     {
       "id": "p1386",
@@ -21223,8 +21110,7 @@
       "subcategoria": "Polvos y rubores",
       "marca": "Bloomshell",
       "imagen": "img/makeup/11810.webp",
-      "agotado": false,
-      "nuevo": true
+      "agotado": false
     },
     {
       "id": "p1387",
@@ -21235,8 +21121,7 @@
       "subcategoria": "Polvos y rubores",
       "marca": "Bloomshell",
       "imagen": "img/makeup/7085.webp",
-      "agotado": false,
-      "nuevo": true
+      "agotado": false
     },
     {
       "id": "p1388",
@@ -21248,7 +21133,6 @@
       "marca": "Montoc",
       "imagen": "img/makeup/14871_1.webp",
       "agotado": false,
-      "nuevo": true,
       "colores": [
         "img/makeup/14871_1.webp",
         "img/makeup/14871_2.webp"
@@ -21264,7 +21148,6 @@
       "marca": "Montoc",
       "imagen": "img/makeup/14876_1.webp",
       "agotado": false,
-      "nuevo": true,
       "colores": [
         "img/makeup/14876_1.webp",
         "img/makeup/14876_2.webp"
@@ -21280,7 +21163,6 @@
       "marca": "Montoc",
       "imagen": "img/makeup/14877_1.webp",
       "agotado": false,
-      "nuevo": true,
       "colores": [
         "img/makeup/14877_1.webp",
         "img/makeup/14877_2.webp"
@@ -21295,8 +21177,7 @@
       "subcategoria": "Ojos y cejas",
       "marca": "Montoc",
       "imagen": "img/makeup/15615.webp",
-      "agotado": false,
-      "nuevo": true
+      "agotado": false
     },
     {
       "id": "p1392",
@@ -21307,8 +21188,7 @@
       "subcategoria": "Ojos y cejas",
       "marca": "Montoc",
       "imagen": "img/makeup/15616.webp",
-      "agotado": false,
-      "nuevo": true
+      "agotado": false
     },
     {
       "id": "p1393",
@@ -21319,8 +21199,7 @@
       "subcategoria": "Ojos y cejas",
       "marca": "Montoc",
       "imagen": "img/makeup/15617.webp",
-      "agotado": false,
-      "nuevo": true
+      "agotado": false
     },
     {
       "id": "p1394",
@@ -21331,8 +21210,7 @@
       "subcategoria": "Cremas corporales",
       "marca": "Lubriderm",
       "imagen": "img/personal/CREMA241.jpg",
-      "agotado": false,
-      "nuevo": true
+      "agotado": false
     },
     {
       "id": "p1395",
@@ -21343,8 +21221,7 @@
       "subcategoria": "Cremas corporales",
       "marca": "Lubriderm",
       "imagen": "img/personal/CREMA246.webp",
-      "agotado": false,
-      "nuevo": true
+      "agotado": false
     },
     {
       "id": "p1396",
@@ -21355,8 +21232,7 @@
       "subcategoria": "Cremas corporales",
       "marca": "Lubriderm",
       "imagen": "img/personal/CREMA240.webp",
-      "agotado": false,
-      "nuevo": true
+      "agotado": false
     },
     {
       "id": "p1397",
@@ -21367,8 +21243,7 @@
       "subcategoria": "Cremas corporales",
       "marca": "Lubriderm",
       "imagen": "img/personal/CREMA255.jpg",
-      "agotado": false,
-      "nuevo": true
+      "agotado": false
     },
     {
       "id": "p1398",
@@ -21379,8 +21254,7 @@
       "subcategoria": "Cremas corporales",
       "marca": "Lubriderm",
       "imagen": "img/personal/CREMA54.webp",
-      "agotado": false,
-      "nuevo": true
+      "agotado": false
     },
     {
       "id": "p1399",
@@ -21391,8 +21265,7 @@
       "subcategoria": "Cremas corporales",
       "marca": "Lubriderm",
       "imagen": "img/personal/CREMA257.webp",
-      "agotado": false,
-      "nuevo": true
+      "agotado": false
     },
     {
       "id": "p1400",
@@ -21403,8 +21276,7 @@
       "subcategoria": "Cremas corporales",
       "marca": "Lubriderm",
       "imagen": "img/personal/CREMA243.webp",
-      "agotado": false,
-      "nuevo": true
+      "agotado": false
     },
     {
       "id": "p1401",
@@ -21415,8 +21287,7 @@
       "subcategoria": "Cremas corporales",
       "marca": "Lubriderm",
       "imagen": "img/personal/CREMA245.jpg",
-      "agotado": false,
-      "nuevo": true
+      "agotado": false
     },
     {
       "id": "p1402",
@@ -21427,8 +21298,7 @@
       "subcategoria": "Cremas corporales",
       "marca": "Lubriderm",
       "imagen": "img/personal/CREMA256.webp",
-      "agotado": false,
-      "nuevo": true
+      "agotado": false
     },
     {
       "id": "p1403",
@@ -21439,8 +21309,7 @@
       "subcategoria": "Cremas corporales",
       "marca": "Lubriderm",
       "imagen": "img/personal/CREMA251.webp",
-      "agotado": false,
-      "nuevo": true
+      "agotado": false
     },
     {
       "id": "p1404",
@@ -21451,8 +21320,7 @@
       "subcategoria": "Cremas corporales",
       "marca": "Lubriderm",
       "imagen": "img/personal/CREMA253.webp",
-      "agotado": false,
-      "nuevo": true
+      "agotado": false
     },
     {
       "id": "p1405",
@@ -21463,8 +21331,7 @@
       "subcategoria": "Cremas corporales",
       "marca": "Nivea",
       "imagen": "img/personal/CREMA74.webp",
-      "agotado": false,
-      "nuevo": true
+      "agotado": false
     },
     {
       "id": "p1406",
@@ -21475,8 +21342,7 @@
       "subcategoria": "Cremas corporales",
       "marca": "Nivea",
       "imagen": "img/personal/CREMA73.webp",
-      "agotado": false,
-      "nuevo": true
+      "agotado": false
     },
     {
       "id": "p1407",
@@ -21487,8 +21353,7 @@
       "subcategoria": "Cremas corporales",
       "marca": "Nivea",
       "imagen": "img/personal/CREMA75.webp",
-      "agotado": false,
-      "nuevo": true
+      "agotado": false
     },
     {
       "id": "p1408",
@@ -21499,8 +21364,7 @@
       "subcategoria": "Cremas corporales",
       "marca": "Cetaphil",
       "imagen": "img/personal/CETAPHIL3.webp",
-      "agotado": false,
-      "nuevo": true
+      "agotado": false
     },
     {
       "id": "p1409",
@@ -21511,8 +21375,7 @@
       "subcategoria": "Cremas corporales",
       "marca": "Cetaphil",
       "imagen": "img/personal/CETAPHIL4.webp",
-      "agotado": false,
-      "nuevo": true
+      "agotado": false
     },
     {
       "id": "p1410",
@@ -21523,8 +21386,7 @@
       "subcategoria": "Bronceado y exfoliantes",
       "marca": "B.Tan",
       "imagen": "img/importados/B.TAN1.png",
-      "agotado": false,
-      "nuevo": true
+      "agotado": false
     },
     {
       "id": "p1411",
@@ -21535,8 +21397,7 @@
       "subcategoria": "Bronceado y exfoliantes",
       "marca": "B.Tan",
       "imagen": "img/importados/B.TAN2.png",
-      "agotado": false,
-      "nuevo": true
+      "agotado": false
     },
     {
       "id": "p1412",
@@ -21547,8 +21408,7 @@
       "subcategoria": "Bronceado y exfoliantes",
       "marca": "B.Tan",
       "imagen": "img/importados/B.TAN5.png",
-      "agotado": false,
-      "nuevo": true
+      "agotado": false
     },
     {
       "id": "p1413",
@@ -21559,8 +21419,7 @@
       "subcategoria": "Vitaminas y gomas",
       "marca": "Tums",
       "imagen": "img/importados/VITA48.jpg",
-      "agotado": false,
-      "nuevo": true
+      "agotado": false
     },
     {
       "id": "p1414",
@@ -21571,8 +21430,7 @@
       "subcategoria": "Vitaminas y gomas",
       "marca": "Tums",
       "imagen": "img/importados/TUMS-01.webp",
-      "agotado": false,
-      "nuevo": true
+      "agotado": false
     },
     {
       "id": "p1415",
@@ -21583,8 +21441,7 @@
       "subcategoria": "Aromaterapia",
       "marca": "After",
       "imagen": "img/bienestar/AGDL01.jpg",
-      "agotado": false,
-      "nuevo": true
+      "agotado": false
     },
     {
       "id": "p1416",
@@ -21595,8 +21452,7 @@
       "subcategoria": "Aromaterapia",
       "marca": "After",
       "imagen": "img/bienestar/ES02.jpg",
-      "agotado": false,
-      "nuevo": true
+      "agotado": false
     },
     {
       "id": "p1417",
@@ -21607,8 +21463,7 @@
       "subcategoria": "Abanicos",
       "marca": "Otras",
       "imagen": "img/bienestar/ABA01.webp",
-      "agotado": false,
-      "nuevo": true
+      "agotado": false
     },
     {
       "id": "p1418",
@@ -21619,8 +21474,7 @@
       "subcategoria": "Abanicos",
       "marca": "Otras",
       "imagen": "img/bienestar/ABA02.webp",
-      "agotado": false,
-      "nuevo": true
+      "agotado": false
     },
     {
       "id": "p1419",
@@ -21631,8 +21485,7 @@
       "subcategoria": "Abanicos",
       "marca": "Otras",
       "imagen": "img/bienestar/ABA03.webp",
-      "agotado": false,
-      "nuevo": true
+      "agotado": false
     },
     {
       "id": "p1420",
@@ -21643,8 +21496,7 @@
       "subcategoria": "Abanicos",
       "marca": "Otras",
       "imagen": "img/bienestar/ABA04.jpg",
-      "agotado": false,
-      "nuevo": true
+      "agotado": false
     },
     {
       "id": "p1421",
@@ -21655,8 +21507,7 @@
       "subcategoria": "Abanicos",
       "marca": "Otras",
       "imagen": "img/bienestar/ABA05.webp",
-      "agotado": false,
-      "nuevo": true
+      "agotado": false
     },
     {
       "id": "p1422",
@@ -21667,8 +21518,7 @@
       "subcategoria": "Abanicos",
       "marca": "Otras",
       "imagen": "img/bienestar/ABA06.jpg",
-      "agotado": false,
-      "nuevo": true
+      "agotado": false
     },
     {
       "id": "p1423",
@@ -21679,8 +21529,7 @@
       "subcategoria": "Abanicos",
       "marca": "Otras",
       "imagen": "img/bienestar/ABA07.webp",
-      "agotado": false,
-      "nuevo": true
+      "agotado": false
     },
     {
       "id": "p1424",
@@ -21691,8 +21540,7 @@
       "subcategoria": "Abanicos",
       "marca": "Otras",
       "imagen": "img/bienestar/ABA08.webp",
-      "agotado": false,
-      "nuevo": true
+      "agotado": false
     },
     {
       "id": "p1425",
@@ -21703,8 +21551,7 @@
       "subcategoria": "Abanicos",
       "marca": "Otras",
       "imagen": "img/bienestar/ABA09.jpg",
-      "agotado": false,
-      "nuevo": true
+      "agotado": false
     },
     {
       "id": "p1426",
@@ -21715,8 +21562,7 @@
       "subcategoria": "Abanicos",
       "marca": "Otras",
       "imagen": "img/bienestar/ABA10.webp",
-      "agotado": false,
-      "nuevo": true
+      "agotado": false
     },
     {
       "id": "p1427",
@@ -21727,8 +21573,7 @@
       "subcategoria": "Abanicos",
       "marca": "Otras",
       "imagen": "img/bienestar/ABA11.webp",
-      "agotado": false,
-      "nuevo": true
+      "agotado": false
     },
     {
       "id": "p1428",
@@ -21740,7 +21585,6 @@
       "marca": "Otras",
       "imagen": "img/bienestar/ABA12.webp",
       "agotado": false,
-      "nuevo": true,
       "colores": [
         "img/bienestar/ABA12.webp",
         "img/bienestar/ABA12_2.jpg"
@@ -21755,8 +21599,7 @@
       "subcategoria": "Abanicos",
       "marca": "Otras",
       "imagen": "img/bienestar/ABA13.webp",
-      "agotado": false,
-      "nuevo": true
+      "agotado": false
     },
     {
       "id": "p1430",
@@ -21767,8 +21610,7 @@
       "subcategoria": "Abanicos",
       "marca": "Otras",
       "imagen": "img/bienestar/ABA14.webp",
-      "agotado": false,
-      "nuevo": true
+      "agotado": false
     },
     {
       "id": "p1431",
@@ -21779,8 +21621,7 @@
       "subcategoria": "Abanicos",
       "marca": "Otras",
       "imagen": "img/bienestar/ABA15.webp",
-      "agotado": false,
-      "nuevo": true
+      "agotado": false
     },
     {
       "id": "p1432",
@@ -21791,8 +21632,7 @@
       "subcategoria": "Abanicos",
       "marca": "Otras",
       "imagen": "img/bienestar/ABA16.webp",
-      "agotado": false,
-      "nuevo": true
+      "agotado": false
     },
     {
       "id": "p1433",
@@ -21803,8 +21643,7 @@
       "subcategoria": "Abanicos",
       "marca": "Otras",
       "imagen": "img/bienestar/ABA17.webp",
-      "agotado": false,
-      "nuevo": true
+      "agotado": false
     },
     {
       "id": "p1434",
@@ -21815,8 +21654,7 @@
       "subcategoria": "Abanicos",
       "marca": "Otras",
       "imagen": "img/bienestar/ABA18.webp",
-      "agotado": false,
-      "nuevo": true
+      "agotado": false
     },
     {
       "id": "p1435",
@@ -21827,8 +21665,7 @@
       "subcategoria": "Abanicos",
       "marca": "Otras",
       "imagen": "img/bienestar/ABA19.jpg",
-      "agotado": false,
-      "nuevo": true
+      "agotado": false
     },
     {
       "id": "p1436",
@@ -21839,8 +21676,7 @@
       "subcategoria": "Abanicos",
       "marca": "Otras",
       "imagen": "img/bienestar/ABA20.webp",
-      "agotado": false,
-      "nuevo": true
+      "agotado": false
     },
     {
       "id": "p1437",
@@ -21851,8 +21687,7 @@
       "subcategoria": "Abanicos",
       "marca": "Otras",
       "imagen": "img/bienestar/ABA21.webp",
-      "agotado": false,
-      "nuevo": true
+      "agotado": false
     },
     {
       "id": "p1438",
@@ -21863,8 +21698,7 @@
       "subcategoria": "Abanicos",
       "marca": "Otras",
       "imagen": "img/bienestar/ABA22.webp",
-      "agotado": false,
-      "nuevo": true
+      "agotado": false
     },
     {
       "id": "p1439",
@@ -21875,8 +21709,7 @@
       "subcategoria": "Shampoos",
       "marca": "Milagros",
       "imagen": "img/capilar/MILAGROS20.webp",
-      "agotado": false,
-      "nuevo": true
+      "agotado": false
     },
     {
       "id": "p1440",
@@ -21887,8 +21720,7 @@
       "subcategoria": "Acondicionadores",
       "marca": "Milagros",
       "imagen": "img/capilar/MILAGROS21.webp",
-      "agotado": false,
-      "nuevo": true
+      "agotado": false
     },
     {
       "id": "p1441",
@@ -21899,8 +21731,7 @@
       "subcategoria": "Vitaminas y gomas",
       "marca": "Bloom",
       "imagen": "img/importados/BLOOM-01.jpg",
-      "agotado": false,
-      "nuevo": true
+      "agotado": false
     },
     {
       "id": "p1442",
@@ -21911,8 +21742,7 @@
       "subcategoria": "Vitaminas y gomas",
       "marca": "Bloom",
       "imagen": "img/importados/BLOOM-02.webp",
-      "agotado": false,
-      "nuevo": true
+      "agotado": false
     },
     {
       "id": "p1443",
@@ -21923,8 +21753,7 @@
       "subcategoria": "Corporal e higiene",
       "marca": "eos",
       "imagen": "img/importados/EOS-27.avif",
-      "agotado": false,
-      "nuevo": true
+      "agotado": false
     },
     {
       "id": "p1444",
@@ -21935,8 +21764,7 @@
       "subcategoria": "Corporal e higiene",
       "marca": "eos",
       "imagen": "img/importados/EOS-28.jpg",
-      "agotado": false,
-      "nuevo": true
+      "agotado": false
     },
     {
       "id": "p1445",
@@ -21947,8 +21775,7 @@
       "subcategoria": "Corporal e higiene",
       "marca": "eos",
       "imagen": "img/importados/EOS-29.jpg",
-      "agotado": false,
-      "nuevo": true
+      "agotado": false
     },
     {
       "id": "p1446",
@@ -21959,8 +21786,7 @@
       "subcategoria": "Corporal e higiene",
       "marca": "Sol de Janeiro",
       "imagen": "img/importados/SOLDEJANEIRO17.jpg",
-      "agotado": false,
-      "nuevo": true
+      "agotado": false
     },
     {
       "id": "p1447",
@@ -21971,8 +21797,7 @@
       "subcategoria": "Corporal e higiene",
       "marca": "Truly",
       "imagen": "img/importados/TRULY18.jpg",
-      "agotado": false,
-      "nuevo": true
+      "agotado": false
     },
     {
       "id": "p1448",
@@ -21983,8 +21808,7 @@
       "subcategoria": "Corporal e higiene",
       "marca": "Truly",
       "imagen": "img/importados/TRULY19.jpg",
-      "agotado": false,
-      "nuevo": true
+      "agotado": false
     },
     {
       "id": "p1449",
@@ -21995,8 +21819,7 @@
       "subcategoria": "Corporal e higiene",
       "marca": "Vaseline",
       "imagen": null,
-      "agotado": false,
-      "nuevo": true
+      "agotado": true
     },
     {
       "id": "p1450",
@@ -22007,8 +21830,7 @@
       "subcategoria": "Corporal e higiene",
       "marca": "Vaseline",
       "imagen": "img/importados/VASE-14.avif",
-      "agotado": false,
-      "nuevo": true
+      "agotado": false
     },
     {
       "id": "p1451",
@@ -22019,8 +21841,7 @@
       "subcategoria": "Cuidado de labios",
       "marca": "Vaseline",
       "imagen": "img/importados/VASE-36.jpg",
-      "agotado": false,
-      "nuevo": true
+      "agotado": true
     },
     {
       "id": "p1452",
@@ -22031,24 +21852,23 @@
       "subcategoria": "Cuidado de labios",
       "marca": "Vaseline",
       "imagen": "img/importados/VASE-34.jpg",
-      "agotado": false,
-      "nuevo": true
+      "agotado": false
     },
     {
       "id": "p1453",
       "nombre": "Vaseline Lip Therapy Jelly Individual",
       "referencia": "VASE-35",
-      "precio": "pendiente",
+      "precio": 19000,
       "categoria": "Importados",
       "subcategoria": "Cuidado de labios",
       "marca": "Vaseline",
       "imagen": "img/importados/VASE-35M.avif",
       "agotado": false,
-      "nuevo": true,
       "colores": [
         "img/importados/VASE-35M.avif",
         "img/importados/VASE-35O.avif"
-      ]
+      ],
+      "nuevo": true
     },
     {
       "id": "p1454",
@@ -22059,8 +21879,7 @@
       "subcategoria": "Cuidado de labios",
       "marca": "Vaseline",
       "imagen": "img/importados/VASE-12.jpg",
-      "agotado": false,
-      "nuevo": true
+      "agotado": false
     },
     {
       "id": "p1455",
@@ -22071,8 +21890,7 @@
       "subcategoria": "Cuidado de labios",
       "marca": "Daise",
       "imagen": "img/importados/DAI-01.jpg",
-      "agotado": false,
-      "nuevo": true
+      "agotado": true
     },
     {
       "id": "p1456",
@@ -22083,8 +21901,7 @@
       "subcategoria": "Cuidado de labios",
       "marca": "Daise",
       "imagen": "img/importados/DAI-02.jpg",
-      "agotado": false,
-      "nuevo": true
+      "agotado": false
     },
     {
       "id": "p1457",
@@ -22095,8 +21912,7 @@
       "subcategoria": "Cuidado de labios",
       "marca": "Daise",
       "imagen": "img/importados/DAI-03.jpg",
-      "agotado": false,
-      "nuevo": true
+      "agotado": true
     },
     {
       "id": "p1458",
@@ -22107,8 +21923,7 @@
       "subcategoria": "Corporal e higiene",
       "marca": "Daise",
       "imagen": "img/importados/DAISE-03.jpg",
-      "agotado": false,
-      "nuevo": true
+      "agotado": false
     },
     {
       "id": "p1459",
@@ -22119,8 +21934,7 @@
       "subcategoria": "Corporal e higiene",
       "marca": "Daise",
       "imagen": "img/importados/DAISE-05.jpg",
-      "agotado": false,
-      "nuevo": true
+      "agotado": false
     },
     {
       "id": "p1460",
@@ -22131,8 +21945,7 @@
       "subcategoria": "Cuidado de labios",
       "marca": "Daise",
       "imagen": "img/importados/DAISE-07.avif",
-      "agotado": false,
-      "nuevo": true
+      "agotado": false
     },
     {
       "id": "p1461",
@@ -22143,8 +21956,7 @@
       "subcategoria": "Cuidado de labios",
       "marca": "Daise",
       "imagen": "img/importados/DAISE-08.avif",
-      "agotado": false,
-      "nuevo": true
+      "agotado": false
     },
     {
       "id": "p1462",
@@ -22155,8 +21967,7 @@
       "subcategoria": "Cuidado de labios",
       "marca": "Daise",
       "imagen": "img/importados/DAISE-09.avif",
-      "agotado": false,
-      "nuevo": true
+      "agotado": false
     },
     {
       "id": "p1463",
@@ -22167,8 +21978,7 @@
       "subcategoria": "Cuidado de labios",
       "marca": "Daise",
       "imagen": "img/importados/DAISE-10.avif",
-      "agotado": false,
-      "nuevo": true
+      "agotado": false
     },
     {
       "id": "p1464",
@@ -22179,8 +21989,7 @@
       "subcategoria": "Cuidado de labios",
       "marca": "Daise",
       "imagen": "img/importados/DAISE-12.avif",
-      "agotado": false,
-      "nuevo": true
+      "agotado": false
     },
     {
       "id": "p1465",
@@ -22191,8 +22000,7 @@
       "subcategoria": "Cuidado de labios",
       "marca": "Aquaphor",
       "imagen": "img/importados/AQUA-01.jpg",
-      "agotado": false,
-      "nuevo": true
+      "agotado": false
     },
     {
       "id": "p1466",
@@ -22203,8 +22011,7 @@
       "subcategoria": "Cuidado de labios",
       "marca": "ChapStick",
       "imagen": "img/importados/CHPS-05.avif",
-      "agotado": false,
-      "nuevo": true
+      "agotado": false
     },
     {
       "id": "p1467",
@@ -22215,8 +22022,7 @@
       "subcategoria": "Cuidado de labios",
       "marca": "ChapStick",
       "imagen": "img/importados/CHPS-07.avif",
-      "agotado": false,
-      "nuevo": true
+      "agotado": false
     },
     {
       "id": "p1468",
@@ -22227,8 +22033,7 @@
       "subcategoria": "Cuidado de labios",
       "marca": "ChapStick",
       "imagen": "img/importados/CHPS-08.avif",
-      "agotado": false,
-      "nuevo": true
+      "agotado": false
     },
     {
       "id": "p1469",
@@ -22239,8 +22044,7 @@
       "subcategoria": "Corporal e higiene",
       "marca": "Listerine",
       "imagen": "img/importados/LIST-01.jpg",
-      "agotado": false,
-      "nuevo": true
+      "agotado": false
     },
     {
       "id": "p1470",
@@ -22251,8 +22055,7 @@
       "subcategoria": "Cuidado capilar",
       "marca": "Lola Cosmetics",
       "imagen": "img/importados/LOLA-01.jpg",
-      "agotado": false,
-      "nuevo": true
+      "agotado": false
     },
     {
       "id": "p1471",
@@ -22263,8 +22066,7 @@
       "subcategoria": "Cuidado capilar",
       "marca": "Otras",
       "imagen": "img/importados/CAST-01.jpg",
-      "agotado": false,
-      "nuevo": true
+      "agotado": false
     },
     {
       "id": "p1472",
@@ -22275,8 +22077,7 @@
       "subcategoria": "Cuidado capilar",
       "marca": "Difeel",
       "imagen": "img/importados/CAST-02.jpg",
-      "agotado": false,
-      "nuevo": true
+      "agotado": false
     },
     {
       "id": "p1473",
@@ -22391,6 +22192,1686 @@
           "funcion": "Calma la piel"
         }
       ]
+    },
+    {
+      "id": "p1477",
+      "nombre": "Gelly Fest Morada Ponto",
+      "referencia": "10032-2",
+      "precio": 26000,
+      "categoria": "Línea Capilar",
+      "subcategoria": "Cremas para peinar y estilizado",
+      "marca": "Ponto",
+      "imagen": null,
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1478",
+      "nombre": "Kit Mascarilla de Leche + Proteína Click Hair",
+      "referencia": "CLICKHAIR40",
+      "precio": 59900,
+      "categoria": "Línea Capilar",
+      "subcategoria": "Mascarillas y tratamientos",
+      "marca": "Click Hair",
+      "imagen": "img/capilar/CLICKHAIR40.webp",
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1479",
+      "nombre": "Bye Bye Friz 180ML",
+      "referencia": "CO30017",
+      "precio": 39000,
+      "categoria": "Línea Capilar",
+      "subcategoria": "Cremas para peinar y estilizado",
+      "marca": "Otras",
+      "imagen": null,
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1480",
+      "nombre": "Loreal Spray Curl Expression 190ML",
+      "referencia": "LR-E3835000",
+      "precio": 132000,
+      "categoria": "Línea Capilar",
+      "subcategoria": "Cremas para peinar y estilizado",
+      "marca": "L'Oréal",
+      "imagen": null,
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1481",
+      "nombre": "Montoc Hydromontoc Agua Termal 100ML",
+      "referencia": "17298",
+      "precio": 34900,
+      "categoria": "Cuidado Facial",
+      "subcategoria": "Cremas y serums",
+      "marca": "Montoc",
+      "imagen": null,
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1482",
+      "nombre": "Nivea Agua Micelar Rose Care",
+      "referencia": "BELL2728",
+      "precio": 35900,
+      "categoria": "Cuidado Facial",
+      "subcategoria": "Limpieza facial",
+      "marca": "Nivea",
+      "imagen": "img/facial/BELL2728.avif",
+      "agotado": false,
+      "nuevo": true,
+      "paso": "Limpiador",
+      "momento": "ambos",
+      "tiposPiel": [
+        "Todas"
+      ],
+      "etiquetas": [
+        "Hidratación"
+      ],
+      "resumen": "Desmaquilla y limpia sin enjuagar, con agua de rosas.",
+      "ingredientes": [
+        {
+          "nombre": "Agua de rosas",
+          "funcion": "Refresca y suaviza la piel"
+        },
+        {
+          "nombre": "Micelas",
+          "funcion": "Atrapan maquillaje e impurezas"
+        }
+      ]
+    },
+    {
+      "id": "p1483",
+      "nombre": "Pomys Agua Micelar Rosas 400ML",
+      "referencia": "BELL2304",
+      "precio": 16900,
+      "categoria": "Cuidado Facial",
+      "subcategoria": "Limpieza facial",
+      "marca": "Otras",
+      "imagen": "img/facial/BELL2304.jpg",
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1484",
+      "nombre": "Sunforgettable Total Protection Face Shield Flex SPF 50",
+      "referencia": "10386",
+      "precio": 299900,
+      "categoria": "Cuidado Facial",
+      "subcategoria": "Protección solar",
+      "marca": "Colorescience",
+      "imagen": null,
+      "agotado": false,
+      "nuevo": true,
+      "paso": "Protector solar",
+      "momento": "mañana",
+      "tiposPiel": [
+        "Todas"
+      ],
+      "etiquetas": [
+        "Protección solar"
+      ],
+      "resumen": "Protector mineral con color que empareja el tono.",
+      "ingredientes": [
+        {
+          "nombre": "Óxido de zinc",
+          "funcion": "Filtro mineral contra rayos UVA y UVB"
+        },
+        {
+          "nombre": "Niacinamida",
+          "funcion": "Unifica el tono"
+        }
+      ]
+    },
+    {
+      "id": "p1485",
+      "nombre": "Sunforgettable Total Protection Face Shield Mate SPF 50",
+      "referencia": "10385",
+      "precio": 299900,
+      "categoria": "Cuidado Facial",
+      "subcategoria": "Protección solar",
+      "marca": "Colorescience",
+      "imagen": "img/facial/10385.webp",
+      "agotado": false,
+      "nuevo": true,
+      "paso": "Protector solar",
+      "momento": "mañana",
+      "tiposPiel": [
+        "Grasa",
+        "Mixta"
+      ],
+      "etiquetas": [
+        "Protección solar",
+        "Grasa y poros"
+      ],
+      "resumen": "Protector mineral de acabado mate que controla el brillo.",
+      "ingredientes": [
+        {
+          "nombre": "Óxido de zinc",
+          "funcion": "Filtro mineral contra rayos UVA y UVB"
+        },
+        {
+          "nombre": "Niacinamida",
+          "funcion": "Ayuda a controlar la grasa"
+        }
+      ]
+    },
+    {
+      "id": "p1486",
+      "nombre": "Sunforgettable Total Protection Face Shield Glow SPF 50",
+      "referencia": "10384",
+      "precio": 299900,
+      "categoria": "Cuidado Facial",
+      "subcategoria": "Protección solar",
+      "marca": "Colorescience",
+      "imagen": "img/facial/10384.webp",
+      "agotado": false,
+      "nuevo": true,
+      "paso": "Protector solar",
+      "momento": "mañana",
+      "tiposPiel": [
+        "Todas"
+      ],
+      "etiquetas": [
+        "Protección solar",
+        "Luminosidad"
+      ],
+      "resumen": "Protector mineral con acabado luminoso.",
+      "ingredientes": [
+        {
+          "nombre": "Óxido de zinc",
+          "funcion": "Filtro mineral contra rayos UVA y UVB"
+        },
+        {
+          "nombre": "Niacinamida",
+          "funcion": "Unifica el tono"
+        }
+      ]
+    },
+    {
+      "id": "p1487",
+      "nombre": "Sheglam Tinta Labios 6ML Cherry Picked",
+      "referencia": "16735",
+      "precio": 22900,
+      "categoria": "Línea Make Up",
+      "subcategoria": "Labios",
+      "marca": "Sheglam",
+      "imagen": "img/makeup/16735.webp",
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1488",
+      "nombre": "Sheglam Tinta Labios 6ML Fruit Punch",
+      "referencia": "16755",
+      "precio": 22900,
+      "categoria": "Línea Make Up",
+      "subcategoria": "Labios",
+      "marca": "Sheglam",
+      "imagen": "img/makeup/16755.webp",
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1489",
+      "nombre": "Sheglam Tinta Labios 6ML Its Chili",
+      "referencia": "16737",
+      "precio": 22900,
+      "categoria": "Línea Make Up",
+      "subcategoria": "Labios",
+      "marca": "Sheglam",
+      "imagen": null,
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1490",
+      "nombre": "Sheglam Iluminador Cosmic Stream",
+      "referencia": "16714",
+      "precio": 35000,
+      "categoria": "Línea Make Up",
+      "subcategoria": "Iluminadores y contorno",
+      "marca": "Sheglam",
+      "imagen": null,
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1491",
+      "nombre": "Sheglam Iluminador Compacto Moonside Moon Rose",
+      "referencia": "16715",
+      "precio": 35000,
+      "categoria": "Línea Make Up",
+      "subcategoria": "Iluminadores y contorno",
+      "marca": "Sheglam",
+      "imagen": "img/makeup/16715.jpeg",
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1492",
+      "nombre": "Sheglam Iluminador Compacto Celestial Gaze",
+      "referencia": "16712",
+      "precio": 35000,
+      "categoria": "Línea Make Up",
+      "subcategoria": "Iluminadores y contorno",
+      "marca": "Sheglam",
+      "imagen": "img/makeup/16712.jpg",
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1493",
+      "nombre": "Sheglam Iluminador Líquido 5.2ML",
+      "referencia": "16719",
+      "precio": 70900,
+      "categoria": "Línea Make Up",
+      "subcategoria": "Iluminadores y contorno",
+      "marca": "Sheglam",
+      "imagen": "img/makeup/16719.webp",
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1494",
+      "nombre": "Sheglam Iluminador Líquido 5.2ML Solar Flare",
+      "referencia": "16722",
+      "precio": 70900,
+      "categoria": "Línea Make Up",
+      "subcategoria": "Iluminadores y contorno",
+      "marca": "Sheglam",
+      "imagen": "img/makeup/16722.jpg",
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1495",
+      "nombre": "Sheglam Polvo Compacto Translucido Naranja",
+      "referencia": "16731",
+      "precio": 34900,
+      "categoria": "Línea Make Up",
+      "subcategoria": "Polvos y rubores",
+      "marca": "Sheglam",
+      "imagen": "img/makeup/16731.webp",
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1496",
+      "nombre": "Sheglam Iluminador Corporal Mist Gilded Glow",
+      "referencia": "16724",
+      "precio": 49900,
+      "categoria": "Línea Make Up",
+      "subcategoria": "Iluminadores y contorno",
+      "marca": "Sheglam",
+      "imagen": "img/makeup/16724.jpg",
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1497",
+      "nombre": "Sheglam Iluminador Corporal Mist Love Bomb",
+      "referencia": "16726",
+      "precio": 49900,
+      "categoria": "Línea Make Up",
+      "subcategoria": "Iluminadores y contorno",
+      "marca": "Sheglam",
+      "imagen": "img/makeup/16726.jpg",
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1498",
+      "nombre": "Sheglam Kit de Brillo para Labios X4 Productos",
+      "referencia": "16688",
+      "precio": 43500,
+      "categoria": "Línea Make Up",
+      "subcategoria": "Labios",
+      "marca": "Sheglam",
+      "imagen": "img/makeup/16688.webp",
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1499",
+      "nombre": "Meik Polvo Compacto Tono Medio",
+      "referencia": "MEIK-04",
+      "precio": 135000,
+      "categoria": "Línea Make Up",
+      "subcategoria": "Polvos y rubores",
+      "marca": "Meik",
+      "imagen": "img/makeup/MEIK-04.jpg",
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1500",
+      "nombre": "Meik Polvo Compacto Tono Oscuro",
+      "referencia": "MEIK-05",
+      "precio": 135000,
+      "categoria": "Línea Make Up",
+      "subcategoria": "Polvos y rubores",
+      "marca": "Meik",
+      "imagen": "img/makeup/MEIK-05.webp",
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1501",
+      "nombre": "Meik Polvo Compacto Tono Claro",
+      "referencia": "MEIK-03",
+      "precio": 135000,
+      "categoria": "Línea Make Up",
+      "subcategoria": "Polvos y rubores",
+      "marca": "Meik",
+      "imagen": "img/makeup/MEIK-03.webp",
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1502",
+      "nombre": "Meik Base Líquida Tono Medio",
+      "referencia": "MEIK-02",
+      "precio": 120000,
+      "categoria": "Línea Make Up",
+      "subcategoria": "Bases y correctores",
+      "marca": "Meik",
+      "imagen": null,
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1503",
+      "nombre": "Meik Desmaquillador Bifásico 125ML",
+      "referencia": "MEIK-01",
+      "precio": 77000,
+      "categoria": "Línea Make Up",
+      "subcategoria": "Fijadores y primers",
+      "marca": "Meik",
+      "imagen": "img/makeup/MEIK-01.png",
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1504",
+      "nombre": "Tinta Hidratante Labios y Mejillas Bitten Cherry",
+      "referencia": "MIM-03",
+      "precio": 58000,
+      "categoria": "Línea Make Up",
+      "subcategoria": "Labios",
+      "marca": "Otras",
+      "imagen": "img/makeup/MIM-03.webp",
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1505",
+      "nombre": "Tinta Hidratante Labios y Mejillas Pretty in Pink",
+      "referencia": "MIM-02",
+      "precio": 58000,
+      "categoria": "Línea Make Up",
+      "subcategoria": "Labios",
+      "marca": "Otras",
+      "imagen": "img/makeup/MIM-02.webp",
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1506",
+      "nombre": "Tinta Hidratante Labios y Mejillas Tutti Frutti",
+      "referencia": "MIM-05",
+      "precio": 58000,
+      "categoria": "Línea Make Up",
+      "subcategoria": "Labios",
+      "marca": "Otras",
+      "imagen": "img/makeup/MIM-05.webp",
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1507",
+      "nombre": "Tinta Hidratante Labios y Mejillas Bitten Berry",
+      "referencia": "MIM-01",
+      "precio": 58000,
+      "categoria": "Línea Make Up",
+      "subcategoria": "Labios",
+      "marca": "Otras",
+      "imagen": "img/makeup/MIM-01.webp",
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1508",
+      "nombre": "Bloomshell Llavero Dolce Destello",
+      "referencia": "14969",
+      "precio": 21900,
+      "categoria": "Línea Make Up",
+      "subcategoria": "Labios",
+      "marca": "Bloomshell",
+      "imagen": "img/makeup/14969.webp",
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1509",
+      "nombre": "Bloomshell Iluminador Líquido Dewy Tono 01",
+      "referencia": "17417",
+      "precio": 21900,
+      "categoria": "Línea Make Up",
+      "subcategoria": "Iluminadores y contorno",
+      "marca": "Bloomshell",
+      "imagen": "img/makeup/17417.webp",
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1510",
+      "nombre": "Bloomshell Iluminador Líquido Dewy Tono 02",
+      "referencia": "17418",
+      "precio": 21900,
+      "categoria": "Línea Make Up",
+      "subcategoria": "Iluminadores y contorno",
+      "marca": "Bloomshell",
+      "imagen": "img/makeup/17418.webp",
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1511",
+      "nombre": "Bloomshell Iluminador Líquido Dewy Tono 03",
+      "referencia": "17419",
+      "precio": 21900,
+      "categoria": "Línea Make Up",
+      "subcategoria": "Iluminadores y contorno",
+      "marca": "Bloomshell",
+      "imagen": "img/makeup/17419.webp",
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1512",
+      "nombre": "Bloomshell Jelly Glow Tono 02 Bonitica",
+      "referencia": "17438",
+      "precio": 18900,
+      "categoria": "Línea Make Up",
+      "subcategoria": "Labios",
+      "marca": "Bloomshell",
+      "imagen": null,
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1513",
+      "nombre": "Bloomshell Jelly Glow Tono 01 Sonrojatita",
+      "referencia": "17437",
+      "precio": 18900,
+      "categoria": "Línea Make Up",
+      "subcategoria": "Labios",
+      "marca": "Bloomshell",
+      "imagen": "img/makeup/17437.webp",
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1514",
+      "nombre": "Bloomshell Jelly Glow Tono 03 Coquetica",
+      "referencia": "17439",
+      "precio": 18900,
+      "categoria": "Línea Make Up",
+      "subcategoria": "Labios",
+      "marca": "Bloomshell",
+      "imagen": "img/makeup/17439.webp",
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1515",
+      "nombre": "Bloomshell Polvo Compacto Soft Bloom Tono #04 Nude",
+      "referencia": "14977",
+      "precio": 25900,
+      "categoria": "Línea Make Up",
+      "subcategoria": "Polvos y rubores",
+      "marca": "Bloomshell",
+      "imagen": "img/makeup/14977.webp",
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1516",
+      "nombre": "Bloomshell Polvo Compacto Soft Bloom Tono #01 Ivory",
+      "referencia": "14974",
+      "precio": 25900,
+      "categoria": "Línea Make Up",
+      "subcategoria": "Polvos y rubores",
+      "marca": "Bloomshell",
+      "imagen": "img/makeup/14974.webp",
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1517",
+      "nombre": "Bloomshell Polvo Compacto Soft Bloom Tono Beige #02",
+      "referencia": "14975",
+      "precio": 25900,
+      "categoria": "Línea Make Up",
+      "subcategoria": "Polvos y rubores",
+      "marca": "Bloomshell",
+      "imagen": null,
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1518",
+      "nombre": "Atenea Brillo Labios Sublime Lucky",
+      "referencia": "16500",
+      "precio": 36000,
+      "categoria": "Línea Make Up",
+      "subcategoria": "Labios",
+      "marca": "Atenea",
+      "imagen": "img/makeup/16500.webp",
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1519",
+      "nombre": "Lula Lápiz de Ojos Rosa LAP03",
+      "referencia": "12117",
+      "precio": 9900,
+      "categoria": "Línea Make Up",
+      "subcategoria": "Ojos y cejas",
+      "marca": "Lula",
+      "imagen": "img/makeup/12117.webp",
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1520",
+      "nombre": "Lula Lápiz de Ojos Azul LAP04",
+      "referencia": "12116",
+      "precio": 9900,
+      "categoria": "Línea Make Up",
+      "subcategoria": "Ojos y cejas",
+      "marca": "Lula",
+      "imagen": "img/makeup/12116.webp",
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1521",
+      "nombre": "Lula Lápiz de Ojos Mágico LAP02 Fucsia",
+      "referencia": "12115",
+      "precio": 9900,
+      "categoria": "Línea Make Up",
+      "subcategoria": "Ojos y cejas",
+      "marca": "Lula",
+      "imagen": null,
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1522",
+      "nombre": "Ruby Rose Iluminador Hole Shine Tono 01",
+      "referencia": "15810",
+      "precio": 23900,
+      "categoria": "Línea Make Up",
+      "subcategoria": "Iluminadores y contorno",
+      "marca": "Ruby Rose",
+      "imagen": "img/makeup/15810.webp",
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1523",
+      "nombre": "Ruby Rose Iluminador Hole Shine Tono 02",
+      "referencia": "15812",
+      "precio": 23900,
+      "categoria": "Línea Make Up",
+      "subcategoria": "Iluminadores y contorno",
+      "marca": "Ruby Rose",
+      "imagen": null,
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1524",
+      "nombre": "Ruby Rose Pestañina Red Crush",
+      "referencia": "17470",
+      "precio": 24900,
+      "categoria": "Línea Make Up",
+      "subcategoria": "Ojos y cejas",
+      "marca": "Ruby Rose",
+      "imagen": "img/makeup/17470.webp",
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1525",
+      "nombre": "Ruby Rose Pestañina Duo Negra",
+      "referencia": "15505",
+      "precio": 21900,
+      "categoria": "Línea Make Up",
+      "subcategoria": "Ojos y cejas",
+      "marca": "Ruby Rose",
+      "imagen": "img/makeup/15505.jpg",
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1526",
+      "nombre": "Ruby Rose Pestañina Iron Waterproof",
+      "referencia": "15506",
+      "precio": 21900,
+      "categoria": "Línea Make Up",
+      "subcategoria": "Ojos y cejas",
+      "marca": "Ruby Rose",
+      "imagen": "img/makeup/15506.webp",
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1527",
+      "nombre": "Ruby Rose Duo Magenta Mascara",
+      "referencia": "12929",
+      "precio": 21900,
+      "categoria": "Línea Make Up",
+      "subcategoria": "Ojos y cejas",
+      "marca": "Ruby Rose",
+      "imagen": null,
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1528",
+      "nombre": "Ruby Rose Pestañina Violet Crush",
+      "referencia": "16874",
+      "precio": 24900,
+      "categoria": "Línea Make Up",
+      "subcategoria": "Ojos y cejas",
+      "marca": "Ruby Rose",
+      "imagen": null,
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1529",
+      "nombre": "Prosa Pestañina Profesional Silicon Azul",
+      "referencia": "15120",
+      "precio": 11000,
+      "categoria": "Línea Make Up",
+      "subcategoria": "Ojos y cejas",
+      "marca": "Otras",
+      "imagen": null,
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1530",
+      "nombre": "Ruby Rose Pestañina Glitter Twinkle Grin",
+      "referencia": "16862",
+      "precio": 25900,
+      "categoria": "Línea Make Up",
+      "subcategoria": "Ojos y cejas",
+      "marca": "Ruby Rose",
+      "imagen": null,
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1531",
+      "nombre": "Anik Serum Blush Tono #02 Tan Line",
+      "referencia": "CA2508-1",
+      "precio": 25000,
+      "categoria": "Línea Make Up",
+      "subcategoria": "Polvos y rubores",
+      "marca": "Ani-K",
+      "imagen": "img/makeup/CA2508-1.webp",
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1532",
+      "nombre": "Anik Serum Blush Tono #04 That Girl 10ML",
+      "referencia": "CA2508-2",
+      "precio": 25000,
+      "categoria": "Línea Make Up",
+      "subcategoria": "Polvos y rubores",
+      "marca": "Ani-K",
+      "imagen": "img/makeup/CA2508-2.webp",
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1533",
+      "nombre": "Anik Serum Blush Tono #05 Berry Me",
+      "referencia": "CA2508-4",
+      "precio": 25000,
+      "categoria": "Línea Make Up",
+      "subcategoria": "Polvos y rubores",
+      "marca": "Ani-K",
+      "imagen": "img/makeup/CA2508-4.webp",
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1534",
+      "nombre": "Anik Serum Blush Tono #3 Toasty 10ML",
+      "referencia": "CA2508-3",
+      "precio": 25000,
+      "categoria": "Línea Make Up",
+      "subcategoria": "Polvos y rubores",
+      "marca": "Ani-K",
+      "imagen": "img/makeup/CA2508-3.webp",
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1535",
+      "nombre": "Desodorante Íntimo Summer Amber Nights",
+      "referencia": "SUMMER03",
+      "precio": 27900,
+      "categoria": "Cuidado Personal",
+      "subcategoria": "Higiene y otros",
+      "marca": "Summer's Eve",
+      "imagen": null,
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1536",
+      "nombre": "Desodorante Íntimo Summer Blissful Escape",
+      "referencia": "SUMMER05",
+      "precio": 27900,
+      "categoria": "Cuidado Personal",
+      "subcategoria": "Higiene y otros",
+      "marca": "Summer's Eve",
+      "imagen": null,
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1537",
+      "nombre": "Desodorante Íntimo Summer Sheer Floral",
+      "referencia": "SUMMER06",
+      "precio": 27900,
+      "categoria": "Cuidado Personal",
+      "subcategoria": "Higiene y otros",
+      "marca": "Summer's Eve",
+      "imagen": null,
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1538",
+      "nombre": "Desodorante Íntimo Summer Island Splash",
+      "referencia": "SUMMER07",
+      "precio": 27900,
+      "categoria": "Cuidado Personal",
+      "subcategoria": "Higiene y otros",
+      "marca": "Summer's Eve",
+      "imagen": null,
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1539",
+      "nombre": "Gel de Ducha Palmolive Naturals 390ML",
+      "referencia": "PALM1932",
+      "precio": 21900,
+      "categoria": "Cuidado Personal",
+      "subcategoria": "Higiene y otros",
+      "marca": "Palmolive",
+      "imagen": "img/personal/PALM1932.webp",
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1540",
+      "nombre": "Gillette Gel de Afeitar Mujer 198G",
+      "referencia": "GEL635",
+      "precio": 22900,
+      "categoria": "Cuidado Personal",
+      "subcategoria": "Depilación y afeitado",
+      "marca": "Gillette",
+      "imagen": null,
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1541",
+      "nombre": "No-Ad Bloqueador FPS85 250ML",
+      "referencia": "BLON21",
+      "precio": 65000,
+      "categoria": "Cuidado Personal",
+      "subcategoria": "Higiene y otros",
+      "marca": "No-Ad",
+      "imagen": "img/personal/BLON21.jpg",
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1542",
+      "nombre": "No-Ad Bloqueador FPS85 475ML",
+      "referencia": "BLOQ18",
+      "precio": 80000,
+      "categoria": "Cuidado Personal",
+      "subcategoria": "Higiene y otros",
+      "marca": "No-Ad",
+      "imagen": "img/personal/BLOQ18.jpg",
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1543",
+      "nombre": "No-Ad Bloqueador SPF50 Bronzer 250ML",
+      "referencia": "BLOQ944",
+      "precio": 47900,
+      "categoria": "Cuidado Personal",
+      "subcategoria": "Higiene y otros",
+      "marca": "No-Ad",
+      "imagen": "img/personal/BLOQ944.webp",
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1544",
+      "nombre": "No-Ad Bloqueador FPS60 89ML",
+      "referencia": "BLOQ16",
+      "precio": 34900,
+      "categoria": "Cuidado Personal",
+      "subcategoria": "Higiene y otros",
+      "marca": "No-Ad",
+      "imagen": "img/personal/BLOQ16.webp",
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1545",
+      "nombre": "Nivea Crema Corporal FPS60 125ML",
+      "referencia": "BLON12",
+      "precio": 47000,
+      "categoria": "Cuidado Personal",
+      "subcategoria": "Cremas corporales",
+      "marca": "Nivea",
+      "imagen": "img/personal/BLON12.jpg",
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1546",
+      "nombre": "Baño de Oro Coco Lindo Sobre",
+      "referencia": "EC2",
+      "precio": 15900,
+      "categoria": "Cuidado Personal",
+      "subcategoria": "Bronceado y exfoliantes",
+      "marca": "Coco Lindo",
+      "imagen": "img/personal/EC2.jpg",
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1547",
+      "nombre": "Depilador Instantáneo Coco Lindo 60ML",
+      "referencia": "EC5",
+      "precio": 27900,
+      "categoria": "Cuidado Personal",
+      "subcategoria": "Depilación y afeitado",
+      "marca": "Coco Lindo",
+      "imagen": "img/personal/EC5.jpg",
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1548",
+      "nombre": "Agua Autobronceadora Golden Isla 150ML",
+      "referencia": "GOLDEN",
+      "precio": 120000,
+      "categoria": "Cuidado Personal",
+      "subcategoria": "Bronceado y exfoliantes",
+      "marca": "Golden Isla",
+      "imagen": "img/personal/GOLDEN.webp",
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1549",
+      "nombre": "Vaseline Lip Therapy Cocoa Butter IND",
+      "referencia": "VASE-41",
+      "precio": 19000,
+      "categoria": "Importados",
+      "subcategoria": "Cuidado de labios",
+      "marca": "Vaseline",
+      "imagen": null,
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1550",
+      "nombre": "Vaseline Lip Therapy Queen Bee IND",
+      "referencia": "VASE-42",
+      "precio": 19000,
+      "categoria": "Importados",
+      "subcategoria": "Cuidado de labios",
+      "marca": "Vaseline",
+      "imagen": null,
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1551",
+      "nombre": "Eos Aceite de Afeitado Vainilla 177ML",
+      "referencia": "EOS-17",
+      "precio": 45000,
+      "categoria": "Importados",
+      "subcategoria": "Corporal e higiene",
+      "marca": "eos",
+      "imagen": null,
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1552",
+      "nombre": "Eos Crema Cozy Comfort 473ML",
+      "referencia": "EOS-31",
+      "precio": 65000,
+      "categoria": "Importados",
+      "subcategoria": "Corporal e higiene",
+      "marca": "eos",
+      "imagen": null,
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1553",
+      "nombre": "Sol de Janeiro Perfume Mist Leite Nectar Cheirosa 90ML",
+      "referencia": "SOLDEJANEIRO18",
+      "precio": 155000,
+      "categoria": "Importados",
+      "subcategoria": "Corporal e higiene",
+      "marca": "Sol de Janeiro",
+      "imagen": null,
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1554",
+      "nombre": "B.TAN SPF 7 Beach Please 236ML",
+      "referencia": "B.TAN7",
+      "precio": 66900,
+      "categoria": "Importados",
+      "subcategoria": "Bronceado y exfoliantes",
+      "marca": "B.Tan",
+      "imagen": "img/importados/B.TAN7.avif",
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1555",
+      "nombre": "B.TAN Removedor de Autobronceador 236ML",
+      "referencia": "B.TAN10",
+      "precio": 70000,
+      "categoria": "Importados",
+      "subcategoria": "Bronceado y exfoliantes",
+      "marca": "B.Tan",
+      "imagen": "img/importados/B.TAN10.avif",
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1556",
+      "nombre": "Australian Gold Bronzing Acelerador Dark Tanning Lotion 237ML",
+      "referencia": "AUST-03",
+      "precio": 55000,
+      "categoria": "Cuidado Personal",
+      "subcategoria": "Bronceado y exfoliantes",
+      "marca": "Australian Gold",
+      "imagen": "img/personal/AUST-03.webp",
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1557",
+      "nombre": "Hawaiian Tropic Dark Tanning 236ML",
+      "referencia": "HAWAIIAN01",
+      "precio": 54900,
+      "categoria": "Cuidado Personal",
+      "subcategoria": "Bronceado y exfoliantes",
+      "marca": "Hawaiian Tropic",
+      "imagen": "img/personal/HAWAIIAN01.avif",
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1558",
+      "nombre": "Australian Gold Bronceador Acelerador Gelée 250ML",
+      "referencia": "AUST-02",
+      "precio": 55000,
+      "categoria": "Cuidado Personal",
+      "subcategoria": "Bronceado y exfoliantes",
+      "marca": "Australian Gold",
+      "imagen": null,
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1559",
+      "nombre": "Australian Gold Accelerator Cherry Brown 250ML",
+      "referencia": "ALGOD01",
+      "precio": 98000,
+      "categoria": "Cuidado Personal",
+      "subcategoria": "Bronceado y exfoliantes",
+      "marca": "Australian Gold",
+      "imagen": "img/personal/ALGOD01.png",
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1560",
+      "nombre": "Eos Crema Corporal Cozy Comfort 74ML",
+      "referencia": "EOS-34",
+      "precio": 25000,
+      "categoria": "Importados",
+      "subcategoria": "Corporal e higiene",
+      "marca": "eos",
+      "imagen": "img/importados/EOS-34.avif",
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1561",
+      "nombre": "Vaseline Cocoa Glow 75ML",
+      "referencia": "VAS1",
+      "precio": 10000,
+      "categoria": "Importados",
+      "subcategoria": "Corporal e higiene",
+      "marca": "Vaseline",
+      "imagen": null,
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1562",
+      "nombre": "Vaseline Cocoa Radiant Cacao Radieux 227G",
+      "referencia": "VASE-49",
+      "precio": 45000,
+      "categoria": "Importados",
+      "subcategoria": "Corporal e higiene",
+      "marca": "Vaseline",
+      "imagen": null,
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1563",
+      "nombre": "Vaseline Blueseal Baby 250ML",
+      "referencia": "VASE-48",
+      "precio": 26000,
+      "categoria": "Importados",
+      "subcategoria": "Corporal e higiene",
+      "marca": "Vaseline",
+      "imagen": null,
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1564",
+      "nombre": "Vaseline Blueseal Aloe Vera 250ML",
+      "referencia": "VASE-47",
+      "precio": 26000,
+      "categoria": "Importados",
+      "subcategoria": "Corporal e higiene",
+      "marca": "Vaseline",
+      "imagen": null,
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1565",
+      "nombre": "Jabón Gel Íntimo Summer Amber Nights 444ML",
+      "referencia": "SUMMER13",
+      "precio": 29900,
+      "categoria": "Cuidado Personal",
+      "subcategoria": "Higiene y otros",
+      "marca": "Summer's Eve",
+      "imagen": null,
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1566",
+      "nombre": "Jabón Íntimo Gel Summer Aloe Love 444ML",
+      "referencia": "SUMMER16",
+      "precio": 33900,
+      "categoria": "Cuidado Personal",
+      "subcategoria": "Higiene y otros",
+      "marca": "Summer's Eve",
+      "imagen": null,
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1567",
+      "nombre": "Jabón Gel Íntimo Summer Ultimate 444ML",
+      "referencia": "SUMMER15",
+      "precio": 32000,
+      "categoria": "Cuidado Personal",
+      "subcategoria": "Higiene y otros",
+      "marca": "Summer's Eve",
+      "imagen": null,
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1568",
+      "nombre": "Jabón Íntimo Summer Botanicals 444ML",
+      "referencia": "SUMMER14",
+      "precio": 29900,
+      "categoria": "Cuidado Personal",
+      "subcategoria": "Higiene y otros",
+      "marca": "Summer's Eve",
+      "imagen": null,
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1569",
+      "nombre": "Pañitos Íntimos Summer Blissful Escape 32 Unid",
+      "referencia": "SUMMER12",
+      "precio": 23000,
+      "categoria": "Cuidado Personal",
+      "subcategoria": "Higiene y otros",
+      "marca": "Summer's Eve",
+      "imagen": null,
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1570",
+      "nombre": "Pañitos Íntimos Summer Sheer Floral Caja X12",
+      "referencia": "SUMMER11",
+      "precio": 22000,
+      "categoria": "Cuidado Personal",
+      "subcategoria": "Higiene y otros",
+      "marca": "Summer's Eve",
+      "imagen": null,
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1571",
+      "nombre": "Pañitos Íntimos Summer Simply Sensitive Caja X12",
+      "referencia": "SUMMER10",
+      "precio": 22000,
+      "categoria": "Cuidado Personal",
+      "subcategoria": "Higiene y otros",
+      "marca": "Summer's Eve",
+      "imagen": null,
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1572",
+      "nombre": "Pañitos Íntimos Summer Blissful Escape X12",
+      "referencia": "SUMMER08",
+      "precio": 22000,
+      "categoria": "Cuidado Personal",
+      "subcategoria": "Higiene y otros",
+      "marca": "Summer's Eve",
+      "imagen": null,
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1573",
+      "nombre": "Pañitos Íntimos Summer Amber Nights Caja X12",
+      "referencia": "SUMMER09",
+      "precio": 22000,
+      "categoria": "Cuidado Personal",
+      "subcategoria": "Higiene y otros",
+      "marca": "Summer's Eve",
+      "imagen": null,
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1574",
+      "nombre": "Dove Jabón Líquido Manos Spiced Chai Latte 12OZ",
+      "referencia": "DOVE-21",
+      "precio": 48000,
+      "categoria": "Importados",
+      "subcategoria": "Corporal e higiene",
+      "marca": "Dove",
+      "imagen": null,
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1575",
+      "nombre": "Barbie Crema de Manos 75ML",
+      "referencia": "80675",
+      "precio": 13900,
+      "categoria": "Importados",
+      "subcategoria": "Corporal e higiene",
+      "marca": "Barbie",
+      "imagen": null,
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1576",
+      "nombre": "Crema Depilatoria Cloud Sense 140ML",
+      "referencia": "CLOUDSENSE",
+      "precio": 110000,
+      "categoria": "Importados",
+      "subcategoria": "Corporal e higiene",
+      "marca": "Cloud Sense",
+      "imagen": null,
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1577",
+      "nombre": "Jabón en Gel Corporal Tree Raspberry Fizz 532ML",
+      "referencia": "TREEH-15",
+      "precio": 63000,
+      "categoria": "Importados",
+      "subcategoria": "Corporal e higiene",
+      "marca": "Tree Hut",
+      "imagen": null,
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1578",
+      "nombre": "Jabón en Gel Corporal Tree Vainilla 532ML",
+      "referencia": "TREEH-16",
+      "precio": 63000,
+      "categoria": "Importados",
+      "subcategoria": "Corporal e higiene",
+      "marca": "Tree Hut",
+      "imagen": null,
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1579",
+      "nombre": "Jabón en Gel Corporal Tree Moroccan Rose 532ML",
+      "referencia": "TREEH-20",
+      "precio": 63000,
+      "categoria": "Importados",
+      "subcategoria": "Corporal e higiene",
+      "marca": "Tree Hut",
+      "imagen": null,
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1580",
+      "nombre": "Jabón en Gel Corporal Tree Muerdago Magic 532ML",
+      "referencia": "TREEH-21",
+      "precio": 63000,
+      "categoria": "Importados",
+      "subcategoria": "Corporal e higiene",
+      "marca": "Tree Hut",
+      "imagen": null,
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1581",
+      "nombre": "Jabón en Gel Corporal Tree Tropic Glow 532ML",
+      "referencia": "TREEH-22",
+      "precio": 63000,
+      "categoria": "Importados",
+      "subcategoria": "Corporal e higiene",
+      "marca": "Tree Hut",
+      "imagen": null,
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1582",
+      "nombre": "Jabón Gel Corporal Tree Coco Colada 532ML",
+      "referencia": "TREEH-14",
+      "precio": 63000,
+      "categoria": "Importados",
+      "subcategoria": "Corporal e higiene",
+      "marca": "Tree Hut",
+      "imagen": null,
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1583",
+      "nombre": "Jabón en Gel Tree Golden Vainilla 532ML",
+      "referencia": "TREEH-18",
+      "precio": 63000,
+      "categoria": "Importados",
+      "subcategoria": "Corporal e higiene",
+      "marca": "Tree Hut",
+      "imagen": null,
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1584",
+      "nombre": "Jabón en Gel Tree Santal Haze 532ML",
+      "referencia": "TREEH-19",
+      "precio": 63000,
+      "categoria": "Importados",
+      "subcategoria": "Corporal e higiene",
+      "marca": "Tree Hut",
+      "imagen": null,
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1585",
+      "nombre": "Jabón en Gel Corporal Tree Sweet Pumpkin 532ML",
+      "referencia": "TREEH-17",
+      "precio": 63000,
+      "categoria": "Importados",
+      "subcategoria": "Corporal e higiene",
+      "marca": "Tree Hut",
+      "imagen": null,
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1586",
+      "nombre": "Kit Viajero Tree Hut Vainilla",
+      "referencia": "TREEH-13",
+      "precio": 125000,
+      "categoria": "Importados",
+      "subcategoria": "Corporal e higiene",
+      "marca": "Tree Hut",
+      "imagen": null,
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1587",
+      "nombre": "Exfoliante Tree Hut Golden Vainilla 510G",
+      "referencia": "TREEH-11",
+      "precio": 65000,
+      "categoria": "Importados",
+      "subcategoria": "Corporal e higiene",
+      "marca": "Tree Hut",
+      "imagen": null,
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1588",
+      "nombre": "Exfoliante Tree Hut Moroccan Rose 510G",
+      "referencia": "TREEH-09",
+      "precio": 65000,
+      "categoria": "Importados",
+      "subcategoria": "Corporal e higiene",
+      "marca": "Tree Hut",
+      "imagen": null,
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1589",
+      "nombre": "Exfoliante Tree Hut Vitamina C 510G",
+      "referencia": "TREEH-08",
+      "precio": 65000,
+      "categoria": "Importados",
+      "subcategoria": "Corporal e higiene",
+      "marca": "Tree Hut",
+      "imagen": null,
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1590",
+      "nombre": "Exfoliante Tree Hut Coco Colada 510G",
+      "referencia": "TREEH-01",
+      "precio": 65000,
+      "categoria": "Importados",
+      "subcategoria": "Corporal e higiene",
+      "marca": "Tree Hut",
+      "imagen": null,
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1591",
+      "nombre": "Exfoliante Tree Hut Aurora Nights",
+      "referencia": "TREEH-12",
+      "precio": 65000,
+      "categoria": "Importados",
+      "subcategoria": "Corporal e higiene",
+      "marca": "Tree Hut",
+      "imagen": null,
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1592",
+      "nombre": "Exfoliante Tree Hut Apple Crumbl 510G",
+      "referencia": "TREEH-04",
+      "precio": 65000,
+      "categoria": "Importados",
+      "subcategoria": "Corporal e higiene",
+      "marca": "Tree Hut",
+      "imagen": null,
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1593",
+      "nombre": "Exfoliante Tree Hut Watermelon 510G",
+      "referencia": "TREEH-03",
+      "precio": 65000,
+      "categoria": "Importados",
+      "subcategoria": "Corporal e higiene",
+      "marca": "Tree Hut",
+      "imagen": null,
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1594",
+      "nombre": "Exfoliante Tree Hut Espresso Martini 510G",
+      "referencia": "TREEH-26",
+      "precio": 65000,
+      "categoria": "Importados",
+      "subcategoria": "Corporal e higiene",
+      "marca": "Tree Hut",
+      "imagen": null,
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1595",
+      "nombre": "Exfoliante Tree Hut Cookie 425G",
+      "referencia": "TREEH-05",
+      "precio": 65000,
+      "categoria": "Importados",
+      "subcategoria": "Corporal e higiene",
+      "marca": "Tree Hut",
+      "imagen": "img/importados/TREEH-05.avif",
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1596",
+      "nombre": "Jabón en Gel Corporal Tree Tropic Glow 97ML",
+      "referencia": "TREEH-24",
+      "precio": 65000,
+      "categoria": "Importados",
+      "subcategoria": "Corporal e higiene",
+      "marca": "Tree Hut",
+      "imagen": "img/importados/TREEH-24.avif",
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1597",
+      "nombre": "Jabón en Gel Corporal Tree Pink Hibiscus 97ML",
+      "referencia": "TREEH-25",
+      "precio": 65000,
+      "categoria": "Importados",
+      "subcategoria": "Corporal e higiene",
+      "marca": "Tree Hut",
+      "imagen": "img/importados/TREEH-25.avif",
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1598",
+      "nombre": "Jabón en Gel Corporal Tree Hut Frozen Honey 97ML",
+      "referencia": "TREEH-23",
+      "precio": 65000,
+      "categoria": "Importados",
+      "subcategoria": "Corporal e higiene",
+      "marca": "Tree Hut",
+      "imagen": "img/importados/TREEH-23.avif",
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1599",
+      "nombre": "Daise Jabón Vacay Jelly Coconut 100G",
+      "referencia": "DAISE-01",
+      "precio": 39000,
+      "categoria": "Importados",
+      "subcategoria": "Corporal e higiene",
+      "marca": "Daise",
+      "imagen": "img/importados/DAISE-01.avif",
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1600",
+      "nombre": "Daise Jabón Sweet Watermelon",
+      "referencia": "DAISE-18",
+      "precio": 39000,
+      "categoria": "Importados",
+      "subcategoria": "Corporal e higiene",
+      "marca": "Daise",
+      "imagen": null,
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1601",
+      "nombre": "Eos Smooth Lip Balm Watermelon Frose IND",
+      "referencia": "EOS-33",
+      "precio": 18900,
+      "categoria": "Importados",
+      "subcategoria": "Cuidado de labios",
+      "marca": "eos",
+      "imagen": "img/importados/EOS-33.avif",
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1602",
+      "nombre": "Eos Bálsamo Labial Watermelon Frose + Lychee X2",
+      "referencia": "EOS-32",
+      "precio": 27900,
+      "categoria": "Importados",
+      "subcategoria": "Cuidado de labios",
+      "marca": "eos",
+      "imagen": "img/importados/EOS-32.avif",
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1603",
+      "nombre": "Vaseline Lip Care Colour+Care Mellow Rose",
+      "referencia": "VASE-44",
+      "precio": 27900,
+      "categoria": "Importados",
+      "subcategoria": "Cuidado de labios",
+      "marca": "Vaseline",
+      "imagen": "img/importados/VASE-44.webp",
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1604",
+      "nombre": "Vaseline Lip Care Colour+Care Kissing Red",
+      "referencia": "VASE-45",
+      "precio": 27900,
+      "categoria": "Importados",
+      "subcategoria": "Cuidado de labios",
+      "marca": "Vaseline",
+      "imagen": "img/importados/VASE-45.jpg",
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1605",
+      "nombre": "Vaseline Lip Care Colour+Care Blooming Pink",
+      "referencia": "VASE-46",
+      "precio": 27900,
+      "categoria": "Importados",
+      "subcategoria": "Cuidado de labios",
+      "marca": "Vaseline",
+      "imagen": "img/importados/VASE-46.jpg",
+      "agotado": false,
+      "nuevo": true
+    },
+    {
+      "id": "p1606",
+      "nombre": "TX-Kojic Acid Turmeric Toner Pad 70 Pads",
+      "referencia": "DR-MELAXIN10",
+      "precio": "pendiente",
+      "categoria": "Skincare",
+      "subcategoria": "Tónicos y esencias",
+      "marca": "Dr. Melaxin",
+      "imagen": null,
+      "agotado": false,
+      "nuevo": true,
+      "paso": "Tónico",
+      "momento": "ambos",
+      "tiposPiel": [
+        "Todas"
+      ],
+      "etiquetas": [
+        "Manchas",
+        "Luminosidad",
+        "Exfoliación"
+      ],
+      "resumen": "Pads de doble cara que aclaran manchas y alisan la textura.",
+      "ingredientes": [
+        {
+          "nombre": "Ácido tranexámico",
+          "funcion": "Ayuda a aclarar manchas"
+        },
+        {
+          "nombre": "Ácido kójico",
+          "funcion": "Unifica el tono"
+        },
+        {
+          "nombre": "Cúrcuma",
+          "funcion": "Aporta luminosidad"
+        },
+        {
+          "nombre": "AHA y PHA",
+          "funcion": "Exfolian suavemente"
+        }
+      ]
+    },
+    {
+      "id": "p1607",
+      "nombre": "Ribbon Cherry Glass Hair Brush",
+      "referencia": "MEDICUBE148",
+      "precio": 110000,
+      "categoria": "Importados",
+      "subcategoria": "Cuidado capilar",
+      "marca": "Medicube",
+      "imagen": "img/importados/MEDICUBE148.avif",
+      "agotado": false,
+      "nuevo": true
     }
   ],
   "marcas": {
