@@ -20,7 +20,8 @@
       "subcategoria": "Acondicionadores",
       "imagen": "img/capilar/ANYELUZ7.jpg",
       "agotado": false,
-      "marca": "Anyeluz"
+      "marca": "Anyeluz",
+      "blackGoto": "2x1"
     },
     {
       "id": "p0007",
@@ -42,7 +43,8 @@
       "subcategoria": "Acondicionadores",
       "imagen": "img/capilar/OLE8.jpg",
       "agotado": false,
-      "marca": "Olé"
+      "marca": "Olé",
+      "blackGoto": "2x1"
     },
     {
       "id": "p0010",
@@ -53,7 +55,8 @@
       "subcategoria": "Acondicionadores",
       "imagen": "img/capilar/14.jpg",
       "agotado": false,
-      "marca": "Kaba"
+      "marca": "Kaba",
+      "blackGoto": 50
     },
     {
       "id": "p0011",
@@ -207,7 +210,8 @@
       "subcategoria": "Mascarillas y tratamientos",
       "imagen": "img/capilar/15-1.jpg",
       "agotado": false,
-      "marca": "Kaba"
+      "marca": "Kaba",
+      "blackGoto": 50
     },
     {
       "id": "p0026",
@@ -273,7 +277,8 @@
       "subcategoria": "Mascarillas y tratamientos",
       "imagen": "img/capilar/ANYELUZ4.jpg",
       "agotado": false,
-      "marca": "Anyeluz"
+      "marca": "Anyeluz",
+      "blackGoto": "2x1"
     },
     {
       "id": "p0035",
@@ -350,7 +355,8 @@
       "subcategoria": "Mascarillas y tratamientos",
       "imagen": "img/capilar/TTO60.webp",
       "agotado": false,
-      "marca": "Otras"
+      "marca": "Otras",
+      "blackGoto": "2x1"
     },
     {
       "id": "p0043",
@@ -365,7 +371,8 @@
       "colores": [
         "img/capilar/SHAM01(1).jpg",
         "img/capilar/SHAM01(2).jpg"
-      ]
+      ],
+      "blackGoto": 20
     },
     {
       "id": "p0044",
@@ -376,7 +383,8 @@
       "subcategoria": "Mascarillas y tratamientos",
       "imagen": "img/capilar/ACRI5.jpg",
       "agotado": false,
-      "marca": "Dromatic"
+      "marca": "Dromatic",
+      "blackGoto": "2x1"
     },
     {
       "id": "p0045",
@@ -387,7 +395,8 @@
       "subcategoria": "Mascarillas y tratamientos",
       "imagen": "img/capilar/P06.jpg",
       "agotado": false,
-      "marca": "Dromatic"
+      "marca": "Dromatic",
+      "blackGoto": "2x1"
     },
     {
       "id": "p0046",
@@ -398,7 +407,8 @@
       "subcategoria": "Shampoos",
       "imagen": "img/capilar/7701168276223.jpg",
       "agotado": false,
-      "marca": "Dromatic"
+      "marca": "Dromatic",
+      "blackGoto": "2x1"
     },
     {
       "id": "p0047",
@@ -453,7 +463,8 @@
       "subcategoria": "Mascarillas y tratamientos",
       "imagen": "img/capilar/KABA6.jpg",
       "agotado": false,
-      "marca": "Kaba"
+      "marca": "Kaba",
+      "blackGoto": 50
     },
     {
       "id": "p0052",
@@ -530,7 +541,8 @@
       "subcategoria": "Mascarillas y tratamientos",
       "imagen": "img/capilar/KABA18.jpg",
       "agotado": false,
-      "marca": "Kaba"
+      "marca": "Kaba",
+      "blackGoto": 50
     },
     {
       "id": "p0061",
@@ -541,7 +553,8 @@
       "subcategoria": "Perfumes capilares",
       "imagen": "img/capilar/KABA13.jpg",
       "agotado": false,
-      "marca": "Kaba"
+      "marca": "Kaba",
+      "blackGoto": 50
     },
     {
       "id": "p0062",
@@ -552,7 +565,8 @@
       "subcategoria": "Perfumes capilares",
       "imagen": "img/capilar/KABA 14.webp",
       "agotado": false,
-      "marca": "Kaba"
+      "marca": "Kaba",
+      "blackGoto": 50
     },
     {
       "id": "p0063",
@@ -574,7 +588,8 @@
       "subcategoria": "Perfumes capilares",
       "imagen": "img/capilar/KABA16.jpg",
       "agotado": false,
-      "marca": "Kaba"
+      "marca": "Kaba",
+      "blackGoto": 50
     },
     {
       "id": "p0065",
@@ -585,7 +600,8 @@
       "subcategoria": "Perfumes capilares",
       "imagen": "img/capilar/KABA17.jpg",
       "agotado": false,
-      "marca": "Kaba"
+      "marca": "Kaba",
+      "blackGoto": 50
     },
     {
       "id": "p0069",
@@ -640,7 +656,8 @@
       "subcategoria": "Mascarillas y tratamientos",
       "imagen": "img/capilar/PKP0059.jpg",
       "agotado": false,
-      "marca": "Prokpil"
+      "marca": "Prokpil",
+      "blackGoto": "2x1"
     },
     {
       "id": "p0074",
@@ -808,7 +825,8 @@
       "subcategoria": "Mascarillas y tratamientos",
       "imagen": "img/capilar/PKP0013.jpg",
       "agotado": false,
-      "marca": "Prokpil"
+      "marca": "Prokpil",
+      "blackGoto": "2x1"
     },
     {
       "id": "p0084",
@@ -863,7 +881,8 @@
       "subcategoria": "Mascarillas y tratamientos",
       "imagen": null,
       "agotado": false,
-      "marca": "Otras"
+      "marca": "Otras",
+      "blackGoto": "2x1"
     },
     {
       "id": "p0094",
@@ -962,7 +981,8 @@
       "subcategoria": "Shampoos",
       "imagen": "img/capilar/SHAMP1659.jpg",
       "agotado": false,
-      "marca": "Nutribela"
+      "marca": "Nutribela",
+      "blackGoto": "2x1"
     },
     {
       "id": "p0106",
@@ -1011,7 +1031,8 @@
       "subcategoria": "Perfumes capilares",
       "imagen": "img/capilar/CLICKHAIR29.jpg",
       "agotado": false,
-      "marca": "Click Hair"
+      "marca": "Click Hair",
+      "blackGoto": "2x1"
     },
     {
       "id": "p0110",
@@ -1056,7 +1077,8 @@
       "subcategoria": "Perfumes capilares",
       "imagen": "img/capilar/CLICKHAIR5.jpg",
       "agotado": false,
-      "marca": "Click Hair"
+      "marca": "Click Hair",
+      "blackGoto": "2x1"
     },
     {
       "id": "p0114",
@@ -1067,7 +1089,8 @@
       "subcategoria": "Perfumes capilares",
       "imagen": "img/capilar/CLICKHAIR6.jpg",
       "agotado": false,
-      "marca": "Click Hair"
+      "marca": "Click Hair",
+      "blackGoto": "2x1"
     },
     {
       "id": "p0115",
@@ -1078,7 +1101,8 @@
       "subcategoria": "Perfumes capilares",
       "imagen": "img/capilar/CLICKHAIR3.jpg",
       "agotado": false,
-      "marca": "Click Hair"
+      "marca": "Click Hair",
+      "blackGoto": "2x1"
     },
     {
       "id": "p0116",
@@ -1567,7 +1591,8 @@
       "subcategoria": "Shampoos",
       "imagen": "img/capilar/ANYELUZ5.png",
       "agotado": false,
-      "marca": "Anyeluz"
+      "marca": "Anyeluz",
+      "blackGoto": "2x1"
     },
     {
       "id": "p0165",
@@ -1688,7 +1713,8 @@
       "subcategoria": "Shampoos",
       "imagen": "img/capilar/PKP0036.jpg",
       "agotado": false,
-      "marca": "Prokpil"
+      "marca": "Prokpil",
+      "blackGoto": "2x1"
     },
     {
       "id": "p0181",
@@ -1763,7 +1789,8 @@
       "subcategoria": "Mascarillas y tratamientos",
       "imagen": "img/capilar/PKP0120.jpg",
       "agotado": false,
-      "marca": "Prokpil"
+      "marca": "Prokpil",
+      "blackGoto": "2x1"
     },
     {
       "id": "p0190",
@@ -1774,7 +1801,8 @@
       "subcategoria": "Mascarillas y tratamientos",
       "imagen": "img/capilar/PKP0121.webp",
       "agotado": false,
-      "marca": "Prokpil"
+      "marca": "Prokpil",
+      "blackGoto": "2x1"
     },
     {
       "id": "p0192",
@@ -1818,7 +1846,8 @@
       "subcategoria": "Mascarillas y tratamientos",
       "imagen": "img/capilar/17.jpg",
       "agotado": false,
-      "marca": "Kaba"
+      "marca": "Kaba",
+      "blackGoto": 50
     },
     {
       "id": "p0196",
@@ -1829,7 +1858,8 @@
       "subcategoria": "Mascarillas y tratamientos",
       "imagen": "img/capilar/KABA4.jpg",
       "agotado": false,
-      "marca": "Kaba"
+      "marca": "Kaba",
+      "blackGoto": 50
     },
     {
       "id": "p0197",
@@ -1873,7 +1903,8 @@
       "subcategoria": "Mascarillas y tratamientos",
       "imagen": "img/capilar/PKP0056.jpg",
       "agotado": false,
-      "marca": "Prokpil"
+      "marca": "Prokpil",
+      "blackGoto": "2x1"
     },
     {
       "id": "p0201",
@@ -1906,7 +1937,8 @@
       "subcategoria": "Mascarillas y tratamientos",
       "imagen": "img/capilar/PKP0043.jpg",
       "agotado": false,
-      "marca": "Prokpil"
+      "marca": "Prokpil",
+      "blackGoto": "2x1"
     },
     {
       "id": "p0204",
@@ -1939,7 +1971,8 @@
       "subcategoria": "Mascarillas y tratamientos",
       "imagen": "img/capilar/ANYELUZ9.jpg",
       "agotado": false,
-      "marca": "Anyeluz"
+      "marca": "Anyeluz",
+      "blackGoto": "2x1"
     },
     {
       "id": "p0208",
@@ -1950,7 +1983,8 @@
       "subcategoria": "Mascarillas y tratamientos",
       "imagen": "img/capilar/16.jpg",
       "agotado": false,
-      "marca": "Kaba"
+      "marca": "Kaba",
+      "blackGoto": 50
     },
     {
       "id": "p0210",
@@ -2533,7 +2567,8 @@
       "subcategoria": "Bases y correctores",
       "imagen": "img/makeup/ATENEA21.jpg",
       "agotado": false,
-      "marca": "Atenea"
+      "marca": "Atenea",
+      "blackGoto": 15
     },
     {
       "id": "p0264",
@@ -2775,7 +2810,8 @@
       "subcategoria": "Ojos y cejas",
       "imagen": "img/makeup/5800-3.jpg",
       "agotado": false,
-      "marca": "Atenea"
+      "marca": "Atenea",
+      "blackGoto": 15
     },
     {
       "id": "p0286",
@@ -2797,7 +2833,8 @@
       "subcategoria": "Ojos y cejas",
       "imagen": "img/makeup/5800-1.jpg",
       "agotado": false,
-      "marca": "Atenea"
+      "marca": "Atenea",
+      "blackGoto": 15
     },
     {
       "id": "p0288",
@@ -2896,7 +2933,8 @@
       "subcategoria": "Polvos y rubores",
       "imagen": "img/makeup/ATENEA37.jpg",
       "agotado": false,
-      "marca": "Atenea"
+      "marca": "Atenea",
+      "blackGoto": 15
     },
     {
       "id": "p0297",
@@ -2940,7 +2978,8 @@
       "subcategoria": "Labios",
       "imagen": null,
       "agotado": false,
-      "marca": "Otras"
+      "marca": "Otras",
+      "blackGoto": "2x1"
     },
     {
       "id": "p0301",
@@ -3017,7 +3056,8 @@
       "subcategoria": "Bases y correctores",
       "imagen": "img/makeup/HB-8053-AL30.webp",
       "agotado": false,
-      "marca": "Ruby Rose"
+      "marca": "Ruby Rose",
+      "blackGoto": "2x1"
     },
     {
       "id": "p0308",
@@ -3028,7 +3068,8 @@
       "subcategoria": "Bases y correctores",
       "imagen": "img/makeup/HB-8053-SC40.jpg",
       "agotado": false,
-      "marca": "Ruby Rose"
+      "marca": "Ruby Rose",
+      "blackGoto": "2x1"
     },
     {
       "id": "p0309",
@@ -3039,7 +3080,8 @@
       "subcategoria": "Bases y correctores",
       "imagen": "img/makeup/HB-8053-CA20.webp",
       "agotado": false,
-      "marca": "Ruby Rose"
+      "marca": "Ruby Rose",
+      "blackGoto": "2x1"
     },
     {
       "id": "p0310",
@@ -3050,7 +3092,8 @@
       "subcategoria": "Bases y correctores",
       "imagen": "img/makeup/HB-8053-CH10.webp",
       "agotado": false,
-      "marca": "Ruby Rose"
+      "marca": "Ruby Rose",
+      "blackGoto": "2x1"
     },
     {
       "id": "p0311",
@@ -3072,7 +3115,8 @@
       "subcategoria": "Bases y correctores",
       "imagen": "img/makeup/4994-4.jpg",
       "agotado": false,
-      "marca": "Otras"
+      "marca": "Otras",
+      "blackGoto": 20
     },
     {
       "id": "p0313",
@@ -3105,7 +3149,8 @@
       "subcategoria": "Bases y correctores",
       "imagen": "img/makeup/HB-8050-BEG3.jpg",
       "agotado": false,
-      "marca": "Ruby Rose"
+      "marca": "Ruby Rose",
+      "blackGoto": "2x1"
     },
     {
       "id": "p0316",
@@ -3127,7 +3172,8 @@
       "subcategoria": "Bases y correctores",
       "imagen": "img/makeup/HB-8050-.jpg",
       "agotado": false,
-      "marca": "Ruby Rose"
+      "marca": "Ruby Rose",
+      "blackGoto": "2x1"
     },
     {
       "id": "p0318",
@@ -3138,7 +3184,8 @@
       "subcategoria": "Bases y correctores",
       "imagen": "img/makeup/HB-8050-NUD1.jpg",
       "agotado": false,
-      "marca": "Ruby Rose"
+      "marca": "Ruby Rose",
+      "blackGoto": "2x1"
     },
     {
       "id": "p0319",
@@ -3149,7 +3196,8 @@
       "subcategoria": "Bases y correctores",
       "imagen": "img/makeup/HB-8050-.jpg",
       "agotado": false,
-      "marca": "Ruby Rose"
+      "marca": "Ruby Rose",
+      "blackGoto": "2x1"
     },
     {
       "id": "p0320",
@@ -3160,7 +3208,8 @@
       "subcategoria": "Bases y correctores",
       "imagen": "img/makeup/CL002.jpg",
       "agotado": false,
-      "marca": "Celestina"
+      "marca": "Celestina",
+      "blackGoto": "2x1"
     },
     {
       "id": "p0321",
@@ -3215,7 +3264,8 @@
       "subcategoria": "Bases y correctores",
       "imagen": "img/makeup/MYK-1020.jpg",
       "agotado": false,
-      "marca": "MYK"
+      "marca": "MYK",
+      "blackGoto": "2x1"
     },
     {
       "id": "p0326",
@@ -3270,7 +3320,8 @@
       "subcategoria": "Ojos y cejas",
       "imagen": "img/makeup/BL-CG40-3.webp",
       "agotado": false,
-      "marca": "Bloomshell"
+      "marca": "Bloomshell",
+      "blackGoto": 20
     },
     {
       "id": "p0331",
@@ -3314,7 +3365,8 @@
       "subcategoria": "Labios",
       "imagen": "img/makeup/BL-BL1222.jpg",
       "agotado": false,
-      "marca": "Bloomshell"
+      "marca": "Bloomshell",
+      "blackGoto": 20
     },
     {
       "id": "p0335",
@@ -3336,7 +3388,8 @@
       "subcategoria": "Fijadores y primers",
       "imagen": "img/makeup/BL-SP4135-02.jpg",
       "agotado": false,
-      "marca": "Bloomshell"
+      "marca": "Bloomshell",
+      "blackGoto": 20
     },
     {
       "id": "p0337",
@@ -3347,7 +3400,8 @@
       "subcategoria": "Fijadores y primers",
       "imagen": "img/makeup/BL-PP1975.jpg",
       "agotado": false,
-      "marca": "Bloomshell"
+      "marca": "Bloomshell",
+      "blackGoto": 20
     },
     {
       "id": "p0338",
@@ -3446,7 +3500,8 @@
       "subcategoria": "Labios",
       "imagen": "img/makeup/BL-BT103610.jpg",
       "agotado": false,
-      "marca": "Bloomshell"
+      "marca": "Bloomshell",
+      "blackGoto": 20
     },
     {
       "id": "p0347",
@@ -3468,7 +3523,8 @@
       "subcategoria": "Fijadores y primers",
       "imagen": "img/makeup/BL-PR65098.jpg",
       "agotado": false,
-      "marca": "Bloomshell"
+      "marca": "Bloomshell",
+      "blackGoto": 20
     },
     {
       "id": "p0349",
@@ -3479,7 +3535,8 @@
       "subcategoria": "Fijadores y primers",
       "imagen": "img/makeup/BL-PE62.webp",
       "agotado": false,
-      "marca": "Bloomshell"
+      "marca": "Bloomshell",
+      "blackGoto": 20
     },
     {
       "id": "p0350",
@@ -3699,7 +3756,8 @@
       "subcategoria": "Labios",
       "imagen": "img/makeup/BL-BM123577.jpg",
       "agotado": false,
-      "marca": "Bloomshell"
+      "marca": "Bloomshell",
+      "blackGoto": 20
     },
     {
       "id": "p0370",
@@ -3787,7 +3845,8 @@
       "subcategoria": "Fijadores y primers",
       "imagen": "img/makeup/BL-SP2916-04.jpg",
       "agotado": false,
-      "marca": "Bloomshell"
+      "marca": "Bloomshell",
+      "blackGoto": 20
     },
     {
       "id": "p0378",
@@ -3905,7 +3964,8 @@
       "subcategoria": "Labios",
       "imagen": "img/makeup/5699.jpg",
       "agotado": false,
-      "marca": "Montoc"
+      "marca": "Montoc",
+      "blackGoto": "2x1"
     },
     {
       "id": "p0387",
@@ -3976,7 +4036,8 @@
       "subcategoria": "Iluminadores y contorno",
       "imagen": "img/makeup/F03176-1.webp",
       "agotado": false,
-      "marca": "OG"
+      "marca": "OG",
+      "blackGoto": "2x1"
     },
     {
       "id": "p0392",
@@ -3991,7 +4052,8 @@
       "colores": [
         "img/makeup/14485.jpg",
         "img/makeup/14485_2.jpg"
-      ]
+      ],
+      "blackGoto": 15
     },
     {
       "id": "p0393",
@@ -4017,7 +4079,8 @@
       "colores": [
         "img/makeup/HB-8102-CA20.jpg",
         "img/makeup/HB-8102-CA20_2.jpg"
-      ]
+      ],
+      "blackGoto": "2x1"
     },
     {
       "id": "p0395",
@@ -4039,7 +4102,8 @@
       "subcategoria": "Bases y correctores",
       "imagen": "img/makeup/SAMY-68.jpg",
       "agotado": false,
-      "marca": "Samy"
+      "marca": "Samy",
+      "blackGoto": 20
     },
     {
       "id": "p0397",
@@ -4050,7 +4114,8 @@
       "subcategoria": "Bases y correctores",
       "imagen": "img/makeup/1062K.jpg",
       "agotado": false,
-      "marca": "Khol"
+      "marca": "Khol",
+      "blackGoto": "2x1"
     },
     {
       "id": "p0398",
@@ -4065,7 +4130,8 @@
       "colores": [
         "img/makeup/MYK-6179.jpg",
         "img/makeup/MYK-6179_2.jpg"
-      ]
+      ],
+      "blackGoto": "2x1"
     },
     {
       "id": "p0399",
@@ -4080,7 +4146,8 @@
       "colores": [
         "img/makeup/HB-8102-AM30.jpg",
         "img/makeup/HB-8102-AM30_2.jpg"
-      ]
+      ],
+      "blackGoto": "2x1"
     },
     {
       "id": "p0400",
@@ -4095,7 +4162,8 @@
       "colores": [
         "img/makeup/HB-8102-CH10.jpg",
         "img/makeup/HB-8102-CH10_2.jpg"
-      ]
+      ],
+      "blackGoto": "2x1"
     },
     {
       "id": "p0401",
@@ -4110,7 +4178,8 @@
       "colores": [
         "img/makeup/HB-8102-ME30.jpg",
         "img/makeup/HB-8102-ME30_2.jpg"
-      ]
+      ],
+      "blackGoto": "2x1"
     },
     {
       "id": "p0402",
@@ -4125,7 +4194,8 @@
       "colores": [
         "img/makeup/HB-8102-PU20.jpg",
         "img/makeup/HB-8102-PU20_2.jpg"
-      ]
+      ],
+      "blackGoto": "2x1"
     },
     {
       "id": "p0403",
@@ -4188,7 +4258,8 @@
       "subcategoria": "Bases y correctores",
       "imagen": "img/makeup/GX2023.jpg",
       "agotado": false,
-      "marca": "Otras"
+      "marca": "Otras",
+      "blackGoto": "2x1"
     },
     {
       "id": "p0408",
@@ -4221,7 +4292,8 @@
       "subcategoria": "Fijadores y primers",
       "imagen": "img/makeup/CL005.jpg",
       "agotado": false,
-      "marca": "Celestina"
+      "marca": "Celestina",
+      "blackGoto": "2x1"
     },
     {
       "id": "p0411",
@@ -4243,7 +4315,8 @@
       "subcategoria": "Iluminadores y contorno",
       "imagen": "img/makeup/F03176-1.webp",
       "agotado": false,
-      "marca": "OG"
+      "marca": "OG",
+      "blackGoto": "2x1"
     },
     {
       "id": "p0413",
@@ -4309,7 +4382,8 @@
       "subcategoria": "Fijadores y primers",
       "imagen": "img/makeup/SSTC1.webp",
       "agotado": false,
-      "marca": "Lula"
+      "marca": "Lula",
+      "blackGoto": "2x1"
     },
     {
       "id": "p0419",
@@ -4364,7 +4438,8 @@
       "subcategoria": "Ojos y cejas",
       "imagen": "img/makeup/MYK-6208.jpg",
       "agotado": false,
-      "marca": "MYK"
+      "marca": "MYK",
+      "blackGoto": "2x1"
     },
     {
       "id": "p0424",
@@ -4408,7 +4483,8 @@
       "subcategoria": "Polvos y rubores",
       "imagen": "img/makeup/11341_2.jpg",
       "agotado": false,
-      "marca": "Atenea"
+      "marca": "Atenea",
+      "blackGoto": 15
     },
     {
       "id": "p0428",
@@ -4419,7 +4495,8 @@
       "subcategoria": "Fijadores y primers",
       "imagen": "img/makeup/9393.jpg",
       "agotado": false,
-      "marca": "Otras"
+      "marca": "Otras",
+      "blackGoto": "2x1"
     },
     {
       "id": "p0429",
@@ -4504,7 +4581,8 @@
       "subcategoria": "Iluminadores y contorno",
       "imagen": "img/makeup/14483.jpg",
       "agotado": false,
-      "marca": "Atenea"
+      "marca": "Atenea",
+      "blackGoto": 15
     },
     {
       "id": "p0436",
@@ -4519,7 +4597,8 @@
       "colores": [
         "img/makeup/10254.jpg",
         "img/makeup/10254_2.jpg"
-      ]
+      ],
+      "blackGoto": 15
     },
     {
       "id": "p0437",
@@ -4534,7 +4613,8 @@
       "colores": [
         "img/makeup/5552.jpg",
         "img/makeup/5552_2.jpg"
-      ]
+      ],
+      "blackGoto": 15
     },
     {
       "id": "p0438",
@@ -4600,7 +4680,8 @@
       "subcategoria": "Iluminadores y contorno",
       "imagen": "img/makeup/7623.webp",
       "agotado": false,
-      "marca": "Ani-K"
+      "marca": "Ani-K",
+      "blackGoto": "2x1"
     },
     {
       "id": "p0444",
@@ -4710,7 +4791,8 @@
       "subcategoria": "Labios",
       "imagen": "img/makeup/14701.jpg",
       "agotado": false,
-      "marca": "Melu"
+      "marca": "Melu",
+      "blackGoto": "2x1"
     },
     {
       "id": "p0459",
@@ -4725,7 +4807,8 @@
       "colores": [
         "img/makeup/10136.jpg",
         "img/makeup/10136_2.jpg"
-      ]
+      ],
+      "blackGoto": "2x1"
     },
     {
       "id": "p0460",
@@ -4777,7 +4860,8 @@
       "subcategoria": "Bases y correctores",
       "imagen": "img/makeup/MYK-6210-1.jpg",
       "agotado": false,
-      "marca": "MYK"
+      "marca": "MYK",
+      "blackGoto": "2x1"
     },
     {
       "id": "p0464",
@@ -4788,7 +4872,8 @@
       "subcategoria": "Bases y correctores",
       "imagen": "img/makeup/MYK-6210-4.jpg",
       "agotado": false,
-      "marca": "MYK"
+      "marca": "MYK",
+      "blackGoto": "2x1"
     },
     {
       "id": "p0465",
@@ -4810,7 +4895,8 @@
       "subcategoria": "Bases y correctores",
       "imagen": "img/makeup/MYK-6210-3.jpg",
       "agotado": false,
-      "marca": "MYK"
+      "marca": "MYK",
+      "blackGoto": "2x1"
     },
     {
       "id": "p0467",
@@ -4821,7 +4907,8 @@
       "subcategoria": "Polvos y rubores",
       "imagen": "img/makeup/MAJIKAL-04.jpg",
       "agotado": false,
-      "marca": "Majikal"
+      "marca": "Majikal",
+      "blackGoto": 20
     },
     {
       "id": "p0468",
@@ -4832,7 +4919,8 @@
       "subcategoria": "Polvos y rubores",
       "imagen": "img/makeup/14368.jpg",
       "agotado": false,
-      "marca": "Majikal"
+      "marca": "Majikal",
+      "blackGoto": 20
     },
     {
       "id": "p0469",
@@ -4854,7 +4942,8 @@
       "subcategoria": "Bases y correctores",
       "imagen": "img/makeup/4847-6.jpg",
       "agotado": false,
-      "marca": "Otras"
+      "marca": "Otras",
+      "blackGoto": 20
     },
     {
       "id": "p0471",
@@ -4898,7 +4987,8 @@
       "subcategoria": "Fijadores y primers",
       "imagen": "img/makeup/14534.jpg",
       "agotado": false,
-      "marca": "Montoc"
+      "marca": "Montoc",
+      "blackGoto": 15
     },
     {
       "id": "p0475",
@@ -5144,7 +5234,8 @@
       "subcategoria": "Bases y correctores",
       "imagen": "img/makeup/MYK-1019.webp",
       "agotado": false,
-      "marca": "MYK"
+      "marca": "MYK",
+      "blackGoto": "2x1"
     },
     {
       "id": "p0493",
@@ -5159,7 +5250,8 @@
       "colores": [
         "img/makeup/MYK-6200-4.jpg",
         "img/makeup/MYK-6200-4_2.jpg"
-      ]
+      ],
+      "blackGoto": "2x1"
     },
     {
       "id": "p0494",
@@ -5189,7 +5281,8 @@
       "colores": [
         "img/makeup/MYK-6200-3.jpg",
         "img/makeup/MYK-6200-3_2.jpg"
-      ]
+      ],
+      "blackGoto": "2x1"
     },
     {
       "id": "p0496",
@@ -5204,7 +5297,8 @@
       "colores": [
         "img/makeup/MYK-6200-2.jpg",
         "img/makeup/MYK-6200-2_2.jpg"
-      ]
+      ],
+      "blackGoto": "2x1"
     },
     {
       "id": "p0497",
@@ -5215,7 +5309,8 @@
       "subcategoria": "Labios",
       "imagen": "img/makeup/MYK-6213.jpg",
       "agotado": false,
-      "marca": "MYK"
+      "marca": "MYK",
+      "blackGoto": "2x1"
     },
     {
       "id": "p0498",
@@ -5226,7 +5321,8 @@
       "subcategoria": "Labios",
       "imagen": "img/makeup/MYK-6209.jpg",
       "agotado": false,
-      "marca": "MYK"
+      "marca": "MYK",
+      "blackGoto": "2x1"
     },
     {
       "id": "p0499",
@@ -5237,7 +5333,8 @@
       "subcategoria": "Labios",
       "imagen": "img/makeup/MYK-5020-3.jpg",
       "agotado": false,
-      "marca": "MYK"
+      "marca": "MYK",
+      "blackGoto": "2x1"
     },
     {
       "id": "p0500",
@@ -5248,7 +5345,8 @@
       "subcategoria": "Labios",
       "imagen": "img/makeup/MYK-5020-4.jpg",
       "agotado": false,
-      "marca": "MYK"
+      "marca": "MYK",
+      "blackGoto": "2x1"
     },
     {
       "id": "p0501",
@@ -5259,7 +5357,8 @@
       "subcategoria": "Labios",
       "imagen": "img/makeup/MYK-5020-5.jpg",
       "agotado": false,
-      "marca": "MYK"
+      "marca": "MYK",
+      "blackGoto": "2x1"
     },
     {
       "id": "p0502",
@@ -5270,7 +5369,8 @@
       "subcategoria": "Labios",
       "imagen": "img/makeup/MYK-5020-6.jpg",
       "agotado": false,
-      "marca": "MYK"
+      "marca": "MYK",
+      "blackGoto": "2x1"
     },
     {
       "id": "p0503",
@@ -5285,7 +5385,8 @@
       "colores": [
         "img/makeup/MYK-6174-3.jpg",
         "img/makeup/MYK-6174-3_2.jpg"
-      ]
+      ],
+      "blackGoto": "2x1"
     },
     {
       "id": "p0504",
@@ -5300,7 +5401,8 @@
       "colores": [
         "img/makeup/MYK-6174-2.jpg",
         "img/makeup/MYK-6174-2_2.jpg"
-      ]
+      ],
+      "blackGoto": "2x1"
     },
     {
       "id": "p0505",
@@ -5315,7 +5417,8 @@
       "colores": [
         "img/makeup/MYK-6174-1.jpg",
         "img/makeup/MYK-6174-1_2.jpg"
-      ]
+      ],
+      "blackGoto": "2x1"
     },
     {
       "id": "p0506",
@@ -5330,7 +5433,8 @@
       "colores": [
         "img/makeup/MYK-6174-4.jpg",
         "img/makeup/MYK-6174-4_2.jpg"
-      ]
+      ],
+      "blackGoto": "2x1"
     },
     {
       "id": "p0507",
@@ -5352,7 +5456,8 @@
       "subcategoria": "Polvos y rubores",
       "imagen": null,
       "agotado": false,
-      "marca": "Bloomshell"
+      "marca": "Bloomshell",
+      "blackGoto": "2x1"
     },
     {
       "id": "p0509",
@@ -5374,7 +5479,8 @@
       "subcategoria": "Polvos y rubores",
       "imagen": null,
       "agotado": false,
-      "marca": "MYK"
+      "marca": "MYK",
+      "blackGoto": "2x1"
     },
     {
       "id": "p0511",
@@ -5385,7 +5491,8 @@
       "subcategoria": "Polvos y rubores",
       "imagen": "img/makeup/MYK-6205-2.jpg",
       "agotado": false,
-      "marca": "MYK"
+      "marca": "MYK",
+      "blackGoto": "2x1"
     },
     {
       "id": "p0512",
@@ -5396,7 +5503,8 @@
       "subcategoria": "Fijadores y primers",
       "imagen": "img/makeup/MYK-1010.jpg",
       "agotado": false,
-      "marca": "MYK"
+      "marca": "MYK",
+      "blackGoto": "2x1"
     },
     {
       "id": "p0513",
@@ -5407,7 +5515,8 @@
       "subcategoria": "Polvos y rubores",
       "imagen": "img/makeup/MYK-6104.jpg",
       "agotado": false,
-      "marca": "MYK"
+      "marca": "MYK",
+      "blackGoto": "2x1"
     },
     {
       "id": "p0514",
@@ -5418,7 +5527,8 @@
       "subcategoria": "Polvos y rubores",
       "imagen": "img/makeup/MYK-6212.jpg",
       "agotado": false,
-      "marca": "MYK"
+      "marca": "MYK",
+      "blackGoto": "2x1"
     },
     {
       "id": "p0515",
@@ -5429,7 +5539,8 @@
       "subcategoria": "Polvos y rubores",
       "imagen": "img/makeup/MYK-6151.jpg",
       "agotado": false,
-      "marca": "MYK"
+      "marca": "MYK",
+      "blackGoto": "2x1"
     },
     {
       "id": "p0516",
@@ -5539,7 +5650,8 @@
       "subcategoria": "Labios",
       "imagen": "img/makeup/R3030-2.jpg",
       "agotado": false,
-      "marca": "OG"
+      "marca": "OG",
+      "blackGoto": "2x1"
     },
     {
       "id": "p0526",
@@ -5649,7 +5761,8 @@
       "subcategoria": "Polvos y rubores",
       "imagen": "img/makeup/PSB1.jpg",
       "agotado": false,
-      "marca": "Lula"
+      "marca": "Lula",
+      "blackGoto": "2x1"
     },
     {
       "id": "p0536",
@@ -5682,7 +5795,8 @@
       "subcategoria": "Polvos y rubores",
       "imagen": "img/makeup/MYK8031.jpg",
       "agotado": false,
-      "marca": "MYK"
+      "marca": "MYK",
+      "blackGoto": "2x1"
     },
     {
       "id": "p0539",
@@ -5803,7 +5917,8 @@
       "subcategoria": "Fijadores y primers",
       "imagen": "img/makeup/PA3001.jpg",
       "agotado": false,
-      "marca": "Raquel"
+      "marca": "Raquel",
+      "blackGoto": "2x1"
     },
     {
       "id": "p0551",
@@ -5814,7 +5929,8 @@
       "subcategoria": "Iluminadores y contorno",
       "imagen": "img/makeup/HB-M200-2000.jpg",
       "agotado": false,
-      "marca": "Ruby Rose"
+      "marca": "Ruby Rose",
+      "blackGoto": "2x1"
     },
     {
       "id": "p0552",
@@ -5825,7 +5941,8 @@
       "subcategoria": "Labios",
       "imagen": "img/makeup/HB-6603-0005.jpg",
       "agotado": false,
-      "marca": "Ruby Rose"
+      "marca": "Ruby Rose",
+      "blackGoto": "2x1"
     },
     {
       "id": "p0553",
@@ -5836,7 +5953,8 @@
       "subcategoria": "Labios",
       "imagen": "img/makeup/HB-6603-0001.jpg",
       "agotado": false,
-      "marca": "Ruby Rose"
+      "marca": "Ruby Rose",
+      "blackGoto": "2x1"
     },
     {
       "id": "p0554",
@@ -5847,7 +5965,8 @@
       "subcategoria": "Labios",
       "imagen": "img/makeup/HB-L640-0002.jpg",
       "agotado": false,
-      "marca": "Ruby Rose"
+      "marca": "Ruby Rose",
+      "blackGoto": "2x1"
     },
     {
       "id": "p0555",
@@ -5858,7 +5977,8 @@
       "subcategoria": "Labios",
       "imagen": "img/makeup/HB-L640-0003.jpg",
       "agotado": false,
-      "marca": "Ruby Rose"
+      "marca": "Ruby Rose",
+      "blackGoto": "2x1"
     },
     {
       "id": "p0556",
@@ -5880,7 +6000,8 @@
       "subcategoria": "Polvos y rubores",
       "imagen": null,
       "agotado": false,
-      "marca": "MYK"
+      "marca": "MYK",
+      "blackGoto": "2x1"
     },
     {
       "id": "p0558",
@@ -5891,7 +6012,8 @@
       "subcategoria": "Polvos y rubores",
       "imagen": null,
       "agotado": false,
-      "marca": "MYK"
+      "marca": "MYK",
+      "blackGoto": "2x1"
     },
     {
       "id": "p0559",
@@ -5902,7 +6024,8 @@
       "subcategoria": "Polvos y rubores",
       "imagen": "img/makeup/MYK-6203-3.jpg",
       "agotado": false,
-      "marca": "MYK"
+      "marca": "MYK",
+      "blackGoto": "2x1"
     },
     {
       "id": "p0560",
@@ -5924,7 +6047,8 @@
       "subcategoria": "Polvos y rubores",
       "imagen": "img/makeup/6103-2.jpg",
       "agotado": false,
-      "marca": "Atenea"
+      "marca": "Atenea",
+      "blackGoto": 15
     },
     {
       "id": "p0562",
@@ -5979,7 +6103,8 @@
       "subcategoria": "Polvos y rubores",
       "imagen": "img/makeup/14479.webp",
       "agotado": false,
-      "marca": "Atenea"
+      "marca": "Atenea",
+      "blackGoto": 15
     },
     {
       "id": "p0567",
@@ -6012,7 +6137,8 @@
       "subcategoria": "Polvos y rubores",
       "imagen": "img/makeup/5553-1.png",
       "agotado": false,
-      "marca": "Atenea"
+      "marca": "Atenea",
+      "blackGoto": 15
     },
     {
       "id": "p0570",
@@ -6045,7 +6171,8 @@
       "subcategoria": "Polvos y rubores",
       "imagen": "img/makeup/1076K.jpg",
       "agotado": false,
-      "marca": "Khol"
+      "marca": "Khol",
+      "blackGoto": "2x1"
     },
     {
       "id": "p0573",
@@ -6056,7 +6183,8 @@
       "subcategoria": "Polvos y rubores",
       "imagen": "img/makeup/1072K.webp",
       "agotado": false,
-      "marca": "Otras"
+      "marca": "Otras",
+      "blackGoto": "2x1"
     },
     {
       "id": "p0574",
@@ -6078,7 +6206,8 @@
       "subcategoria": "Polvos y rubores",
       "imagen": "img/makeup/RB601.jpg",
       "agotado": false,
-      "marca": "Lula"
+      "marca": "Lula",
+      "blackGoto": "2x1"
     },
     {
       "id": "p0576",
@@ -6089,7 +6218,8 @@
       "subcategoria": "Polvos y rubores",
       "imagen": "img/makeup/14688.jpg",
       "agotado": false,
-      "marca": "Melu"
+      "marca": "Melu",
+      "blackGoto": "2x1"
     },
     {
       "id": "p0577",
@@ -6100,7 +6230,8 @@
       "subcategoria": "Polvos y rubores",
       "imagen": "img/makeup/MAJIKAL-01.jpg",
       "agotado": false,
-      "marca": "Majikal"
+      "marca": "Majikal",
+      "blackGoto": 20
     },
     {
       "id": "p0578",
@@ -6111,7 +6242,8 @@
       "subcategoria": "Polvos y rubores",
       "imagen": "img/makeup/1071K.jpg",
       "agotado": false,
-      "marca": "Khol"
+      "marca": "Khol",
+      "blackGoto": "2x1"
     },
     {
       "id": "p0579",
@@ -6122,7 +6254,8 @@
       "subcategoria": "Polvos y rubores",
       "imagen": "img/makeup/MYK-0117B.jpg",
       "agotado": false,
-      "marca": "MYK"
+      "marca": "MYK",
+      "blackGoto": "2x1"
     },
     {
       "id": "p0580",
@@ -6144,7 +6277,8 @@
       "subcategoria": "Polvos y rubores",
       "imagen": "img/makeup/1074K.jpg",
       "agotado": false,
-      "marca": "Khol"
+      "marca": "Khol",
+      "blackGoto": "2x1"
     },
     {
       "id": "p0582",
@@ -6155,7 +6289,8 @@
       "subcategoria": "Polvos y rubores",
       "imagen": "img/makeup/1075K.jpg",
       "agotado": false,
-      "marca": "Khol"
+      "marca": "Khol",
+      "blackGoto": "2x1"
     },
     {
       "id": "p0583",
@@ -6177,7 +6312,8 @@
       "subcategoria": "Polvos y rubores",
       "imagen": "img/makeup/MYK-6203-4.jpg",
       "agotado": false,
-      "marca": "MYK"
+      "marca": "MYK",
+      "blackGoto": "2x1"
     },
     {
       "id": "p0585",
@@ -6188,7 +6324,8 @@
       "subcategoria": "Bases y correctores",
       "imagen": "img/makeup/4831.webp",
       "agotado": false,
-      "marca": "Ruby Rose"
+      "marca": "Ruby Rose",
+      "blackGoto": "2x1"
     },
     {
       "id": "p0586",
@@ -6199,7 +6336,8 @@
       "subcategoria": "Iluminadores y contorno",
       "imagen": "img/makeup/14691.jpg",
       "agotado": false,
-      "marca": "Ruby Rose"
+      "marca": "Ruby Rose",
+      "blackGoto": "2x1"
     },
     {
       "id": "p0587",
@@ -6210,7 +6348,8 @@
       "subcategoria": "Iluminadores y contorno",
       "imagen": "img/makeup/14690.jpg",
       "agotado": false,
-      "marca": "Ruby Rose"
+      "marca": "Ruby Rose",
+      "blackGoto": "2x1"
     },
     {
       "id": "p0588",
@@ -6221,7 +6360,8 @@
       "subcategoria": "Labios",
       "imagen": "img/makeup/14697.jpg",
       "agotado": false,
-      "marca": "Ruby Rose"
+      "marca": "Ruby Rose",
+      "blackGoto": "2x1"
     },
     {
       "id": "p0589",
@@ -6287,7 +6427,8 @@
       "subcategoria": "Iluminadores y contorno",
       "imagen": "img/makeup/SAMY-48.webp",
       "agotado": false,
-      "marca": "Samy"
+      "marca": "Samy",
+      "blackGoto": 20
     },
     {
       "id": "p0595",
@@ -6320,7 +6461,8 @@
       "subcategoria": "Ojos y cejas",
       "imagen": "img/makeup/SAMY-04.jpg",
       "agotado": false,
-      "marca": "Samy"
+      "marca": "Samy",
+      "blackGoto": 20
     },
     {
       "id": "p0598",
@@ -6331,7 +6473,8 @@
       "subcategoria": "Ojos y cejas",
       "imagen": "img/makeup/SAMY-10.jpg",
       "agotado": false,
-      "marca": "Samy"
+      "marca": "Samy",
+      "blackGoto": 20
     },
     {
       "id": "p0599",
@@ -6342,7 +6485,8 @@
       "subcategoria": "Iluminadores y contorno",
       "imagen": "img/makeup/SAMY-51.jpg",
       "agotado": false,
-      "marca": "Samy"
+      "marca": "Samy",
+      "blackGoto": 20
     },
     {
       "id": "p0600",
@@ -6353,7 +6497,8 @@
       "subcategoria": "Labios",
       "imagen": "img/makeup/SAMY-16.jpg",
       "agotado": false,
-      "marca": "Samy"
+      "marca": "Samy",
+      "blackGoto": 20
     },
     {
       "id": "p0601",
@@ -6397,7 +6542,8 @@
       "subcategoria": "Ojos y cejas",
       "imagen": "img/makeup/SAMY-38.webp",
       "agotado": false,
-      "marca": "Samy"
+      "marca": "Samy",
+      "blackGoto": 20
     },
     {
       "id": "p0605",
@@ -6430,7 +6576,8 @@
       "subcategoria": "Labios",
       "imagen": "img/makeup/SAMY-34.jpg",
       "agotado": false,
-      "marca": "Samy"
+      "marca": "Samy",
+      "blackGoto": 20
     },
     {
       "id": "p0608",
@@ -6441,7 +6588,8 @@
       "subcategoria": "Labios",
       "imagen": "img/makeup/SAMY-23.jpg",
       "agotado": false,
-      "marca": "Samy"
+      "marca": "Samy",
+      "blackGoto": 20
     },
     {
       "id": "p0609",
@@ -6452,7 +6600,8 @@
       "subcategoria": "Bases y correctores",
       "imagen": "img/makeup/SAMY-03.jpg",
       "agotado": false,
-      "marca": "Samy"
+      "marca": "Samy",
+      "blackGoto": 20
     },
     {
       "id": "p0610",
@@ -6463,7 +6612,8 @@
       "subcategoria": "Bases y correctores",
       "imagen": "img/makeup/SAMY-02.jpg",
       "agotado": false,
-      "marca": "Samy"
+      "marca": "Samy",
+      "blackGoto": 20
     },
     {
       "id": "p0611",
@@ -6485,7 +6635,8 @@
       "subcategoria": "Ojos y cejas",
       "imagen": "img/makeup/SAMY-06.jpg",
       "agotado": false,
-      "marca": "Samy"
+      "marca": "Samy",
+      "blackGoto": 20
     },
     {
       "id": "p0613",
@@ -6518,7 +6669,8 @@
       "subcategoria": "Labios",
       "imagen": "img/makeup/SAMY-94.jpg",
       "agotado": false,
-      "marca": "Samy"
+      "marca": "Samy",
+      "blackGoto": 20
     },
     {
       "id": "p0616",
@@ -6551,7 +6703,8 @@
       "subcategoria": "Labios",
       "imagen": "img/makeup/SAMY-13.jpg",
       "agotado": false,
-      "marca": "Samy"
+      "marca": "Samy",
+      "blackGoto": 20
     },
     {
       "id": "p0619",
@@ -6562,7 +6715,8 @@
       "subcategoria": "Iluminadores y contorno",
       "imagen": "img/makeup/SAMY-59.jpg",
       "agotado": false,
-      "marca": "Samy"
+      "marca": "Samy",
+      "blackGoto": 20
     },
     {
       "id": "p0620",
@@ -6848,7 +7002,8 @@
       "subcategoria": "Labios",
       "imagen": "img/makeup/12062.webp",
       "agotado": false,
-      "marca": "Otras"
+      "marca": "Otras",
+      "blackGoto": 20
     },
     {
       "id": "p0646",
@@ -6859,7 +7014,8 @@
       "subcategoria": "Labios",
       "imagen": "img/makeup/11602.jpg",
       "agotado": false,
-      "marca": "Otras"
+      "marca": "Otras",
+      "blackGoto": 20
     },
     {
       "id": "p0647",
@@ -6881,7 +7037,8 @@
       "subcategoria": "Labios",
       "imagen": "img/makeup/11605.webp",
       "agotado": false,
-      "marca": "Otras"
+      "marca": "Otras",
+      "blackGoto": 20
     },
     {
       "id": "p0649",
@@ -6892,7 +7049,8 @@
       "subcategoria": "Labios",
       "imagen": "img/makeup/11601.webp",
       "agotado": false,
-      "marca": "Otras"
+      "marca": "Otras",
+      "blackGoto": 20
     },
     {
       "id": "p0650",
@@ -6903,7 +7061,8 @@
       "subcategoria": "Ojos y cejas",
       "imagen": "img/makeup/12061.webp",
       "agotado": false,
-      "marca": "Otras"
+      "marca": "Otras",
+      "blackGoto": 20
     },
     {
       "id": "p0651",
@@ -6914,7 +7073,8 @@
       "subcategoria": "Labios",
       "imagen": "img/makeup/12063.webp",
       "agotado": false,
-      "marca": "Otras"
+      "marca": "Otras",
+      "blackGoto": 20
     },
     {
       "id": "p0652",
@@ -6925,7 +7085,8 @@
       "subcategoria": "Labios",
       "imagen": "img/makeup/11604.webp",
       "agotado": false,
-      "marca": "Otras"
+      "marca": "Otras",
+      "blackGoto": 20
     },
     {
       "id": "p0653",
@@ -6936,7 +7097,8 @@
       "subcategoria": "Labios",
       "imagen": "img/makeup/12542.jpg",
       "agotado": false,
-      "marca": "Otras"
+      "marca": "Otras",
+      "blackGoto": 20
     },
     {
       "id": "p0654",
@@ -6947,7 +7109,8 @@
       "subcategoria": "Labios",
       "imagen": "img/makeup/11600.jpg",
       "agotado": false,
-      "marca": "Otras"
+      "marca": "Otras",
+      "blackGoto": 20
     },
     {
       "id": "p0655",
