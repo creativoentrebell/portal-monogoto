@@ -1482,7 +1482,7 @@ const CATEGORIAS = ['Todos','Black Goto','Línea Capilar','Línea Make Up','Skin
 
 /* ---------- Black Goto (Black Friday) ----------
    Cada producto en oferta lleva en el JSON el campo "blackGoto": "2x1" (paga 1 lleva 2) o un número (porcentaje: 15, 20, 50).
-   Solo aplica en modo Detal. Para apagar la sección: BLACK_GOTO_ACTIVO = false.
+   Aplica en Detal y en Mayorista (el % se descuenta del precio de cada modo). Para apagar la sección: BLACK_GOTO_ACTIVO = false.
    BLACK_GOTO_FIN (opcional): fecha y hora de cierre, ej. '2026-11-30T23:59:00-05:00'.
    Con fecha, se muestra una cuenta regresiva y la sección se apaga sola al llegar la hora. */
 const CAT_BG = 'Black Goto';
@@ -1492,7 +1492,7 @@ const BG_TIPOS = ['2x1', '50', '20', '15'];   // orden de los botones de la port
 const BG_ORDEN = { '50': 0, '2x1': 1, '20': 2, '15': 3 };   // orden de los productos en "Más relevantes"
 let ofertaSel = 'todas';
 function bgActivo(){
-  if(!BLACK_GOTO_ACTIVO || modo !== 'detal') return false;
+  if(!BLACK_GOTO_ACTIVO) return false;
   const fin = BLACK_GOTO_FIN ? Date.parse(BLACK_GOTO_FIN) : NaN;
   return isNaN(fin) || Date.now() < fin;
 }
